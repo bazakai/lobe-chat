@@ -7,13 +7,14 @@ export const chainSummaryTitle = (
   return {
     messages: [
       {
-        content: '你是一名擅长会话的助理，你需要将用户的会话总结为 10 个字以内的标题',
+        content:
+          "You are an assistant skilled at conversations. You need to summarize the user's conversation into a title within 10 characters",
         role: 'system',
       },
       {
         content: `${messages.map((message) => `${message.role}: ${message.content}`).join('\n')}
 
-请总结上述对话为10个字以内的标题，不需要包含标点符号，输出语言语种为：${locale}`,
+Please summarize the above conversation into a title within 10 characters, no punctuation marks needed, output language: ${locale}`,
         role: 'user',
       },
     ],
