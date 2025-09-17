@@ -138,7 +138,7 @@ export const INITIAL_STATUS = {
   showSessionPanel: false,
   showSystemRole: false,
   systemRoleExpandedMap: {},
-  themeMode: 'auto',
+  themeMode: 'light',
   zenMode: true,
 } satisfies SystemStatus;
 

@@ -1,4 +1,3 @@
-import { app } from 'electron';
 import i18next from 'i18next';
 
 import { App } from '@/core/App';
@@ -22,7 +21,7 @@ export class I18nManager {
   /**
    * Initialize i18next instance
    */
-  async init(lang?: string) {
+  async init() {
     if (this.initialized) {
       logger.debug('I18nManager already initialized, skipping');
       return this.i18n;
@@ -30,9 +29,8 @@ export class I18nManager {
 
     // Priority: parameter language > stored locale > system language
     // Fogel - look at the code below... should we force he-IL?
-    const storedLocale = this.app.storeManager.get('locale', 'auto') as string;
-    const defaultLanguage =
-      lang || (storedLocale !== 'auto' ? storedLocale : app.getLocale()) || 'he-IL';
+    const storedLocale = 'he-IL';
+    const defaultLanguage = 'he-IL';
 
     logger.info(
       `Initializing i18n, app locale: ${defaultLanguage}, stored locale: ${storedLocale}`,
