@@ -3,6 +3,13 @@
 # Load environment variables
 set -a
 source .env
+# Load production-specific environment variables (overrides base .env)
+if [ -f ".env.production" ]; then
+  source .env.production
+  echo "✅ Loaded .env.production"
+else
+  echo "⚠️  .env.production not found, using only .env"
+fi
 set +a
 
 # Ensure IMAGE_TAG is set
