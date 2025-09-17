@@ -29,7 +29,6 @@ export class I18nManager {
     }
 
     // Priority: parameter language > stored locale > system language
-    // Fogel - look at the code below... should we force he-IL?
     const storedLocale = this.app.storeManager.get('locale', 'auto') as string;
     const defaultLanguage =
       lang || (storedLocale !== 'auto' ? storedLocale : app.getLocale()) || 'he-IL';
@@ -40,7 +39,7 @@ export class I18nManager {
 
     await this.i18n.init({
       defaultNS: 'menu',
-      fallbackLng: 'he-IL',
+      fallbackLng: 'en-US',
       // Load resources as needed
       initAsync: true,
       interpolation: {

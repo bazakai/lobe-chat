@@ -129,4 +129,4 @@ export const localeOptions: LocaleOptions = [
   },
 ] as LocaleOptions;
 
-export const supportLocales: string[] = ['en', 'he'];
+export const supportLocales: string[] = ['en', 'en-US', 'he-IL'];
