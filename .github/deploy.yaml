@@ -1,0 +1,107 @@
+name: Build and Deploy to Kubernetes
+
+on:
+  # push:
+  #   branches:
+  #     - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Load environment variables
+        run: |
+          if [ -f .env ]; then
+            echo "Loading environment variables from .env"
+            while IFS= read -r line || [ -n "$line" ]; do
+              if [[ "$line" == *=* ]]; then
+                echo "$line" >> $GITHUB_ENV
+              fi
+            done < .env
+          else
+            echo ".env file not found!"
+            exit 1
+          fi
+
+      - name: Derive registry variables
+        run: |
+          echo "AR_HOST=${{ env.REGION }}-docker.pkg.dev" >> "$GITHUB_ENV"
+          echo "IMAGE_PATH=${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.APP_NAME }}/${{ env.APP_NAME }}" >> "$GITHUB_ENV"
+
+      - name: Authenticate with Google Cloud
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up Google Cloud SDK and Install gke-gcloud-auth-plugin
+        uses: google-github-actions/setup-gcloud@v1
+        with:
+          project_id: ${{ env.PROJECT_ID }}
+          install_components: 'gke-gcloud-auth-plugin'
+
+      - name: Configure Kubernetes Context
+        run: |
+          gcloud container clusters get-credentials bazak-production --region ${{ env.REGION }} --project ${{ env.PROJECT_ID }}
+
+      - name: Authenticate Docker with Artifact Registry
+        run: gcloud auth configure-docker ${AR_HOST} --quiet
+
+      - name: Build and Push Docker Image
+        run: |
+          IMAGE_TAG=$(date +%s) # Use a timestamp as a unique tag
+          echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
+          echo "Generated IMAGE_TAG: $IMAGE_TAG"
+          docker buildx create --use
+          docker buildx build --platform linux/amd64 \
+            -t "${IMAGE_PATH}:${IMAGE_TAG}" \
+            --build-arg PORT=${{ env.PORT }} \
+            --push .
+
+      - name: Deploy Kubernetes
+        run: |
+          chmod +x ./kubectl-apply.sh
+          ./kubectl-apply.sh
+
+      - name: Bind Kubernetes Service Account to GCP Service Account (if not already bound)
+        run: |
+          GSA="firebase-adminsdk-fbsvc@${{ env.PROJECT_ID }}.iam.gserviceaccount.com"
+          KSA="${{ env.APP_NAME }}"
+          NAMESPACE="${{ env.APP_NAME }}"
+          MEMBER="serviceAccount:${{ env.PROJECT_ID }}.svc.id.goog[$NAMESPACE/$KSA]"
+
+          echo "Checking IAM bindings for $GSA..."
+          if ! gcloud iam service-accounts get-iam-policy "$GSA" \
+              --format="value(bindings.members)" | grep -F "$MEMBER"; then
+            echo "Binding $MEMBER to $GSA..."
+            gcloud iam service-accounts add-iam-policy-binding "$GSA" \
+              --role="roles/iam.workloadIdentityUser" \
+              --member="$MEMBER"
+            echo "✅ Binding added."
+          else
+            echo "✅ Binding already exists. Skipping."
+          fi
+
+      - name: Wait for Pods to be Ready
+        env:
+          MAX_WAIT_TIME: 300
+          INTERVAL: 20
+        run: |
+          echo "Waiting for pods to be ready..."
+          ITERATIONS=$((MAX_WAIT_TIME / INTERVAL))
+          for i in $(seq 1 $ITERATIONS); do
+            READY=$(kubectl get pods -n "$APP_NAME" -l "app=$APP_NAME" --no-headers | awk '{print $2}' | grep -c '^1/1$' || true)
+            TOTAL=$(kubectl get pods -n "$APP_NAME" -l "app=$APP_NAME" --no-headers | wc -l || true)
+            if [ "$READY" -eq "$TOTAL" ] && [ "$TOTAL" -gt 0 ]; then
+              echo "All pods are ready."
+              exit 0
+            fi
+            echo "Waiting for pods to be ready... ($i/$ITERATIONS)"
+            sleep $INTERVAL
+          done
+          echo "Pods did not become ready within $MAX_WAIT_TIME seconds."
+          exit 1

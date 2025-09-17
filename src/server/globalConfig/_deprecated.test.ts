@@ -26,7 +26,7 @@ vi.mock('@/config/modelProviders', () => ({
 
 // Mock LLM config
 vi.mock('@/envs/llm', () => ({
-  getLLMConfig: () => ({
+  getLLMConfig: async () => ({
     ENABLED_AZURE_OPENAI: true,
     ENABLED_AWS_BEDROCK: true,
     ENABLED_OLLAMA: true,
@@ -50,7 +50,7 @@ vi.mock('@/utils/_deprecated/parseModels', () => ({
 }));
 
 describe('genServerLLMConfig', () => {
-  it('should generate correct LLM config for Azure, Bedrock, and Ollama', () => {
+  it('should generate correct LLM config for Azure, Bedrock, and Ollama', async () => {
     vi.stubEnv('AZURE_MODEL_LIST', 'azureModels');
     vi.stubEnv('AWS_BEDROCK_MODEL_LIST', 'bedrockModels');
     vi.stubEnv('OLLAMA_MODEL_LIST', 'ollamaModels');
@@ -68,7 +68,7 @@ describe('genServerLLMConfig', () => {
         fetchOnClient: !process.env.OLLAMA_PROXY_URL,
       },
     };
-    const config = genServerLLMConfig(specificConfig);
+    const config = await genServerLLMConfig(specificConfig);
 
     expect(config.azure).toEqual({
       enabled: true,

@@ -20,7 +20,7 @@ export const POST = checkAuth(async (req: Request, { params, jwtPayload, createR
     // ============  1. init chat model   ============ //
     let modelRuntime: ModelRuntime;
     if (createRuntime) {
-      modelRuntime = createRuntime(jwtPayload);
+      modelRuntime = await createRuntime(jwtPayload);
     } else {
       modelRuntime = await initModelRuntimeWithUserPayload(provider, jwtPayload);
     }

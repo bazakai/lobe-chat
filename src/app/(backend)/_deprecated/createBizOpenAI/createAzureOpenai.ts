@@ -5,13 +5,13 @@ import urlJoin from 'url-join';
 import { getLLMConfig } from '@/envs/llm';
 
 // create Azure OpenAI Instance
-export const createAzureOpenai = (params: {
+export const createAzureOpenai = async (params: {
   apiVersion?: string | null;
   endpoint?: string | null;
   model: string;
   userApiKey?: string | null;
 }) => {
-  const { AZURE_API_VERSION, AZURE_API_KEY } = getLLMConfig();
+  const { AZURE_API_VERSION, AZURE_API_KEY } = await getLLMConfig();
   const OPENAI_PROXY_URL = process.env.OPENAI_PROXY_URL || '';
 
   const endpoint = !params.endpoint ? OPENAI_PROXY_URL : params.endpoint;
