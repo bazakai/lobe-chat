@@ -1,62 +1,62 @@
 {
   "actions": {
     "expand": {
-      "off": "Collapse",
-      "on": "Expand"
+      "off": "כווץ",
+      "on": "הרחב"
     },
     "typobar": {
-      "off": "Hide formatting toolbar",
-      "on": "Show formatting toolbar"
+      "off": "הסתר סרגל עיצוב",
+      "on": "הצג סרגל עיצוב"
     }
   },
-  "cancel": "Cancel",
-  "confirm": "Confirm",
+  "cancel": "ביטול",
+  "confirm": "אישור",
   "file": {
-    "error": "Error: {{message}}",
-    "uploading": "Uploading file..."
+    "error": "שגיאה: {{message}}",
+    "uploading": "מעלה קובץ..."
   },
   "image": {
-    "broken": "Image is corrupted"
+    "broken": "התמונה פגומה"
   },
   "link": {
-    "edit": "Edit link",
-    "open": "Open link",
-    "placeholder": "Enter link URL",
-    "unlink": "Unlink"
+    "edit": "ערוך קישור",
+    "open": "פתח קישור",
+    "placeholder": "הכנס כתובת קישור",
+    "unlink": "הסר קישור"
   },
   "math": {
-    "placeholder": "Please enter a TeX formula"
+    "placeholder": "אנא הכנס נוסחת TeX"
   },
   "slash": {
-    "h1": "Heading 1",
-    "h2": "Heading 2",
-    "h3": "Heading 3",
-    "hr": "Divider",
-    "table": "Table",
-    "tex": "TeX Formula"
+    "h1": "כותרת 1",
+    "h2": "כותרת 2",
+    "h3": "כותרת 3",
+    "hr": "מפריד",
+    "table": "טבלה",
+    "tex": "נוסחת TeX"
   },
   "table": {
-    "delete": "Delete table",
-    "deleteColumn": "Delete column",
-    "deleteRow": "Delete row",
-    "insertColumnLeft": "Insert {{count}} column(s) to the left",
-    "insertColumnRight": "Insert {{count}} column(s) to the right",
-    "insertRowAbove": "Insert {{count}} row(s) above",
-    "insertRowBelow": "Insert {{count}} row(s) below"
+    "delete": "מחק טבלה",
+    "deleteColumn": "מחק עמודה",
+    "deleteRow": "מחק שורה",
+    "insertColumnLeft": "הוסף {{count}} עמודה(ות) משמאל",
+    "insertColumnRight": "הוסף {{count}} עמודה(ות) מימין",
+    "insertRowAbove": "הוסף {{count}} שורה(ות) למעלה",
+    "insertRowBelow": "הוסף {{count}} שורה(ות) למטה"
   },
   "typobar": {
-    "blockquote": "Blockquote",
-    "bold": "Bold",
-    "bulletList": "Bulleted list",
-    "code": "Inline code",
-    "codeblock": "Code block",
-    "italic": "Italic",
-    "link": "Link",
-    "numberList": "Numbered list",
-    "strikethrough": "Strikethrough",
-    "table": "Table",
-    "taskList": "Task List",
-    "tex": "TeX Formula",
-    "underline": "Underline"
+    "blockquote": "ציטוט",
+    "bold": "מודגש",
+    "bulletList": "רשימה עם תבליטים",
+    "code": "קוד בשורה",
+    "codeblock": "בלוק קוד",
+    "italic": "נטוי",
+    "link": "קישור",
+    "numberList": "רשימה ממוספרת",
+    "strikethrough": "קו חוצה",
+    "table": "טבלה",
+    "taskList": "רשימת משימות",
+    "tex": "נוסחת TeX",
+    "underline": "קו תחתון"
   }
 }

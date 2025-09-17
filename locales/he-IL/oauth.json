@@ -1,60 +1,60 @@
 {
   "consent": {
     "buttons": {
-      "accept": "Authorize",
-      "deny": "Deny"
+      "accept": "אשר",
+      "deny": "דחה"
     },
-    "description": "The application {{clientName}} is requesting authorization for your account",
+    "description": "האפליקציה {{clientName}} מבקשת הרשאה לחשבון שלך",
     "error": {
       "sessionInvalid": {
-        "message": "The authorization session has expired or is invalid. Please restart the authorization process.",
-        "title": "Invalid Authorization Session"
+        "message": "פעולת ההרשאה פגה או לא תקינה. אנא התחל מחדש את תהליך ההרשאה.",
+        "title": "פעולת הרשאה לא תקינה"
       },
-      "title": "An Error Occurred",
+      "title": "אירעה שגיאה",
       "unsupportedInteraction": {
-        "message": "Unsupported interaction type: {promptName}",
-        "title": "Unsupported Interaction Type"
+        "message": "סוג אינטראקציה לא נתמך: {promptName}",
+        "title": "סוג אינטראקציה לא נתמך"
       }
     },
-    "permissionsTitle": "Requesting the following permissions:",
-    "redirectUri": "You will be redirected to after successful authorization",
+    "permissionsTitle": "מבקש את ההרשאות הבאות:",
+    "redirectUri": "תועבר אל לאחר הרשאה מוצלחת",
     "scope": {
-      "email": "Access your email address",
-      "offline_access": "Allow the client to access your data",
-      "openid": "Authenticate using your LobeChat account",
-      "profile": "Access your basic profile information (name, avatar, etc.)",
-      "sync-read": "Read your synchronized data",
-      "sync-write": "Write and update your synchronized data"
+      "email": "גש לכתובת האימייל שלך",
+      "offline_access": "אפשר ללקוח לגשת לנתונים שלך",
+      "openid": "התאמת באמצעות חשבון LobeChat שלך",
+      "profile": "גש למידע הפרופיל הבסיסי שלך (שם, אווטר, וכו')",
+      "sync-read": "קרא את הנתונים המסונכרנים שלך",
+      "sync-write": "כתוב ועדכן את הנתונים המסונכרנים שלך"
     },
-    "title": "Authorize {{clientName}}"
+    "title": "אשר {{clientName}}"
   },
   "error": {
-    "backToHome": "Back to Home",
-    "desc": "OAuth authorization failed, reason: {{reason}}",
+    "backToHome": "חזור לעמוד הבית",
+    "desc": "הרשאת OAuth נכשלה, סיבה: {{reason}}",
     "reason": {
-      "internal_error": "Internal Server Error",
-      "invalid_request": "Invalid Request Parameters"
+      "internal_error": "שגיאת שרת פנימית",
+      "invalid_request": "פרמטרי בקשה לא תקינים"
     },
-    "title": "Authorization Failed"
+    "title": "הרשאה נכשלה"
   },
   "handoff": {
     "desc": {
-      "processing": "The application is processing the authorization and will redirect to the next page soon...",
-      "success": "An attempt has been made to open the desktop application. If it does not open automatically, please switch manually. You can close this browser window later."
+      "processing": "האפליקציה מעבדת את ההרשאה ותעביר לדף הבא בקרוב...",
+      "success": "נעשה ניסיון לפתוח את אפליקציית הדסקטופ. אם היא לא נפתחת אוטומטית, אנא החלף ידנית. תוכל לסגור את חלון הדפדפן הזה מאוחר יותר."
     },
     "title": {
-      "processing": "Authorization in progress...",
-      "success": "Authorization completed"
+      "processing": "הרשאה בתהליך...",
+      "success": "הרשאה הושלמה"
     }
   },
   "login": {
-    "button": "Confirm Login",
-    "description": "The application {{clientName}} is requesting to use your account for login",
-    "title": "Login to {{clientName}}",
-    "userWelcome": "Welcome back, "
+    "button": "אשר התחברות",
+    "description": "האפליקציה {{clientName}} מבקשת להשתמש בחשבון שלך להתחברות",
+    "title": "התחבר ל-{{clientName}}",
+    "userWelcome": "ברוך השב, "
   },
   "success": {
-    "subTitle": "You have successfully authorized the application to access your account. You may now close this page.",
-    "title": "Authorization Successful"
+    "subTitle": "הרשאת בהצלחה את האפליקציה לגשת לחשבון שלך. תוכל עכשיו לסגור את הדף הזה.",
+    "title": "הרשאה הצליחה"
   }
 }
