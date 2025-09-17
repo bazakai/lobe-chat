@@ -63,13 +63,13 @@ spec:
               value: '${PORT}'
           startupProbe:
             httpGet:
-              path: /health
+              path: /webapi/health
               port: ${PORT}
             periodSeconds: 5
             failureThreshold: 60
           readinessProbe:
             httpGet:
-              path: /health
+              path: /webapi/health
               port: ${PORT}
             initialDelaySeconds: 10
             periodSeconds: 5
