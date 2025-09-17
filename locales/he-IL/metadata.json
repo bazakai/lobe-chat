@@ -1,47 +1,47 @@
 {
   "changelog": {
-    "description": "Stay updated on the new features and improvements of {{appName}}",
-    "title": "Changelog"
+    "description": "הישאר מעודכן על התכונות החדשות והשיפורים של {{appName}}",
+    "title": "יומן שינויים"
   },
   "chat": {
-    "description": "{{appName}} brings you the best UI experience for ChatGPT, Claude, Gemini, and OLLaMA.",
-    "title": "{{appName}}: Your personal AI productivity tool for a smarter brain."
+    "description": "{{appName}} מביא לך את חוויית הממשק הטובה ביותר עבור ChatGPT, Claude, Gemini ו-OLLaMA.",
+    "title": "{{appName}}: כלי הפרודוקטיביות AI האישי שלך למוח חכם יותר."
   },
   "discover": {
     "assistants": {
-      "description": "Content creation, copywriting, Q&A, image generation, video generation, voice generation, intelligent agents, automated workflows, customize your own AI / GPTs / OLLaMA intelligent assistant",
-      "title": "AI Assistants"
+      "description": "יצירת תוכן, כתיבת תוכן, שאלות ותשובות, יצירת תמונות, יצירת וידאו, יצירת קול, סוכנים חכמים, זרימות עבודה אוטומטיות, התאם אישית את העוזר החכם AI / GPTs / OLLaMA שלך",
+      "title": "עוזרי AI"
     },
-    "description": "Content creation, copywriting, Q&A, image generation, video generation, voice generation, intelligent agents, automated workflows, custom AI applications, customize your own AI application workspace",
+    "description": "יצירת תוכן, כתיבת תוכן, שאלות ותשובות, יצירת תמונות, יצירת וידאו, יצירת קול, סוכנים חכמים, זרימות עבודה אוטומטיות, אפליקציות AI מותאמות אישית, התאם אישית את סביבת העבודה של אפליקציית AI שלך",
     "mcp": {
-      "description": "Search, compare, and connect to thousands of MCP Servers, enabling AI systems to easily access file systems, databases, APIs, and other essential resources, comprehensively expanding your AI capabilities.",
-      "title": "MCP Servers Marketplace"
+      "description": "חפש, השווה והתחבר לאלפי שרתי MCP, המאפשר למערכות AI לגשת בקלות למערכות קבצים, מסדי נתונים, APIs ומשאבים חיוניים אחרים, מרחיב באופן מקיף את יכולות ה-AI שלך.",
+      "title": "שרתי MCP"
     },
     "models": {
-      "description": "Explore mainstream AI models OpenAI / GPT / Claude 3 / Gemini / Ollama / Azure / DeepSeek",
-      "title": "AI Models"
+      "description": "חקור מודלי AI נפוצים OpenAI / GPT / Claude 3 / Gemini / Ollama / Azure / DeepSeek",
+      "title": "מודלי AI"
     },
     "plugins": {
-      "description": "Explore chart generation, academic tools, image generation, video generation, voice generation, and automated workflows to integrate rich plugin capabilities into your assistant.",
-      "title": "AI Plugins"
+      "description": "חקור יצירת תרשימים, כלים אקדמיים, יצירת תמונות, יצירת וידאו, יצירת קול וזרימות עבודה אוטומטיות כדי לשלב יכולות תוספים עשירות בעוזר שלך.",
+      "title": "תוספי AI"
     },
     "providers": {
-      "description": "Explore leading model providers OpenAI / Qwen / Ollama / Anthropic / DeepSeek / Google Gemini / OpenRouter",
-      "title": "AI Model Providers"
+      "description": "חקור ספקי מודלים מובילים OpenAI / Qwen / Ollama / Anthropic / DeepSeek / Google Gemini / OpenRouter",
+      "title": "ספקי מודלי AI"
     },
-    "search": "Search",
-    "title": "Discover"
+    "search": "חיפוש",
+    "title": "גלה"
   },
   "image": {
-    "description": "{{appName}} brings you the best experience with GPT Image, Flux, Midjourney, and Stable Diffusion",
-    "title": "AI Painting"
+    "description": "{{appName}} מביא לך את החוויה הטובה ביותר עם GPT Image, Flux, Midjourney ו-Stable Diffusion",
+    "title": "ציור AI"
   },
   "plugins": {
-    "description": "Search, chart generation, academic tools, image generation, video generation, voice generation, automated workflows—customize Tools Calling plugin capabilities for ChatGPT / Claude.",
-    "title": "Plugin Marketplace"
+    "description": "חיפוש, יצירת תרשימים, כלים אקדמיים, יצירת תמונות, יצירת וידאו, יצירת קול, זרימות עבודה אוטומטיות—התאם אישית יכולות תוספי Tools Calling עבור ChatGPT / Claude.",
+    "title": "שוק תוספים"
   },
   "welcome": {
-    "description": "{{appName}} brings you the best UI experience for ChatGPT, Claude, Gemini, and OLLaMA.",
-    "title": "Welcome to {{appName}}: Your personal AI productivity tool for a smarter brain."
+    "description": "{{appName}} מביא לך את חוויית הממשק הטובה ביותר עבור ChatGPT, Claude, Gemini ו-OLLaMA.",
+    "title": "ברוכים הבאים ל-{{appName}}: כלי הפרודוקטיביות AI האישי שלך למוח חכם יותר."
   }
 }

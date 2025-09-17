@@ -1,573 +1,573 @@
 {
   "about": {
-    "title": "About"
+    "title": "אודות"
   },
   "agentTab": {
-    "chat": "Chat Preferences",
-    "meta": "Assistant Info",
-    "modal": "Model Settings",
-    "opening": "Opening Settings",
-    "plugin": "Plugin Settings",
-    "prompt": "Role Configuration",
-    "tts": "Voice Service"
+    "chat": "העדפות צ'אט",
+    "meta": "מידע עוזר",
+    "modal": "הגדרות מודל",
+    "opening": "הגדרות פתיחה",
+    "plugin": "הגדרות תוסף",
+    "prompt": "תצורת תפקיד",
+    "tts": "שירות קול"
   },
   "analytics": {
     "telemetry": {
-      "desc": "By opting to send telemetry data, you can help us improve the overall user experience of {{appName}}.",
-      "title": "Send Anonymous Usage Data"
+      "desc": "על ידי בחירה לשלוח נתוני טלמטריה, אתה יכול לעזור לנו לשפר את חוויית המשתמש הכוללת של {{appName}}.",
+      "title": "שלח נתוני שימוש אנונימיים"
     },
-    "title": "Analytics"
+    "title": "אנליטיקה"
   },
   "danger": {
     "clear": {
-      "action": "Clear Now",
-      "confirm": "Confirm to clear all chat data?",
-      "desc": "This will clear all session data, including assistant, files, messages, plugins, etc.",
-      "success": "All session messages have been cleared",
-      "title": "Clear All Session Messages"
+      "action": "נקה עכשיו",
+      "confirm": "אשר לנקות את כל נתוני הצ'אט?",
+      "desc": "זה ינקה את כל נתוני הפעלה, כולל עוזר, קבצים, הודעות, תוספים וכו'.",
+      "success": "כל הודעות הפעלה נוקו",
+      "title": "נקה את כל הודעות הפעלה"
     },
     "reset": {
-      "action": "Reset Now",
-      "confirm": "Confirm to reset all settings?",
-      "currentVersion": "Current Version",
-      "desc": "Reset all settings to default values",
-      "success": "All settings have been reset",
-      "title": "Reset All Settings"
+      "action": "איפוס עכשיו",
+      "confirm": "אשר לאיפוס כל ההגדרות?",
+      "currentVersion": "גרסה נוכחית",
+      "desc": "איפוס כל ההגדרות לערכי ברירת מחדל",
+      "success": "כל ההגדרות אופסו",
+      "title": "איפוס כל ההגדרות"
     }
   },
   "header": {
-    "desc": "Preferences and model settings.",
-    "global": "Global Settings",
-    "session": "Session Settings",
-    "sessionDesc": "Role settings and session preferences.",
-    "sessionWithName": "Session Settings · {{name}}",
-    "title": "Settings"
+    "desc": "העדפות והגדרות מודל.",
+    "global": "הגדרות גלובליות",
+    "session": "הגדרות הפעלה",
+    "sessionDesc": "הגדרות תפקיד והעדפות הפעלה.",
+    "sessionWithName": "הגדרות הפעלה · {{name}}",
+    "title": "הגדרות"
   },
   "hotkey": {
-    "conflicts": "Conflicts with existing hotkeys",
+    "conflicts": "התנגשויות עם קיצורי מקלדת קיימים",
     "errors": {
-      "CONFLICT": "Hotkey conflict: This hotkey is already assigned to another function",
-      "INVALID_FORMAT": "Invalid hotkey format: Please use the correct format (e.g., CommandOrControl+E)",
-      "INVALID_ID": "Invalid hotkey ID",
-      "NO_MODIFIER": "Hotkey must include a modifier key (Ctrl, Alt, Shift, etc.)",
-      "SYSTEM_OCCUPIED": "Hotkey is occupied by the system or another application",
-      "UNKNOWN": "Update failed: Unknown error"
+      "CONFLICT": "התנגשות קיצור מקלדת: קיצור המקלדת הזה כבר מוקצה לפונקציה אחרת",
+      "INVALID_FORMAT": "פורמט קיצור מקלדת לא תקין: אנא השתמש בפורמט הנכון (למשל, CommandOrControl+E)",
+      "INVALID_ID": "מזהה קיצור מקלדת לא תקין",
+      "NO_MODIFIER": "קיצור המקלדת חייב לכלול מקש שינוי (Ctrl, Alt, Shift וכו')",
+      "SYSTEM_OCCUPIED": "קיצור המקלדת תפוס על ידי המערכת או אפליקציה אחרת",
+      "UNKNOWN": "העדכון נכשל: שגיאה לא ידועה"
     },
     "group": {
-      "conversation": "Conversation",
-      "desktop": "Desktop",
-      "essential": "Essential"
+      "conversation": "שיחה",
+      "desktop": "שולחן עבודה",
+      "essential": "חיוני"
     },
-    "invalidCombination": "The hotkey must include at least one modifier key (Ctrl, Alt, Shift) and one regular key",
-    "record": "Press a key to record the hotkey",
-    "reset": "Reset to default hotkeys",
-    "title": "Hotkeys",
-    "updateError": "Failed to update hotkey: Network or system error",
-    "updateSuccess": "Hotkey updated successfully"
+    "invalidCombination": "קיצור המקלדת חייב לכלול לפחות מקש שינוי אחד (Ctrl, Alt, Shift) ומקש רגיל אחד",
+    "record": "לחץ על מקש כדי להקליט את קיצור המקלדת",
+    "reset": "איפוס לקיצורי מקלדת ברירת מחדל",
+    "title": "קיצורי מקלדת",
+    "updateError": "נכשל בעדכון קיצור המקלדת: שגיאת רשת או מערכת",
+    "updateSuccess": "קיצור המקלדת עודכן בהצלחה"
   },
   "llm": {
-    "aesGcm": "Your keys and proxy address will be encrypted using the <1>AES-GCM</1> encryption algorithm",
+    "aesGcm": "המפתחות שלך וכתובת הפרוקסי יוצפנו באמצעות אלגוריתם הצפנה <1>AES-GCM</1>",
     "apiKey": {
-      "desc": "Please enter your {{name}} API Key",
-      "placeholder": "{{name}} API Key",
-      "title": "API Key"
+      "desc": "אנא הכנס את מפתח ה-API של {{name}}",
+      "placeholder": "מפתח API של {{name}}",
+      "title": "מפתח API"
     },
     "checker": {
-      "button": "Check",
-      "desc": "Test if the API Key and proxy address are filled in correctly",
-      "pass": "Check Passed",
-      "title": "Connectivity Check"
+      "button": "בדוק",
+      "desc": "בדוק אם מפתח ה-API וכתובת הפרוקסי מולאו נכון",
+      "pass": "הבדיקה עברה",
+      "title": "בדיקת חיבור"
     },
     "customModelCards": {
-      "addNew": "Create and add {{id}} model",
-      "config": "Model Configuration",
-      "confirmDelete": "You are about to delete this custom model. Once deleted, it cannot be recovered. Please proceed with caution.",
+      "addNew": "צור והוסף מודל {{id}}",
+      "config": "תצורת מודל",
+      "confirmDelete": "אתה עומד למחוק את המודל המותאם הזה. לאחר המחיקה, לא ניתן לשחזר אותו. אנא המשך בזהירות.",
       "modelConfig": {
         "azureDeployName": {
-          "extra": "The field actually requested in Azure OpenAI",
-          "placeholder": "Enter the model deployment name in Azure",
-          "title": "Model Deployment Name"
+          "extra": "השדה הנדרש בפועל ב-Azure OpenAI",
+          "placeholder": "הכנס את שם פריסת המודל ב-Azure",
+          "title": "שם פריסת מודל"
         },
         "displayName": {
-          "placeholder": "Enter the display name of the model, such as ChatGPT, GPT-4, etc.",
-          "title": "Model Display Name"
+          "placeholder": "הכנס את שם התצוגה של המודל, כמו ChatGPT, GPT-4 וכו'",
+          "title": "שם תצוגת מודל"
         },
         "files": {
-          "extra": "The current file upload implementation is merely a hack solution and is intended for personal experimentation only. Please wait for a complete file upload capability in future updates.",
-          "title": "Support File Upload"
+          "extra": "יישום העלאת הקבצים הנוכחי הוא רק פתרון זמני ומיועד לניסויים אישיים בלבד. אנא המתן ליכולת העלאת קבצים מלאה בעדכונים עתידיים.",
+          "title": "תמיכה בהעלאת קבצים"
         },
         "functionCall": {
-          "extra": "This configuration will only enable function calling capabilities within the application. Whether function calling is supported depends entirely on the model itself; please test the model's function calling capabilities on your own.",
-          "title": "Support Function Call"
+          "extra": "תצורה זו תאפשר רק יכולות קריאה לפונקציות בתוך האפליקציה. האם קריאה לפונקציות נתמכת תלוי לחלוטין במודל עצמו; אנא בדוק את יכולות קריאת הפונקציות של המודל בעצמך.",
+          "title": "תמיכה בקריאה לפונקציות"
         },
         "id": {
-          "extra": "Will be displayed as the model label",
-          "placeholder": "Enter the model ID, such as gpt-4-turbo-preview or claude-2.1",
-          "title": "Model ID"
+          "extra": "יוצג כתווית המודל",
+          "placeholder": "הכנס את מזהה המודל, כמו gpt-4-turbo-preview או claude-2.1",
+          "title": "מזהה מודל"
         },
-        "modalTitle": "Custom Model Configuration",
+        "modalTitle": "תצורת מודל מותאם",
         "tokens": {
-          "title": "Maximum Token Count"
+          "title": "מספר מקסימלי של טוקנים"
         },
         "vision": {
-          "extra": "This configuration will only enable image upload capabilities within the application. Whether recognition is supported depends entirely on the model itself; please test the model's visual recognition capabilities on your own.",
-          "title": "Support Visual Recognition"
+          "extra": "תצורה זו תאפשר רק יכולות העלאת תמונות בתוך האפליקציה. האם זיהוי נתמך תלוי לחלוטין במודל עצמו; אנא בדוק את יכולות הזיהוי החזותי של המודל בעצמך.",
+          "title": "תמיכה בזיהוי חזותי"
         }
       }
     },
     "fetchOnClient": {
-      "desc": "Client-side fetching mode initiates session requests directly from the browser, improving response speed.",
-      "title": "Use Client-Side Fetching Mode"
+      "desc": "מצב שליפת צד לקוח מתחיל בקשות הפעלה ישירות מהדפדפן, משפר את מהירות התגובה.",
+      "title": "השתמש במצב שליפה מצד לקוח"
     },
     "fetcher": {
-      "clear": "Clear fetched model",
-      "fetch": "Get Model List",
-      "fetching": "Fetching Model List...",
-      "latestTime": "Last Updated: {{time}}",
-      "noLatestTime": "No list available yet"
+      "clear": "נקה מודל שנשלף",
+      "fetch": "קבל רשימת מודלים",
+      "fetching": "שולף רשימת מודלים...",
+      "latestTime": "עודכן לאחרונה: {{time}}",
+      "noLatestTime": "אין רשימה זמינה עדיין"
     },
-    "helpDoc": "Configuration Guide",
+    "helpDoc": "מדריך תצורה",
     "modelList": {
-      "desc": "Select the models to display in the session. The selected models will be displayed in the model list.",
-      "placeholder": "Please select a model from the list",
-      "title": "Model List",
-      "total": "{{count}} models available in total"
+      "desc": "בחר את המודלים להצגה בהפעלה. המודלים שנבחרו יוצגו ברשימת המודלים.",
+      "placeholder": "אנא בחר מודל מהרשימה",
+      "title": "רשימת מודלים",
+      "total": "{{count}} מודלים זמינים בסך הכל"
     },
     "proxyUrl": {
-      "desc": "Must include http(s):// in addition to the default address",
-      "title": "API Proxy Address"
+      "desc": "חייב לכלול http(s):// בנוסף לכתובת ברירת המחדל",
+      "title": "כתובת פרוקסי API"
     },
-    "waitingForMore": "More models are <1>planned to be added</1>, stay tuned"
+    "waitingForMore": "מודלים נוספים <1>מתוכננים להוספה</1>, הישאר מעודכן"
   },
   "plugin": {
-    "addMCPPlugin": "Add MCP Plugin",
-    "addTooltip": "Custom Plugin",
-    "clearDeprecated": "Remove Deprecated Plugins",
-    "empty": "No installed plugins yet, feel free to explore the <1>Plugin Store</1>",
+    "addMCPPlugin": "הוסף  MCP",
+    "addTooltip": "תוסף מותאם",
+    "clearDeprecated": "הסר תוספים מיושנים",
+    "empty": "אין תוספים מותקנים עדיין, תרגיש חופשי לחקור את <1>חנות התוספים</1>",
     "installStatus": {
-      "deprecated": "Uninstalled"
+      "deprecated": "הוסר"
     },
     "settings": {
-      "hint": "Please fill in the following configurations based on the description",
-      "title": "{{id}} Plugin Configuration",
-      "tooltip": "Plugin Configuration"
+      "hint": "אנא מלא את התצורות הבאות על בסיס התיאור",
+      "title": "תצורת תוסף {{id}}",
+      "tooltip": "תצורת תוסף"
     },
-    "store": "Plugin Store"
+    "store": "חנות תוספים"
   },
   "settingAgent": {
     "avatar": {
-      "title": "Avatar"
+      "title": "אווטר"
     },
     "backgroundColor": {
-      "title": "Background Color"
+      "title": "צבע רקע"
     },
     "description": {
-      "desc": "A brief introduction to your assistant, not for character setting",
-      "placeholder": "Enter assistant description",
-      "title": "Assistant Description"
+      "desc": "הקדמה קצרה לעוזר שלך, לא להגדרת דמות",
+      "placeholder": "הכנס תיאור עוזר",
+      "title": "תיאור עוזר"
     },
     "name": {
-      "placeholder": "Enter assistant name",
-      "title": "Name"
+      "placeholder": "הכנס שם עוזר",
+      "title": "שם"
     },
     "prompt": {
-      "placeholder": "Enter role prompt word",
-      "title": "Role Setting"
+      "placeholder": "הכנס מילת הנחיה לתפקיד",
+      "title": "הגדרת תפקיד"
     },
-    "submit": "Update Assistant Information",
+    "submit": "עדכן מידע עוזר",
     "tag": {
-      "desc": "Assistant tags will be displayed in the assistant marketplace",
-      "placeholder": "Enter tag",
-      "title": "Tag"
+      "desc": "תגיות העוזר יוצגו בשוק העוזרים",
+      "placeholder": "הכנס תג",
+      "title": "תג"
     },
-    "title": "Assistant Information"
+    "title": "מידע עוזר"
   },
   "settingAppearance": {
     "animationMode": {
-      "agile": "Agile",
-      "desc": "Select the animation speed for application response actions",
-      "disabled": "Off",
-      "elegant": "Elegant",
-      "title": "Response Animation"
+      "agile": "זריז",
+      "desc": "בחר את מהירות האנימציה לפעולות תגובה של האפליקציה",
+      "disabled": "כבוי",
+      "elegant": "אלגנטי",
+      "title": "אנימציית תגובה"
     },
     "neutralColor": {
-      "desc": "Custom grayscale with different color tendencies",
-      "title": "Neutral Color"
+      "desc": "גווני אפור מותאמים עם נטיות צבע שונות",
+      "title": "צבע נייטרלי"
     },
     "noAnimation": {
-      "desc": "Disable all animation effects in the application",
-      "title": "No Animation Mode"
+      "desc": "השבת את כל אפקטי האנימציה באפליקציה",
+      "title": "מצב ללא אנימציה"
     },
     "preview": {
-      "title": "Color Palette"
+      "title": "פלטת צבעים"
     },
     "primaryColor": {
-      "desc": "Custom theme color",
-      "title": "Theme Color"
+      "desc": "צבע ערכת נושא מותאם",
+      "title": "צבע ערכת נושא"
     },
-    "title": "Application Appearance"
+    "title": "מראה אפליקציה"
   },
   "settingChat": {
     "autoCreateTopicThreshold": {
-      "desc": "Automatically create a topic when the current message count exceeds this value",
-      "title": "Message Threshold"
+      "desc": "צור אוטומטית נושא כאשר מספר ההודעות הנוכחי עולה על הערך הזה",
+      "title": "סף הודעות"
     },
     "chatStyleType": {
-      "title": "Chat Window Style",
+      "title": "סגנון חלון צ'אט",
       "type": {
-        "chat": "Conversation Mode",
-        "docs": "Document Mode"
+        "chat": "מצב שיחה",
+        "docs": "מצב מסמך"
       }
     },
     "compressThreshold": {
-      "desc": "When the uncompressed history messages exceed this value, compression will be applied",
-      "title": "History Message Length Compression Threshold"
+      "desc": "כאשר הודעות ההיסטוריה הלא דחוסות עולות על הערך הזה, יוחל דחיסה",
+      "title": "סף דחיסת אורך הודעות היסטוריה"
     },
     "enableAutoCreateTopic": {
-      "desc": "Whether to automatically create a topic during the conversation, only effective in temporary topics",
-      "title": "Auto Create Topic"
+      "desc": "האם ליצור אוטומטית נושא במהלך השיחה, יעיל רק בנושאים זמניים",
+      "title": "צור נושא אוטומטית"
     },
     "enableCompressHistory": {
-      "title": "Enable Automatic Summary of Chat History"
+      "title": "הפעל סיכום אוטומטי של היסטוריית צ'אט"
     },
     "enableHistoryCount": {
-      "alias": "Unlimited",
-      "limited": "Include only {{number}} conversation messages",
-      "setlimited": "Set limited history messages",
-      "title": "Limit History Message Count",
-      "unlimited": "Unlimited history message count"
+      "alias": "בלתי מוגבל",
+      "limited": "כלול רק {{number}} הודעות שיחה",
+      "setlimited": "הגדר הודעות היסטוריה מוגבלות",
+      "title": "הגבל מספר הודעות היסטוריה",
+      "unlimited": "מספר הודעות היסטוריה בלתי מוגבל"
     },
     "enableStreaming": {
-      "desc": "Enable streaming output to display responses in real-time. When disabled, only the complete response is shown.",
-      "title": "Enable Streaming Output"
+      "desc": "הפעל פלט סטרימינג כדי להציג תגובות בזמן אמת. כאשר מושבת, מוצגת רק התגובה המלאה.",
+      "title": "הפעל פלט סטרימינג"
     },
     "historyCount": {
-      "desc": "Number of historical messages carried with each request",
-      "title": "Attached History Message Count"
+      "desc": "מספר הודעות היסטוריות הנישאות עם כל בקשה",
+      "title": "מספר הודעות היסטוריה מצורפות"
     },
     "inputTemplate": {
-      "desc": "The user's latest message will be filled into this template",
-      "placeholder": "Preprocessing template {{text}} will be replaced with real-time input information",
-      "title": "User Input Preprocessing"
+      "desc": "ההודעה האחרונה של המשתמש תתמלא לתבנית זו",
+      "placeholder": "תבנית עיבוד מקדים {{text}} תוחלף במידע קלט בזמן אמת",
+      "title": "עיבוד מקדים של קלט משתמש"
     },
-    "submit": "Update Chat Preferences",
-    "title": "Chat Settings"
+    "submit": "עדכן העדפות צ'אט",
+    "title": "הגדרות צ'אט"
   },
   "settingChatAppearance": {
     "fontSize": {
-      "desc": "Font size of chat content",
+      "desc": "גודל גופן של תוכן הצ'אט",
       "marks": {
-        "normal": "Standard"
+        "normal": "סטנדרטי"
       },
-      "title": "Font Size"
+      "title": "גודל גופן"
     },
     "highlighterTheme": {
-      "title": "Code Highlight Theme"
+      "title": "ערכת נושא הדגשת קוד"
     },
     "mermaidTheme": {
-      "title": "Mermaid Theme"
+      "title": "ערכת נושא Mermaid"
     },
-    "title": "Chat Appearance",
+    "title": "מראה צ'אט",
     "transitionMode": {
-      "desc": "Transition animation for chat messages",
+      "desc": "אנימציית מעבר עבור הודעות צ'אט",
       "options": {
-        "fadeIn": "Fade In",
+        "fadeIn": "היעלמות הדרגתית",
         "none": {
-          "desc": "This depends on the model's response output method; please test it yourself.",
-          "value": "None"
+          "desc": "זה תלוי בשיטת פלט התגובה של המודל; אנא בדוק זאת בעצמך.",
+          "value": "ללא"
         },
-        "smooth": "Smooth"
+        "smooth": "חלק"
       },
-      "title": "Transition Animation"
+      "title": "אנימציית מעבר"
     }
   },
   "settingCommon": {
     "lang": {
-      "autoMode": "Follow System",
-      "title": "Language"
+      "autoMode": "עקוב אחר המערכת",
+      "title": "שפה"
     },
     "themeMode": {
-      "auto": "Automatic",
-      "dark": "Dark",
-      "light": "Light",
-      "title": "Theme"
+      "auto": "אוטומטי",
+      "dark": "כהה",
+      "light": "בהיר",
+      "title": "ערכת נושא"
     },
-    "title": "General Settings"
+    "title": "הגדרות כלליות"
   },
   "settingModel": {
     "enableMaxTokens": {
-      "title": "Enable Max Tokens Limit"
+      "title": "הפעל הגבלת מקסימום טוקנים"
     },
     "enableReasoningEffort": {
-      "title": "Enable Reasoning Effort Adjustment"
+      "title": "הפעל התאמת מאמץ נימוק"
     },
     "frequencyPenalty": {
-      "desc": "The higher the value, the more diverse and rich the vocabulary; the lower the value, the simpler and more straightforward the language.",
-      "title": "Vocabulary Richness"
+      "desc": "ככל שהערך גבוה יותר, כך אוצר המילים מגוון ועשיר יותר; ככל שהערך נמוך יותר, כך השפה פשוטה וישירה יותר.",
+      "title": "עושר אוצר מילים"
     },
     "maxTokens": {
-      "desc": "The maximum number of tokens used for each interaction",
-      "title": "Max Tokens Limit"
+      "desc": "מספר הטוקנים המקסימלי המשמש לכל אינטראקציה",
+      "title": "הגבלת מקסימום טוקנים"
     },
     "model": {
-      "desc": "{{provider}} model",
-      "title": "Model"
+      "desc": "מודל {{provider}}",
+      "title": "מודל"
     },
     "params": {
-      "title": "Advanced Parameters"
+      "title": "פרמטרים מתקדמים"
     },
     "presencePenalty": {
-      "desc": "The higher the value, the more inclined to use different expressions and avoid concept repetition; the lower the value, the more inclined to use repeated concepts or narratives, resulting in more consistent expression.",
-      "title": "Expression Divergence"
+      "desc": "ככל שהערך גבוה יותר, כך יש נטייה להשתמש בביטויים שונים ולהימנע מחזרה על מושגים; ככל שהערך נמוך יותר, כך יש נטייה להשתמש במושגים או נרטיבים חוזרים, וכתוצאה מכך ביטוי עקבי יותר.",
+      "title": "התבדלות ביטוי"
     },
     "reasoningEffort": {
-      "desc": "Higher values enhance reasoning ability but may increase response time and token usage.",
+      "desc": "ערכים גבוהים יותר משפרים את יכולת הנימוק אך עלולים להגדיל את זמן התגובה ושימוש בטוקנים.",
       "options": {
-        "high": "High",
-        "low": "Low",
-        "medium": "Medium"
+        "high": "גבוה",
+        "low": "נמוך",
+        "medium": "בינוני"
       },
-      "title": "Reasoning Effort"
+      "title": "מאמץ נימוק"
     },
-    "submit": "Update Model Settings",
+    "submit": "עדכן הגדרות מודל",
     "temperature": {
-      "desc": "The higher the value, the more creative and imaginative the responses; the lower the value, the more rigorous the responses.",
-      "title": "Creativity Level",
-      "warning": "If the creativity level is set too high, the output may become garbled."
+      "desc": "ככל שהערך גבוה יותר, כך התגובות יצירתיות ודמיוניות יותר; ככל שהערך נמוך יותר, כך התגובות קפדניות יותר.",
+      "title": "רמת יצירתיות",
+      "warning": "אם רמת היצירתיות מוגדרת גבוהה מדי, הפלט עלול להפוך למבולבל."
     },
-    "title": "Model Settings",
+    "title": "הגדרות מודל",
     "topP": {
-      "desc": "How many possibilities to consider; a higher value accepts more potential answers, while a lower value tends to choose the most likely answer. It is not recommended to change this alongside the creativity level.",
-      "title": "Openness to Ideas"
+      "desc": "כמה אפשרויות לשקול; ערך גבוה יותר מקבל יותר תשובות פוטנציאליות, בעוד שערך נמוך יותר נוטה לבחור את התשובה הסבירה ביותר. לא מומלץ לשנות זאת יחד עם רמת היצירתיות.",
+      "title": "פתיחות לרעיונות"
     }
   },
   "settingOpening": {
     "openingMessage": {
-      "desc": "The opening message displayed when the conversation starts, used to introduce the assistant's features",
-      "placeholder": "Hello, I am your Custom Assistant. You can start chatting with me right away, or go to Assistant Settings to complete my information.",
-      "title": "Opening Message"
+      "desc": "הודעת הפתיחה המוצגת כאשר השיחה מתחילה, משמשת להצגת התכונות של העוזר",
+      "placeholder": "שלום, אני העוזר המותאם שלך. אתה יכול להתחיל לשוחח איתי מיד, או לעבור להגדרות העוזר כדי להשלים את המידע שלי.",
+      "title": "הודעת פתיחה"
     },
     "openingQuestions": {
-      "desc": "Guiding questions displayed at the beginning of the conversation",
-      "empty": "No questions available",
-      "placeholder": "Please enter a question",
-      "repeat": "Question already exists",
-      "title": "Opening Questions"
+      "desc": "שאלות מנחות המוצגות בתחילת השיחה",
+      "empty": "אין שאלות זמינות",
+      "placeholder": "אנא הכנס שאלה",
+      "repeat": "השאלה כבר קיימת",
+      "title": "שאלות פתיחה"
     },
-    "title": "Opening Settings"
+    "title": "הגדרות פתיחה"
   },
   "settingPlugin": {
-    "title": "Plugin List"
+    "title": "רשימת תוספים"
   },
   "settingSystem": {
     "accessCode": {
-      "desc": "Encryption access is enabled by the administrator",
-      "placeholder": "Enter access password",
-      "title": "Access Password"
+      "desc": "גישת הצפנה מופעלת על ידי המנהל",
+      "placeholder": "הכנס סיסמת גישה",
+      "title": "סיסמת גישה"
     },
     "oauth": {
       "info": {
-        "desc": "Logged in",
-        "title": "Account Information"
+        "desc": "מחובר",
+        "title": "מידע חשבון"
       },
       "signin": {
-        "action": "Sign In",
-        "desc": "Sign in using SSO to unlock the app",
-        "title": "Sign In to Your Account"
+        "action": "התחבר",
+        "desc": "התחבר באמצעות SSO כדי לפתוח את האפליקציה",
+        "title": "התחבר לחשבון שלך"
       },
       "signout": {
-        "action": "Sign Out",
-        "confirm": "Confirm sign out?",
-        "success": "Sign out successful"
+        "action": "התנתק",
+        "confirm": "אשר התנתקות?",
+        "success": "ההתנתקות הצליחה"
       }
     },
-    "title": "System Settings"
+    "title": "הגדרות מערכת"
   },
   "settingTTS": {
     "openai": {
-      "sttModel": "OpenAI Speech-to-Text Model",
+      "sttModel": "מודל Speech-to-Text של OpenAI",
       "title": "OpenAI",
-      "ttsModel": "OpenAI Text-to-Speech Model"
+      "ttsModel": "מודל Text-to-Speech של OpenAI"
     },
     "showAllLocaleVoice": {
-      "desc": "If closed, only voices in the current language will be displayed",
-      "title": "Show All Locale Voices"
+      "desc": "אם סגור, רק קולות בשפה הנוכחית יוצגו",
+      "title": "הצג קולות של כל השפות"
     },
-    "stt": "Speech Recognition Settings",
+    "stt": "הגדרות זיהוי דיבור",
     "sttAutoStop": {
-      "desc": "When closed, speech recognition will not end automatically and requires manual click to stop",
-      "title": "Auto Stop Speech Recognition"
+      "desc": "כאשר סגור, זיהוי הדיבור לא יסתיים אוטומטית ודורש לחיצה ידנית לעצירה",
+      "title": "עצור אוטומטית זיהוי דיבור"
     },
     "sttLocale": {
-      "desc": "The language of the speech input, this option can improve the accuracy of speech recognition",
-      "title": "Speech Recognition Language"
+      "desc": "שפת הקלט הקולי, אפשרות זו יכולה לשפר את דיוק זיהוי הדיבור",
+      "title": "שפת זיהוי דיבור"
     },
     "sttService": {
-      "desc": "Where 'browser' is the native speech recognition service of the browser",
-      "title": "Speech Recognition Service"
+      "desc": "כאשר 'browser' הוא שירות זיהוי הדיבור המקורי של הדפדפן",
+      "title": "שירות זיהוי דיבור"
     },
-    "submit": "Update Voice Service",
-    "title": "Speech Service",
-    "tts": "Text-to-Speech Settings",
+    "submit": "עדכן שירות קול",
+    "title": "שירות דיבור",
+    "tts": "הגדרות טקסט לדיבור",
     "ttsService": {
-      "desc": "If using OpenAI text-to-speech service, make sure the OpenAI model service is enabled",
-      "title": "Text-to-Speech Service"
+      "desc": "אם משתמש בשירות טקסט לדיבור של OpenAI, וודא ששירות המודל של OpenAI מופעל",
+      "title": "שירות טקסט לדיבור"
     },
     "voice": {
-      "desc": "Select a voice for the current assistant, different TTS services support different voices",
-      "preview": "Voice Preview",
-      "title": "Text-to-Speech Voice"
+      "desc": "בחר קול עבור העוזר הנוכחי, שירותי TTS שונים תומכים בקולות שונים",
+      "preview": "תצוגה מקדימה של קול",
+      "title": "קול טקסט לדיבור"
     }
   },
   "storage": {
     "actions": {
       "export": {
-        "button": "Export",
+        "button": "ייצא",
         "exportType": {
-          "agent": "Export Assistant Settings",
-          "agentWithMessage": "Export Assistant and Messages",
-          "all": "Export Global Settings and All Assistant Data",
-          "allAgent": "Export All Assistant Settings",
-          "allAgentWithMessage": "Export All Assistants and Messages",
-          "globalSetting": "Export Global Settings"
+          "agent": "ייצא הגדרות עוזר",
+          "agentWithMessage": "ייצא עוזר והודעות",
+          "all": "ייצא הגדרות גלובליות וכל נתוני העוזר",
+          "allAgent": "ייצא כל הגדרות העוזרים",
+          "allAgentWithMessage": "ייצא כל העוזרים והודעות",
+          "globalSetting": "ייצא הגדרות גלובליות"
         },
-        "title": "Export Data"
+        "title": "ייצא נתונים"
       },
       "import": {
-        "button": "Import",
-        "title": "Import Data"
+        "button": "ייבא",
+        "title": "ייבא נתונים"
       },
-      "title": "Advanced Operations"
+      "title": "פעולות מתקדמות"
     },
-    "desc": "Current storage usage in the browser",
+    "desc": "שימוש אחסון נוכחי בדפדפן",
     "embeddings": {
-      "used": "Vector Storage"
+      "used": "אחסון וקטורי"
     },
-    "title": "Data Storage",
-    "used": "Storage Usage"
+    "title": "אחסון נתונים",
+    "used": "שימוש אחסון"
   },
   "submitAgentModal": {
-    "button": "Submit Assistant",
-    "identifier": "Assistant Identifier",
-    "metaMiss": "Please complete the assistant information before submitting. It should include name, description, and tags",
-    "placeholder": "Enter a unique identifier for the assistant, e.g. web-development",
-    "tooltips": "Share to the assistant marketplace"
+    "button": "שלח עוזר",
+    "identifier": "מזהה עוזר",
+    "metaMiss": "אנא השלם את מידע העוזר לפני השליחה. זה צריך לכלול שם, תיאור ותגיות",
+    "placeholder": "הכנס מזהה ייחודי עבור העוזר, למשל web-development",
+    "tooltips": "שתף לשוק העוזרים"
   },
   "submitFooter": {
-    "reset": "Reset",
-    "submit": "Save",
-    "unSaved": "Unsaved Changes",
-    "unSavedWarning": "There are currently unsaved changes"
+    "reset": "איפוס",
+    "submit": "שמור",
+    "unSaved": "שינויים לא נשמרו",
+    "unSavedWarning": "יש כרגע שינויים לא נשמרים"
   },
   "sync": {
     "device": {
       "deviceName": {
-        "hint": "Add a name for easy identification",
-        "placeholder": "Enter device name",
-        "title": "Device Name"
+        "hint": "הוסף שם לזיהוי קל",
+        "placeholder": "הכנס שם מכשיר",
+        "title": "שם מכשיר"
       },
-      "title": "Device Information",
-      "unknownBrowser": "Unknown Browser",
-      "unknownOS": "Unknown OS"
+      "title": "מידע מכשיר",
+      "unknownBrowser": "דפדפן לא ידוע",
+      "unknownOS": "מערכת הפעלה לא ידועה"
     },
     "warning": {
-      "tip": "After a long period of community testing, WebRTC synchronization may not reliably meet general data synchronization needs. Please <1>deploy a signaling server</1> before use."
+      "tip": "לאחר תקופה ארוכה של בדיקות קהילה, סנכרון WebRTC עלול לא לעמוד באופן אמין בצרכי סנכרון נתונים כלליים. אנא <1>פרוס שרת signaling</1> לפני השימוש."
     },
     "webrtc": {
       "channelName": {
-        "desc": "WebRTC will use this name to create a sync channel. Ensure the channel name is unique.",
-        "placeholder": "Enter sync channel name",
-        "shuffle": "Generate Randomly",
-        "title": "Sync Channel Name"
+        "desc": "WebRTC ישתמש בשם הזה כדי ליצור ערוץ סנכרון. וודא ששם הערוץ ייחודי.",
+        "placeholder": "הכנס שם ערוץ סנכרון",
+        "shuffle": "צור באופן אקראי",
+        "title": "שם ערוץ סנכרון"
       },
       "channelPassword": {
-        "desc": "Add a password to ensure channel privacy. Only devices with the correct password can join the channel.",
-        "placeholder": "Enter sync channel password",
-        "title": "Sync Channel Password"
+        "desc": "הוסף סיסמה כדי להבטיח פרטיות הערוץ. רק מכשירים עם הסיסמה הנכונה יכולים להצטרף לערוץ.",
+        "placeholder": "הכנס סיסמת ערוץ סנכרון",
+        "title": "סיסמת ערוץ סנכרון"
       },
-      "desc": "Real-time, peer-to-peer data communication requires all devices to be online for synchronization.",
+      "desc": "תקשורת נתונים בזמן אמת, peer-to-peer דורשת שכל המכשירים יהיו מקוונים לסנכרון.",
       "enabled": {
-        "invalid": "Please fill in the signaling server and synchronization channel name before enabling.",
-        "title": "Enable Sync"
+        "invalid": "אנא מלא את שרת ה-signaling ושם ערוץ הסנכרון לפני ההפעלה.",
+        "title": "הפעל סנכרון"
       },
       "signaling": {
-        "desc": "WebRTC will use this address for synchronization",
-        "placeholder": "Enter signaling server address",
-        "title": "Signaling Server"
+        "desc": "WebRTC ישתמש בכתובת הזו לסנכרון",
+        "placeholder": "הכנס כתובת שרת signaling",
+        "title": "שרת Signaling"
       },
-      "title": "WebRTC Sync"
+      "title": "סנכרון WebRTC"
     }
   },
   "systemAgent": {
     "agentMeta": {
-      "label": "Assistant Metadata Generation Model",
-      "modelDesc": "Model designated for generating assistant name, description, avatar, and tags",
-      "title": "Automatically Generate Assistant Information"
+      "label": "מודל יצירת מטא-נתונים של עוזר",
+      "modelDesc": "מודל מיועד ליצירת שם עוזר, תיאור, אווטר ותגיות",
+      "title": "צור אוטומטית מידע עוזר"
     },
     "customPrompt": {
-      "addPrompt": "Add Custom Prompt",
-      "desc": "Once filled out, the system assistant will use the custom prompt when generating content",
-      "placeholder": "Please enter custom prompt",
-      "title": "Custom Prompt"
+      "addPrompt": "הוסף הנחיה מותאמת",
+      "desc": "לאחר מילוי, העוזר המערכת ישתמש בהנחיה המותאמת בעת יצירת תוכן",
+      "placeholder": "אנא הכנס הנחיה מותאמת",
+      "title": "הנחיה מותאמת"
     },
     "generationTopic": {
-      "label": "AI Art Topic Naming Model",
-      "modelDesc": "Model designated for automatic naming of AI art topics",
-      "title": "AI Art Automatic Topic Naming"
+      "label": "מודל שמות נושאי אמנות AI",
+      "modelDesc": "מודל מיועד לשמות אוטומטיים של נושאי אמנות AI",
+      "title": "שמות אוטומטיים לנושאי אמנות AI"
     },
-    "helpInfo": "When creating a new assistant, the default assistant settings will be used as preset values.",
+    "helpInfo": "כאשר יוצרים עוזר חדש, הגדרות העוזר ברירת המחדל ישמשו כערכי preset.",
     "historyCompress": {
-      "label": "Conversation History Model",
-      "modelDesc": "Specify the model used to compress conversation history",
-      "title": "Automatically Summarize Conversation History"
+      "label": "מודל היסטוריית שיחה",
+      "modelDesc": "ציין את המודל המשמש לדחיסת היסטוריית שיחה",
+      "title": "סכם אוטומטית היסטוריית שיחה"
     },
     "queryRewrite": {
-      "label": "Question Rewriting Model",
-      "modelDesc": "Specify the model used to optimize user inquiries",
-      "title": "Knowledge Base Question Rewrite"
+      "label": "מודל שכתוב שאלות",
+      "modelDesc": "ציין את המודל המשמש לאופטימיזציה של שאלות משתמש",
+      "title": "שכתוב שאלות בסיס ידע"
     },
     "thread": {
-      "label": "Subtopic Naming Model",
-      "modelDesc": "The model designated for automatic renaming of subtopics",
-      "title": "Automatic Subtopic Naming"
+      "label": "מודל שמות תת-נושאים",
+      "modelDesc": "המודל המיועד לשמות אוטומטיים של תת-נושאים",
+      "title": "שמות אוטומטיים לתת-נושאים"
     },
-    "title": "System Assistants",
+    "title": "עוזרי מערכת",
     "topic": {
-      "label": "Topic Naming Model",
-      "modelDesc": "Model designated for automatic topic renaming",
-      "title": "Automatic Topic Naming"
+      "label": "מודל שמות נושאים",
+      "modelDesc": "מודל מיועד לשמות אוטומטיים של נושאים",
+      "title": "שמות אוטומטיים לנושאים"
     },
     "translation": {
-      "label": "Translation Assistant",
-      "modelDesc": "Specific model for translate message",
-      "title": "Translation Settings"
+      "label": "עוזר תרגום",
+      "modelDesc": "מודל ספציפי לתרגום הודעות",
+      "title": "הגדרות תרגום"
     }
   },
   "tab": {
-    "about": "About",
-    "agent": "Default Assistant",
-    "common": "Common Settings",
-    "experiment": "Experiment",
-    "hotkey": "Hotkeys",
-    "llm": "Language Model",
-    "provider": "AI Service Provider",
-    "proxy": "Network Proxy",
-    "storage": "Data Storage",
-    "sync": "Cloud Sync",
-    "system-agent": "System Assistant",
-    "tts": "Text-to-Speech"
+    "about": "אודות",
+    "agent": "עוזר ברירת מחדל",
+    "common": "הגדרות כלליות",
+    "experiment": "ניסוי",
+    "hotkey": "קיצורי מקלדת",
+    "llm": "מודל שפה",
+    "provider": "ספק שירות AI",
+    "proxy": "פרוקסי רשת",
+    "storage": "אחסון נתונים",
+    "sync": "סנכרון ענן",
+    "system-agent": "עוזר מערכת",
+    "tts": "טקסט לדיבור"
   },
   "tools": {
     "builtins": {
-      "groupName": "Built-ins"
+      "groupName": "מובנים"
     },
-    "disabled": "The current model does not support function calls and cannot use the plugin",
+    "disabled": "המודל הנוכחי לא תומך בקריאות פונקציות ולא יכול להשתמש בתוסף",
     "plugins": {
-      "enabled": "Enabled: {{num}}",
-      "groupName": "Plugins",
-      "noEnabled": "No plugins enabled",
-      "store": "Plugin Store"
+      "enabled": "מופעל: {{num}}",
+      "groupName": "תוספים",
+      "noEnabled": "אין תוספים מופעלים",
+      "store": "חנות תוספים"
     },
-    "title": "Extension Tools"
+    "title": "כלי הרחבה"
   }
 }

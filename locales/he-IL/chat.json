@@ -1,295 +1,295 @@
 {
   "ModelSwitch": {
-    "title": "Model"
+    "title": "מודל"
   },
-  "agentDefaultMessage": "Hello, I am **{{name}}**. You can start a conversation with me right away, or you can go to [Assistant Settings]({{url}}) to complete my information.",
-  "agentDefaultMessageWithSystemRole": "Hello, I'm **{{name}}**, {{systemRole}}. Let's start chatting!",
-  "agentDefaultMessageWithoutEdit": "Hello, I'm **{{name}}**, let's start chatting!",
-  "agents": "Assistants",
+  "agentDefaultMessage": "שלום, אני **{{name}}**. אתה יכול להתחיל איתי שיחה מיד, או שאתה יכול ללכת ל[הגדרות עוזר]({{url}}) כדי להשלים את המידע שלי.",
+  "agentDefaultMessageWithSystemRole": "שלום, אני **{{name}}**, {{systemRole}}. בואו נתחיל לשוחח!",
+  "agentDefaultMessageWithoutEdit": "שלום, אני **{{name}}**, בואו נתחיל לשוחח!",
+  "agents": "עוזרים",
   "artifact": {
-    "generating": "Generating",
-    "inThread": "Cannot view in subtopic, please switch to the main conversation area to open",
-    "thinking": "Thinking",
-    "thought": "Thought",
-    "unknownTitle": "Untitled Work"
+    "generating": "יוצר",
+    "inThread": "לא ניתן לצפות בנושא משנה, אנא עבור לאזור השיחה הראשי כדי לפתוח",
+    "thinking": "חושב",
+    "thought": "מחשבה",
+    "unknownTitle": "עבודה ללא כותרת"
   },
-  "backToBottom": "Back to bottom",
+  "backToBottom": "חזור לתחתית",
   "chatList": {
-    "longMessageDetail": "View Details"
+    "longMessageDetail": "הצג פרטים"
   },
-  "clearCurrentMessages": "Clear current session messages",
-  "confirmClearCurrentMessages": "You are about to clear the current session messages. Once cleared, they cannot be retrieved. Please confirm your action.",
-  "confirmRemoveSessionItemAlert": "You are about to delete this assistant. Once deleted, it cannot be retrieved. Please confirm your action.",
-  "confirmRemoveSessionSuccess": "Assistant removed successfully",
-  "defaultAgent": "Default Assistant",
-  "defaultList": "Default List",
-  "defaultSession": "Default Assistant",
+  "clearCurrentMessages": "נקה הודעות הפעלה נוכחיות",
+  "confirmClearCurrentMessages": "אתה עומד לנקות את הודעות הפעלה הנוכחיות. לאחר הניקוי, לא ניתן לשחזר אותן. אנא אשר את הפעולה שלך.",
+  "confirmRemoveSessionItemAlert": "אתה עומד למחוק את העוזר הזה. לאחר המחיקה, לא ניתן לשחזר אותו. אנא אשר את הפעולה שלך.",
+  "confirmRemoveSessionSuccess": "העוזר הוסר בהצלחה",
+  "defaultAgent": "עוזר ברירת מחדל",
+  "defaultList": "רשימת ברירת מחדל",
+  "defaultSession": "עוזר ברירת מחדל",
   "duplicateSession": {
-    "loading": "Copying...",
-    "success": "Copy successful",
-    "title": "{{title}} Copy"
+    "loading": "מעתיק...",
+    "success": "ההעתקה הצליחה",
+    "title": "עותק של {{title}}"
   },
-  "duplicateTitle": "{{title}} Copy",
-  "emptyAgent": "No assistant available",
+  "duplicateTitle": "עותק של {{title}}",
+  "emptyAgent": "אין עוזר זמין",
   "extendParams": {
     "disableContextCaching": {
-      "desc": "The cost of generating a single conversation can be reduced by up to 90%, and the response speed is increased by 4 times (<1>Learn more</1>). Enabling this will automatically disable the limit on the number of historical messages.",
-      "title": "Enable Context Caching"
+      "desc": "עלות יצירת שיחה יחידה יכולה להיות מופחתת עד 90%, ומהירות התגובה מוגברת פי 4 (<1>למד עוד</1>). הפעלה זו תבטל אוטומטית את הגבלת מספר ההודעות ההיסטוריות.",
+      "title": "הפעל אחסון הקשר במטמון"
     },
     "enableReasoning": {
-      "desc": "Based on the Claude Thinking mechanism limit (<1>Learn more</1>), enabling this will automatically disable the limit on the number of historical messages.",
-      "title": "Enable Deep Thinking"
+      "desc": "מבוסס על הגבלת מנגנון Claude Thinking (<1>למד עוד</1>), הפעלה זו תבטל אוטומטית את הגבלת מספר ההודעות ההיסטוריות.",
+      "title": "הפעל חשיבה עמוקה"
     },
     "reasoningBudgetToken": {
-      "title": "Thinking Consumption Token"
+      "title": "טוקן צריכת חשיבה"
     },
     "reasoningEffort": {
-      "title": "Reasoning Intensity"
+      "title": "עוצמת נימוק"
     },
     "textVerbosity": {
-      "title": "Output Text Detail Level"
+      "title": "רמת פירוט טקסט פלט"
     },
     "thinking": {
-      "title": "Deep Thinking Switch"
+      "title": "מתג חשיבה עמוקה"
     },
-    "title": "Model Extension Features",
+    "title": "תכונות הרחבת מודל",
     "urlContext": {
-      "desc": "When enabled, web links will be automatically parsed to retrieve the actual webpage context content",
-      "title": "Extract Webpage Link Content"
+      "desc": "כאשר מופעל, קישורי אינטרנט יתפרשו אוטומטית כדי לאחזר את תוכן ההקשר של דף האינטרנט בפועל",
+      "title": "חלץ תוכן קישור דף אינטרנט"
     }
   },
   "history": {
-    "title": "The assistant will only remember the last {{count}} messages."
+    "title": "העוזר יזכור רק את {{count}} ההודעות האחרונות."
   },
-  "historyRange": "History Range",
-  "historySummary": "Historical Message Summary",
+  "historyRange": "טווח היסטוריה",
+  "historySummary": "סיכום הודעות היסטוריות",
   "inbox": {
-    "desc": "Activate the brain cluster and spark creative thinking. Your virtual assistant is here to communicate with you about everything.",
-    "title": "Just Chat"
+    "desc": "הפעל את מקבץ המוח והדליק חשיבה יצירתית. העוזר הווירטואלי שלך כאן כדי לתקשר איתך על הכל.",
+    "title": "פשוט לשוחח"
   },
   "input": {
-    "addAi": "Add an AI message",
-    "addUser": "Add a user message",
-    "disclaimer": "AI may also make mistakes, please verify important information",
-    "errorMsg": "Message sending failed, please check your network and try again: {{errorMsg}}",
-    "more": "more",
-    "send": "Send",
-    "sendWithCmdEnter": "Press <key/> to send",
-    "sendWithEnter": "Press <key/> to send",
-    "stop": "Stop",
-    "warp": "New Line",
-    "warpWithKey": "Press <key/> to insert a line break"
+    "addAi": "הוסף הודעת AI",
+    "addUser": "הוסף הודעת משתמש",
+    "disclaimer": "AI עלול גם לטעות, אנא אמת מידע חשוב",
+    "errorMsg": "שליחת ההודעה נכשלה, אנא בדוק את הרשת שלך ונסה שוב: {{errorMsg}}",
+    "more": "עוד",
+    "send": "שלח",
+    "sendWithCmdEnter": "לחץ <key/> כדי לשלוח",
+    "sendWithEnter": "לחץ <key/> כדי לשלוח",
+    "stop": "עצור",
+    "warp": "שורה חדשה",
+    "warpWithKey": "לחץ <key/> כדי להוסיף מעבר שורה"
   },
   "intentUnderstanding": {
-    "title": "Understanding and analyzing your intent..."
+    "title": "מבין ומנתח את הכוונה שלך..."
   },
   "knowledgeBase": {
-    "all": "All Content",
-    "allFiles": "All Files",
-    "allKnowledgeBases": "All Knowledge Bases",
-    "disabled": "The current deployment mode does not support knowledge base conversations. To use this feature, please switch to server-side database deployment or use the {{cloud}} service.",
+    "all": "כל התוכן",
+    "allFiles": "כל הקבצים",
+    "allKnowledgeBases": "כל בסיסי הידע",
+    "disabled": "מצב הפריסה הנוכחי אינו תומך בשיחות בסיס ידע. כדי להשתמש בתכונה זו, אנא עבור לפריסת מסד נתונים בצד השרת או השתמש בשירות {{cloud}}.",
     "library": {
       "action": {
-        "add": "Add",
-        "detail": "Details",
-        "remove": "Remove"
+        "add": "הוסף",
+        "detail": "פרטים",
+        "remove": "הסר"
       },
-      "title": "Files/Knowledge Base"
+      "title": "קבצים/בסיס ידע"
     },
-    "relativeFilesOrKnowledgeBases": "Related Files/Knowledge Bases",
-    "title": "Knowledge Base",
-    "uploadGuide": "Uploaded files can be viewed in the 'Knowledge Base'.",
-    "viewMore": "View More"
+    "relativeFilesOrKnowledgeBases": "קבצים/בסיסי ידע קשורים",
+    "title": "בסיס ידע",
+    "uploadGuide": "קבצים שהועלו ניתן לצפות ב'בסיס ידע'.",
+    "viewMore": "הצג עוד"
   },
   "messageAction": {
-    "delAndRegenerate": "Delete and Regenerate",
-    "deleteDisabledByThreads": "There are subtopics, deletion is not allowed",
-    "regenerate": "Regenerate"
+    "delAndRegenerate": "מחק וצור מחדש",
+    "deleteDisabledByThreads": "יש נושאי משנה, מחיקה לא מותרת",
+    "regenerate": "צור מחדש"
   },
   "messages": {
     "modelCard": {
-      "credit": "Credits",
-      "creditPricing": "Pricing",
-      "creditTooltip": "For counting purposes, we convert $1 to 1M credits; for example, $3/M tokens can be converted to 3 credits/token.",
+      "credit": "נקודות זכות",
+      "creditPricing": "תמחור",
+      "creditTooltip": "לצורכי ספירה, אנו ממירים $1 ל-1M נקודות זכות; למשל, $3/M טוקנים ניתן להמיר ל-3 נקודות זכות/טוקן.",
       "pricing": {
-        "inputCachedTokens": "Cached input {{amount}}/credits · ${{amount}}/M",
-        "inputCharts": "${{amount}}/M characters",
-        "inputMinutes": "${{amount}}/minute",
-        "inputTokens": "Input {{amount}}/credits · ${{amount}}/M",
-        "outputTokens": "Output {{amount}}/credits · ${{amount}}/M",
-        "writeCacheInputTokens": "Cache input write {{amount}}/points · ${{amount}}/M"
+        "inputCachedTokens": "קלט במטמון {{amount}}/נקודות זכות · ${{amount}}/M",
+        "inputCharts": "${{amount}}/M תווים",
+        "inputMinutes": "${{amount}}/דקה",
+        "inputTokens": "קלט {{amount}}/נקודות זכות · ${{amount}}/M",
+        "outputTokens": "פלט {{amount}}/נקודות זכות · ${{amount}}/M",
+        "writeCacheInputTokens": "כתיבת קלט מטמון {{amount}}/נקודות · ${{amount}}/M"
       }
     },
     "tokenDetails": {
-      "average": "Average unit price",
-      "input": "Input",
-      "inputAudio": "Audio Input",
-      "inputCached": "Cached Input",
-      "inputCitation": "Input citation",
-      "inputText": "Text Input",
-      "inputTitle": "Input Details",
-      "inputUncached": "Uncached Input",
-      "inputWriteCached": "Input cache write",
-      "output": "Output",
-      "outputAudio": "Audio Output",
-      "outputImage": "Image Output",
-      "outputText": "Text Output",
-      "outputTitle": "Output Details",
-      "reasoning": "Deep Thinking",
+      "average": "מחיר יחידה ממוצע",
+      "input": "קלט",
+      "inputAudio": "קלט אודיו",
+      "inputCached": "קלט במטמון",
+      "inputCitation": "ציטוט קלט",
+      "inputText": "קלט טקסט",
+      "inputTitle": "פרטי קלט",
+      "inputUncached": "קלט לא במטמון",
+      "inputWriteCached": "כתיבת קלט מטמון",
+      "output": "פלט",
+      "outputAudio": "פלט אודיו",
+      "outputImage": "פלט תמונה",
+      "outputText": "פלט טקסט",
+      "outputTitle": "פרטי פלט",
+      "reasoning": "חשיבה עמוקה",
       "speed": {
         "tps": {
           "title": "TPS",
-          "tooltip": "Tokens Per Second (TPS). This indicates the average speed of AI-generated content (Tokens/second), calculated from the moment the first Token is received."
+          "tooltip": "טוקנים לשנייה (TPS). זה מציין את המהירות הממוצעת של תוכן שנוצר על ידי AI (טוקנים/שנייה), מחושב מרגע קבלת הטוקן הראשון."
         },
         "ttft": {
           "title": "TTFT",
-          "tooltip": "Time To First Token (TTFT). This refers to the time interval from when you send a message to when the client receives the first Token."
+          "tooltip": "זמן לטוקן הראשון (TTFT). זה מתייחס למרווח הזמן משליחת הודעה ועד שהלקוח מקבל את הטוקן הראשון."
         }
       },
-      "title": "Generation Details",
-      "total": "Total Consumption"
+      "title": "פרטי יצירה",
+      "total": "צריכה כוללת"
     }
   },
-  "newAgent": "New Assistant",
-  "pin": "Pin",
-  "pinOff": "Unpin",
+  "newAgent": "עוזר חדש",
+  "pin": "הצמד",
+  "pinOff": "בטל הצמדה",
   "rag": {
-    "referenceChunks": "Reference Source",
+    "referenceChunks": "מקור התייחסות",
     "userQuery": {
       "actions": {
-        "delete": "Delete Query Rewrite",
-        "regenerate": "Regenerate Query"
+        "delete": "מחק כתיבה מחדש של שאילתה",
+        "regenerate": "צור מחדש שאילתה"
       }
     }
   },
-  "regenerate": "Regenerate",
-  "roleAndArchive": "Role and Archive",
+  "regenerate": "צור מחדש",
+  "roleAndArchive": "תפקיד וארכיון",
   "search": {
     "grounding": {
-      "searchQueries": "Search Keywords",
-      "title": "Found {{count}} results"
+      "searchQueries": "מילות מפתח חיפוש",
+      "title": "נמצאו {{count}} תוצאות"
     },
     "mode": {
       "auto": {
-        "desc": "Intelligently determine whether a search is needed based on the conversation content",
-        "title": "Smart Online Search"
+        "desc": "קבע באופן חכם האם נדרש חיפוש על בסיס תוכן השיחה",
+        "title": "חיפוש מקוון חכם"
       },
       "off": {
-        "desc": "Use only the model's basic knowledge without performing a web search",
-        "title": "Disable Online Search"
+        "desc": "השתמש רק בידע הבסיסי של המודל ללא ביצוע חיפוש ברשת",
+        "title": "השבת חיפוש מקוון"
       },
       "on": {
-        "desc": "Continuously perform web searches to obtain the latest information",
-        "title": "Always Online"
+        "desc": "בצע חיפושים ברשת ברציפות כדי לקבל מידע עדכני",
+        "title": "תמיד מקוון"
       },
-      "useModelBuiltin": "Use the model's built-in search engine"
+      "useModelBuiltin": "השתמש במנוע החיפוש המובנה של המודל"
     },
     "searchModel": {
-      "desc": "The current model does not support function calls, so it needs to be paired with a model that does support function calls for online searching.",
-      "title": "Search Assistant Model"
+      "desc": "המודל הנוכחי אינו תומך בקריאות לפונקציות, לכן יש צורך לשייך אותו למודל שתומך בקריאות לפונקציות לחיפוש מקוון.",
+      "title": "מודל עוזר חיפוש"
     },
-    "title": "Online Search"
+    "title": "חיפוש מקוון"
   },
-  "searchAgentPlaceholder": "Search assistants...",
-  "sendPlaceholder": "Type your message here...",
+  "searchAgentPlaceholder": "חפש עוזרים...",
+  "sendPlaceholder": "הקלד את ההודעה שלך כאן...",
   "sessionGroup": {
-    "config": "Group Management",
-    "confirmRemoveGroupAlert": "This group is about to be deleted. After deletion, the assistants in this group will be moved to the default list. Please confirm your operation.",
-    "createAgentSuccess": "Assistant created successfully",
-    "createGroup": "Add New Group",
-    "createSuccess": "Created successfully",
-    "creatingAgent": "Creating assistant...",
-    "inputPlaceholder": "Please enter group name...",
-    "moveGroup": "Move to Group",
-    "newGroup": "New Group",
-    "rename": "Rename Group",
-    "renameSuccess": "Renamed successfully",
-    "sortSuccess": "Reorder successful",
-    "sorting": "Group sorting updating...",
-    "tooLong": "Group name length should be between 1-20"
+    "config": "ניהול קבוצה",
+    "confirmRemoveGroupAlert": "הקבוצה הזו עומדת להימחק. לאחר המחיקה, העוזרים בקבוצה הזו יועברו לרשימת ברירת המחדל. אנא אשר את הפעולה שלך.",
+    "createAgentSuccess": "העוזר נוצר בהצלחה",
+    "createGroup": "הוסף קבוצה חדשה",
+    "createSuccess": "נוצר בהצלחה",
+    "creatingAgent": "יוצר עוזר...",
+    "inputPlaceholder": "אנא הכנס שם קבוצה...",
+    "moveGroup": "העבר לקבוצה",
+    "newGroup": "קבוצה חדשה",
+    "rename": "שנה שם קבוצה",
+    "renameSuccess": "השם שונה בהצלחה",
+    "sortSuccess": "סידור מחדש הצליח",
+    "sorting": "מעדכן סידור קבוצות...",
+    "tooLong": "אורך שם הקבוצה צריך להיות בין 1-20"
   },
   "shareModal": {
-    "copy": "Copy",
-    "download": "Download Screenshot",
-    "downloadFile": "Download File",
-    "exportTitle": "Default Title",
-    "imageType": "Image Format",
-    "includeTool": "Include Plugin Messages",
-    "includeUser": "Include User Messages",
-    "screenshot": "Screenshot",
-    "settings": "Export Settings",
-    "text": "Text",
-    "withBackground": "Include Background Image",
-    "withFooter": "Include Footer",
-    "withPluginInfo": "Include Plugin Information",
-    "withRole": "Include Message Role",
-    "withSystemRole": "Include Assistant Role Setting"
+    "copy": "העתק",
+    "download": "הורד צילום מסך",
+    "downloadFile": "הורד קובץ",
+    "exportTitle": "כותרת ברירת מחדל",
+    "imageType": "פורמט תמונה",
+    "includeTool": "כלול הודעות תוסף",
+    "includeUser": "כלול הודעות משתמש",
+    "screenshot": "צילום מסך",
+    "settings": "הגדרות ייצוא",
+    "text": "טקסט",
+    "withBackground": "כלול תמונת רקע",
+    "withFooter": "כלול כותרת תחתונה",
+    "withPluginInfo": "כלול מידע תוסף",
+    "withRole": "כלול תפקיד הודעה",
+    "withSystemRole": "כלול הגדרת תפקיד עוזר"
   },
   "stt": {
-    "action": "Voice Input",
-    "loading": "Recognizing...",
-    "prettifying": "Polishing..."
+    "action": "קלט קולי",
+    "loading": "מזהה...",
+    "prettifying": "משפר..."
   },
   "thread": {
-    "divider": "Subtopic",
-    "threadMessageCount": "{{messageCount}} messages",
-    "title": "Subtopic"
+    "divider": "נושא משנה",
+    "threadMessageCount": "{{messageCount}} הודעות",
+    "title": "נושא משנה"
   },
   "toggleWideScreen": {
-    "off": "Turn off widescreen mode",
-    "on": "Turn on widescreen mode"
+    "off": "כבה מצב מסך רחב",
+    "on": "הפעל מצב מסך רחב"
   },
   "tokenDetails": {
-    "chats": "Chat Messages",
-    "historySummary": "History Summary",
-    "rest": "Remaining",
-    "systemRole": "Role Settings",
-    "title": "Context Details",
-    "tools": "Plugin Settings",
-    "total": "Total Available",
-    "used": "Total Used"
+    "chats": "הודעות צ'אט",
+    "historySummary": "סיכום היסטוריה",
+    "rest": "נותר",
+    "systemRole": "הגדרות תפקיד",
+    "title": "פרטי הקשר",
+    "tools": "הגדרות תוסף",
+    "total": "סה\"כ זמין",
+    "used": "סה\"כ בשימוש"
   },
   "tokenTag": {
-    "overload": "Exceeded Limit",
-    "remained": "Remaining",
-    "used": "Used"
+    "overload": "חרג מהגבול",
+    "remained": "נותר",
+    "used": "בשימוש"
   },
   "topic": {
-    "checkOpenNewTopic": "Enable new topic?",
-    "checkSaveCurrentMessages": "Do you want to save the current conversation as a topic?",
-    "openNewTopic": "Open New Topic",
-    "saveCurrentMessages": "Save current session as topic"
+    "checkOpenNewTopic": "הפעל נושא חדש?",
+    "checkSaveCurrentMessages": "האם אתה רוצה לשמור את השיחה הנוכחית כנושא?",
+    "openNewTopic": "פתח נושא חדש",
+    "saveCurrentMessages": "שמור הפעלה נוכחית כנושא"
   },
   "translate": {
-    "action": "Translate",
-    "clear": "Clear Translation"
+    "action": "תרגם",
+    "clear": "נקה תרגום"
   },
   "tts": {
-    "action": "Text-to-Speech",
-    "clear": "Clear Speech"
+    "action": "טקסט לדיבור",
+    "clear": "נקה דיבור"
   },
-  "updateAgent": "Update Assistant Information",
+  "updateAgent": "עדכן מידע עוזר",
   "upload": {
     "action": {
-      "fileUpload": "Upload File",
-      "folderUpload": "Upload Folder",
-      "imageDisabled": "The current model does not support visual recognition. Please switch models to use this feature.",
-      "imageUpload": "Upload Image",
-      "tooltip": "Upload"
+      "fileUpload": "העלה קובץ",
+      "folderUpload": "העלה תיקייה",
+      "imageDisabled": "המודל הנוכחי אינו תומך בזיהוי חזותי. אנא החלף מודלים כדי להשתמש בתכונה זו.",
+      "imageUpload": "העלה תמונה",
+      "tooltip": "העלה"
     },
     "clientMode": {
-      "actionFiletip": "Upload File",
-      "actionTooltip": "Upload",
-      "disabled": "The current model does not support visual recognition and file analysis. Please switch models to use this feature.",
-      "visionNotSupported": "The current model does not support visual recognition. Please switch to a different model to use this feature."
+      "actionFiletip": "העלה קובץ",
+      "actionTooltip": "העלה",
+      "disabled": "המודל הנוכחי אינו תומך בזיהוי חזותי וניתוח קבצים. אנא החלף מודלים כדי להשתמש בתכונה זו.",
+      "visionNotSupported": "המודל הנוכחי אינו תומך בזיהוי חזותי. אנא החלף למודל אחר כדי להשתמש בתכונה זו."
     },
     "preview": {
-      "prepareTasks": "Preparing chunks...",
+      "prepareTasks": "מכין חלקים...",
       "status": {
-        "pending": "Preparing to upload...",
-        "processing": "Processing file..."
+        "pending": "מכין להעלאה...",
+        "processing": "מעבד קובץ..."
       }
     }
   },
-  "zenMode": "Zen Mode"
+  "zenMode": "מצב זן"
 }

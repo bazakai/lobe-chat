@@ -1,377 +1,377 @@
 {
   "azure": {
     "azureApiVersion": {
-      "desc": "Azure API version, follow the format YYYY-MM-DD, check the [latest version](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)",
-      "fetch": "Fetch List",
-      "title": "Azure API Version"
+      "desc": "גרסת Azure API, עקוב אחר הפורמט YYYY-MM-DD, בדוק את [הגרסה העדכנית](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)",
+      "fetch": "אחזר רשימה",
+      "title": "גרסת Azure API"
     },
-    "empty": "Please enter a model ID to add the first model",
+    "empty": "אנא הכנס מזהה מודל כדי להוסיף את המודל הראשון",
     "endpoint": {
-      "desc": "When checking resources from the Azure portal, you can find this value in the 'Keys and Endpoints' section",
+      "desc": "כשמבדקים משאבים מהפורטל של Azure, תוכל למצוא את הערך הזה בסעיף 'מפתחות ונקודות קצה'",
       "placeholder": "https://docs-test-001.openai.azure.com",
-      "title": "Azure API Address"
+      "title": "כתובת Azure API"
     },
-    "modelListPlaceholder": "Select or add the OpenAI model you deployed",
+    "modelListPlaceholder": "בחר או הוסף את מודל OpenAI שפריסת",
     "title": "Azure OpenAI",
     "token": {
-      "desc": "When checking resources from the Azure portal, you can find this value in the 'Keys and Endpoints' section. You can use KEY1 or KEY2",
-      "placeholder": "Azure API Key",
-      "title": "API Key"
+      "desc": "כשמבדקים משאבים מהפורטל של Azure, תוכל למצוא את הערך הזה בסעיף 'מפתחות ונקודות קצה'. תוכל להשתמש ב-KEY1 או KEY2",
+      "placeholder": "מפתח Azure API",
+      "title": "מפתח API"
     }
   },
   "azureai": {
     "azureApiVersion": {
-      "desc": "The API version for Azure, following the YYYY-MM-DD format. Refer to the [latest version](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)",
-      "fetch": "Fetch List",
-      "title": "Azure API Version"
+      "desc": "גרסת ה-API עבור Azure, עוקבת אחר פורמט YYYY-MM-DD. עיין ב[גרסה העדכנית](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)",
+      "fetch": "אחזר רשימה",
+      "title": "גרסת Azure API"
     },
     "endpoint": {
-      "desc": "Find the Azure AI model inference endpoint from the Azure AI project overview",
+      "desc": "מצא את נקודת הקצה של הסקת מודל Azure AI מסקירת פרויקט Azure AI",
       "placeholder": "https://ai-userxxxxxxxxxx.services.ai.azure.com/models",
-      "title": "Azure AI Endpoint"
+      "title": "נקודת קצה Azure AI"
     },
     "title": "Azure OpenAI",
     "token": {
-      "desc": "Find the API key from the Azure AI project overview",
-      "placeholder": "Azure Key",
-      "title": "Key"
+      "desc": "מצא את מפתח ה-API מסקירת פרויקט Azure AI",
+      "placeholder": "מפתח Azure",
+      "title": "מפתח"
     }
   },
   "bedrock": {
     "accessKeyId": {
-      "desc": "Enter AWS Access Key Id",
+      "desc": "הכנס AWS Access Key Id",
       "placeholder": "AWS Access Key Id",
       "title": "AWS Access Key Id"
     },
     "checker": {
-      "desc": "Test if AccessKeyId / SecretAccessKey are filled in correctly"
+      "desc": "בדוק אם AccessKeyId / SecretAccessKey מולאו נכון"
     },
     "region": {
-      "desc": "Enter AWS Region",
+      "desc": "הכנס AWS Region",
       "placeholder": "AWS Region",
       "title": "AWS Region"
     },
     "secretAccessKey": {
-      "desc": "Enter AWS Secret Access Key",
+      "desc": "הכנס AWS Secret Access Key",
       "placeholder": "AWS Secret Access Key",
       "title": "AWS Secret Access Key"
     },
     "sessionToken": {
-      "desc": "If you are using AWS SSO/STS, please enter your AWS Session Token",
+      "desc": "אם אתה משתמש ב-AWS SSO/STS, אנא הכנס את AWS Session Token שלך",
       "placeholder": "AWS Session Token",
-      "title": "AWS Session Token (optional)"
+      "title": "AWS Session Token (אופציונלי)"
     },
     "title": "Bedrock",
     "unlock": {
-      "customRegion": "Custom Service Region",
-      "customSessionToken": "Custom Session Token",
-      "description": "Enter your AWS AccessKeyId / SecretAccessKey to start the session. The app will not store your authentication configuration",
-      "imageGenerationDescription": "Enter your AWS AccessKeyId / SecretAccessKey to start generating. The application will not store your authentication credentials.",
-      "title": "Use Custom Bedrock Authentication Information"
+      "customRegion": "אזור שירות מותאם אישית",
+      "customSessionToken": "Session Token מותאם אישית",
+      "description": "הכנס את AWS AccessKeyId / SecretAccessKey שלך כדי להתחיל את הפעלה. האפליקציה לא תשמור את תצורת האימות שלך",
+      "imageGenerationDescription": "הכנס את AWS AccessKeyId / SecretAccessKey שלך כדי להתחיל ליצור. האפליקציה לא תשמור את פרטי האימות שלך.",
+      "title": "השתמש במידע אימות Bedrock מותאם אישית"
     }
   },
   "cloudflare": {
     "apiKey": {
-      "desc": "Please enter Cloudflare API Key",
-      "placeholder": "Cloudflare API Key",
-      "title": "Cloudflare API Key"
+      "desc": "אנא הכנס מפתח Cloudflare API",
+      "placeholder": "מפתח Cloudflare API",
+      "title": "מפתח Cloudflare API"
     },
     "baseURLOrAccountID": {
-      "desc": "Enter your Cloudflare account ID or custom API address",
-      "placeholder": "Cloudflare Account ID / custom API URL",
-      "title": "Cloudflare Account ID / API Address"
+      "desc": "הכנס את מזהה חשבון Cloudflare שלך או כתובת API מותאמת אישית",
+      "placeholder": "מזהה חשבון Cloudflare / כתובת API מותאמת אישית",
+      "title": "מזהה חשבון Cloudflare / כתובת API"
     }
   },
   "createNewAiProvider": {
     "apiKey": {
-      "placeholder": "Please enter your API Key",
-      "title": "API Key"
+      "placeholder": "אנא הכנס את מפתח ה-API שלך",
+      "title": "מפתח API"
     },
-    "basicTitle": "Basic Information",
-    "configTitle": "Configuration Information",
-    "confirm": "Create",
-    "createSuccess": "Creation successful",
+    "basicTitle": "מידע בסיסי",
+    "configTitle": "מידע תצורה",
+    "confirm": "צור",
+    "createSuccess": "יצירה הצליחה",
     "description": {
-      "placeholder": "Provider description (optional)",
-      "title": "Provider Description"
+      "placeholder": "תיאור ספק (אופציונלי)",
+      "title": "תיאור ספק"
     },
     "id": {
-      "desc": "Unique identifier for the service provider, which cannot be modified after creation",
-      "format": "Can only contain numbers, lowercase letters, hyphens (-), and underscores (_) ",
-      "placeholder": "Suggested all lowercase, e.g., openai, cannot be modified after creation",
-      "required": "Please enter the provider ID",
-      "title": "Provider ID"
+      "desc": "מזהה ייחודי לספק השירות, שלא ניתן לשנות לאחר היצירה",
+      "format": "יכול להכיל רק מספרים, אותיות קטנות, מקפים (-) וקווים תחתונים (_) ",
+      "placeholder": "מוצע באותיות קטנות, למשל openai, לא ניתן לשנות לאחר היצירה",
+      "required": "אנא הכנס את מזהה הספק",
+      "title": "מזהה ספק"
     },
     "logo": {
-      "required": "Please upload a valid provider logo",
-      "title": "Provider Logo"
+      "required": "אנא העלה לוגו ספק תקין",
+      "title": "לוגו ספק"
     },
     "name": {
-      "placeholder": "Please enter the display name of the provider",
-      "required": "Please enter the provider name",
-      "title": "Provider Name"
+      "placeholder": "אנא הכנס את שם התצוגה של הספק",
+      "required": "אנא הכנס את שם הספק",
+      "title": "שם ספק"
     },
     "proxyUrl": {
-      "required": "Please enter the proxy address",
-      "title": "Proxy URL"
+      "required": "אנא הכנס את כתובת הפרוקסי",
+      "title": "כתובת פרוקסי"
     },
     "sdkType": {
       "placeholder": "openai/anthropic/azureai/ollama/...",
-      "required": "Please select SDK type",
-      "title": "Request Format"
+      "required": "אנא בחר סוג SDK",
+      "title": "פורמט בקשה"
     },
-    "title": "Create Custom AI Provider"
+    "title": "צור ספק AI מותאם אישית"
   },
   "github": {
     "personalAccessToken": {
-      "desc": "Enter your GitHub PAT. Click [here](https://github.com/settings/tokens) to create one.",
+      "desc": "הכנס את GitHub PAT שלך. לחץ [כאן](https://github.com/settings/tokens) כדי ליצור אחד.",
       "placeholder": "ghp_xxxxxx",
       "title": "GitHub PAT"
     }
   },
   "huggingface": {
     "accessToken": {
-      "desc": "Enter your HuggingFace Token, click [here](https://huggingface.co/settings/tokens) to create one",
+      "desc": "הכנס את HuggingFace Token שלך, לחץ [כאן](https://huggingface.co/settings/tokens) כדי ליצור אחד",
       "placeholder": "hf_xxxxxxxxx",
       "title": "HuggingFace Token"
     }
   },
   "list": {
     "title": {
-      "disabled": "Disabled",
-      "enabled": "Enabled"
+      "disabled": "מבוטל",
+      "enabled": "מופעל"
     }
   },
   "menu": {
-    "addCustomProvider": "Add Custom Provider",
-    "all": "All",
+    "addCustomProvider": "הוסף ספק מותאם אישית",
+    "all": "הכל",
     "list": {
-      "disabled": "Disabled",
-      "enabled": "Enabled"
+      "disabled": "מבוטל",
+      "enabled": "מופעל"
     },
-    "notFound": "No search results found",
-    "searchProviders": "Search Providers...",
-    "sort": "Custom Sort"
+    "notFound": "לא נמצאו תוצאות חיפוש",
+    "searchProviders": "חפש ספקים...",
+    "sort": "מיון מותאם אישית"
   },
   "newapi": {
     "apiKey": {
-      "desc": "API key provided by the New API platform",
-      "placeholder": "New API API Key",
-      "required": "API key is required",
-      "title": "API Key"
+      "desc": "מפתח API שסופק על ידי פלטפורמת New API",
+      "placeholder": "מפתח New API API",
+      "required": "מפתח API נדרש",
+      "title": "מפתח API"
     },
     "apiUrl": {
-      "desc": "API endpoint for the New API service, usually includes /v1",
-      "title": "API URL"
+      "desc": "נקודת קצה API לשירות New API, בדרך כלל כוללת /v1",
+      "title": "כתובת API"
     },
     "enabled": {
-      "title": "Enable New API"
+      "title": "הפעל New API"
     },
     "models": {
-      "batchSelect": "Select models in bulk ({{count}} items)",
-      "fetch": "Fetch model list",
-      "selected": "Selected models",
-      "title": "Available Models"
+      "batchSelect": "בחר מודלים בכמות ({{count}} פריטים)",
+      "fetch": "אחזר רשימת מודלים",
+      "selected": "מודלים נבחרים",
+      "title": "מודלים זמינים"
     },
     "title": "New API"
   },
   "ollama": {
     "checker": {
-      "desc": "Test if the proxy address is correctly filled in",
-      "title": "Connectivity Check"
+      "desc": "בדוק אם כתובת הפרוקסי מולאה נכון",
+      "title": "בדיקת חיבור"
     },
     "customModelName": {
-      "desc": "Add custom models, separate multiple models with commas",
+      "desc": "הוסף מודלים מותאמים אישית, הפרד מודלים מרובים בפסיקים",
       "placeholder": "vicuna, llava, codellama, llama2:13b-text",
-      "title": "Custom model name"
+      "title": "שם מודל מותאם אישית"
     },
     "download": {
-      "desc": "Ollama is downloading the model. Please try not to close this page. The download will resume from where it left off if interrupted.",
-      "failed": "Model download failed. Please check your network or Ollama settings and try again.",
-      "remainingTime": "Remaining Time",
-      "speed": "Speed",
-      "title": "Downloading model {{model}}"
+      "desc": "Ollama מוריד את המודל. אנא נסה לא לסגור את הדף הזה. ההורדה תמשיך מהמקום שבו הופסקה אם תופרע.",
+      "failed": "הורדת המודל נכשלה. אנא בדוק את הרשת או הגדרות Ollama שלך ונסה שוב.",
+      "remainingTime": "זמן נותר",
+      "speed": "מהירות",
+      "title": "מוריד מודל {{model}}"
     },
     "endpoint": {
-      "desc": "Must include http(s)://; can be left blank if not specified locally.",
-      "title": "Interface proxy address"
+      "desc": "חייב לכלול http(s)://; יכול להישאר ריק אם לא מוגדר מקומית.",
+      "title": "כתובת פרוקסי ממשק"
     },
     "title": "Ollama",
     "unlock": {
-      "cancel": "Cancel Download",
-      "confirm": "Download",
-      "description": "Enter your Ollama model tag to continue the session",
+      "cancel": "בטל הורדה",
+      "confirm": "הורד",
+      "description": "הכנס את תג המודל Ollama שלך כדי להמשיך את הפעלה",
       "downloaded": "{{completed}} / {{total}}",
-      "starting": "Starting download...",
-      "title": "Download specified Ollama model"
+      "starting": "מתחיל הורדה...",
+      "title": "הורד מודל Ollama מוגדר"
     }
   },
   "providerModels": {
     "batchSelect": {
-      "selected": "{{count}} models selected",
-      "title": "Bulk Selection"
+      "selected": "{{count}} מודלים נבחרו",
+      "title": "בחירה בכמות"
     },
     "config": {
-      "aesGcm": "Your key and proxy URL will be encrypted using <1>AES-GCM</1> encryption algorithm",
+      "aesGcm": "המפתח וכתובת הפרוקסי שלך יוצפנו באמצעות אלגוריתם הצפנה <1>AES-GCM</1>",
       "apiKey": {
-        "desc": "Please enter your {{name}} API Key",
-        "descWithUrl": "Please enter your {{name}} API Key. <3>Click here to get it</3>",
-        "placeholder": "{{name}} API Key",
-        "title": "API Key"
+        "desc": "אנא הכנס את מפתח {{name}} API שלך",
+        "descWithUrl": "אנא הכנס את מפתח {{name}} API שלך. <3>לחץ כאן כדי לקבל אותו</3>",
+        "placeholder": "מפתח {{name}} API",
+        "title": "מפתח API"
       },
       "baseURL": {
-        "desc": "Must include http(s)://",
-        "invalid": "Please enter a valid URL",
+        "desc": "חייב לכלול http(s)://",
+        "invalid": "אנא הכנס כתובת URL תקינה",
         "placeholder": "https://your-proxy-url.com/v1",
-        "title": "API Proxy URL"
+        "title": "כתובת פרוקסי API"
       },
       "checker": {
-        "button": "Check",
-        "desc": "Test if the API Key and proxy URL are correctly filled",
-        "pass": "Check passed",
-        "title": "Connectivity Check"
+        "button": "בדוק",
+        "desc": "בדוק אם מפתח ה-API וכתובת הפרוקסי מולאו נכון",
+        "pass": "בדיקה עברה",
+        "title": "בדיקת חיבור"
       },
       "fetchOnClient": {
-        "desc": "Client request mode will initiate session requests directly from the browser, which can improve response speed",
-        "title": "Use Client Request Mode"
+        "desc": "מצב בקשה לקוח יתחיל בקשות הפעלה ישירות מהדפדפן, מה שיכול לשפר את מהירות התגובה",
+        "title": "השתמש במצב בקשה לקוח"
       },
-      "helpDoc": "Configuration Guide",
+      "helpDoc": "מדריך תצורה",
       "responsesApi": {
-        "desc": "Utilizes OpenAI's next-generation request format specification to unlock advanced features like chain of thought",
-        "title": "Use Responses API Specification"
+        "desc": "משתמש במפרט פורמט הבקשה של הדור הבא של OpenAI כדי לפתוח תכונות מתקדמות כמו שרשרת מחשבה",
+        "title": "השתמש במפרט Responses API"
       },
-      "waitingForMore": "More models are currently <1>planned for integration</1>, please stay tuned"
+      "waitingForMore": "מודלים נוספים כרגע <1>מתוכננים לשילוב</1>, אנא הישאר מעודכן"
     },
     "createNew": {
-      "title": "Create Custom AI Model"
+      "title": "צור מודל AI מותאם אישית"
     },
     "item": {
-      "config": "Configure Model",
+      "config": "הגדר מודל",
       "customModelCards": {
-        "addNew": "Create and add {{id}} model",
-        "confirmDelete": "You are about to delete this custom model. Once deleted, it cannot be recovered. Please proceed with caution."
+        "addNew": "צור והוסף מודל {{id}}",
+        "confirmDelete": "אתה עומד למחוק את המודל המותאם אישית הזה. ברגע שנמחק, לא ניתן לשחזר אותו. אנא המשך בזהירות."
       },
       "delete": {
-        "confirm": "Are you sure you want to delete model {{displayName}}?",
-        "success": "Deletion successful",
-        "title": "Delete Model"
+        "confirm": "האם אתה בטוח שאתה רוצה למחוק את המודל {{displayName}}?",
+        "success": "מחיקה הצליחה",
+        "title": "מחק מודל"
       },
       "modelConfig": {
         "azureDeployName": {
-          "extra": "Field used for actual requests in Azure OpenAI",
-          "placeholder": "Please enter the model deployment name in Azure",
-          "title": "Model Deployment Name"
+          "extra": "שדה המשמש לבקשות בפועל ב-Azure OpenAI",
+          "placeholder": "אנא הכנס את שם פריסת המודל ב-Azure",
+          "title": "שם פריסת מודל"
         },
         "deployName": {
-          "extra": "This field will be used as the model ID when sending requests",
-          "placeholder": "Please enter the actual deployment name or ID of the model",
-          "title": "Model Deployment Name"
+          "extra": "השדה הזה ישמש כמזהה המודל בעת שליחת בקשות",
+          "placeholder": "אנא הכנס את שם הפריסה או המזהה בפועל של המודל",
+          "title": "שם פריסת מודל"
         },
         "displayName": {
-          "placeholder": "Please enter the display name of the model, e.g., ChatGPT, GPT-4, etc.",
-          "title": "Model Display Name"
+          "placeholder": "אנא הכנס את שם התצוגה של המודל, למשל ChatGPT, GPT-4, וכו'.",
+          "title": "שם תצוגת מודל"
         },
         "files": {
-          "extra": "The current file upload implementation is just a hack solution, limited to self-experimentation. Please wait for complete file upload capabilities in future implementations.",
-          "title": "File Upload Support"
+          "extra": "יישום העלאת הקבצים הנוכחי הוא רק פתרון זמני, מוגבל לניסוי עצמי. אנא המתן ליכולות העלאת קבצים מלאות ביישומים עתידיים.",
+          "title": "תמיכה בהעלאת קבצים"
         },
         "functionCall": {
-          "extra": "This configuration will only enable the model's ability to use tools, allowing for the addition of tool-type plugins. However, whether the model can truly use the tools depends entirely on the model itself; please test for usability on your own.",
-          "title": "Support for Tool Usage"
+          "extra": "התצורה הזו תאפשר רק את יכולת המודל להשתמש בכלים, מה שמאפשר הוספת תוספים מסוג כלי. עם זאת, האם המודל יכול באמת להשתמש בכלים תלוי לחלוטין במודל עצמו; אנא בדוק את השימושיות בעצמך.",
+          "title": "תמיכה בשימוש בכלים"
         },
         "id": {
-          "extra": "This cannot be modified after creation and will be used as the model ID when calling AI",
-          "placeholder": "Please enter the model ID, e.g., gpt-4o or claude-3.5-sonnet",
-          "title": "Model ID"
+          "extra": "זה לא ניתן לשינוי לאחר היצירה וישמש כמזהה המודל בעת קריאה ל-AI",
+          "placeholder": "אנא הכנס את מזהה המודל, למשל gpt-4o או claude-3.5-sonnet",
+          "title": "מזהה מודל"
         },
-        "modalTitle": "Custom Model Configuration",
+        "modalTitle": "תצורת מודל מותאמת אישית",
         "reasoning": {
-          "extra": "This configuration will enable the model's deep thinking capabilities, and the specific effects depend entirely on the model itself. Please test whether this model has usable deep thinking abilities.",
-          "title": "Support Deep Thinking"
+          "extra": "התצורה הזו תאפשר את יכולות החשיבה העמוקה של המודל, וההשפעות הספציפיות תלויות לחלוטין במודל עצמו. אנא בדוק האם למודל הזה יש יכולות חשיבה עמוקה שימושיות.",
+          "title": "תמיכה בחשיבה עמוקה"
         },
         "tokens": {
-          "extra": "Set the maximum number of tokens supported by the model",
-          "title": "Maximum Context Window",
-          "unlimited": "Unlimited"
+          "extra": "הגדר את המספר המקסימלי של טוקנים שהמודל תומך בהם",
+          "title": "חלון הקשר מקסימלי",
+          "unlimited": "ללא הגבלה"
         },
         "vision": {
-          "extra": "This configuration will only enable image upload capabilities in the application. Whether recognition is supported depends entirely on the model itself. Please test the visual recognition capabilities of the model yourself.",
-          "title": "Support Vision"
+          "extra": "התצורה הזו תאפשר רק יכולות העלאת תמונות באפליקציה. האם זיהוי נתמך תלוי לחלוטין במודל עצמו. אנא בדוק את יכולות הזיהוי החזותי של המודל בעצמך.",
+          "title": "תמיכה בראייה"
         }
       },
       "pricing": {
-        "image": "${{amount}}/Image",
-        "inputCharts": "${{amount}}/M Characters",
-        "inputMinutes": "${{amount}}/Minutes",
-        "inputTokens": "Input ${{amount}}/M",
-        "outputTokens": "Output ${{amount}}/M"
+        "image": "${{amount}}/תמונה",
+        "inputCharts": "${{amount}}/M תווים",
+        "inputMinutes": "${{amount}}/דקות",
+        "inputTokens": "קלט ${{amount}}/M",
+        "outputTokens": "פלט ${{amount}}/M"
       },
-      "releasedAt": "Released at {{releasedAt}}"
+      "releasedAt": "שוחרר ב-{{releasedAt}}"
     },
     "list": {
-      "addNew": "Add Model",
-      "disabled": "Disabled",
+      "addNew": "הוסף מודל",
+      "disabled": "מבוטל",
       "disabledActions": {
-        "showMore": "Show All"
+        "showMore": "הצג הכל"
       },
       "empty": {
-        "desc": "Please create a custom model or pull a model to get started.",
-        "title": "No available models"
+        "desc": "אנא צור מודל מותאם אישית או משוך מודל כדי להתחיל.",
+        "title": "אין מודלים זמינים"
       },
-      "enabled": "Enabled",
+      "enabled": "מופעל",
       "enabledActions": {
-        "disableAll": "Disable All",
-        "enableAll": "Enable All",
-        "sort": "Custom Model Sorting"
+        "disableAll": "בטל הכל",
+        "enableAll": "הפעל הכל",
+        "sort": "מיון מודלים מותאם אישית"
       },
-      "enabledEmpty": "No enabled models available. Please enable your preferred models from the list below~",
+      "enabledEmpty": "אין מודלים מופעלים זמינים. אנא הפעל את המודלים המועדפים עליך מהרשימה למטה~",
       "fetcher": {
-        "clear": "Clear fetched models",
-        "fetch": "Fetch models",
-        "fetching": "Fetching model list...",
-        "latestTime": "Last updated: {{time}}",
-        "noLatestTime": "Model list not yet fetched"
+        "clear": "נקה מודלים שנאחזרו",
+        "fetch": "אחזר מודלים",
+        "fetching": "מאחזר רשימת מודלים...",
+        "latestTime": "עודכן לאחרונה: {{time}}",
+        "noLatestTime": "רשימת מודלים עדיין לא נאחזרה"
       },
-      "noModelsInCategory": "No enabled models in this category",
+      "noModelsInCategory": "אין מודלים מופעלים בקטגוריה הזו",
       "resetAll": {
-        "conform": "Are you sure you want to reset all modifications to the current model? After resetting, the current model list will return to its default state.",
-        "success": "Reset successful",
-        "title": "Reset All Modifications"
+        "conform": "האם אתה בטוח שאתה רוצה לאפס את כל השינויים למודל הנוכחי? לאחר האיפוס, רשימת המודלים הנוכחית תחזור למצב ברירת המחדל שלה.",
+        "success": "איפוס הצליח",
+        "title": "אפס את כל השינויים"
       },
-      "search": "Search Models...",
-      "searchResult": "{{count}} models found",
-      "title": "Model List",
-      "total": "{{count}} models available"
+      "search": "חפש מודלים...",
+      "searchResult": "נמצאו {{count}} מודלים",
+      "title": "רשימת מודלים",
+      "total": "{{count}} מודלים זמינים"
     },
-    "searchNotFound": "No search results found",
+    "searchNotFound": "לא נמצאו תוצאות חיפוש",
     "tabs": {
-      "all": "All",
-      "chat": "Chat",
-      "embedding": "Embedding",
-      "image": "Image",
+      "all": "הכל",
+      "chat": "צ'אט",
+      "embedding": "הטמעה",
+      "image": "תמונה",
       "stt": "ASR",
       "tts": "TTS"
     }
   },
   "sortModal": {
-    "success": "Sort update successful",
-    "title": "Custom Order",
-    "update": "Update"
+    "success": "עדכון מיון הצליח",
+    "title": "סדר מותאם אישית",
+    "update": "עדכן"
   },
   "updateAiProvider": {
-    "confirmDelete": "You are about to delete this AI provider. Once deleted, it cannot be retrieved. Are you sure you want to delete?",
-    "deleteSuccess": "Deletion successful",
-    "tooltip": "Update provider basic configuration",
-    "updateSuccess": "Update successful"
+    "confirmDelete": "אתה עומד למחוק את ספק ה-AI הזה. ברגע שנמחק, לא ניתן לשחזר אותו. האם אתה בטוח שאתה רוצה למחוק?",
+    "deleteSuccess": "מחיקה הצליחה",
+    "tooltip": "עדכן תצורה בסיסית של ספק",
+    "updateSuccess": "עדכון הצליח"
   },
   "updateCustomAiProvider": {
-    "title": "Update Custom AI Provider Configuration"
+    "title": "עדכן תצורת ספק AI מותאם אישית"
   },
   "vertexai": {
     "apiKey": {
-      "desc": "Enter your Vertex AI Keys",
+      "desc": "הכנס את מפתחות Vertex AI שלך",
       "placeholder": "{ \"type\": \"service_account\", \"project_id\": \"xxx\", \"private_key_id\": ... }",
-      "title": "Vertex AI Keys"
+      "title": "מפתחות Vertex AI"
     }
   },
   "zeroone": {

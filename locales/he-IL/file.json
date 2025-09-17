@@ -1,97 +1,97 @@
 {
-  "desc": "Manage files and knowledge base",
+  "desc": "נהל קבצים ובסיס ידע",
   "detail": {
     "basic": {
-      "createdAt": "Creation Time",
-      "filename": "File Name",
-      "size": "File Size",
-      "title": "Basic Information",
-      "type": "Format",
-      "updatedAt": "Update Time"
+      "createdAt": "זמן יצירה",
+      "filename": "שם קובץ",
+      "size": "גודל קובץ",
+      "title": "מידע בסיסי",
+      "type": "פורמט",
+      "updatedAt": "זמן עדכון"
     },
     "data": {
-      "chunkCount": "Chunks",
+      "chunkCount": "חלקים",
       "embedding": {
-        "default": "Not embedding",
-        "error": "Failed",
-        "pending": "Pending start",
-        "processing": "In progress",
-        "success": "Completed"
+        "default": "לא מוטבע",
+        "error": "נכשל",
+        "pending": "ממתין להתחלה",
+        "processing": "בתהליך",
+        "success": "הושלם"
       },
-      "embeddingStatus": "embedding"
+      "embeddingStatus": "הטמעה"
     }
   },
-  "empty": "No files or folders have been uploaded yet.",
+  "empty": "עדיין לא הועלו קבצים או תיקיות.",
   "header": {
     "actions": {
-      "newFolder": "New Folder",
-      "uploadFile": "Upload File",
-      "uploadFolder": "Upload Folder"
+      "newFolder": "תיקייה חדשה",
+      "uploadFile": "העלה קובץ",
+      "uploadFolder": "העלה תיקייה"
     },
-    "uploadButton": "Upload"
+    "uploadButton": "העלה"
   },
   "knowledgeBase": {
     "list": {
-      "confirmRemoveKnowledgeBase": "You are about to delete this knowledge base. The files within will not be deleted and will be moved to All Files. Once deleted, the knowledge base cannot be recovered. Please proceed with caution.",
-      "empty": "Click <1>+</1> to add a knowledge base"
+      "confirmRemoveKnowledgeBase": "אתה עומד למחוק את בסיס הידע הזה. הקבצים בתוכו לא יימחקו ויועברו לכל הקבצים. לאחר המחיקה, בסיס הידע לא ניתן לשחזור. אנא המשך בזהירות.",
+      "empty": "לחץ על <1>+</1> כדי להוסיף בסיס ידע"
     },
-    "new": "New Knowledge Base",
-    "title": "Knowledge Base"
+    "new": "בסיס ידע חדש",
+    "title": "בסיס ידע"
   },
-  "networkError": "Failed to retrieve the knowledge base. Please check your network connection and try again.",
+  "networkError": "נכשל באחזור בסיס הידע. אנא בדוק את חיבור הרשת ונסה שוב.",
   "notSupportGuide": {
-    "desc": "The current deployment instance is in client database mode, and file management features are not available. Please switch to <1>server database deployment mode</1>, or use <3>LobeChat Cloud</3> directly.",
+    "desc": "המופע הנוכחי מופרס במצב מסד נתונים לקוח, ותכונות ניהול קבצים אינן זמינות. אנא עבור ל<1>מצב פריסת מסד נתונים שרת</1>, או השתמש ב<3>LobeChat Cloud</3> ישירות.",
     "features": {
       "allKind": {
-        "desc": "Supports mainstream file types, including common document formats like Word, PPT, Excel, PDF, TXT, as well as popular code files like JS and Python.",
-        "title": "Multiple File Type Parsing"
+        "desc": "תומך בסוגי קבצים נפוצים, כולל פורמטי מסמכים נפוצים כמו Word, PPT, Excel, PDF, TXT, כמו גם קבצי קוד פופולריים כמו JS ו-Python.",
+        "title": "ניתוח מספר סוגי קבצים"
       },
       "embeddings": {
-        "desc": "Utilizes high-performance vector models to vectorize text chunks, enabling semantic search of file content.",
-        "title": "Vector Semantics"
+        "desc": "משתמש במודלי וקטור בעלי ביצועים גבוהים כדי לוקטר חלקי טקסט, ומאפשר חיפוש סמנטי של תוכן קבצים.",
+        "title": "סמנטיקה וקטורית"
       },
       "repos": {
-        "desc": "Supports the creation of knowledge bases and allows the addition of different types of files, building your domain knowledge.",
-        "title": "Knowledge Base"
+        "desc": "תומך ביצירת בסיסי ידע ומאפשר הוספת סוגי קבצים שונים, בניית הידע הדומייני שלך.",
+        "title": "בסיס ידע"
       }
     },
-    "title": "The current deployment mode does not support file management"
+    "title": "מצב הפריסה הנוכחי אינו תומך בניהול קבצים"
   },
   "preview": {
-    "downloadFile": "Download File",
-    "unsupportedFileAndContact": "This file format is not currently supported for online preview. If you have a request for previewing, feel free to <1>contact us</1>."
+    "downloadFile": "הורד קובץ",
+    "unsupportedFileAndContact": "פורמט הקובץ הזה אינו נתמך כרגע לתצוגה מקדימה מקוונת. אם יש לך בקשה לתצוגה מקדימה, אל תהסס <1>ליצור איתנו קשר</1>."
   },
-  "searchFilePlaceholder": "Search Files",
+  "searchFilePlaceholder": "חפש קבצים",
   "tab": {
-    "all": "All Files",
-    "audios": "Audio",
-    "documents": "Documents",
-    "images": "Images",
-    "videos": "Videos",
-    "websites": "Websites"
+    "all": "כל הקבצים",
+    "audios": "אודיו",
+    "documents": "מסמכים",
+    "images": "תמונות",
+    "videos": "וידאו",
+    "websites": "אתרים"
   },
-  "title": "Files",
+  "title": "קבצים",
   "toggleLeftPanel": {
-    "title": "Show/Hide Left Panel"
+    "title": "הצג/הסתר פאנל שמאלי"
   },
   "uploadDock": {
     "body": {
-      "collapse": "Collapse",
+      "collapse": "כווץ",
       "item": {
-        "done": "Uploaded",
-        "error": "Upload failed, please try again",
-        "pending": "Preparing to upload...",
-        "processing": "Processing file...",
-        "restTime": "Remaining {{time}}"
+        "done": "הועלה",
+        "error": "העלאה נכשלה, אנא נסה שוב",
+        "pending": "מכין להעלאה...",
+        "processing": "מעבד קובץ...",
+        "restTime": "נותר {{time}}"
       }
     },
-    "totalCount": "Total {{count}} items",
+    "totalCount": "סה\"כ {{count}} פריטים",
     "uploadStatus": {
-      "error": "Upload error",
-      "pending": "Waiting to upload",
-      "processing": "Uploading",
-      "success": "Upload completed",
-      "uploading": "Uploading"
+      "error": "שגיאת העלאה",
+      "pending": "ממתין להעלאה",
+      "processing": "מעלה",
+      "success": "העלאה הושלמה",
+      "uploading": "מעלה"
     }
   }
 }

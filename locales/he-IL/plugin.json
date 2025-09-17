@@ -1,470 +1,470 @@
 {
-  "confirm": "Confirm",
+  "confirm": "אשר",
   "debug": {
-    "arguments": "Call Arguments",
-    "function_call": "Function Call",
-    "off": "Turn Off Debug",
-    "on": "View Plugin Call Info",
-    "payload": "Plugin Payload",
-    "pluginState": "Plugin State",
-    "response": "Response",
-    "title": "Plugin Details",
-    "tool_call": "Tool Call Request"
+    "arguments": "ארגומנטי קריאה",
+    "function_call": "קריאה לפונקציה",
+    "off": "כבה דיבוג",
+    "on": "הצג מידע קריאת תוסף",
+    "payload": "מטען תוסף",
+    "pluginState": "מצב תוסף",
+    "response": "תגובה",
+    "title": "פרטי תוסף",
+    "tool_call": "בקשת קריאה לכלי"
   },
   "detailModal": {
     "customPlugin": {
-      "description": "Please go to the edit page to view details",
-      "editBtn": "Edit Now",
-      "title": "This is a Custom Plugin"
+      "description": "אנא עבור לעמוד העריכה כדי לראות פרטים",
+      "editBtn": "ערוך עכשיו",
+      "title": "זהו תוסף מותאם"
     },
     "emptyState": {
-      "description": "Please install this plugin first to view its capabilities and configuration options",
-      "title": "View Plugin Details After Installation"
+      "description": "אנא התקן את התוסף הזה קודם כדי לראות את היכולות ואפשרויות התצורה שלו",
+      "title": "הצג פרטי תוסף לאחר התקנה"
     },
     "info": {
-      "description": "API Description",
-      "name": "API Name"
+      "description": "תיאור API",
+      "name": "שם API"
     },
     "tabs": {
-      "info": "Plugin Capabilities",
-      "manifest": "Installation File",
-      "settings": "Settings"
+      "info": "יכולות תוסף",
+      "manifest": "קובץ התקנה",
+      "settings": "הגדרות"
     },
-    "title": "Plugin Details"
+    "title": "פרטי תוסף"
   },
   "dev": {
-    "confirmDeleteDevPlugin": "This local plugin will be deleted and cannot be recovered. Do you want to delete this plugin?",
+    "confirmDeleteDevPlugin": "התוסף המקומי הזה יימחק ולא ניתן לשחזר אותו. האם אתה רוצה למחוק את התוסף הזה?",
     "customParams": {
       "useProxy": {
-        "label": "Install via Proxy (If you encounter cross-origin access errors, try enabling this option and reinstalling)"
+        "label": "התקן דרך פרוקסי (אם אתה נתקל בשגיאות גישה cross-origin, נסה להפעיל אפשרות זו ולהתקין מחדש)"
       }
     },
-    "deleteSuccess": "Plugin deleted successfully",
+    "deleteSuccess": "התוסף נמחק בהצלחה",
     "manifest": {
       "identifier": {
-        "desc": "Unique identifier of the plugin",
-        "label": "Identifier"
+        "desc": "מזהה ייחודי של התוסף",
+        "label": "מזהה"
       },
       "mode": {
-        "mcp": "MCP Plugin",
-        "mcpExp": "Experimental",
-        "url": "Online Link"
+        "mcp": "תוסף MCP",
+        "mcpExp": "ניסיוני",
+        "url": "קישור מקוון"
       },
       "name": {
-        "desc": "Plugin title",
-        "label": "Title",
-        "placeholder": "Search Engine"
+        "desc": "כותרת התוסף",
+        "label": "כותרת",
+        "placeholder": "מנוע חיפוש"
       }
     },
     "mcp": {
       "advanced": {
-        "title": "Advanced Settings"
+        "title": "הגדרות מתקדמות"
       },
       "args": {
-        "desc": "List of parameters passed to the execution command, usually the MCP server name or startup script path",
-        "label": "Command Arguments",
-        "placeholder": "e.g., mcp-hello-world",
-        "required": "Please enter startup parameters"
+        "desc": "רשימת פרמטרים המועברים לפקודת הביצוע, בדרך כלל שם שרת MCP או נתיב סקריפט הפעלה",
+        "label": "ארגומנטי פקודה",
+        "placeholder": "למשל, mcp-hello-world",
+        "required": "אנא הכנס פרמטרי הפעלה"
       },
       "auth": {
-        "bear": "API Key",
-        "desc": "Select the authentication method for the MCP server",
-        "label": "Authentication Type",
-        "none": "No Authentication Required",
-        "placeholder": "Please select authentication type",
+        "bear": "מפתח API",
+        "desc": "בחר את שיטת האימות עבור שרת MCP",
+        "label": "סוג אימות",
+        "none": "אין צורך באימות",
+        "placeholder": "אנא בחר סוג אימות",
         "token": {
-          "desc": "Enter your API Key or Bearer Token",
-          "label": "API Key",
+          "desc": "הכנס את מפתח ה-API או ה-Bearer Token שלך",
+          "label": "מפתח API",
           "placeholder": "sk-xxxxx",
-          "required": "Please enter authentication token"
+          "required": "אנא הכנס אסימון אימות"
         }
       },
       "avatar": {
-        "label": "Plugin Icon"
+        "label": "אייקון תוסף"
       },
       "command": {
-        "desc": "Executable file or script used to start the MCP STDIO Server",
-        "label": "Command",
-        "placeholder": "e.g., npx / uv / docker etc.",
-        "required": "Please enter startup command"
+        "desc": "קובץ הפעלה או סקריפט המשמש להפעלת שרת MCP STDIO",
+        "label": "פקודה",
+        "placeholder": "למשל, npx / uv / docker וכו'",
+        "required": "אנא הכנס פקודת הפעלה"
       },
       "desc": {
-        "desc": "Add a description for the plugin",
-        "label": "Plugin Description",
-        "placeholder": "Supplement usage instructions and scenarios for this plugin"
+        "desc": "הוסף תיאור עבור התוסף",
+        "label": "תיאור תוסף",
+        "placeholder": "הוסף הוראות שימוש ותרחישים עבור התוסף הזה"
       },
       "endpoint": {
-        "desc": "Enter the address of your MCP Streamable HTTP Server",
-        "label": "MCP Endpoint URL"
+        "desc": "הכנס את הכתובת של שרת HTTP Streamable MCP שלך",
+        "label": "כתובת MCP Endpoint"
       },
       "env": {
-        "add": "Add a Row",
-        "desc": "Enter environment variables required by your MCP Server",
-        "duplicateKeyError": "Field keys must be unique",
-        "formValidationFailed": "Form validation failed, please check parameter format",
-        "keyRequired": "Field key cannot be empty",
-        "label": "MCP Server Environment Variables",
-        "stringifyError": "Unable to serialize parameters, please check parameter format"
+        "add": "הוסף שורה",
+        "desc": "הכנס משתני סביבה הנדרשים על ידי שרת MCP שלך",
+        "duplicateKeyError": "מפתחות שדות חייבים להיות ייחודיים",
+        "formValidationFailed": "אימות טופס נכשל, אנא בדוק את פורמט הפרמטרים",
+        "keyRequired": "מפתח השדה לא יכול להיות ריק",
+        "label": "משתני סביבה של שרת MCP",
+        "stringifyError": "לא ניתן לסריאליזציה פרמטרים, אנא בדוק את פורמט הפרמטרים"
       },
       "headers": {
-        "add": "Add a Row",
-        "desc": "Enter request headers",
-        "label": "HTTP Headers"
+        "add": "הוסף שורה",
+        "desc": "הכנס כותרות בקשה",
+        "label": "כותרות HTTP"
       },
       "identifier": {
-        "desc": "Specify a name for your MCP plugin, must use English characters",
-        "invalid": "Identifier can only contain letters, numbers, hyphens, and underscores",
-        "label": "MCP Plugin Name",
-        "placeholder": "e.g., my-mcp-plugin",
-        "required": "Please enter MCP service identifier"
+        "desc": "ציין שם עבור תוסף MCP שלך, חייב להשתמש בתווים אנגליים",
+        "invalid": "מזהה יכול להכיל רק אותיות, מספרים, מקפים וקווים תחתונים",
+        "label": "שם תוסף MCP",
+        "placeholder": "למשל, my-mcp-plugin",
+        "required": "אנא הכנס מזהה שירות MCP"
       },
-      "previewManifest": "Preview Plugin Manifest",
-      "quickImport": "Quick Import JSON Configuration",
+      "previewManifest": "תצוגה מקדימה של קובץ התקנת התוסף",
+      "quickImport": "ייבוא מהיר של תצורת JSON",
       "quickImportError": {
-        "empty": "Input content cannot be empty",
-        "invalidJson": "Invalid JSON format",
-        "invalidStructure": "Invalid JSON structure"
+        "empty": "תוכן הקלט לא יכול להיות ריק",
+        "invalidJson": "פורמט JSON לא תקין",
+        "invalidStructure": "מבנה JSON לא תקין"
       },
-      "stdioNotSupported": "Current environment does not support stdio type MCP plugins",
-      "testConnection": "Test Connection",
-      "testConnectionTip": "MCP plugin can only be used normally after successful connection test",
+      "stdioNotSupported": "הסביבה הנוכחית לא תומכת בתוספי MCP מסוג stdio",
+      "testConnection": "בדוק חיבור",
+      "testConnectionTip": "תוסף MCP יכול לשמש כרגיל רק לאחר בדיקת חיבור מוצלחת",
       "type": {
-        "desc": "Select MCP plugin communication method, web version only supports Streamable HTTP",
-        "httpFeature1": "Compatible with web and desktop versions",
-        "httpFeature2": "Connect to remote MCP server without extra installation or configuration",
-        "httpShortDesc": "Streamable HTTP based communication protocol",
-        "label": "MCP Plugin Type",
-        "stdioFeature1": "Lower communication latency, suitable for local execution",
-        "stdioFeature2": "Requires local installation and running of MCP server",
-        "stdioNotAvailable": "STDIO mode is only available in desktop version",
-        "stdioShortDesc": "Communication protocol based on standard input/output",
-        "title": "MCP Plugin Type"
+        "desc": "בחר שיטת תקשורת תוסף MCP, גרסת האינטרנט תומכת רק ב-Streamable HTTP",
+        "httpFeature1": "תואם לגרסאות אינטרנט ושולחן עבודה",
+        "httpFeature2": "התחבר לשרת MCP מרוחק ללא התקנה או תצורה נוספת",
+        "httpShortDesc": "פרוטוקול תקשורת מבוסס Streamable HTTP",
+        "label": "סוג תוסף MCP",
+        "stdioFeature1": "זמן השהיה נמוך יותר בתקשורת, מתאים לביצוע מקומי",
+        "stdioFeature2": "דורש התקנה מקומית והפעלה של שרת MCP",
+        "stdioNotAvailable": "מצב STDIO זמין רק בגרסת שולחן העבודה",
+        "stdioShortDesc": "פרוטוקול תקשורת מבוסס קלט/פלט סטנדרטי",
+        "title": "סוג תוסף MCP"
       },
       "url": {
-        "desc": "Enter your MCP Server Streamable HTTP address, SSE mode not supported",
-        "invalid": "Please enter a valid URL",
-        "label": "Streamable HTTP Endpoint URL",
-        "required": "Please enter MCP service URL"
+        "desc": "הכנס את כתובת ה-Streamable HTTP של שרת MCP שלך, מצב SSE לא נתמך",
+        "invalid": "אנא הכנס כתובת URL תקינה",
+        "label": "כתובת URL של Streamable HTTP Endpoint",
+        "required": "אנא הכנס כתובת URL של שירות MCP"
       }
     },
     "meta": {
       "author": {
-        "desc": "Author of the plugin",
-        "label": "Author"
+        "desc": "מחבר התוסף",
+        "label": "מחבר"
       },
       "avatar": {
-        "desc": "Plugin icon, can use Emoji or URL",
-        "label": "Icon"
+        "desc": "אייקון התוסף, יכול להשתמש באמוג'י או URL",
+        "label": "אייקון"
       },
       "description": {
-        "desc": "Plugin description",
-        "label": "Description",
-        "placeholder": "Search search engines for information"
+        "desc": "תיאור התוסף",
+        "label": "תיאור",
+        "placeholder": "חפש במנועי חיפוש לקבלת מידע"
       },
-      "formFieldRequired": "This field is required",
+      "formFieldRequired": "שדה זה נדרש",
       "homepage": {
-        "desc": "Plugin homepage",
-        "label": "Homepage"
+        "desc": "דף הבית של התוסף",
+        "label": "דף הבית"
       },
       "identifier": {
-        "desc": "Unique identifier of the plugin, automatically recognized from manifest",
-        "errorDuplicate": "Identifier duplicates an existing plugin, please modify the identifier",
-        "label": "Identifier",
-        "pattenErrorMessage": "Only English letters, numbers, - and _ are allowed"
+        "desc": "מזהה ייחודי של התוסף, מזוהה אוטומטית מקובץ ההתקנה",
+        "errorDuplicate": "המזהה כפול לתוסף קיים, אנא שנה את המזהה",
+        "label": "מזהה",
+        "pattenErrorMessage": "רק אותיות אנגליות, מספרים, - ו-_ מותרים"
       },
-      "lobe": "{{appName}} Plugin",
+      "lobe": "תוסף {{appName}}",
       "manifest": {
-        "desc": "{{appName}} will install the plugin via this link",
-        "label": "Plugin Manifest URL",
-        "preview": "Preview Manifest",
-        "refresh": "Refresh"
+        "desc": "{{appName}} יתקין את התוסף דרך הקישור הזה",
+        "label": "URL של קובץ התקנת התוסף",
+        "preview": "תצוגה מקדימה של קובץ ההתקנה",
+        "refresh": "רענן"
       },
-      "openai": "OpenAI Plugin",
+      "openai": "תוסף OpenAI",
       "title": {
-        "desc": "Plugin title",
-        "label": "Title",
-        "placeholder": "Search Engine"
+        "desc": "כותרת התוסף",
+        "label": "כותרת",
+        "placeholder": "מנוע חיפוש"
       }
     },
-    "metaConfig": "Plugin Meta Information Configuration",
-    "modalDesc": "After adding a custom plugin, it can be used for plugin development verification or directly in conversations. For plugin development, please refer to the <1>Development Documentation↗</>.",
+    "metaConfig": "תצורת מידע מטא של התוסף",
+    "modalDesc": "לאחר הוספת תוסף מותאם, ניתן להשתמש בו לאימות פיתוח תוספים או ישירות בשיחות. לפיתוח תוספים, אנא עיין ב-<1>תיעוד הפיתוח↗</>.",
     "openai": {
-      "importUrl": "Import from URL",
-      "schema": "Schema"
+      "importUrl": "ייבוא מ-URL",
+      "schema": "סכמה"
     },
     "preview": {
       "api": {
-        "noParams": "This tool has no parameters",
-        "noResults": "No APIs matching the search criteria found",
-        "params": "Parameters:",
-        "searchPlaceholder": "Search tools..."
+        "noParams": "לכלי הזה אין פרמטרים",
+        "noResults": "לא נמצאו APIs התואמים לקריטריוני החיפוש",
+        "params": "פרמטרים:",
+        "searchPlaceholder": "חפש כלים..."
       },
-      "card": "Preview Plugin Display",
-      "desc": "Preview Plugin Description",
+      "card": "תצוגה מקדימה של תצוגת התוסף",
+      "desc": "תצוגה מקדימה של תיאור התוסף",
       "empty": {
-        "desc": "After configuration, you can preview the supported tool capabilities here",
-        "title": "Start Preview After Configuring Plugin"
+        "desc": "לאחר התצורה, תוכל לראות כאן תצוגה מקדימה של יכולות הכלים הנתמכות",
+        "title": "התחל תצוגה מקדימה לאחר תצורת התוסף"
       },
-      "title": "Plugin Name Preview"
+      "title": "תצוגה מקדימה של שם התוסף"
     },
-    "save": "Install Plugin",
-    "saveSuccess": "Plugin settings saved successfully",
+    "save": "התקן תוסף",
+    "saveSuccess": "הגדרות התוסף נשמרו בהצלחה",
     "tabs": {
-      "manifest": "Feature Manifest",
-      "meta": "Plugin Meta Information"
+      "manifest": "קובץ התקנה של תכונות",
+      "meta": "מידע מטא של התוסף"
     },
     "title": {
-      "create": "Add Custom Plugin",
-      "edit": "Edit Custom Plugin"
+      "create": "הוסף תוסף מותאם",
+      "edit": "ערוך תוסף מותאם"
     },
     "type": {
-      "lobe": "{{appName}} Plugin",
-      "openai": "OpenAI Plugin"
+      "lobe": "תוסף {{appName}}",
+      "openai": "תוסף OpenAI"
     },
-    "update": "Update",
-    "updateSuccess": "Plugin settings updated successfully"
+    "update": "עדכן",
+    "updateSuccess": "הגדרות התוסף עודכנו בהצלחה"
   },
   "error": {
-    "fetchError": "Failed to request the manifest link, please ensure the link is valid and allows cross-origin access",
-    "installError": "Plugin {{name}} installation failed",
-    "manifestInvalid": "Manifest does not comply with specifications, validation result: \n\n {{error}}",
-    "noManifest": "Manifest file does not exist",
-    "openAPIInvalid": "OpenAPI parsing failed, error: \n\n {{error}}",
-    "reinstallError": "Plugin {{name}} refresh failed",
-    "testConnectionFailed": "Failed to get Manifest: {{error}}",
-    "urlError": "The link did not return JSON content, please ensure it is a valid link"
+    "fetchError": "נכשל בבקשת קישור קובץ ההתקנה, אנא וודא שהקישור תקין ומאפשר גישה cross-origin",
+    "installError": "התקנת התוסף {{name}} נכשלה",
+    "manifestInvalid": "קובץ ההתקנה לא עומד במפרט, תוצאת האימות: \n\n {{error}}",
+    "noManifest": "קובץ ההתקנה לא קיים",
+    "openAPIInvalid": "ניתוח OpenAPI נכשל, שגיאה: \n\n {{error}}",
+    "reinstallError": "רענון התוסף {{name}} נכשל",
+    "testConnectionFailed": "נכשל בקבלת קובץ ההתקנה: {{error}}",
+    "urlError": "הקישור לא החזיר תוכן JSON, אנא וודא שזהו קישור תקין"
   },
   "inspector": {
-    "args": "View Argument List",
-    "pluginRender": "View Plugin Interface"
+    "args": "הצג רשימת ארגומנטים",
+    "pluginRender": "הצג ממשק התוסף"
   },
   "list": {
     "item": {
-      "deprecated.title": "Deleted",
-      "local.config": "Configuration",
-      "local.title": "Custom"
+      "deprecated.title": "נמחק",
+      "local.config": "תצורה",
+      "local.title": "מותאם"
     }
   },
   "loading": {
-    "content": "Calling plugin...",
-    "plugin": "Plugin running..."
+    "content": "קורא לתוסף...",
+    "plugin": "התוסף פועל..."
   },
   "localSystem": {
     "apiName": {
-      "listLocalFiles": "View File List",
-      "moveLocalFiles": "Move Files",
-      "readLocalFile": "Read File Content",
-      "renameLocalFile": "Rename",
-      "searchLocalFiles": "Search Files",
-      "writeLocalFile": "Write File"
+      "listLocalFiles": "הצג רשימת קבצים",
+      "moveLocalFiles": "העבר קבצים",
+      "readLocalFile": "קרא תוכן קובץ",
+      "renameLocalFile": "שנה שם",
+      "searchLocalFiles": "חפש קבצים",
+      "writeLocalFile": "כתוב קובץ"
     },
-    "title": "Local Files"
+    "title": "קבצים מקומיים"
   },
   "mcpInstall": {
-    "CHECKING_INSTALLATION": "Checking installation environment...",
-    "COMPLETED": "Installation completed",
-    "CONFIGURATION_REQUIRED": "Please complete the relevant configuration before continuing installation",
-    "ERROR": "Installation error",
-    "FETCHING_MANIFEST": "Fetching plugin manifest...",
-    "GETTING_SERVER_MANIFEST": "Initializing MCP server...",
-    "INSTALLING_PLUGIN": "Installing plugin...",
-    "configurationDescription": "This MCP plugin requires configuration parameters to function properly, please fill in the necessary information",
-    "configurationRequired": "Configure Plugin Parameters",
-    "continueInstall": "Continue Installation",
-    "dependenciesDescription": "This plugin requires the following system dependencies to work properly. Please install the missing dependencies as instructed, then click recheck to continue installation.",
-    "dependenciesRequired": "Please install the plugin's system dependencies",
+    "CHECKING_INSTALLATION": "בודק סביבת התקנה...",
+    "COMPLETED": "ההתקנה הושלמה",
+    "CONFIGURATION_REQUIRED": "אנא השלם את התצורה הרלוונטית לפני המשך ההתקנה",
+    "ERROR": "שגיאת התקנה",
+    "FETCHING_MANIFEST": "מביא קובץ התקנה של התוסף...",
+    "GETTING_SERVER_MANIFEST": "מאתחל שרת MCP...",
+    "INSTALLING_PLUGIN": "מתקין תוסף...",
+    "configurationDescription": "תוסף MCP זה דורש פרמטרי תצורה כדי לפעול כראוי, אנא מלא את המידע הנדרש",
+    "configurationRequired": "הגדר פרמטרי תוסף",
+    "continueInstall": "המשך התקנה",
+    "dependenciesDescription": "התוסף הזה דורש את התלויות המערכת הבאות כדי לפעול כראוי. אנא התקן את התלויות החסרות כפי שמונחה, ואז לחץ על בדיקה מחדש כדי להמשיך את ההתקנה.",
+    "dependenciesRequired": "אנא התקן את התלויות המערכת של התוסף",
     "dependencyStatus": {
-      "installed": "Installed",
-      "notInstalled": "Not Installed",
-      "requiredVersion": "Required Version: {{version}}"
+      "installed": "מותקן",
+      "notInstalled": "לא מותקן",
+      "requiredVersion": "גרסה נדרשת: {{version}}"
     },
     "errorDetails": {
-      "args": "Arguments",
-      "command": "Command",
-      "connectionParams": "Connection Parameters",
-      "env": "Environment Variables",
-      "errorOutput": "Error Log",
-      "exitCode": "Exit Code",
-      "hideDetails": "Hide Details",
-      "originalError": "Original Error",
-      "showDetails": "Show Details"
+      "args": "ארגומנטים",
+      "command": "פקודה",
+      "connectionParams": "פרמטרי חיבור",
+      "env": "משתני סביבה",
+      "errorOutput": "יומן שגיאות",
+      "exitCode": "קוד יציאה",
+      "hideDetails": "הסתר פרטים",
+      "originalError": "שגיאה מקורית",
+      "showDetails": "הצג פרטים"
     },
     "errorTypes": {
-      "AUTHORIZATION_ERROR": "Authorization Error",
-      "CONNECTION_FAILED": "Connection Failed",
-      "INITIALIZATION_TIMEOUT": "Initialization Timeout",
-      "PROCESS_SPAWN_ERROR": "Process Spawn Failed",
-      "UNKNOWN_ERROR": "Unknown Error",
-      "VALIDATION_ERROR": "Parameter Validation Failed"
+      "AUTHORIZATION_ERROR": "שגיאת הרשאה",
+      "CONNECTION_FAILED": "החיבור נכשל",
+      "INITIALIZATION_TIMEOUT": "פסק זמן אתחול",
+      "PROCESS_SPAWN_ERROR": "הפעלת תהליך נכשלה",
+      "UNKNOWN_ERROR": "שגיאה לא ידועה",
+      "VALIDATION_ERROR": "אימות פרמטרים נכשל"
     },
-    "installError": "MCP plugin installation failed, reason: {{detail}}",
+    "installError": "התקנת תוסף MCP נכשלה, סיבה: {{detail}}",
     "installMethods": {
-      "manual": "Manual Installation:",
-      "recommended": "Recommended Installation Method:"
+      "manual": "התקנה ידנית:",
+      "recommended": "שיטת התקנה מומלצת:"
     },
-    "recheckDependencies": "Recheck",
-    "skipDependencies": "Skip Check"
+    "recheckDependencies": "בדוק מחדש",
+    "skipDependencies": "דלג על בדיקה"
   },
-  "pluginList": "Plugin List",
+  "pluginList": "רשימת תוספים",
   "protocolInstall": {
     "actions": {
-      "install": "Install",
-      "installAnyway": "Install Anyway",
-      "installed": "Installed"
+      "install": "התקן",
+      "installAnyway": "התקן בכל מקרה",
+      "installed": "מותקן"
     },
     "config": {
-      "args": "Arguments",
-      "command": "Command",
-      "env": "Environment Variables",
-      "headers": "Request Headers",
-      "title": "Configuration Information",
+      "args": "ארגומנטים",
+      "command": "פקודה",
+      "env": "משתני סביבה",
+      "headers": "כותרות בקשה",
+      "title": "מידע תצורה",
       "type": {
-        "http": "Type: HTTP",
-        "label": "Type",
-        "stdio": "Type: Stdio"
+        "http": "סוג: HTTP",
+        "label": "סוג",
+        "stdio": "סוג: Stdio"
       },
-      "url": "Service Address"
+      "url": "כתובת שירות"
     },
     "custom": {
-      "badge": "Custom Plugin",
+      "badge": "תוסף מותאם",
       "security": {
-        "description": "This plugin is not officially verified, installation may pose security risks! Please ensure you trust the plugin source.",
-        "title": "⚠️ Security Risk Warning"
+        "description": "התוסף הזה לא אומת רשמית, התקנה עלולה להוות סיכוני אבטחה! אנא וודא שאתה סומך על מקור התוסף.",
+        "title": "⚠️ אזהרת סיכון אבטחה"
       },
-      "title": "Install Custom Plugin"
+      "title": "התקן תוסף מותאם"
     },
     "marketplace": {
-      "title": "Install Third-Party Plugin",
-      "trustedBy": "Provided by {{name}}",
+      "title": "התקן תוסף צד שלישי",
+      "trustedBy": "מסופק על ידי {{name}}",
       "unverified": {
-        "title": "Unverified Third-Party Plugin",
-        "warning": "This plugin comes from an unverified third-party marketplace. Please confirm you trust the source before installation."
+        "title": "תוסף צד שלישי לא מאומת",
+        "warning": "התוסף הזה מגיע משוק צד שלישי לא מאומת. אנא אשר שאתה סומך על המקור לפני ההתקנה."
       },
-      "verified": "Verified"
+      "verified": "מאומת"
     },
     "messages": {
-      "connectionTestFailed": "Connection test failed",
-      "installError": "Plugin installation failed, please try again",
-      "installSuccess": "Plugin {{name}} installed successfully!",
-      "manifestError": "Failed to get plugin details, please check network connection and try again",
-      "manifestNotFound": "Failed to retrieve plugin manifest"
+      "connectionTestFailed": "בדיקת החיבור נכשלה",
+      "installError": "התקנת התוסף נכשלה, אנא נסה שוב",
+      "installSuccess": "התוסף {{name}} הותקן בהצלחה!",
+      "manifestError": "נכשל בקבלת פרטי התוסף, אנא בדוק את חיבור הרשת ונסה שוב",
+      "manifestNotFound": "נכשל באחזור קובץ ההתקנה של התוסף"
     },
     "meta": {
-      "author": "Author",
-      "homepage": "Homepage",
-      "identifier": "Identifier",
-      "source": "Source",
-      "version": "Version"
+      "author": "מחבר",
+      "homepage": "דף הבית",
+      "identifier": "מזהה",
+      "source": "מקור",
+      "version": "גרסה"
     },
     "official": {
-      "badge": "LobeHub Official Plugin",
-      "description": "This plugin is developed and maintained by LobeHub official team, has undergone strict security review, safe to use.",
-      "loadingMessage": "Fetching plugin details...",
-      "loadingTitle": "Loading",
-      "title": "Install Official Plugin"
+      "badge": "תוסף רשמי של LobeHub",
+      "description": "התוסף הזה מפותח ומתוחזק על ידי הצוות הרשמי של LobeHub, עבר ביקורת אבטחה קפדנית, בטוח לשימוש.",
+      "loadingMessage": "מביא פרטי התוסף...",
+      "loadingTitle": "טוען",
+      "title": "התקן תוסף רשמי"
     },
-    "title": "Install MCP Plugin",
-    "warning": "⚠️ Please confirm you trust the source of this plugin. Malicious plugins may harm your system security."
+    "title": "התקן תוסף MCP",
+    "warning": "⚠️ אנא אשר שאתה סומך על מקור התוסף הזה. תוספים זדוניים עלולים לפגוע באבטחת המערכת שלך."
   },
   "search": {
     "apiName": {
-      "crawlMultiPages": "Read Multiple Pages Content",
-      "crawlSinglePage": "Read Page Content",
-      "search": "Search Pages"
+      "crawlMultiPages": "קרא תוכן מספר דפים",
+      "crawlSinglePage": "קרא תוכן דף",
+      "search": "חפש דפים"
     },
     "config": {
-      "addKey": "Add Key",
-      "close": "Delete",
-      "confirm": "Configuration Completed and Retry"
+      "addKey": "הוסף מפתח",
+      "close": "מחק",
+      "confirm": "התצורה הושלמה ונסה שוב"
     },
     "crawPages": {
-      "crawling": "Link Recognition in Progress",
+      "crawling": "זיהוי קישורים בתהליך",
       "detail": {
-        "preview": "Preview",
-        "raw": "Raw Text",
-        "tooLong": "Text content is too long, only the first {{characters}} characters are kept in the conversation context, the rest are excluded"
+        "preview": "תצוגה מקדימה",
+        "raw": "טקסט גולמי",
+        "tooLong": "תוכן הטקסט ארוך מדי, רק {{characters}} התווים הראשונים נשמרים בהקשר השיחה, השאר מוחרגים"
       },
       "meta": {
-        "crawler": "Crawling Mode",
-        "words": "Character Count"
+        "crawler": "מצב זחילה",
+        "words": "ספירת תווים"
       }
     },
     "searchxng": {
-      "baseURL": "Please enter",
-      "description": "Enter the URL of SearchXNG to start online search",
-      "keyPlaceholder": "Please enter key",
-      "title": "Configure SearchXNG Search Engine",
-      "unconfiguredDesc": "Please contact administrator to complete SearchXNG search engine configuration to start online search",
-      "unconfiguredTitle": "SearchXNG Search Engine Not Configured"
+      "baseURL": "כתובת URL",
+      "description": "הכנס את ה-URL של SearchXNG כדי להתחיל חיפוש מקוון",
+      "keyPlaceholder": "אנא הכנס מפתח",
+      "title": "הגדר מנוע חיפוש SearchXNG",
+      "unconfiguredDesc": "אנא פנה למנהל כדי להשלים את תצורת מנוע החיפוש SearchXNG כדי להתחיל חיפוש מקוון",
+      "unconfiguredTitle": "מנוע החיפוש SearchXNG לא מוגדר"
     },
-    "title": "Online Search"
+    "title": "חיפוש מקוון"
   },
-  "setting": "Plugin Settings",
+  "setting": "הגדרות תוסף",
   "settings": {
     "capabilities": {
-      "prompts": "Prompts",
-      "resources": "Resources",
-      "title": "Plugin Capabilities",
-      "tools": "Tools"
+      "prompts": "הנחיות",
+      "resources": "משאבים",
+      "title": "יכולות תוסף",
+      "tools": "כלים"
     },
     "configuration": {
-      "title": "Plugin Configuration"
+      "title": "תצורת תוסף"
     },
     "connection": {
-      "args": "Startup Arguments",
-      "command": "Startup Command",
-      "title": "Connection Information",
-      "type": "Connection Type",
-      "url": "Service Address"
+      "args": "ארגומנטי הפעלה",
+      "command": "פקודת הפעלה",
+      "title": "מידע חיבור",
+      "type": "סוג חיבור",
+      "url": "כתובת שירות"
     },
-    "edit": "Edit",
-    "envConfigDescription": "These configurations will be passed as environment variables to the MCP server process at startup",
-    "httpTypeNotice": "HTTP type MCP plugins currently have no environment variables to configure",
+    "edit": "ערוך",
+    "envConfigDescription": "התצורות האלה יועברו כמשתני סביבה לתהליך שרת MCP בהפעלה",
+    "httpTypeNotice": "לתוספי MCP מסוג HTTP אין כרגע משתני סביבה להגדרה",
     "indexUrl": {
-      "title": "Marketplace Index",
-      "tooltip": "Online editing is not supported yet, please set via environment variables during deployment"
+      "title": "אינדקס שוק",
+      "tooltip": "עריכה מקוונת עדיין לא נתמכת, אנא הגדר דרך משתני סביבה במהלך הפריסה"
     },
     "messages": {
-      "connectionUpdateFailed": "Failed to update connection information",
-      "connectionUpdateSuccess": "Connection information updated successfully",
-      "envUpdateFailed": "Failed to save environment variables",
-      "envUpdateSuccess": "Environment variables saved successfully"
+      "connectionUpdateFailed": "נכשל בעדכון מידע החיבור",
+      "connectionUpdateSuccess": "מידע החיבור עודכן בהצלחה",
+      "envUpdateFailed": "נכשל בשמירת משתני סביבה",
+      "envUpdateSuccess": "משתני סביבה נשמרו בהצלחה"
     },
-    "modalDesc": "After configuring the plugin marketplace address, you can use a custom plugin marketplace",
+    "modalDesc": "לאחר הגדרת כתובת שוק התוספים, תוכל להשתמש בשוק תוספים מותאם",
     "rules": {
-      "argsRequired": "Please enter startup arguments",
-      "commandRequired": "Please enter startup command",
-      "urlRequired": "Please enter service address"
+      "argsRequired": "אנא הכנס ארגומנטי הפעלה",
+      "commandRequired": "אנא הכנס פקודת הפעלה",
+      "urlRequired": "אנא הכנס כתובת שירות"
     },
-    "saveSettings": "Save Settings",
-    "title": "Configure Plugin Marketplace"
+    "saveSettings": "שמור הגדרות",
+    "title": "הגדר שוק תוספים"
   },
-  "showInPortal": "Please view details in the workspace",
+  "showInPortal": "אנא הצג פרטים בסביבת העבודה",
   "store": {
     "actions": {
-      "cancel": "Cancel Installation",
-      "confirmUninstall": "This plugin will be uninstalled and its configuration cleared. Please confirm your action.",
-      "detail": "Details",
-      "install": "Install",
-      "manifest": "Edit Installation File",
-      "settings": "Settings",
-      "uninstall": "Uninstall"
+      "cancel": "בטל התקנה",
+      "confirmUninstall": "התוסף הזה יוסר והתצורה שלו תימחק. אנא אשר את הפעולה שלך.",
+      "detail": "פרטים",
+      "install": "התקן",
+      "manifest": "ערוך קובץ התקנה",
+      "settings": "הגדרות",
+      "uninstall": "הסר"
     },
-    "communityPlugin": "Third-Party Community",
-    "customPlugin": "Custom",
-    "empty": "No installed plugins",
-    "emptySelectHint": "Select a plugin to preview detailed information",
-    "installAllPlugins": "Install All",
-    "networkError": "Failed to fetch plugin store, please check network connection and try again",
-    "placeholder": "Search plugin name, description or keywords...",
-    "releasedAt": "Released on {{createdAt}}",
+    "communityPlugin": "קהילה צד שלישי",
+    "customPlugin": "מותאם",
+    "empty": "אין תוספים מותקנים",
+    "emptySelectHint": "בחר תוסף כדי לראות תצוגה מקדימה של מידע מפורט",
+    "installAllPlugins": "התקן הכל",
+    "networkError": "נכשל בטעינת שוק התוספים, אנא בדוק את חיבור הרשת ונסה שוב",
+    "placeholder": "חפש שם תוסף, תיאור או מילות מפתח...",
+    "releasedAt": "שוחרר ב-{{createdAt}}",
     "tabs": {
-      "installed": "Installed",
-      "mcp": "MCP Plugins",
-      "old": "LobeChat Plugins"
+      "installed": "מותקן",
+      "mcp": "תוספי MCP",
+      "old": "תוספי LobeChat"
     },
-    "title": "Plugin Store"
+    "title": "שוק תוספים"
   },
-  "unknownError": "Unknown Error",
-  "unknownPlugin": "Unknown Plugin"
+  "unknownError": "שגיאה לא ידועה",
+  "unknownPlugin": "תוסף לא ידוע"
 }
