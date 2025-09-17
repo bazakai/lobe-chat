@@ -1,30 +1,30 @@
 {
-  "Artifacts": "Artifacts",
+  "Artifacts": "ארטיפקטים",
   "FilePreview": {
     "tabs": {
-      "chunk": "Chunk",
-      "file": "File"
+      "chunk": "חלק",
+      "file": "קובץ"
     }
   },
-  "Plugins": "Plugins",
+  "Plugins": "תוספים",
   "artifacts": {
     "display": {
-      "code": "Code",
-      "preview": "Preview"
+      "code": "קוד",
+      "preview": "תצוגה מקדימה"
     },
     "svg": {
-      "copyAsImage": "Copy as Image",
-      "copyFail": "Copy failed, reason: {{error}}",
-      "copySuccess": "Image copied successfully",
+      "copyAsImage": "העתק כתמונה",
+      "copyFail": "העתקה נכשלה, סיבה: {{error}}",
+      "copySuccess": "תמונה הועתקה בהצלחה",
       "download": {
-        "png": "Download as PNG",
-        "svg": "Download as SVG"
+        "png": "הורד כ-PNG",
+        "svg": "הורד כ-SVG"
       }
     }
   },
-  "emptyArtifactList": "The current Artifacts list is empty. Please use plugins in the session as needed before viewing.",
-  "emptyKnowledgeList": "The current knowledge list is empty. Please enable the knowledge base as needed during the conversation before viewing.",
-  "files": "Files",
-  "messageDetail": "Message Details",
-  "title": "Portal View"
+  "emptyArtifactList": "רשימת הארטיפקטים הנוכחית ריקה. אנא השתמש בתוספים בפעלה לפי הצורך לפני הצפייה.",
+  "emptyKnowledgeList": "רשימת הידע הנוכחית ריקה. אנא הפעל את בסיס הידע לפי הצורך במהלך השיחה לפני הצפייה.",
+  "files": "קבצים",
+  "messageDetail": "פרטי הודעה",
+  "title": "תצוגת פורטל"
 }

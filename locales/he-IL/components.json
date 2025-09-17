@@ -1,186 +1,186 @@
 {
   "ArgsInput": {
-    "addArgument": "Add Argument",
-    "argumentPlaceholder": "Argument {{index}}",
-    "enterFirstArgument": "Enter first argument..."
+    "addArgument": "הוסף טיעון",
+    "argumentPlaceholder": "טיעון {{index}}",
+    "enterFirstArgument": "הכנס את הטיעון הראשון..."
   },
   "DragUpload": {
-    "dragDesc": "Drag and drop files here to upload multiple images.",
-    "dragFileDesc": "Drag and drop images and files here to upload multiple images and files.",
-    "dragFileTitle": "Upload Files",
-    "dragTitle": "Upload Images"
+    "dragDesc": "גרור ושחרר קבצים כאן כדי להעלות מספר תמונות.",
+    "dragFileDesc": "גרור ושחרר תמונות וקבצים כאן כדי להעלות מספר תמונות וקבצים.",
+    "dragFileTitle": "העלה קבצים",
+    "dragTitle": "העלה תמונות"
   },
   "FileManager": {
     "actions": {
-      "addToKnowledgeBase": "Add to Knowledge Base",
-      "addToOtherKnowledgeBase": "Add to Other Knowledge Base",
-      "batchChunking": "Batch Chunking",
-      "chunking": "Chunking",
-      "chunkingTooltip": "Split the file into multiple text chunks and embedding them for semantic search and file dialogue.",
-      "chunkingUnsupported": "This file does not support chunking.",
-      "confirmDelete": "You are about to delete this file. Once deleted, it cannot be recovered. Please confirm your action.",
-      "confirmDeleteMultiFiles": "You are about to delete the selected {{count}} files. Once deleted, they cannot be recovered. Please confirm your action.",
-      "confirmRemoveFromKnowledgeBase": "You are about to remove the selected {{count}} files from the knowledge base. They will still be viewable in all files. Please confirm your action.",
-      "copyUrl": "Copy Link",
-      "copyUrlSuccess": "File url copied successfully.",
-      "createChunkingTask": "Preparing...",
-      "deleteSuccess": "File deleted successfully.",
-      "downloading": "Downloading file...",
-      "removeFromKnowledgeBase": "Remove from Knowledge Base",
-      "removeFromKnowledgeBaseSuccess": "File removed successfully."
+      "addToKnowledgeBase": "הוסף לבסיס ידע",
+      "addToOtherKnowledgeBase": "הוסף לבסיס ידע אחר",
+      "batchChunking": "חלוקה קבוצתית",
+      "chunking": "חלוקה",
+      "chunkingTooltip": "חלק את הקובץ למספר חלקי טקסט והטמע אותם לחיפוש סמנטי ושיחת קובץ.",
+      "chunkingUnsupported": "קובץ זה אינו תומך בחלוקה.",
+      "confirmDelete": "אתה עומד למחוק את הקובץ הזה. לאחר המחיקה, לא ניתן לשחזר אותו. אנא אשר את הפעולה שלך.",
+      "confirmDeleteMultiFiles": "אתה עומד למחוק את {{count}} הקבצים שנבחרו. לאחר המחיקה, לא ניתן לשחזר אותם. אנא אשר את הפעולה שלך.",
+      "confirmRemoveFromKnowledgeBase": "אתה עומד להסיר את {{count}} הקבצים שנבחרו מבסיס הידע. הם עדיין יהיו נראים בכל הקבצים. אנא אשר את הפעולה שלך.",
+      "copyUrl": "העתק קישור",
+      "copyUrlSuccess": "כתובת הקובץ הועתקה בהצלחה.",
+      "createChunkingTask": "מכין...",
+      "deleteSuccess": "הקובץ נמחק בהצלחה.",
+      "downloading": "מוריד קובץ...",
+      "removeFromKnowledgeBase": "הסר מבסיס ידע",
+      "removeFromKnowledgeBaseSuccess": "הקובץ הוסר בהצלחה."
     },
-    "bottom": "You've reached the end.",
+    "bottom": "הגעת לסוף.",
     "config": {
-      "showFilesInKnowledgeBase": "Show content in Knowledge Base"
+      "showFilesInKnowledgeBase": "הצג תוכן בבסיס ידע"
     },
     "emptyStatus": {
       "actions": {
-        "file": "Upload File",
-        "folder": "Upload Folder",
-        "knowledgeBase": "Create New Knowledge Base"
+        "file": "העלה קובץ",
+        "folder": "העלה תיקייה",
+        "knowledgeBase": "צור בסיס ידע חדש"
       },
-      "or": "or",
-      "title": "Drag files or folders here"
+      "or": "או",
+      "title": "גרור קבצים או תיקיות לכאן"
     },
     "title": {
-      "createdAt": "Created At",
-      "size": "Size",
-      "title": "File"
+      "createdAt": "נוצר ב",
+      "size": "גודל",
+      "title": "קובץ"
     },
     "total": {
-      "fileCount": "Total {{count}} items",
-      "selectedCount": "Selected {{count}} items"
+      "fileCount": "סך הכל {{count}} פריטים",
+      "selectedCount": "נבחרו {{count}} פריטים"
     }
   },
   "FileParsingStatus": {
     "chunks": {
       "embeddingStatus": {
-        "empty": "Text chunks have not been fully embedded, which will render the semantic search feature unavailable. To improve search quality, please embedding the text chunks.",
-        "error": "Embedding failed",
-        "errorResult": "Vectorization failed, please check and try again. Error detail:",
-        "processing": "Text chunks are being embedded, please be patient.",
-        "success": "All current text chunks have been embedded"
+        "empty": "חלקי הטקסט לא הוטמעו במלואם, מה שיגרום לתכונת החיפוש הסמנטי להיות לא זמינה. כדי לשפר את איכות החיפוש, אנא הטמע את חלקי הטקסט.",
+        "error": "הטמעה נכשלה",
+        "errorResult": "ווקטוריזציה נכשלה, אנא בדוק ונסה שוב. פרטי שגיאה:",
+        "processing": "חלקי טקסט מוטמעים, אנא המתן בסבלנות.",
+        "success": "כל חלקי הטקסט הנוכחיים הוטמעו"
       },
-      "embeddings": "Embedding",
+      "embeddings": "הטמעה",
       "status": {
-        "error": "Chunking failed",
-        "errorResult": "Chunking failed, please check and try again. Error detail:",
-        "processing": "Chunking",
-        "processingTip": "The server is splitting text chunks; closing the page will not affect the chunking progress."
+        "error": "חלוקה נכשלה",
+        "errorResult": "חלוקה נכשלה, אנא בדוק ונסה שוב. פרטי שגיאה:",
+        "processing": "חלוקה",
+        "processingTip": "השרת מחלק חלקי טקסט; סגירת הדף לא תשפיע על התקדמות החלוקה."
       }
     }
   },
   "GoBack": {
-    "back": "Back"
+    "back": "חזור"
   },
   "HtmlPreview": {
     "actions": {
-      "download": "Download",
-      "preview": "Preview"
+      "download": "הורד",
+      "preview": "תצוגה מקדימה"
     },
-    "iframeTitle": "HTML Preview",
+    "iframeTitle": "תצוגה מקדימה של HTML",
     "mode": {
-      "code": "Code",
-      "preview": "Preview"
+      "code": "קוד",
+      "preview": "תצוגה מקדימה"
     },
-    "title": "HTML Preview"
+    "title": "תצוגה מקדימה של HTML"
   },
   "ImageUpload": {
     "actions": {
-      "changeImage": "Click to change image",
-      "dropMultipleFiles": "Uploading multiple files at once is not supported; only the first file will be used"
+      "changeImage": "לחץ כדי לשנות תמונה",
+      "dropMultipleFiles": "העלאת מספר קבצים בבת אחת אינה נתמכת; רק הקובץ הראשון ישמש"
     },
     "placeholder": {
-      "primary": "Add Image",
-      "secondary": "Click or drag to upload"
+      "primary": "הוסף תמונה",
+      "secondary": "לחץ או גרור כדי להעלות"
     }
   },
   "KeyValueEditor": {
-    "addButton": "Add a row",
-    "deleteTooltip": "Delete",
-    "duplicateKeyError": "Key must be unique",
-    "keyPlaceholder": "Key",
-    "valuePlaceholder": "Value"
+    "addButton": "הוסף שורה",
+    "deleteTooltip": "מחק",
+    "duplicateKeyError": "המפתח חייב להיות ייחודי",
+    "keyPlaceholder": "מפתח",
+    "valuePlaceholder": "ערך"
   },
   "MaxTokenSlider": {
-    "unlimited": "Unlimited"
+    "unlimited": "ללא הגבלה"
   },
   "ModelSelect": {
     "featureTag": {
-      "custom": "Custom model, by default, supports both function calls and visual recognition. Please verify the availability of the above capabilities based on actual situations.",
-      "file": "This model supports file upload for reading and recognition.",
-      "functionCall": "This model supports function calls.",
-      "imageOutput": "This model supports image generation.",
-      "reasoning": "This model supports deep thinking.",
-      "search": "This model supports online search.",
-      "tokens": "This model supports up to {{tokens}} tokens in a single session.",
-      "vision": "This model supports visual recognition."
+      "custom": "מודל מותאם אישית, כברירת מחדל, תומך הן בקריאות פונקציות והן בזיהוי חזותי. אנא ודא את זמינות היכולות הנ\"ל בהתבסס על מצבים בפועל.",
+      "file": "המודל הזה תומך בהעלאת קבצים לקריאה וזיהוי.",
+      "functionCall": "המודל הזה תומך בקריאות פונקציות.",
+      "imageOutput": "המודל הזה תומך ביצירת תמונות.",
+      "reasoning": "המודל הזה תומך בחשיבה עמוקה.",
+      "search": "המודל הזה תומך בחיפוש מקוון.",
+      "tokens": "המודל הזה תומך עד {{tokens}} טוקנים במפגש יחיד.",
+      "vision": "המודל הזה תומך בזיהוי חזותי."
     },
-    "removed": "The model is not in the list. It will be automatically removed if deselected."
+    "removed": "המודל לא נמצא ברשימה. הוא יוסר אוטומטית אם יבוטל בחירה."
   },
   "ModelSwitchPanel": {
-    "emptyModel": "No enabled model. Please go to settings to enable.",
-    "emptyProvider": "No enabled providers. Please go to settings to enable one.",
-    "goToSettings": "Go to settings",
-    "provider": "Provider",
-    "title": "Model"
+    "emptyModel": "אין מודל מופעל. אנא עבור להגדרות כדי להפעיל.",
+    "emptyProvider": "אין ספקים מופעלים. אנא עבור להגדרות כדי להפעיל אחד.",
+    "goToSettings": "עבור להגדרות",
+    "provider": "ספק",
+    "title": "מודל"
   },
   "MultiImagesUpload": {
     "actions": {
-      "uploadMore": "Click or drag to upload more"
+      "uploadMore": "לחץ או גרור כדי להעלות עוד"
     },
     "modal": {
-      "complete": "Done",
-      "newFileIndicator": "New",
-      "selectImageToPreview": "Please select an image to preview",
-      "title": "Manage Images ({{count}})",
-      "upload": "Upload Images"
+      "complete": "סיום",
+      "newFileIndicator": "חדש",
+      "selectImageToPreview": "אנא בחר תמונה לתצוגה מקדימה",
+      "title": "נהל תמונות ({{count}})",
+      "upload": "העלה תמונות"
     },
     "placeholder": {
-      "primary": "Click or drag to upload images",
-      "secondary": "Supports multiple image selection"
+      "primary": "לחץ או גרור כדי להעלות תמונות",
+      "secondary": "תומך בבחירת מספר תמונות"
     },
     "progress": {
-      "uploadingWithCount": "{{completed}}/{{total}} uploaded"
+      "uploadingWithCount": "{{completed}}/{{total}} הועלו"
     },
     "validation": {
-      "fileSizeExceeded": "File size exceeds the maximum allowed",
-      "fileSizeExceededDetail": "{{fileName}} ({{actualSize}}) exceeds the maximum allowed size of {{maxSize}}",
-      "fileSizeExceededMultiple": "{{count}} files exceed the maximum allowed size of {{maxSize}}: {{fileList}}",
-      "imageCountExceeded": "Maximum number of images exceeded"
+      "fileSizeExceeded": "גודל הקובץ חורג מהמקסימום המותר",
+      "fileSizeExceededDetail": "{{fileName}} ({{actualSize}}) חורג מהגודל המקסימלי המותר של {{maxSize}}",
+      "fileSizeExceededMultiple": "{{count}} קבצים חורגים מהגודל המקסימלי המותר של {{maxSize}}: {{fileList}}",
+      "imageCountExceeded": "חרג ממספר התמונות המקסימלי"
     }
   },
   "OllamaSetupGuide": {
     "action": {
-      "close": "Close Prompt",
-      "start": "Installed and running, start the conversation"
+      "close": "סגור הנחיה",
+      "start": "מותקן ופועל, התחל את השיחה"
     },
     "cors": {
-      "description": "Due to browser security restrictions, you need to configure cross-origin settings for Ollama to function properly.",
+      "description": "בגלל הגבלות אבטחה של הדפדפן, אתה צריך להגדיר הגדרות cross-origin עבור Ollama כדי שיעבוד כראוי.",
       "linux": {
-        "env": "Add `Environment` under the [Service] section, and set the OLLAMA_ORIGINS environment variable:",
-        "reboot": "Reload systemd and restart Ollama",
-        "systemd": "Edit the ollama service using systemd:"
+        "env": "הוסף `Environment` תחת סעיף [Service], והגדר את משתנה הסביבה OLLAMA_ORIGINS:",
+        "reboot": "טען מחדש את systemd והפעל מחדש את Ollama",
+        "systemd": "ערוך את שירות ollama באמצעות systemd:"
       },
-      "macos": "Please open the 'Terminal' application, paste the following command, and press Enter to run it.",
-      "reboot": "Please restart the Ollama service after the execution is complete.",
-      "title": "Configure Ollama for Cross-Origin Access",
-      "windows": "On Windows, click 'Control Panel' and go to edit system environment variables. Create a new environment variable named 'OLLAMA_ORIGINS' for your user account, with the value set to *, and click 'OK/Apply' to save."
+      "macos": "אנא פתח את אפליקציית 'Terminal', הדבק את הפקודה הבאה ולחץ Enter כדי להריץ אותה.",
+      "reboot": "אנא הפעל מחדש את שירות Ollama לאחר שהביצוע הושלם.",
+      "title": "הגדר את Ollama לגישה Cross-Origin",
+      "windows": "ב-Windows, לחץ על 'Control Panel' ועבור לעריכת משתני סביבה של המערכת. צור משתנה סביבה חדש בשם 'OLLAMA_ORIGINS' עבור חשבון המשתמש שלך, עם הערך מוגדר ל-*, ולחץ על 'OK/Apply' כדי לשמור."
     },
     "install": {
-      "description": "Please ensure that you have started Ollama. If you haven't downloaded Ollama, please visit the official website to <1>download</1> it.",
-      "docker": "If you prefer to use Docker, Ollama also provides an official Docker image, which you can pull using the following command:",
+      "description": "אנא ודא שהפעלת את Ollama. אם לא הורדת את Ollama, אנא בקר באתר הרשמי כדי <1>להוריד</1> אותו.",
+      "docker": "אם אתה מעדיף להשתמש ב-Docker, Ollama גם מספקת תמונת Docker רשמית, שתוכל למשוך באמצעות הפקודה הבאה:",
       "linux": {
-        "command": "Install using the following command:",
-        "manual": "Alternatively, you can refer to the <1>Linux Manual Installation Guide</1> for a manual installation."
+        "command": "התקן באמצעות הפקודה הבאה:",
+        "manual": "לחלופין, אתה יכול להתייחס ל<1>מדריך התקנה ידנית של Linux</1> להתקנה ידנית."
       },
-      "title": "Install and Start the Ollama Application Locally",
-      "windowsTab": "Windows (Preview)"
+      "title": "התקן והפעל את אפליקציית Ollama מקומית",
+      "windowsTab": "Windows (תצוגה מקדימה)"
     }
   },
   "Thinking": {
-    "thinking": "Deep Thinking...",
-    "thought": "Deeply Thought (in {{duration}} seconds)",
-    "thoughtWithDuration": "Deeply Thought"
+    "thinking": "חשיבה עמוקה...",
+    "thought": "חשב עמוק (ב-{{duration}} שניות)",
+    "thoughtWithDuration": "חשב עמוק"
   }
 }

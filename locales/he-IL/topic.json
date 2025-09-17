@@ -1,38 +1,38 @@
 {
   "actions": {
-    "autoRename": "Smart Rename",
-    "confirmRemoveAll": "You are about to delete all topics. This action cannot be undone, please proceed with caution.",
-    "confirmRemoveTopic": "You are about to delete this topic. This action cannot be undone, please proceed with caution.",
-    "confirmRemoveUnstarred": "You are about to delete unstarred topics. This action cannot be undone, please proceed with caution.",
-    "duplicate": "Create Copy",
-    "export": "Export Topics",
-    "removeAll": "Delete All Topics",
-    "removeUnstarred": "Delete Unstarred Topics"
+    "autoRename": "שינוי שם חכם",
+    "confirmRemoveAll": "אתה עומד למחוק את כל הנושאים. פעולה זו לא ניתנת לביטול, אנא המשך בזהירות.",
+    "confirmRemoveTopic": "אתה עומד למחוק את הנושא הזה. פעולה זו לא ניתנת לביטול, אנא המשך בזהירות.",
+    "confirmRemoveUnstarred": "אתה עומד למחוק נושאים לא מסומנים בכוכב. פעולה זו לא ניתנת לביטול, אנא המשך בזהירות.",
+    "duplicate": "צור עותק",
+    "export": "ייצא נושאים",
+    "removeAll": "מחק את כל הנושאים",
+    "removeUnstarred": "מחק נושאים לא מסומנים בכוכב"
   },
-  "defaultTitle": "Default Topic",
-  "duplicateLoading": "Copying Topic...",
-  "duplicateSuccess": "Topic Copied Successfully",
-  "favorite": "Favorite",
+  "defaultTitle": "נושא ברירת מחדל",
+  "duplicateLoading": "מעתיק נושא...",
+  "duplicateSuccess": "נושא הועתק בהצלחה",
+  "favorite": "מועדף",
   "groupMode": {
-    "ascMessages": "Sort by Total Messages Ascending",
-    "byTime": "Group by Time",
-    "descMessages": "Sort by Total Messages Descending",
-    "flat": "No Grouping"
+    "ascMessages": "מיון לפי סך ההודעות בסדר עולה",
+    "byTime": "קיבוץ לפי זמן",
+    "descMessages": "מיון לפי סך ההודעות בסדר יורד",
+    "flat": "ללא קיבוץ"
   },
   "groupTitle": {
     "byTime": {
-      "month": "This Month",
-      "today": "Today",
-      "week": "This Week",
-      "yesterday": "Yesterday"
+      "month": "החודש",
+      "today": "היום",
+      "week": "השבוע",
+      "yesterday": "אתמול"
     }
   },
   "guide": {
-    "desc": "Click the button on the left to save the current conversation as a historical topic and start a new conversation.",
-    "title": "Topic List"
+    "desc": "לחץ על הכפתור משמאל כדי לשמור את השיחה הנוכחית כנושא היסטורי ולהתחיל שיחה חדשה.",
+    "title": "רשימת נושאים"
   },
-  "searchPlaceholder": "Search Topics...",
-  "searchResultEmpty": "No search results found.",
-  "temp": "Temporary",
-  "title": "Topic"
+  "searchPlaceholder": "חפש נושאים...",
+  "searchResultEmpty": "לא נמצאו תוצאות חיפוש.",
+  "temp": "זמני",
+  "title": "נושא"
 }

@@ -1,32 +1,32 @@
 {
   "addToKnowledgeBase": {
-    "addSuccess": "File added successfully, <1>view now</1>",
-    "confirm": "Add",
+    "addSuccess": "קובץ נוסף בהצלחה, <1>הצג עכשיו</1>",
+    "confirm": "הוסף",
     "id": {
-      "placeholder": "Please select a knowledge base to add",
-      "required": "Please select a knowledge base",
-      "title": "Target Knowledge Base"
+      "placeholder": "אנא בחר בסיס ידע להוספה",
+      "required": "אנא בחר בסיס ידע",
+      "title": "בסיס ידע יעד"
     },
-    "title": "Add to Knowledge Base",
-    "totalFiles": "{{count}} files selected"
+    "title": "הוסף לבסיס ידע",
+    "totalFiles": "{{count}} קבצים נבחרו"
   },
   "createNew": {
-    "confirm": "Create New",
+    "confirm": "צור חדש",
     "description": {
-      "placeholder": "Knowledge base description (optional)"
+      "placeholder": "תיאור בסיס ידע (אופציונלי)"
     },
-    "formTitle": "Basic Information",
+    "formTitle": "מידע בסיסי",
     "name": {
-      "placeholder": "Knowledge base name",
-      "required": "Please enter the knowledge base name"
+      "placeholder": "שם בסיס ידע",
+      "required": "אנא הכנס את שם בסיס הידע"
     },
-    "title": "Create Knowledge Base"
+    "title": "צור בסיס ידע"
   },
   "tab": {
-    "evals": "Evaluations",
-    "files": "Documents",
-    "settings": "Settings",
-    "testing": "Recall Testing"
+    "evals": "הערכות",
+    "files": "מסמכים",
+    "settings": "הגדרות",
+    "testing": "בדיקת זיכרון"
   },
-  "title": "Knowledge Base"
+  "title": "בסיס ידע"
 }

@@ -1,18 +1,18 @@
 {
   "actions": {
-    "followOnX": "Follow us on X",
-    "subscribeToUpdates": "Subscribe for updates",
-    "versions": "Version details"
+    "followOnX": "עקוב אחרינו ב-X",
+    "subscribeToUpdates": "הירשם לעדכונים",
+    "versions": "פרטי גרסה"
   },
-  "addedWhileAway": "We've introduced new features while you were away.",
-  "allChangelog": "View all changelogs",
-  "description": "Stay updated on the new features and improvements of {{appName}}",
+  "addedWhileAway": "הכנסנו תכונות חדשות בזמן שלא היית כאן.",
+  "allChangelog": "הצג את כל יומני השינויים",
+  "description": "הישאר מעודכן על התכונות החדשות והשיפורים של {{appName}}",
   "pagination": {
-    "next": "Next Page",
-    "older": "View Historical Changes"
+    "next": "עמוד הבא",
+    "older": "הצג שינויים היסטוריים"
   },
-  "readDetails": "Read details",
-  "title": "Changelog",
-  "versionDetails": "Version details",
-  "welcomeBack": "Welcome back!"
+  "readDetails": "קרא פרטים",
+  "title": "יומן שינויים",
+  "versionDetails": "פרטי גרסה",
+  "welcomeBack": "ברוך שובך!"
 }

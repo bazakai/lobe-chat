@@ -1,91 +1,91 @@
 {
   "addDataset": {
-    "confirm": "Create",
+    "confirm": "צור",
     "description": {
-      "placeholder": "Dataset description (optional)"
+      "placeholder": "תיאור מערך נתונים (אופציונלי)"
     },
     "name": {
-      "placeholder": "Dataset name",
-      "required": "Please enter the dataset name"
+      "placeholder": "שם מערך נתונים",
+      "required": "אנא הכנס את שם מערך הנתונים"
     },
-    "title": "Add Dataset"
+    "title": "הוסף מערך נתונים"
   },
   "dataset": {
-    "addNewButton": "Create Dataset",
-    "emptyGuide": "There are currently no datasets. Please create a dataset.",
+    "addNewButton": "צור מערך נתונים",
+    "emptyGuide": "אין כרגע מערכי נתונים. אנא צור מערך נתונים.",
     "list": {
       "table": {
         "actions": {
-          "importData": "Import Data"
+          "importData": "ייבא נתונים"
         },
         "columns": {
-          "actions": "Actions",
+          "actions": "פעולות",
           "ideal": {
-            "title": "Expected Answer"
+            "title": "תשובה צפויה"
           },
           "question": {
-            "title": "Question"
+            "title": "שאלה"
           },
           "referenceFiles": {
-            "title": "Reference Files"
+            "title": "קבצי התייחסות"
           }
         },
-        "notSelected": "Please select a dataset on the left",
-        "title": "Dataset Details"
+        "notSelected": "אנא בחר מערך נתונים משמאל",
+        "title": "פרטי מערך נתונים"
       },
-      "title": "Dataset"
+      "title": "מערך נתונים"
     }
   },
   "evaluation": {
     "addEvaluation": {
-      "confirm": "Create",
+      "confirm": "צור",
       "datasetId": {
-        "placeholder": "Please select your evaluation dataset",
-        "required": "Please select an evaluation dataset"
+        "placeholder": "אנא בחר את מערך הנתונים להערכה שלך",
+        "required": "אנא בחר מערך נתונים להערכה"
       },
       "description": {
-        "placeholder": "Evaluation task description (optional)"
+        "placeholder": "תיאור משימת הערכה (אופציונלי)"
       },
       "name": {
-        "placeholder": "Evaluation task name",
-        "required": "Please enter the evaluation task name"
+        "placeholder": "שם משימת הערכה",
+        "required": "אנא הכנס את שם משימת ההערכה"
       },
-      "title": "Add Evaluation Task"
+      "title": "הוסף משימת הערכה"
     },
-    "addNewButton": "Create Evaluation",
-    "emptyGuide": "There are currently no evaluation tasks. Start creating an evaluation.",
+    "addNewButton": "צור הערכה",
+    "emptyGuide": "אין כרגע משימות הערכה. התחל ליצור הערכה.",
     "table": {
       "columns": {
         "actions": {
-          "checkStatus": "Check Status",
-          "confirmDelete": "Are you sure you want to delete this evaluation?",
-          "confirmRun": "Are you sure you want to start running? The evaluation task will be executed asynchronously in the background, and closing the page will not affect the execution of the asynchronous task.",
-          "downloadRecords": "Download Evaluation",
-          "retry": "Retry",
-          "run": "Run",
-          "title": "Actions"
+          "checkStatus": "בדוק סטטוס",
+          "confirmDelete": "האם אתה בטוח שברצונך למחוק את ההערכה הזו?",
+          "confirmRun": "האם אתה בטוח שברצונך להתחיל להריץ? משימת ההערכה תבוצע באופן אסינכרוני ברקע, וסגירת הדף לא תשפיע על ביצוע המשימה האסינכרונית.",
+          "downloadRecords": "הורד הערכה",
+          "retry": "נסה שוב",
+          "run": "הרץ",
+          "title": "פעולות"
         },
         "datasetId": {
-          "title": "Dataset"
+          "title": "מערך נתונים"
         },
         "name": {
-          "title": "Evaluation Task Name"
+          "title": "שם משימת הערכה"
         },
         "records": {
-          "title": "Number of Evaluation Records"
+          "title": "מספר רשומות הערכה"
         },
         "referenceFiles": {
-          "title": "Reference Files"
+          "title": "קבצי התייחסות"
         },
         "status": {
-          "error": "Execution Error",
-          "pending": "Pending",
-          "processing": "In Progress",
-          "success": "Execution Successful",
-          "title": "Status"
+          "error": "שגיאת ביצוע",
+          "pending": "ממתין",
+          "processing": "בתהליך",
+          "success": "ביצוע מוצלח",
+          "title": "סטטוס"
         }
       },
-      "title": "Evaluation Task List"
+      "title": "רשימת משימות הערכה"
     }
   }
 }

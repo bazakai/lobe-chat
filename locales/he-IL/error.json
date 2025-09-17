@@ -1,174 +1,174 @@
 {
   "clerkAuth": {
     "loginSuccess": {
-      "action": "Continue Session",
-      "desc": "{{greeting}}, it's great to continue serving you. Let's pick up where we left off.",
-      "title": "Welcome back, {{nickName}}"
+      "action": "המשך הפעלה",
+      "desc": "{{greeting}}, זה נהדר להמשיך לשרת אותך. בואו נמשיך מהמקום שבו עצרנו.",
+      "title": "ברוך שובך, {{nickName}}"
     }
   },
   "error": {
-    "backHome": "Back to Home",
-    "desc": "Give it a try later, or go back to the known world.",
-    "retry": "Reload",
-    "title": "Oops, something went wrong.."
+    "backHome": "חזור הביתה",
+    "desc": "נסה שוב מאוחר יותר, או חזור לעולם הידוע.",
+    "retry": "טען מחדש",
+    "title": "אופס, משהו השתבש.."
   },
   "fetchError": {
-    "detail": "Error details",
-    "title": "Request failed"
+    "detail": "פרטי שגיאה",
+    "title": "הבקשה נכשלה"
   },
   "import": {
     "importConfigFile": {
-      "description": "Error reason: {{reason}}",
-      "title": "Import Failed"
+      "description": "סיבת השגיאה: {{reason}}",
+      "title": "הייבוא נכשל"
     },
     "incompatible": {
-      "description": "This file was exported from a higher version. Please try upgrading to the latest version and then re-importing.",
-      "title": "Current application does not support importing this file"
+      "description": "קובץ זה יוצא מגרסה גבוהה יותר. אנא נסה לשדרג לגרסה האחרונה ולאחר מכן לייבא מחדש.",
+      "title": "האפליקציה הנוכחית אינה תומכת בייבוא קובץ זה"
     }
   },
   "loginRequired": {
-    "desc": "You will be redirected to the login page shortly",
-    "title": "Please log in to use this feature"
+    "desc": "תועבר לדף הכניסה בקרוב",
+    "title": "אנא התחבר כדי להשתמש בתכונה זו"
   },
   "notFound": {
-    "backHome": "Back to Home",
-    "check": "Please check if your URL is correct.",
-    "desc": "We couldn't find the page you were looking for.",
-    "title": "Entered Unknown Territory?"
+    "backHome": "חזור לבית",
+    "check": "אנא בדוק אם כתובת ה-URL שלך נכונה.",
+    "desc": "לא הצלחנו למצוא את הדף שחיפשת.",
+    "title": "נכנסת לשטח לא ידוע?"
   },
   "pluginSettings": {
-    "desc": "Complete the following configuration to start using this plugin",
-    "title": "{{name}} Plugin Settings"
+    "desc": "השלם את התצורה הבאה כדי להתחיל להשתמש בתוסף הזה",
+    "title": "הגדרות תוסף {{name}}"
   },
   "response": {
-    "400": "Sorry, the server does not understand your request. Please make sure your request parameters are correct.",
-    "401": "Sorry, the server has rejected your request, possibly due to insufficient permissions or invalid authentication.",
-    "403": "Sorry, the server has rejected your request. You do not have permission to access this content.",
-    "404": "Sorry, the server cannot find the page or resource you requested. Please make sure your URL is correct.",
-    "405": "Sorry, the server does not support the request method you are using. Please make sure your request method is correct.",
-    "406": "Sorry, the server cannot complete the request based on the characteristics of the content you requested",
-    "407": "Sorry, you need to authenticate the proxy before continuing with this request",
-    "408": "Sorry, the server timed out while waiting for the request, please check your network connection and try again",
-    "409": "Sorry, the request cannot be processed due to a conflict, possibly because the resource state is incompatible with the request",
-    "410": "Sorry, the resource you requested has been permanently removed and cannot be found",
-    "411": "Sorry, the server cannot process the request without a valid content length",
-    "412": "Sorry, your request does not meet the server's conditions and cannot be completed",
-    "413": "Sorry, your request data is too large for the server to process",
-    "414": "Sorry, the URI of your request is too long for the server to process",
-    "415": "Sorry, the server cannot process the media format attached to the request",
-    "416": "Sorry, the server cannot satisfy the range of your request",
-    "417": "Sorry, the server cannot meet your expectations",
-    "422": "Sorry, your request is in the correct format, but due to semantic errors, it cannot be responded to",
-    "423": "Sorry, the resource you requested is locked",
-    "424": "Sorry, the current request cannot be completed due to a previous request failure",
-    "426": "Sorry, the server requires your client to upgrade to a higher protocol version",
-    "428": "Sorry, the server requires a precondition, and requests that your request contain the correct conditional header",
-    "429": "Sorry, your request is too frequent and the server is a bit tired. Please try again later.",
-    "431": "Sorry, the header fields of your request are too large for the server to process",
-    "451": "Sorry, the server refuses to provide this resource due to legal reasons",
-    "499": "We apologize, your request was unexpectedly interrupted while being processed by the server, possibly due to your cancellation of the operation or an unstable network connection. Please check your network status and try again.",
-    "500": "Sorry, the server seems to be experiencing some difficulties and is temporarily unable to complete your request. Please try again later.",
-    "501": "Sorry, the server does not know how to handle this request yet. Please confirm that your operation is correct.",
-    "502": "Sorry, the server seems to be lost and is temporarily unable to provide service. Please try again later.",
-    "503": "Sorry, the server is currently unable to process your request, possibly due to overload or maintenance. Please try again later.",
-    "504": "Sorry, the server did not receive a response from the upstream server. Please try again later.",
-    "505": "Sorry, the server does not support the HTTP version you are using. Please update and try again.",
-    "506": "Sorry, there is a configuration issue with the server. Please contact the administrator for resolution.",
-    "507": "Sorry, the server has insufficient storage space to process your request. Please try again later.",
-    "509": "Sorry, the server's bandwidth has been exhausted. Please try again later.",
-    "510": "Sorry, the server does not support the requested extension. Please contact the administrator.",
-    "520": "We apologize, the server encountered an unexpected issue that prevented it from completing your request. Please try again later; we are working to resolve this issue.",
-    "522": "We apologize, the server connection timed out and was unable to respond to your request in a timely manner. This may be due to an unstable network or the server being temporarily inaccessible. Please try again later; we are working to restore service.",
-    "524": "We apologize, the server timed out while waiting for a response, possibly due to a slow reply. Please try again later.",
-    "AgentRuntimeError": "Lobe language model runtime execution error. Please troubleshoot or retry based on the following information.",
-    "ConnectionCheckFailed": "The request returned empty. Please check if the API proxy address does not end with `/v1`.",
-    "CreateMessageError": "Sorry, the message could not be sent successfully. Please copy the content and try sending it again. This message will not be retained after refreshing the page.",
-    "ExceededContextWindow": "The current request content exceeds the length that the model can handle. Please reduce the amount of content and try again.",
-    "FreePlanLimit": "You are currently a free user and cannot use this feature. Please upgrade to a paid plan to continue using it.",
+    "400": "מצטערים, השרת לא מבין את הבקשה שלך. אנא וודא שפרמטרי הבקשה שלך נכונים.",
+    "401": "מצטערים, השרת דחה את הבקשה שלך, כנראה בגלל הרשאות לא מספקות או אימות לא תקין.",
+    "403": "מצטערים, השרת דחה את הבקשה שלך. אין לך הרשאה לגשת לתוכן הזה.",
+    "404": "מצטערים, השרת לא יכול למצוא את הדף או המשאב שביקשת. אנא וודא שכתובת ה-URL שלך נכונה.",
+    "405": "מצטערים, השרת לא תומך בשיטת הבקשה שאתה משתמש בה. אנא וודא ששיטת הבקשה שלך נכונה.",
+    "406": "מצטערים, השרת לא יכול להשלים את הבקשה בהתבסס על המאפיינים של התוכן שביקשת",
+    "407": "מצטערים, אתה צריך לאמת את הפרוקסי לפני שתמשיך עם הבקשה הזו",
+    "408": "מצטערים, השרת פג זמן בזמן שהמתין לבקשה, אנא בדוק את חיבור הרשת שלך ונסה שוב",
+    "409": "מצטערים, הבקשה לא יכולה להיות מעובדת בגלל התנגשות, כנראה כי מצב המשאב לא תואם לבקשה",
+    "410": "מצטערים, המשאב שביקשת הוסר לצמיתות ולא ניתן למצוא אותו",
+    "411": "מצטערים, השרת לא יכול לעבד את הבקשה ללא אורך תוכן תקין",
+    "412": "מצטערים, הבקשה שלך לא עומדת בתנאים של השרת ולא יכולה להיות מושלמת",
+    "413": "מצטערים, נתוני הבקשה שלך גדולים מדי עבור השרת לעבד",
+    "414": "מצטערים, ה-URI של הבקשה שלך ארוך מדי עבור השרת לעבד",
+    "415": "מצטערים, השרת לא יכול לעבד את פורמט המדיה המצורף לבקשה",
+    "416": "מצטערים, השרת לא יכול לספק את הטווח של הבקשה שלך",
+    "417": "מצטערים, השרת לא יכול לעמוד בציפיות שלך",
+    "422": "מצטערים, הבקשה שלך בפורמט הנכון, אבל בגלל שגיאות סמנטיות, לא ניתן להגיב עליה",
+    "423": "מצטערים, המשאב שביקשת נעול",
+    "424": "מצטערים, הבקשה הנוכחית לא יכולה להיות מושלמת בגלל כישלון בקשה קודמת",
+    "426": "מצטערים, השרת דורש שהלקוח שלך ישדרג לגרסת פרוטוקול גבוהה יותר",
+    "428": "מצטערים, השרת דורש תנאי מוקדם, ומבקש שהבקשה שלך תכיל את כותרת התנאי הנכונה",
+    "429": "מצטערים, הבקשה שלך תכופה מדי והשרת קצת עייף. אנא נסה שוב מאוחר יותר.",
+    "431": "מצטערים, שדות הכותרת של הבקשה שלך גדולים מדי עבור השרת לעבד",
+    "451": "מצטערים, השרת מסרב לספק את המשאב הזה בגלל סיבות משפטיות",
+    "499": "אנו מתנצלים, הבקשה שלך הופסקה באופן בלתי צפוי בזמן שהשרת עיבד אותה, כנראה בגלל ביטול הפעולה שלך או חיבור רשת לא יציב. אנא בדוק את סטטוס הרשת שלך ונסה שוב.",
+    "500": "מצטערים, נראה שהשרת חווה קשיים מסוימים ולא יכול זמנית להשלים את הבקשה שלך. אנא נסה שוב מאוחר יותר.",
+    "501": "מצטערים, השרת עדיין לא יודע איך לטפל בבקשה הזו. אנא אשר שהפעולה שלך נכונה.",
+    "502": "מצטערים, נראה שהשרת הלך לאיבוד ולא יכול זמנית לספק שירות. אנא נסה שוב מאוחר יותר.",
+    "503": "מצטערים, השרת לא יכול כרגע לעבד את הבקשה שלך, כנראה בגלל עומס יתר או תחזוקה. אנא נסה שוב מאוחר יותר.",
+    "504": "מצטערים, השרת לא קיבל תגובה מהשרת העליון. אנא נסה שוב מאוחר יותר.",
+    "505": "מצטערים, השרת לא תומך בגרסת ה-HTTP שאתה משתמש בה. אנא עדכן ונסה שוב.",
+    "506": "מצטערים, יש בעיית תצורה עם השרת. אנא פנה למנהל לפתרון.",
+    "507": "מצטערים, לשרת אין מספיק מקום אחסון לעבד את הבקשה שלך. אנא נסה שוב מאוחר יותר.",
+    "509": "מצטערים, רוחב הפס של השרת אזל. אנא נסה שוב מאוחר יותר.",
+    "510": "מצטערים, השרת לא תומך בהרחבה המבוקשת. אנא פנה למנהל.",
+    "520": "אנו מתנצלים, השרת נתקל בבעיה בלתי צפויה שמנעה ממנו להשלים את הבקשה שלך. אנא נסה שוב מאוחר יותר; אנו עובדים לפתור את הבעיה הזו.",
+    "522": "אנו מתנצלים, חיבור השרת פג זמן ולא יכול להגיב לבקשה שלך בזמן. זה יכול להיות בגלל רשת לא יציבה או שהשרת לא נגיש זמנית. אנא נסה שוב מאוחר יותר; אנו עובדים לשחזר את השירות.",
+    "524": "אנו מתנצלים, השרת פג זמן בזמן שהמתין לתגובה, כנראה בגלל תגובה איטית. אנא נסה שוב מאוחר יותר.",
+    "AgentRuntimeError": "שגיאת ביצוע זמן ריצה של מודל השפה Lobe. אנא פתור בעיות או נסה שוב בהתבסס על המידע הבא.",
+    "ConnectionCheckFailed": "הבקשה החזירה ריק. אנא בדוק אם כתובת פרוקסי ה-API לא מסתיימת ב-`/v1`.",
+    "CreateMessageError": "מצטערים, ההודעה לא יכולה להישלח בהצלחה. אנא העתק את התוכן ונסה לשלוח שוב. ההודעה הזו לא תישמר לאחר רענון הדף.",
+    "ExceededContextWindow": "תוכן הבקשה הנוכחי עולה על האורך שהמודל יכול לטפל בו. אנא הפחת את כמות התוכן ונסה שוב.",
+    "FreePlanLimit": "אתה כרגע משתמש חינמי ולא יכול להשתמש בתכונה הזו. אנא שדרג לתוכנית בתשלום כדי להמשיך להשתמש בה.",
     "GoogleAIBlockReason": {
-      "BLOCKLIST": "Your content contains prohibited terms. Please review and modify your input, then try again.",
-      "IMAGE_SAFETY": "The generated image was blocked for safety reasons. Please try modifying your image request.",
-      "LANGUAGE": "The language you are using is not supported. Please try again in English or another supported language.",
-      "OTHER": "The content was blocked for an unknown reason. Please try rephrasing your request.",
-      "PROHIBITED_CONTENT": "Your request may contain prohibited content. Please adjust your request to comply with the usage guidelines.",
-      "RECITATION": "Your content was blocked due to potential copyright concerns. Please try using original content or rephrase your request.",
-      "SAFETY": "Your content was blocked for safety policy reasons. Please adjust your request to avoid potentially harmful or inappropriate content.",
-      "SPII": "Your content may contain sensitive personally identifiable information (PII). To protect privacy, please remove any sensitive details and try again.",
-      "default": "Content blocked: {{blockReason}}. Please adjust your request and try again."
+      "BLOCKLIST": "התוכן שלך מכיל מונחים אסורים. אנא סקור ושנה את הקלט שלך, ואז נסה שוב.",
+      "IMAGE_SAFETY": "התמונה שנוצרה נחסמה מסיבות בטיחות. אנא נסה לשנות את בקשת התמונה שלך.",
+      "LANGUAGE": "השפה שאתה משתמש בה לא נתמכת. אנא נסה שוב באנגלית או בשפה נתמכת אחרת.",
+      "OTHER": "התוכן נחסם מסיבה לא ידועה. אנא נסה לנסח מחדש את הבקשה שלך.",
+      "PROHIBITED_CONTENT": "הבקשה שלך עלולה להכיל תוכן אסור. אנא התאם את הבקשה שלך כדי לעמוד בהנחיות השימוש.",
+      "RECITATION": "התוכן שלך נחסם בגלל חששות זכויות יוצרים פוטנציאליים. אנא נסה להשתמש בתוכן מקורי או לנסח מחדש את הבקשה שלך.",
+      "SAFETY": "התוכן שלך נחסם מסיבות מדיניות בטיחות. אנא התאם את הבקשה שלך כדי להימנע מתוכן פוטנציאלית מזיק או לא הולם.",
+      "SPII": "התוכן שלך עלול להכיל מידע מזהה אישי רגיש (PII). כדי להגן על הפרטיות, אנא הסר כל פרטים רגישים ונסה שוב.",
+      "default": "תוכן נחסם: {{blockReason}}. אנא התאם את הבקשה שלך ונסה שוב."
     },
-    "InsufficientQuota": "Sorry, the quota for this key has been reached. Please check your account balance or increase the key quota and try again.",
-    "InvalidAccessCode": "Invalid access code or empty. Please enter the correct access code or add a custom API Key.",
-    "InvalidBedrockCredentials": "Bedrock authentication failed. Please check the AccessKeyId/SecretAccessKey and retry.",
-    "InvalidClerkUser": "Sorry, you are not currently logged in. Please log in or register an account to continue.",
-    "InvalidGithubToken": "The GitHub Personal Access Token is incorrect or empty. Please check your GitHub Personal Access Token and try again.",
-    "InvalidOllamaArgs": "Invalid Ollama configuration, please check Ollama configuration and try again",
-    "InvalidProviderAPIKey": "{{provider}} API Key is incorrect or empty, please check your {{provider}} API Key and try again",
-    "InvalidVertexCredentials": "Vertex authentication failed. Please check your credentials and try again.",
-    "LocationNotSupportError": "We're sorry, your current location does not support this model service. This may be due to regional restrictions or the service not being available. Please confirm if the current location supports using this service, or try using a different location.",
-    "ModelNotFound": "Sorry, the requested model could not be found. It may not exist or you may not have the necessary access permissions. Please try again after changing the API Key or adjusting your access permissions.",
-    "NoOpenAIAPIKey": "OpenAI API Key is empty, please add a custom OpenAI API Key",
-    "OllamaBizError": "Error requesting Ollama service, please troubleshoot or retry based on the following information",
-    "OllamaServiceUnavailable": "Ollama service is unavailable. Please check if Ollama is running properly or if the cross-origin configuration of Ollama is set correctly.",
-    "PermissionDenied": "Sorry, you do not have permission to access this service. Please check if your key has the necessary access rights.",
-    "PluginApiNotFound": "Sorry, the API does not exist in the plugin's manifest. Please check if your request method matches the plugin manifest API",
-    "PluginApiParamsError": "Sorry, the input parameter validation for the plugin request failed. Please check if the input parameters match the API description",
-    "PluginFailToTransformArguments": "Sorry, the plugin failed to parse the arguments. Please try regenerating the assistant message or switch to a more powerful AI model with Tools Calling capability and try again",
-    "PluginGatewayError": "Sorry, there was an error with the plugin gateway. Please check if the plugin gateway configuration is correct.",
-    "PluginManifestInvalid": "Sorry, the plugin's manifest validation failed. Please check if the manifest format is correct",
-    "PluginManifestNotFound": "Sorry, the server could not find the plugin's manifest file (manifest.json). Please check if the plugin manifest file address is correct",
-    "PluginMarketIndexInvalid": "Sorry, the plugin index validation failed. Please check if the index file format is correct",
-    "PluginMarketIndexNotFound": "Sorry, the server could not find the plugin index. Please check if the index address is correct",
-    "PluginMetaInvalid": "Sorry, the plugin's metadata validation failed. Please check if the plugin metadata format is correct",
-    "PluginMetaNotFound": "Sorry, the plugin was not found in the index. Please check the plugin's configuration information in the index",
-    "PluginOpenApiInitError": "Sorry, the OpenAPI client failed to initialize. Please check if the OpenAPI configuration information is correct.",
-    "PluginServerError": "Plugin server request returned an error. Please check your plugin manifest file, plugin configuration, or server implementation based on the error information below",
-    "PluginSettingsInvalid": "This plugin needs to be correctly configured before it can be used. Please check if your configuration is correct",
-    "ProviderBizError": "Error requesting {{provider}} service, please troubleshoot or retry based on the following information",
-    "QuotaLimitReached": "We apologize, but the current token usage or number of requests has reached the quota limit for this key. Please increase the quota for this key or try again later.",
-    "StreamChunkError": "Error parsing the message chunk of the streaming request. Please check if the current API interface complies with the standard specifications, or contact your API provider for assistance.",
-    "SubscriptionKeyMismatch": "We apologize for the inconvenience. Due to a temporary system malfunction, your current subscription usage is inactive. Please click the button below to restore your subscription, or contact us via email for support.",
-    "SubscriptionPlanLimit": "Your subscription points have been exhausted, and you cannot use this feature. Please upgrade to a higher plan or configure a custom model API to continue using it.",
-    "SystemTimeNotMatchError": "Sorry, your system time does not match the server. Please check your system time and try again.",
-    "UnknownChatFetchError": "Sorry, an unknown request error occurred. Please check the information below or try again."
+    "InsufficientQuota": "מצטערים, המכסה למפתח הזה הגיעה. אנא בדוק את יתרת החשבון שלך או הגדל את מכסת המפתח ונסה שוב.",
+    "InvalidAccessCode": "קוד גישה לא תקין או ריק. אנא הכנס את קוד הגישה הנכון או הוסף מפתח API מותאם.",
+    "InvalidBedrockCredentials": "אימות Bedrock נכשל. אנא בדוק את AccessKeyId/SecretAccessKey ונסה שוב.",
+    "InvalidClerkUser": "מצטערים, אתה לא מחובר כרגע. אנא התחבר או הירשם לחשבון כדי להמשיך.",
+    "InvalidGithubToken": "אסימון הגישה האישי של GitHub לא תקין או ריק. אנא בדוק את אסימון הגישה האישי של GitHub שלך ונסה שוב.",
+    "InvalidOllamaArgs": "תצורת Ollama לא תקינה, אנא בדוק את תצורת Ollama ונסה שוב",
+    "InvalidProviderAPIKey": "מפתח API של {{provider}} לא תקין או ריק, אנא בדוק את מפתח API של {{provider}} שלך ונסה שוב",
+    "InvalidVertexCredentials": "אימות Vertex נכשל. אנא בדוק את האישורים שלך ונסה שוב.",
+    "LocationNotSupportError": "אנו מצטערים, המיקום הנוכחי שלך לא תומך בשירות המודל הזה. זה יכול להיות בגלל הגבלות אזוריות או שהשירות לא זמין. אנא אשר אם המיקום הנוכחי תומך בשימוש בשירות הזה, או נסה להשתמש במיקום אחר.",
+    "ModelNotFound": "מצטערים, המודל המבוקש לא נמצא. הוא עלול לא להתקיים או שאין לך את הרשאות הגישה הנדרשות. אנא נסה שוב לאחר שינוי מפתח ה-API או התאמת הרשאות הגישה שלך.",
+    "NoOpenAIAPIKey": "מפתח API של OpenAI ריק, אנא הוסף מפתח API מותאם של OpenAI",
+    "OllamaBizError": "שגיאה בבקשת שירות Ollama, אנא פתור בעיות או נסה שוב בהתבסס על המידע הבא",
+    "OllamaServiceUnavailable": "שירות Ollama לא זמין. אנא בדוק אם Ollama פועל כראוי או אם תצורת cross-origin של Ollama מוגדרת נכון.",
+    "PermissionDenied": "מצטערים, אין לך הרשאה לגשת לשירות הזה. אנא בדוק אם למפתח שלך יש את זכויות הגישה הנדרשות.",
+    "PluginApiNotFound": "מצטערים, ה-API לא קיים במניפסט של התוסף. אנא בדוק אם שיטת הבקשה שלך תואמת ל-API של מניפסט התוסף",
+    "PluginApiParamsError": "מצטערים, אימות פרמטרי הקלט לבקשת התוסף נכשל. אנא בדוק אם פרמטרי הקלט תואמים לתיאור ה-API",
+    "PluginFailToTransformArguments": "מצטערים, התוסף נכשל בניתוח הארגומנטים. אנא נסה ליצור מחדש את הודעת העוזר או עבור למודל AI חזק יותר עם יכולת קריאה לכלים ונסה שוב",
+    "PluginGatewayError": "מצטערים, הייתה שגיאה עם שער התוסף. אנא בדוק אם תצורת שער התוסף נכונה.",
+    "PluginManifestInvalid": "מצטערים, אימות המניפסט של התוסף נכשל. אנא בדוק אם פורמט המניפסט נכון",
+    "PluginManifestNotFound": "מצטערים, השרת לא יכול למצוא את קובץ המניפסט של התוסף (manifest.json). אנא בדוק אם כתובת קובץ המניפסט של התוסף נכונה",
+    "PluginMarketIndexInvalid": "מצטערים, אימות האינדקס של התוסף נכשל. אנא בדוק אם פורמט קובץ האינדקס נכון",
+    "PluginMarketIndexNotFound": "מצטערים, השרת לא יכול למצוא את האינדקס של התוסף. אנא בדוק אם כתובת האינדקס נכונה",
+    "PluginMetaInvalid": "מצטערים, אימות המטא-נתונים של התוסף נכשל. אנא בדוק אם פורמט המטא-נתונים של התוסף נכון",
+    "PluginMetaNotFound": "מצטערים, התוסף לא נמצא באינדקס. אנא בדוק את מידע התצורה של התוסף באינדקס",
+    "PluginOpenApiInitError": "מצטערים, לקוח OpenAPI נכשל באתחול. אנא בדוק אם מידע התצורה של OpenAPI נכון.",
+    "PluginServerError": "בקשת שרת התוסף החזירה שגיאה. אנא בדוק את קובץ המניפסט של התוסף, תצורת התוסף, או יישום השרת בהתבסס על מידע השגיאה למטה",
+    "PluginSettingsInvalid": "התוסף הזה צריך להיות מוגדר נכון לפני שניתן להשתמש בו. אנא בדוק אם התצורה שלך נכונה",
+    "ProviderBizError": "שגיאה בבקשת שירות {{provider}}, אנא פתור בעיות או נסה שוב בהתבסס על המידע הבא",
+    "QuotaLimitReached": "אנו מתנצלים, אבל השימוש הנוכחי בטוקנים או מספר הבקשות הגיע למגבלת המכסה למפתח הזה. אנא הגדל את המכסה למפתח הזה או נסה שוב מאוחר יותר.",
+    "StreamChunkError": "שגיאה בניתוח חלק ההודעה של בקשת הסטרימינג. אנא בדוק אם ממשק ה-API הנוכחי עומד במפרטים הסטנדרטיים, או פנה לספק ה-API שלך לעזרה.",
+    "SubscriptionKeyMismatch": "אנו מתנצלים על אי הנוחות. בגלל תקלה זמנית במערכת, השימוש הנוכחי במנוי שלך לא פעיל. אנא לחץ על הכפתור למטה כדי לשחזר את המנוי שלך, או פנה אלינו בדוא\"ל לתמיכה.",
+    "SubscriptionPlanLimit": "נקודות המנוי שלך אזלו, ולא תוכל להשתמש בתכונה הזו. אנא שדרג לתוכנית גבוהה יותר או הגדר API מודל מותאם כדי להמשיך להשתמש בה.",
+    "SystemTimeNotMatchError": "מצטערים, זמן המערכת שלך לא תואם לשרת. אנא בדוק את זמן המערכת שלך ונסה שוב.",
+    "UnknownChatFetchError": "מצטערים, אירעה שגיאת בקשה לא ידועה. אנא בדוק את המידע למטה או נסה שוב."
   },
   "stt": {
-    "responseError": "Service request failed, please check the configuration or try again"
+    "responseError": "בקשת השירות נכשלה, אנא בדוק את התצורה או נסה שוב"
   },
-  "testConnectionFailed": "Test connection failed: {{error}}",
+  "testConnectionFailed": "בדיקת החיבור נכשלה: {{error}}",
   "tts": {
-    "responseError": "Service request failed, please check the configuration or try again"
+    "responseError": "בקשת השירות נכשלה, אנא בדוק את התצורה או נסה שוב"
   },
   "unlock": {
-    "addProxyUrl": "Add OpenAI proxy URL (optional)",
+    "addProxyUrl": "הוסף כתובת פרוקסי OpenAI (אופציונלי)",
     "apiKey": {
-      "description": "Enter your {{name}} API Key to start the session",
-      "imageGenerationDescription": "Enter your {{name}} API Key to start generating",
-      "title": "Use custom {{name}} API Key"
+      "description": "הכנס את מפתח ה-API של {{name}} שלך כדי להתחיל את הפעלה",
+      "imageGenerationDescription": "הכנס את מפתח ה-API של {{name}} שלך כדי להתחיל ליצור",
+      "title": "השתמש במפתח API מותאם של {{name}}"
     },
-    "closeMessage": "Close message",
-    "confirm": "Confirm and Retry",
+    "closeMessage": "סגור הודעה",
+    "confirm": "אשר ונסה שוב",
     "oauth": {
-      "description": "The administrator has enabled unified login authentication. Click the button below to log in and unlock the application.",
-      "success": "Login successful",
-      "title": "Log in to your account",
-      "welcome": "Welcome!"
+      "description": "המנהל הפעיל אימות כניסה מאוחד. לחץ על הכפתור למטה כדי להתחבר ולפתוח את האפליקציה.",
+      "success": "הכניסה הצליחה",
+      "title": "התחבר לחשבון שלך",
+      "welcome": "ברוך הבא!"
     },
     "password": {
-      "description": "The application encryption has been enabled by the administrator. Enter the application password to unlock the application. The password only needs to be filled in once.",
-      "placeholder": "Please enter password",
-      "title": "Enter Password to Unlock Application"
+      "description": "הצפנת האפליקציה הופעלה על ידי המנהל. הכנס את סיסמת האפליקציה כדי לפתוח את האפליקציה. הסיסמה צריכה להיות מולאת פעם אחת בלבד.",
+      "placeholder": "אנא הכנס סיסמה",
+      "title": "הכנס סיסמה כדי לפתוח את האפליקציה"
     },
     "tabs": {
-      "apiKey": "Custom API Key",
-      "password": "Password"
+      "apiKey": "מפתח API מותאם",
+      "password": "סיסמה"
     }
   },
   "upload": {
-    "desc": "Details: {{detail}}",
-    "fileOnlySupportInServerMode": "The current deployment mode does not support uploading non-image files. To upload files in {{ext}} format, please switch to server database deployment or use the {{cloud}} service.",
-    "networkError": "Please check your network connection and ensure that the file storage service's cross-origin configuration is correct.",
-    "title": "File upload failed. Please check your network connection or try again later",
-    "unknownError": "Error reason: {{reason}}",
-    "uploadFailed": "File upload failed."
+    "desc": "פרטים: {{detail}}",
+    "fileOnlySupportInServerMode": "מצב הפריסה הנוכחי לא תומך בהעלאת קבצים שאינם תמונות. כדי להעלות קבצים בפורמט {{ext}}, אנא עבור לפריסת מסד נתונים של שרת או השתמש בשירות {{cloud}}.",
+    "networkError": "אנא בדוק את חיבור הרשת שלך וודא שתצורת cross-origin של שירות אחסון הקבצים נכונה.",
+    "title": "העלאת הקובץ נכשלה. אנא בדוק את חיבור הרשת שלך או נסה שוב מאוחר יותר",
+    "unknownError": "סיבת השגיאה: {{reason}}",
+    "uploadFailed": "העלאת הקובץ נכשלה."
   }
 }

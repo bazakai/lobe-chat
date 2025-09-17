@@ -1,43 +1,43 @@
 {
-  "backButton": "Back",
-  "badge__default": "Default",
-  "badge__otherImpersonatorDevice": "Other impersonator device",
-  "badge__primary": "Primary",
-  "badge__requiresAction": "Requires action",
-  "badge__thisDevice": "This device",
-  "badge__unverified": "Unverified",
-  "badge__userDevice": "User device",
-  "badge__you": "You",
+  "backButton": "חזור",
+  "badge__default": "ברירת מחדל",
+  "badge__otherImpersonatorDevice": "מכשיר מתחזה אחר",
+  "badge__primary": "ראשי",
+  "badge__requiresAction": "דורש פעולה",
+  "badge__thisDevice": "המכשיר הזה",
+  "badge__unverified": "לא מאומת",
+  "badge__userDevice": "מכשיר משתמש",
+  "badge__you": "אתה",
   "createOrganization": {
-    "formButtonSubmit": "Create organization",
+    "formButtonSubmit": "צור ארגון",
     "invitePage": {
-      "formButtonReset": "Skip"
+      "formButtonReset": "דלג"
     },
-    "title": "Create organization"
+    "title": "צור ארגון"
   },
   "dates": {
-    "lastDay": "Yesterday at {{ date | timeString('en-US') }}",
-    "next6Days": "{{ date | weekday('en-US','long') }} at {{ date | timeString('en-US') }}",
-    "nextDay": "Tomorrow at {{ date | timeString('en-US') }}",
+    "lastDay": "אתמול ב-{{ date | timeString('en-US') }}",
+    "next6Days": "{{ date | weekday('en-US','long') }} ב-{{ date | timeString('en-US') }}",
+    "nextDay": "מחר ב-{{ date | timeString('en-US') }}",
     "numeric": "{{ date | numeric('en-US') }}",
-    "previous6Days": "Last {{ date | weekday('en-US','long') }} at {{ date | timeString('en-US') }}",
-    "sameDay": "Today at {{ date | timeString('en-US') }}"
+    "previous6Days": "{{ date | weekday('en-US','long') }} האחרון ב-{{ date | timeString('en-US') }}",
+    "sameDay": "היום ב-{{ date | timeString('en-US') }}"
   },
-  "dividerText": "or",
-  "footerActionLink__useAnotherMethod": "Use another method",
-  "footerPageLink__help": "Help",
-  "footerPageLink__privacy": "Privacy",
-  "footerPageLink__terms": "Terms",
-  "formButtonPrimary": "Continue",
-  "formButtonPrimary__verify": "Verify",
-  "formFieldAction__forgotPassword": "Forgot password?",
-  "formFieldError__matchingPasswords": "Passwords match.",
-  "formFieldError__notMatchingPasswords": "Passwords don't match.",
-  "formFieldError__verificationLinkExpired": "The verification link expired. Please request a new link.",
-  "formFieldHintText__optional": "Optional",
-  "formFieldHintText__slug": "A slug is a human-readable ID that must be unique. It’s often used in URLs.",
+  "dividerText": "או",
+  "footerActionLink__useAnotherMethod": "השתמש בשיטה אחרת",
+  "footerPageLink__help": "עזרה",
+  "footerPageLink__privacy": "פרטיות",
+  "footerPageLink__terms": "תנאים",
+  "formButtonPrimary": "המשך",
+  "formButtonPrimary__verify": "אמת",
+  "formFieldAction__forgotPassword": "שכחת סיסמה?",
+  "formFieldError__matchingPasswords": "הסיסמאות תואמות.",
+  "formFieldError__notMatchingPasswords": "הסיסמאות לא תואמות.",
+  "formFieldError__verificationLinkExpired": "קישור האימות פג. אנא בקש קישור חדש.",
+  "formFieldHintText__optional": "אופציונלי",
+  "formFieldHintText__slug": "מזהה הוא מזהה קריא לאדם שחייב להיות ייחודי. הוא משמש לעתים קרובות בכתובות URL.",
   "formFieldInputPlaceholder__backupCode": "",
-  "formFieldInputPlaceholder__confirmDeletionUserAccount": "Delete account",
+  "formFieldInputPlaceholder__confirmDeletionUserAccount": "מחק חשבון",
   "formFieldInputPlaceholder__emailAddress": "",
   "formFieldInputPlaceholder__emailAddress_username": "",
   "formFieldInputPlaceholder__emailAddresses": "example@email.com, example2@email.com",
@@ -50,720 +50,720 @@
   "formFieldInputPlaceholder__password": "",
   "formFieldInputPlaceholder__phoneNumber": "",
   "formFieldInputPlaceholder__username": "",
-  "formFieldLabel__automaticInvitations": "Enable automatic invitations for this domain",
-  "formFieldLabel__backupCode": "Backup code",
-  "formFieldLabel__confirmDeletion": "Confirmation",
-  "formFieldLabel__confirmPassword": "Confirm password",
-  "formFieldLabel__currentPassword": "Current password",
-  "formFieldLabel__emailAddress": "Email address",
-  "formFieldLabel__emailAddress_username": "Email address or username",
-  "formFieldLabel__emailAddresses": "Email addresses",
-  "formFieldLabel__firstName": "First name",
-  "formFieldLabel__lastName": "Last name",
-  "formFieldLabel__newPassword": "New password",
-  "formFieldLabel__organizationDomain": "Domain",
-  "formFieldLabel__organizationDomainDeletePending": "Delete pending invitations and suggestions",
-  "formFieldLabel__organizationDomainEmailAddress": "Verification email address",
-  "formFieldLabel__organizationDomainEmailAddressDescription": "Enter an email address under this domain to receive a code and verify this domain.",
-  "formFieldLabel__organizationName": "Name",
-  "formFieldLabel__organizationSlug": "Slug",
-  "formFieldLabel__passkeyName": "Name of passkey",
-  "formFieldLabel__password": "Password",
-  "formFieldLabel__phoneNumber": "Phone number",
-  "formFieldLabel__role": "Role",
-  "formFieldLabel__signOutOfOtherSessions": "Sign out of all other devices",
-  "formFieldLabel__username": "Username",
+  "formFieldLabel__automaticInvitations": "אפשר הזמנות אוטומטיות עבור הדומיין הזה",
+  "formFieldLabel__backupCode": "קוד גיבוי",
+  "formFieldLabel__confirmDeletion": "אישור",
+  "formFieldLabel__confirmPassword": "אשר סיסמה",
+  "formFieldLabel__currentPassword": "סיסמה נוכחית",
+  "formFieldLabel__emailAddress": "כתובת אימייל",
+  "formFieldLabel__emailAddress_username": "כתובת אימייל או שם משתמש",
+  "formFieldLabel__emailAddresses": "כתובות אימייל",
+  "formFieldLabel__firstName": "שם פרטי",
+  "formFieldLabel__lastName": "שם משפחה",
+  "formFieldLabel__newPassword": "סיסמה חדשה",
+  "formFieldLabel__organizationDomain": "דומיין",
+  "formFieldLabel__organizationDomainDeletePending": "מחק הזמנות והצעות ממתינות",
+  "formFieldLabel__organizationDomainEmailAddress": "כתובת אימייל לאימות",
+  "formFieldLabel__organizationDomainEmailAddressDescription": "הכנס כתובת אימייל תחת הדומיין הזה כדי לקבל קוד ולאמת את הדומיין הזה.",
+  "formFieldLabel__organizationName": "שם",
+  "formFieldLabel__organizationSlug": "מזהה",
+  "formFieldLabel__passkeyName": "שם מפתח גישה",
+  "formFieldLabel__password": "סיסמה",
+  "formFieldLabel__phoneNumber": "מספר טלפון",
+  "formFieldLabel__role": "תפקיד",
+  "formFieldLabel__signOutOfOtherSessions": "התנתק מכל המכשירים האחרים",
+  "formFieldLabel__username": "שם משתמש",
   "impersonationFab": {
-    "action__signOut": "Sign out",
-    "title": "Signed in as {{identifier}}"
+    "action__signOut": "התנתק",
+    "title": "מחובר כ-{{identifier}}"
   },
-  "locale": "en-US",
-  "maintenanceMode": "We are currently undergoing maintenance, but don't worry, it shouldn't take more than a few minutes.",
-  "membershipRole__admin": "Admin",
-  "membershipRole__basicMember": "Member",
-  "membershipRole__guestMember": "Guest",
+  "locale": "he-IL",
+  "maintenanceMode": "אנחנו כרגע בתהליך תחזוקה, אבל אל תדאג, זה לא אמור לקחת יותר מכמה דקות.",
+  "membershipRole__admin": "מנהל",
+  "membershipRole__basicMember": "חבר",
+  "membershipRole__guestMember": "אורח",
   "organizationList": {
-    "action__createOrganization": "Create organization",
-    "action__invitationAccept": "Join",
-    "action__suggestionsAccept": "Request to join",
-    "createOrganization": "Create Organization",
-    "invitationAcceptedLabel": "Joined",
-    "subtitle": "to continue to {{applicationName}}",
-    "suggestionsAcceptedLabel": "Pending approval",
-    "title": "Choose an account",
-    "titleWithoutPersonal": "Choose an organization"
+    "action__createOrganization": "צור ארגון",
+    "action__invitationAccept": "הצטרף",
+    "action__suggestionsAccept": "בקש להצטרף",
+    "createOrganization": "צור ארגון",
+    "invitationAcceptedLabel": "הצטרף",
+    "subtitle": "כדי להמשיך ל-{{applicationName}}",
+    "suggestionsAcceptedLabel": "ממתין לאישור",
+    "title": "בחר חשבון",
+    "titleWithoutPersonal": "בחר ארגון"
   },
   "organizationProfile": {
-    "badge__automaticInvitation": "Automatic invitations",
-    "badge__automaticSuggestion": "Automatic suggestions",
-    "badge__manualInvitation": "No automatic enrollment",
-    "badge__unverified": "Unverified",
+    "badge__automaticInvitation": "הזמנות אוטומטיות",
+    "badge__automaticSuggestion": "הצעות אוטומטיות",
+    "badge__manualInvitation": "אין הרשמה אוטומטית",
+    "badge__unverified": "לא מאומת",
     "createDomainPage": {
-      "subtitle": "Add the domain to verify. Users with email addresses at this domain can join the organization automatically or request to join.",
-      "title": "Add domain"
+      "subtitle": "הוסף את הדומיין לאימות. משתמשים עם כתובות אימייל בדומיין הזה יכולים להצטרף לארגון אוטומטית או לבקש להצטרף.",
+      "title": "הוסף דומיין"
     },
     "invitePage": {
-      "detailsTitle__inviteFailed": "The invitations could not be sent. There are already pending invitations for the following email addresses: {{email_addresses}}.",
-      "formButtonPrimary__continue": "Send invitations",
-      "selectDropdown__role": "Select role",
-      "subtitle": "Enter or paste one or more email addresses, separated by spaces or commas.",
-      "successMessage": "Invitations successfully sent",
-      "title": "Invite new members"
+      "detailsTitle__inviteFailed": "לא ניתן לשלוח את ההזמנות. יש כבר הזמנות ממתינות עבור כתובות האימייל הבאות: {{email_addresses}}.",
+      "formButtonPrimary__continue": "שלח הזמנות",
+      "selectDropdown__role": "בחר תפקיד",
+      "subtitle": "הכנס או הדבק כתובת אימייל אחת או יותר, מופרדות ברווחים או פסיקים.",
+      "successMessage": "הזמנות נשלחו בהצלחה",
+      "title": "הזמן חברים חדשים"
     },
     "membersPage": {
-      "action__invite": "Invite",
+      "action__invite": "הזמן",
       "activeMembersTab": {
-        "menuAction__remove": "Remove member",
+        "menuAction__remove": "הסר חבר",
         "tableHeader__actions": "",
-        "tableHeader__joined": "Joined",
-        "tableHeader__role": "Role",
-        "tableHeader__user": "User"
+        "tableHeader__joined": "הצטרף",
+        "tableHeader__role": "תפקיד",
+        "tableHeader__user": "משתמש"
       },
-      "detailsTitle__emptyRow": "No members to display",
+      "detailsTitle__emptyRow": "אין חברים להצגה",
       "invitationsTab": {
         "autoInvitations": {
-          "headerSubtitle": "Invite users by connecting an email domain with your organization. Anyone who signs up with a matching email domain will be able to join the organization anytime.",
-          "headerTitle": "Automatic invitations",
-          "primaryButton": "Manage verified domains"
+          "headerSubtitle": "הזמן משתמשים על ידי חיבור דומיין אימייל לארגון שלך. כל מי שנרשם עם דומיין אימייל תואם יוכל להצטרף לארגון בכל עת.",
+          "headerTitle": "הזמנות אוטומטיות",
+          "primaryButton": "נהל דומיינים מאומתים"
         },
-        "table__emptyRow": "No invitations to display"
+        "table__emptyRow": "אין הזמנות להצגה"
       },
       "invitedMembersTab": {
-        "menuAction__revoke": "Revoke invitation",
-        "tableHeader__invited": "Invited"
+        "menuAction__revoke": "בטל הזמנה",
+        "tableHeader__invited": "הוזמן"
       },
       "requestsTab": {
         "autoSuggestions": {
-          "headerSubtitle": "Users who sign up with a matching email domain, will be able to see a suggestion to request to join your organization.",
-          "headerTitle": "Automatic suggestions",
-          "primaryButton": "Manage verified domains"
+          "headerSubtitle": "משתמשים שנרשמים עם דומיין אימייל תואם, יוכלו לראות הצעה לבקש להצטרף לארגון שלך.",
+          "headerTitle": "הצעות אוטומטיות",
+          "primaryButton": "נהל דומיינים מאומתים"
         },
-        "menuAction__approve": "Approve",
-        "menuAction__reject": "Reject",
-        "tableHeader__requested": "Requested access",
-        "table__emptyRow": "No requests to display"
+        "menuAction__approve": "אשר",
+        "menuAction__reject": "דחה",
+        "tableHeader__requested": "ביקש גישה",
+        "table__emptyRow": "אין בקשות להצגה"
       },
       "start": {
-        "headerTitle__invitations": "Invitations",
-        "headerTitle__members": "Members",
-        "headerTitle__requests": "Requests"
+        "headerTitle__invitations": "הזמנות",
+        "headerTitle__members": "חברים",
+        "headerTitle__requests": "בקשות"
       }
     },
     "navbar": {
-      "description": "Manage your organization.",
-      "general": "General",
-      "members": "Members",
-      "title": "Organization"
+      "description": "נהל את הארגון שלך.",
+      "general": "כללי",
+      "members": "חברים",
+      "title": "ארגון"
     },
     "profilePage": {
       "dangerSection": {
         "deleteOrganization": {
-          "actionDescription": "Type \"{{organizationName}}\" below to continue.",
-          "messageLine1": "Are you sure you want to delete this organization?",
-          "messageLine2": "This action is permanent and irreversible.",
-          "successMessage": "You have deleted the organization.",
-          "title": "Delete organization"
+          "actionDescription": "הקלד \"{{organizationName}}\" למטה כדי להמשיך.",
+          "messageLine1": "האם אתה בטוח שברצונך למחוק את הארגון הזה?",
+          "messageLine2": "פעולה זו היא קבועה ובלתי הפיכה.",
+          "successMessage": "מחקת את הארגון.",
+          "title": "מחק ארגון"
         },
         "leaveOrganization": {
-          "actionDescription": "Type \"{{organizationName}}\" below to continue.",
-          "messageLine1": "Are you sure you want to leave this organization? You will lose access to this organization and its applications.",
-          "messageLine2": "This action is permanent and irreversible.",
-          "successMessage": "You have left the organization.",
-          "title": "Leave organization"
+          "actionDescription": "הקלד \"{{organizationName}}\" למטה כדי להמשיך.",
+          "messageLine1": "האם אתה בטוח שברצונך לעזוב את הארגון הזה? תאבד גישה לארגון הזה ולאפליקציות שלו.",
+          "messageLine2": "פעולה זו היא קבועה ובלתי הפיכה.",
+          "successMessage": "עזבת את הארגון.",
+          "title": "עזוב ארגון"
         },
-        "title": "Danger"
+        "title": "סכנה"
       },
       "domainSection": {
-        "menuAction__manage": "Manage",
-        "menuAction__remove": "Delete",
-        "menuAction__verify": "Verify",
-        "primaryButton": "Add domain",
-        "subtitle": "Allow users to join the organization automatically or request to join based on a verified email domain.",
-        "title": "Verified domains"
+        "menuAction__manage": "נהל",
+        "menuAction__remove": "מחק",
+        "menuAction__verify": "אמת",
+        "primaryButton": "הוסף דומיין",
+        "subtitle": "אפשר למשתמשים להצטרף לארגון אוטומטית או לבקש להצטרף על בסיס דומיין אימייל מאומת.",
+        "title": "דומיינים מאומתים"
       },
-      "successMessage": "The organization has been updated.",
-      "title": "Update profile"
+      "successMessage": "הארגון עודכן.",
+      "title": "עדכן פרופיל"
     },
     "removeDomainPage": {
-      "messageLine1": "The email domain {{domain}} will be removed.",
-      "messageLine2": "Users won’t be able to join the organization automatically after this.",
-      "successMessage": "{{domain}} has been removed.",
-      "title": "Remove domain"
+      "messageLine1": "דומיין האימייל {{domain}} יוסר.",
+      "messageLine2": "משתמשים לא יוכלו להצטרף לארגון אוטומטית לאחר מכן.",
+      "successMessage": "{{domain}} הוסר.",
+      "title": "הסר דומיין"
     },
     "start": {
-      "headerTitle__general": "General",
-      "headerTitle__members": "Members",
+      "headerTitle__general": "כללי",
+      "headerTitle__members": "חברים",
       "profileSection": {
-        "primaryButton": "Update profile",
-        "title": "Organization Profile",
-        "uploadAction__title": "Logo"
+        "primaryButton": "עדכן פרופיל",
+        "title": "פרופיל ארגון",
+        "uploadAction__title": "לוגו"
       }
     },
     "verifiedDomainPage": {
       "dangerTab": {
-        "calloutInfoLabel": "Removing this domain will affect invited users.",
-        "removeDomainActionLabel__remove": "Remove domain",
-        "removeDomainSubtitle": "Remove this domain from your verified domains",
-        "removeDomainTitle": "Remove domain"
+        "calloutInfoLabel": "הסרת הדומיין הזה תשפיע על משתמשים שהוזמנו.",
+        "removeDomainActionLabel__remove": "הסר דומיין",
+        "removeDomainSubtitle": "הסר את הדומיין הזה מהדומיינים המאומתים שלך",
+        "removeDomainTitle": "הסר דומיין"
       },
       "enrollmentTab": {
-        "automaticInvitationOption__description": "Users are automatically invited to join the organization when they sign-up and can join anytime.",
-        "automaticInvitationOption__label": "Automatic invitations",
-        "automaticSuggestionOption__description": "Users receive a suggestion to request to join, but must be approved by an admin before they are able to join the organization.",
-        "automaticSuggestionOption__label": "Automatic suggestions",
-        "calloutInfoLabel": "Changing the enrollment mode will only affect new users.",
-        "calloutInvitationCountLabel": "Pending invitations sent to users: {{count}}",
-        "calloutSuggestionCountLabel": "Pending suggestions sent to users: {{count}}",
-        "manualInvitationOption__description": "Users can only be invited manually to the organization.",
-        "manualInvitationOption__label": "No automatic enrollment",
-        "subtitle": "Choose how users from this domain can join the organization."
+        "automaticInvitationOption__description": "משתמשים מוזמנים אוטומטית להצטרף לארגון כשהם נרשמים ויכולים להצטרף בכל עת.",
+        "automaticInvitationOption__label": "הזמנות אוטומטיות",
+        "automaticSuggestionOption__description": "משתמשים מקבלים הצעה לבקש להצטרף, אבל חייבים לקבל אישור ממנהל לפני שהם יכולים להצטרף לארגון.",
+        "automaticSuggestionOption__label": "הצעות אוטומטיות",
+        "calloutInfoLabel": "שינוי מצב ההרשמה ישפיע רק על משתמשים חדשים.",
+        "calloutInvitationCountLabel": "הזמנות ממתינות שנשלחו למשתמשים: {{count}}",
+        "calloutSuggestionCountLabel": "הצעות ממתינות שנשלחו למשתמשים: {{count}}",
+        "manualInvitationOption__description": "משתמשים יכולים להיות מוזמנים רק ידנית לארגון.",
+        "manualInvitationOption__label": "אין הרשמה אוטומטית",
+        "subtitle": "בחר איך משתמשים מהדומיין הזה יכולים להצטרף לארגון."
       },
       "start": {
-        "headerTitle__danger": "Danger",
-        "headerTitle__enrollment": "Enrollment options"
+        "headerTitle__danger": "סכנה",
+        "headerTitle__enrollment": "אפשרויות הרשמה"
       },
-      "subtitle": "The domain {{domain}} is now verified. Continue by selecting enrollment mode.",
-      "title": "Update {{domain}}"
+      "subtitle": "הדומיין {{domain}} מאומת כעת. המשך על ידי בחירת מצב הרשמה.",
+      "title": "עדכן {{domain}}"
     },
     "verifyDomainPage": {
-      "formSubtitle": "Enter the verification code sent to your email address",
-      "formTitle": "Verification code",
-      "resendButton": "Didn't receive a code? Resend",
-      "subtitle": "The domain {{domainName}} needs to be verified via email.",
-      "subtitleVerificationCodeScreen": "A verification code was sent to {{emailAddress}}. Enter the code to continue.",
-      "title": "Verify domain"
+      "formSubtitle": "הכנס את קוד האימות שנשלח לכתובת האימייל שלך",
+      "formTitle": "קוד אימות",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "הדומיין {{domainName}} צריך להיות מאומת דרך אימייל.",
+      "subtitleVerificationCodeScreen": "קוד אימות נשלח ל-{{emailAddress}}. הכנס את הקוד כדי להמשיך.",
+      "title": "אמת דומיין"
     }
   },
   "organizationSwitcher": {
-    "action__createOrganization": "Create organization",
-    "action__invitationAccept": "Join",
-    "action__manageOrganization": "Manage",
-    "action__suggestionsAccept": "Request to join",
-    "notSelected": "No organization selected",
-    "personalWorkspace": "Personal account",
-    "suggestionsAcceptedLabel": "Pending approval"
+    "action__createOrganization": "צור ארגון",
+    "action__invitationAccept": "הצטרף",
+    "action__manageOrganization": "נהל",
+    "action__suggestionsAccept": "בקש להצטרף",
+    "notSelected": "אין ארגון נבחר",
+    "personalWorkspace": "חשבון אישי",
+    "suggestionsAcceptedLabel": "ממתין לאישור"
   },
-  "paginationButton__next": "Next",
-  "paginationButton__previous": "Previous",
-  "paginationRowText__displaying": "Displaying",
-  "paginationRowText__of": "of",
+  "paginationButton__next": "הבא",
+  "paginationButton__previous": "הקודם",
+  "paginationRowText__displaying": "מציג",
+  "paginationRowText__of": "מתוך",
   "signIn": {
     "accountSwitcher": {
-      "action__addAccount": "Add account",
-      "action__signOutAll": "Sign out of all accounts",
-      "subtitle": "Select the account with which you wish to continue.",
-      "title": "Choose an account"
+      "action__addAccount": "הוסף חשבון",
+      "action__signOutAll": "התנתק מכל החשבונות",
+      "subtitle": "בחר את החשבון שבו אתה רוצה להמשיך.",
+      "title": "בחר חשבון"
     },
     "alternativeMethods": {
-      "actionLink": "Get help",
-      "actionText": "Don’t have any of these?",
-      "blockButton__backupCode": "Use a backup code",
-      "blockButton__emailCode": "Email code to {{identifier}}",
-      "blockButton__emailLink": "Email link to {{identifier}}",
-      "blockButton__passkey": "Sign in with your passkey",
-      "blockButton__password": "Sign in with your password",
-      "blockButton__phoneCode": "Send SMS code to {{identifier}}",
-      "blockButton__totp": "Use your authenticator app",
+      "actionLink": "קבל עזרה",
+      "actionText": "אין לך אף אחד מאלה?",
+      "blockButton__backupCode": "השתמש בקוד גיבוי",
+      "blockButton__emailCode": "קוד אימייל ל-{{identifier}}",
+      "blockButton__emailLink": "קישור אימייל ל-{{identifier}}",
+      "blockButton__passkey": "התחבר עם מפתח הגישה שלך",
+      "blockButton__password": "התחבר עם הסיסמה שלך",
+      "blockButton__phoneCode": "שלח קוד SMS ל-{{identifier}}",
+      "blockButton__totp": "השתמש באפליקציית האימות שלך",
       "getHelp": {
-        "blockButton__emailSupport": "Email support",
-        "content": "If you’re experiencing difficulty signing into your account, email us and we will work with you to restore access as soon as possible.",
-        "title": "Get help"
+        "blockButton__emailSupport": "תמיכה באימייל",
+        "content": "אם אתה נתקל בקשיים בהתחברות לחשבון שלך, שלח לנו אימייל ואנחנו נעבוד איתך כדי לשחזר את הגישה בהקדם האפשרי.",
+        "title": "קבל עזרה"
       },
-      "subtitle": "Facing issues? You can use any of these methods to sign in.",
-      "title": "Use another method"
+      "subtitle": "נתקל בבעיות? אתה יכול להשתמש בכל אחת מהשיטות האלה כדי להתחבר.",
+      "title": "השתמש בשיטה אחרת"
     },
     "backupCodeMfa": {
-      "subtitle": "Your backup code is the one you got when setting up two-step authentication.",
-      "title": "Enter a backup code"
+      "subtitle": "קוד הגיבוי שלך הוא זה שקיבלת כשהגדרת אימות דו-שלבי.",
+      "title": "הכנס קוד גיבוי"
     },
     "emailCode": {
-      "formTitle": "Verification code",
-      "resendButton": "Didn't receive a code? Resend",
-      "subtitle": "to continue to {{applicationName}}",
-      "title": "Check your email"
+      "formTitle": "קוד אימות",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "כדי להמשיך ל-{{applicationName}}",
+      "title": "בדוק את האימייל שלך"
     },
     "emailLink": {
       "expired": {
-        "subtitle": "Return to the original tab to continue.",
-        "title": "This verification link has expired"
+        "subtitle": "חזור לטאב המקורי כדי להמשיך.",
+        "title": "קישור האימות הזה פג"
       },
       "failed": {
-        "subtitle": "Return to the original tab to continue.",
-        "title": "This verification link is invalid"
+        "subtitle": "חזור לטאב המקורי כדי להמשיך.",
+        "title": "קישור האימות הזה לא תקין"
       },
-      "formSubtitle": "Use the verification link sent to your email",
-      "formTitle": "Verification link",
+      "formSubtitle": "השתמש בקישור האימות שנשלח לאימייל שלך",
+      "formTitle": "קישור אימות",
       "loading": {
-        "subtitle": "You will be redirected soon",
-        "title": "Signing in..."
+        "subtitle": "תועבר בקרוב",
+        "title": "מתחבר..."
       },
-      "resendButton": "Didn't receive a link? Resend",
-      "subtitle": "to continue to {{applicationName}}",
-      "title": "Check your email",
+      "resendButton": "לא קיבלת קישור? שלח שוב",
+      "subtitle": "כדי להמשיך ל-{{applicationName}}",
+      "title": "בדוק את האימייל שלך",
       "unusedTab": {
-        "title": "You may close this tab"
+        "title": "אתה יכול לסגור את הטאב הזה"
       },
       "verified": {
-        "subtitle": "You will be redirected soon",
-        "title": "Successfully signed in"
+        "subtitle": "תועבר בקרוב",
+        "title": "התחברת בהצלחה"
       },
       "verifiedSwitchTab": {
-        "subtitle": "Return to original tab to continue",
-        "subtitleNewTab": "Return to the newly opened tab to continue",
-        "titleNewTab": "Signed in on other tab"
+        "subtitle": "חזור לטאב המקורי כדי להמשיך",
+        "subtitleNewTab": "חזור לטאב שנפתח זה עתה כדי להמשיך",
+        "titleNewTab": "התחברת בטאב אחר"
       }
     },
     "forgotPassword": {
-      "formTitle": "Reset password code",
-      "resendButton": "Didn't receive a code? Resend",
-      "subtitle": "to reset your password",
-      "subtitle_email": "First, enter the code sent to your email address",
-      "subtitle_phone": "First, enter the code sent to your phone",
-      "title": "Reset password"
+      "formTitle": "קוד איפוס סיסמה",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "כדי לאפס את הסיסמה שלך",
+      "subtitle_email": "ראשית, הכנס את הקוד שנשלח לכתובת האימייל שלך",
+      "subtitle_phone": "ראשית, הכנס את הקוד שנשלח לטלפון שלך",
+      "title": "אפס סיסמה"
     },
     "forgotPasswordAlternativeMethods": {
-      "blockButton__resetPassword": "Reset your password",
-      "label__alternativeMethods": "Or, sign in with another method",
-      "title": "Forgot Password?"
+      "blockButton__resetPassword": "אפס את הסיסמה שלך",
+      "label__alternativeMethods": "או, התחבר בשיטה אחרת",
+      "title": "שכחת סיסמה?"
     },
     "noAvailableMethods": {
-      "message": "Cannot proceed with sign in. There's no available authentication factor.",
-      "subtitle": "An error occurred",
-      "title": "Cannot sign in"
+      "message": "לא ניתן להמשיך עם ההתחברות. אין גורם אימות זמין.",
+      "subtitle": "אירעה שגיאה",
+      "title": "לא ניתן להתחבר"
     },
     "passkey": {
-      "subtitle": "Using your passkey confirms it's you. Your device may ask for your fingerprint, face or screen lock.",
-      "title": "Use your passkey"
+      "subtitle": "שימוש במפתח הגישה שלך מאשר שזה אתה. המכשיר שלך עשוי לבקש את טביעת האצבע, הפנים או נעילת המסך שלך.",
+      "title": "השתמש במפתח הגישה שלך"
     },
     "password": {
-      "actionLink": "Use another method",
-      "subtitle": "Enter the password associated with your account",
-      "title": "Enter your password"
+      "actionLink": "השתמש בשיטה אחרת",
+      "subtitle": "הכנס את הסיסמה הקשורה לחשבון שלך",
+      "title": "הכנס את הסיסמה שלך"
     },
     "passwordPwned": {
-      "title": "Password compromised"
+      "title": "סיסמה נחשפה"
     },
     "phoneCode": {
-      "formTitle": "Verification code",
-      "resendButton": "Didn't receive a code? Resend",
-      "subtitle": "to continue to {{applicationName}}",
-      "title": "Check your phone"
+      "formTitle": "קוד אימות",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "כדי להמשיך ל-{{applicationName}}",
+      "title": "בדוק את הטלפון שלך"
     },
     "phoneCodeMfa": {
-      "formTitle": "Verification code",
-      "resendButton": "Didn't receive a code? Resend",
-      "subtitle": "To continue, please enter the verification code sent to your phone",
-      "title": "Check your phone"
+      "formTitle": "קוד אימות",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "כדי להמשיך, אנא הכנס את קוד האימות שנשלח לטלפון שלך",
+      "title": "בדוק את הטלפון שלך"
     },
     "resetPassword": {
-      "formButtonPrimary": "Reset Password",
-      "requiredMessage": "For security reasons, it is required to reset your password.",
-      "successMessage": "Your password was successfully changed. Signing you in, please wait a moment.",
-      "title": "Set new password"
+      "formButtonPrimary": "אפס סיסמה",
+      "requiredMessage": "מסיבות אבטחה, נדרש לאפס את הסיסמה שלך.",
+      "successMessage": "הסיסמה שלך שונתה בהצלחה. מתחבר אותך, אנא המתן רגע.",
+      "title": "הגדר סיסמה חדשה"
     },
     "resetPasswordMfa": {
-      "detailsLabel": "We need to verify your identity before resetting your password."
+      "detailsLabel": "אנחנו צריכים לאמת את הזהות שלך לפני איפוס הסיסמה."
     },
     "start": {
-      "actionLink": "Sign up",
-      "actionLink__use_email": "Use email",
-      "actionLink__use_email_username": "Use email or username",
-      "actionLink__use_passkey": "Use passkey instead",
-      "actionLink__use_phone": "Use phone",
-      "actionLink__use_username": "Use username",
-      "actionText": "Don’t have an account?",
-      "subtitle": "Welcome back! Please sign in to continue",
-      "title": "Sign in to {{applicationName}}"
+      "actionLink": "הירשם",
+      "actionLink__use_email": "השתמש באימייל",
+      "actionLink__use_email_username": "השתמש באימייל או שם משתמש",
+      "actionLink__use_passkey": "השתמש במפתח גישה במקום",
+      "actionLink__use_phone": "השתמש בטלפון",
+      "actionLink__use_username": "השתמש בשם משתמש",
+      "actionText": "אין לך חשבון?",
+      "subtitle": "ברוך שובך! אנא התחבר כדי להמשיך",
+      "title": "התחבר ל-{{applicationName}}"
     },
     "totpMfa": {
-      "formTitle": "Verification code",
-      "subtitle": "To continue, please enter the verification code generated by your authenticator app",
-      "title": "Two-step verification"
+      "formTitle": "קוד אימות",
+      "subtitle": "כדי להמשיך, אנא הכנס את קוד האימות שנוצר על ידי אפליקציית האימות שלך",
+      "title": "אימות דו-שלבי"
     }
   },
-  "signInEnterPasswordTitle": "Enter your password",
+  "signInEnterPasswordTitle": "הכנס את הסיסמה שלך",
   "signUp": {
     "continue": {
-      "actionLink": "Sign in",
-      "actionText": "Already have an account?",
-      "subtitle": "Please fill in the remaining details to continue.",
-      "title": "Fill in missing fields"
+      "actionLink": "התחבר",
+      "actionText": "כבר יש לך חשבון?",
+      "subtitle": "אנא מלא את הפרטים הנותרים כדי להמשיך.",
+      "title": "מלא שדות חסרים"
     },
     "emailCode": {
-      "formSubtitle": "Enter the verification code sent to your email address",
-      "formTitle": "Verification code",
-      "resendButton": "Didn't receive a code? Resend",
-      "subtitle": "Enter the verification code sent to your email",
-      "title": "Verify your email"
+      "formSubtitle": "הכנס את קוד האימות שנשלח לכתובת האימייל שלך",
+      "formTitle": "קוד אימות",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "הכנס את קוד האימות שנשלח לאימייל שלך",
+      "title": "אמת את האימייל שלך"
     },
     "emailLink": {
-      "formSubtitle": "Use the verification link sent to your email address",
-      "formTitle": "Verification link",
+      "formSubtitle": "השתמש בקישור האימות שנשלח לכתובת האימייל שלך",
+      "formTitle": "קישור אימות",
       "loading": {
-        "title": "Signing up..."
+        "title": "נרשם..."
       },
-      "resendButton": "Didn't receive a link? Resend",
-      "subtitle": "to continue to {{applicationName}}",
-      "title": "Verify your email",
+      "resendButton": "לא קיבלת קישור? שלח שוב",
+      "subtitle": "כדי להמשיך ל-{{applicationName}}",
+      "title": "אמת את האימייל שלך",
       "verified": {
-        "title": "Successfully signed up"
+        "title": "נרשמת בהצלחה"
       },
       "verifiedSwitchTab": {
-        "subtitle": "Return to the newly opened tab to continue",
-        "subtitleNewTab": "Return to previous tab to continue",
-        "title": "Successfully verified email"
+        "subtitle": "חזור לטאב שנפתח זה עתה כדי להמשיך",
+        "subtitleNewTab": "חזור לטאב הקודם כדי להמשיך",
+        "title": "אימתת אימייל בהצלחה"
       }
     },
     "phoneCode": {
-      "formSubtitle": "Enter the verification code sent to your phone number",
-      "formTitle": "Verification code",
-      "resendButton": "Didn't receive a code? Resend",
-      "subtitle": "Enter the verification code sent to your phone",
-      "title": "Verify your phone"
+      "formSubtitle": "הכנס את קוד האימות שנשלח למספר הטלפון שלך",
+      "formTitle": "קוד אימות",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "הכנס את קוד האימות שנשלח לטלפון שלך",
+      "title": "אמת את הטלפון שלך"
     },
     "start": {
-      "actionLink": "Sign in",
-      "actionText": "Already have an account?",
-      "subtitle": "Welcome! Please fill in the details to get started.",
-      "title": "Create your account"
+      "actionLink": "התחבר",
+      "actionText": "כבר יש לך חשבון?",
+      "subtitle": "ברוכים הבאים! אנא מלא את הפרטים כדי להתחיל.",
+      "title": "צור את החשבון שלך"
     }
   },
-  "socialButtonsBlockButton": "Continue with {{provider|titleize}}",
+  "socialButtonsBlockButton": "המשך עם {{provider|titleize}}",
   "unstable__errors": {
-    "captcha_invalid": "Sign up unsuccessful due to failed security validations. Please refresh the page to try again or reach out to support for more assistance.",
-    "captcha_unavailable": "Sign up unsuccessful due to failed bot validation. Please refresh the page to try again or reach out to support for more assistance.",
+    "captcha_invalid": "ההרשמה נכשלה עקב כשל באימותי אבטחה. אנא רענן את הדף ונסה שוב או פנה לתמיכה לקבלת עזרה נוספת.",
+    "captcha_unavailable": "ההרשמה נכשלה עקב כשל באימות בוט. אנא רענן את הדף ונסה שוב או פנה לתמיכה לקבלת עזרה נוספת.",
     "form_code_incorrect": "",
     "form_identifier_exists": "",
-    "form_identifier_exists__email_address": "This email address is taken. Please try another.",
-    "form_identifier_exists__phone_number": "This phone number is taken. Please try another.",
-    "form_identifier_exists__username": "This username is taken. Please try another.",
+    "form_identifier_exists__email_address": "כתובת האימייל הזו תפוסה. אנא נסה אחרת.",
+    "form_identifier_exists__phone_number": "מספר הטלפון הזה תפוס. אנא נסה אחרת.",
+    "form_identifier_exists__username": "שם המשתמש הזה תפוס. אנא נסה אחרת.",
     "form_identifier_not_found": "",
     "form_param_format_invalid": "",
-    "form_param_format_invalid__email_address": "Email address must be a valid email address.",
-    "form_param_format_invalid__phone_number": "Phone number must be in a valid international format",
-    "form_param_max_length_exceeded__first_name": "First name should not exceed 256 characters.",
-    "form_param_max_length_exceeded__last_name": "Last name should not exceed 256 characters.",
-    "form_param_max_length_exceeded__name": "Name should not exceed 256 characters.",
+    "form_param_format_invalid__email_address": "כתובת האימייל חייבת להיות כתובת אימייל תקינה.",
+    "form_param_format_invalid__phone_number": "מספר הטלפון חייב להיות בפורמט בינלאומי תקין",
+    "form_param_max_length_exceeded__first_name": "השם הפרטי לא אמור לעלות על 256 תווים.",
+    "form_param_max_length_exceeded__last_name": "שם המשפחה לא אמור לעלות על 256 תווים.",
+    "form_param_max_length_exceeded__name": "השם לא אמור לעלות על 256 תווים.",
     "form_param_nil": "",
     "form_password_incorrect": "",
     "form_password_length_too_short": "",
-    "form_password_not_strong_enough": "Your password is not strong enough.",
-    "form_password_pwned": "This password has been found as part of a breach and can not be used, please try another password instead.",
-    "form_password_pwned__sign_in": "This password has been found as part of a breach and can not be used, please reset your password.",
-    "form_password_size_in_bytes_exceeded": "Your password has exceeded the maximum number of bytes allowed, please shorten it or remove some special characters.",
-    "form_password_validation_failed": "Incorrect Password",
+    "form_password_not_strong_enough": "הסיסמה שלך לא חזקה מספיק.",
+    "form_password_pwned": "הסיסמה הזו נמצאה כחלק מפריצה ולא ניתן להשתמש בה, אנא נסה סיסמה אחרת במקום.",
+    "form_password_pwned__sign_in": "הסיסמה הזו נמצאה כחלק מפריצה ולא ניתן להשתמש בה, אנא אפס את הסיסמה שלך.",
+    "form_password_size_in_bytes_exceeded": "הסיסמה שלך חרגה ממספר הבייטים המקסימלי המותר, אנא קצר אותה או הסר כמה תווים מיוחדים.",
+    "form_password_validation_failed": "סיסמה שגויה",
     "form_username_invalid_character": "",
     "form_username_invalid_length": "",
-    "identification_deletion_failed": "You cannot delete your last identification.",
+    "identification_deletion_failed": "לא ניתן למחוק את הזיהוי האחרון שלך.",
     "not_allowed_access": "",
-    "passkey_already_exists": "A passkey is already registered with this device.",
-    "passkey_not_supported": "Passkeys are not supported on this device.",
-    "passkey_pa_not_supported": "Registration requires a platform authenticator but the device does not support it.",
-    "passkey_registration_cancelled": "Passkey registration was cancelled or timed out.",
-    "passkey_retrieval_cancelled": "Passkey verification was cancelled or timed out.",
+    "passkey_already_exists": "מפתח גישה כבר רשום במכשיר הזה.",
+    "passkey_not_supported": "מפתחות גישה אינם נתמכים במכשיר הזה.",
+    "passkey_pa_not_supported": "ההרשמה דורשת מאמת פלטפורמה אבל המכשיר לא תומך בזה.",
+    "passkey_registration_cancelled": "רישום מפתח הגישה בוטל או פג הזמן.",
+    "passkey_retrieval_cancelled": "אימות מפתח הגישה בוטל או פג הזמן.",
     "passwordComplexity": {
-      "maximumLength": "less than {{length}} characters",
-      "minimumLength": "{{length}} or more characters",
-      "requireLowercase": "a lowercase letter",
-      "requireNumbers": "a number",
-      "requireSpecialCharacter": "a special character",
-      "requireUppercase": "an uppercase letter",
-      "sentencePrefix": "Your password must contain"
+      "maximumLength": "פחות מ-{{length}} תווים",
+      "minimumLength": "{{length}} תווים או יותר",
+      "requireLowercase": "אות קטנה",
+      "requireNumbers": "מספר",
+      "requireSpecialCharacter": "תו מיוחד",
+      "requireUppercase": "אות גדולה",
+      "sentencePrefix": "הסיסמה שלך חייבת להכיל"
     },
-    "phone_number_exists": "This phone number is taken. Please try another.",
+    "phone_number_exists": "מספר הטלפון הזה תפוס. אנא נסה אחרת.",
     "zxcvbn": {
-      "couldBeStronger": "Your password works, but could be stronger. Try adding more characters.",
-      "goodPassword": "Your password meets all the necessary requirements.",
-      "notEnough": "Your password is not strong enough.",
+      "couldBeStronger": "הסיסמה שלך עובדת, אבל יכולה להיות חזקה יותר. נסה להוסיף עוד תווים.",
+      "goodPassword": "הסיסמה שלך עומדת בכל הדרישות הנדרשות.",
+      "notEnough": "הסיסמה שלך לא חזקה מספיק.",
       "suggestions": {
-        "allUppercase": "Capitalize some, but not all letters.",
-        "anotherWord": "Add more words that are less common.",
-        "associatedYears": "Avoid years that are associated with you.",
-        "capitalization": "Capitalize more than the first letter.",
-        "dates": "Avoid dates and years that are associated with you.",
-        "l33t": "Avoid predictable letter substitutions like '@' for 'a'.",
-        "longerKeyboardPattern": "Use longer keyboard patterns and change typing direction multiple times.",
-        "noNeed": "You can create strong passwords without using symbols, numbers, or uppercase letters.",
-        "pwned": "If you use this password elsewhere, you should change it.",
-        "recentYears": "Avoid recent years.",
-        "repeated": "Avoid repeated words and characters.",
-        "reverseWords": "Avoid reversed spellings of common words.",
-        "sequences": "Avoid common character sequences.",
-        "useWords": "Use multiple words, but avoid common phrases."
+        "allUppercase": "הפוך חלק מהאותיות לגדולות, אבל לא את כולן.",
+        "anotherWord": "הוסף עוד מילים שפחות נפוצות.",
+        "associatedYears": "הימנע משנים הקשורות אליך.",
+        "capitalization": "הפוך יותר מהאות הראשונה לגדולה.",
+        "dates": "הימנע מתאריכים ושנים הקשורים אליך.",
+        "l33t": "הימנע מהחלפות אותיות צפויות כמו '@' במקום 'a'.",
+        "longerKeyboardPattern": "השתמש בדפוסי מקלדת ארוכים יותר ושנה כיוון הקלדה מספר פעמים.",
+        "noNeed": "אתה יכול ליצור סיסמאות חזקות ללא שימוש בסמלים, מספרים או אותיות גדולות.",
+        "pwned": "אם אתה משתמש בסיסמה הזו במקום אחר, אתה צריך לשנות אותה.",
+        "recentYears": "הימנע משנים אחרונות.",
+        "repeated": "הימנע ממילים ותווים חוזרים.",
+        "reverseWords": "הימנע מאיות הפוך של מילים נפוצות.",
+        "sequences": "הימנע מרצפי תווים נפוצים.",
+        "useWords": "השתמש במילים מרובות, אבל הימנע מביטויים נפוצים."
       },
       "warnings": {
-        "common": "This is a commonly used password.",
-        "commonNames": "Common names and surnames are easy to guess.",
-        "dates": "Dates are easy to guess.",
-        "extendedRepeat": "Repeated character patterns like \"abcabcabc\" are easy to guess.",
-        "keyPattern": "Short keyboard patterns are easy to guess.",
-        "namesByThemselves": "Single names or surnames are easy to guess.",
-        "pwned": "Your password was exposed by a data breach on the Internet.",
-        "recentYears": "Recent years are easy to guess.",
-        "sequences": "Common character sequences like \"abc\" are easy to guess.",
-        "similarToCommon": "This is similar to a commonly used password.",
-        "simpleRepeat": "Repeated characters like \"aaa\" are easy to guess.",
-        "straightRow": "Straight rows of keys on your keyboard are easy to guess.",
-        "topHundred": "This is a frequently used password.",
-        "topTen": "This is a heavily used password.",
-        "userInputs": "There should not be any personal or page related data.",
-        "wordByItself": "Single words are easy to guess."
+        "common": "זו סיסמה נפוצה.",
+        "commonNames": "שמות פרטיים ומשפחה נפוצים קלים לניחוש.",
+        "dates": "תאריכים קלים לניחוש.",
+        "extendedRepeat": "דפוסי תווים חוזרים כמו \"abcabcabc\" קלים לניחוש.",
+        "keyPattern": "דפוסי מקלדת קצרים קלים לניחוש.",
+        "namesByThemselves": "שמות פרטיים או משפחה בודדים קלים לניחוש.",
+        "pwned": "הסיסמה שלך נחשפה בפריצת נתונים באינטרנט.",
+        "recentYears": "שנים אחרונות קלות לניחוש.",
+        "sequences": "רצפי תווים נפוצים כמו \"abc\" קלים לניחוש.",
+        "similarToCommon": "זה דומה לסיסמה נפוצה.",
+        "simpleRepeat": "תווים חוזרים כמו \"aaa\" קלים לניחוש.",
+        "straightRow": "שורות ישרות של מקשים במקלדת שלך קלות לניחוש.",
+        "topHundred": "זו סיסמה בשימוש תכוף.",
+        "topTen": "זו סיסמה בשימוש כבד.",
+        "userInputs": "לא אמור להיות מידע אישי או קשור לדף.",
+        "wordByItself": "מילים בודדות קלות לניחוש."
       }
     }
   },
   "userButton": {
-    "action__addAccount": "Add account",
-    "action__manageAccount": "Manage account",
-    "action__signOut": "Sign out",
-    "action__signOutAll": "Sign out of all accounts"
+    "action__addAccount": "הוסף חשבון",
+    "action__manageAccount": "נהל חשבון",
+    "action__signOut": "התנתק",
+    "action__signOutAll": "התנתק מכל החשבונות"
   },
   "userProfile": {
     "backupCodePage": {
-      "actionLabel__copied": "Copied!",
-      "actionLabel__copy": "Copy all",
-      "actionLabel__download": "Download .txt",
-      "actionLabel__print": "Print",
-      "infoText1": "Backup codes will be enabled for this account.",
-      "infoText2": "Keep the backup codes secret and store them securely. You may regenerate backup codes if you suspect they have been compromised.",
-      "subtitle__codelist": "Store them securely and keep them secret.",
-      "successMessage": "Backup codes are now enabled. You can use one of these to sign in to your account, if you lose access to your authentication device. Each code can only be used once.",
-      "successSubtitle": "You can use one of these to sign in to your account, if you lose access to your authentication device.",
-      "title": "Add backup code verification",
-      "title__codelist": "Backup codes"
+      "actionLabel__copied": "הועתק!",
+      "actionLabel__copy": "העתק הכל",
+      "actionLabel__download": "הורד .txt",
+      "actionLabel__print": "הדפס",
+      "infoText1": "קודי גיבוי יופעלו עבור החשבון הזה.",
+      "infoText2": "שמור את קודי הגיבוי בסוד ואחסן אותם בצורה מאובטחת. אתה יכול ליצור מחדש קודי גיבוי אם אתה חושד שהם נחשפו.",
+      "subtitle__codelist": "אחסן אותם בצורה מאובטחת ושמור אותם בסוד.",
+      "successMessage": "קודי גיבוי מופעלים כעת. אתה יכול להשתמש באחד מאלה כדי להתחבר לחשבון שלך, אם אתה מאבד גישה למכשיר האימות שלך. כל קוד יכול לשמש פעם אחת בלבד.",
+      "successSubtitle": "אתה יכול להשתמש באחד מאלה כדי להתחבר לחשבון שלך, אם אתה מאבד גישה למכשיר האימות שלך.",
+      "title": "הוסף אימות קוד גיבוי",
+      "title__codelist": "קודי גיבוי"
     },
     "connectedAccountPage": {
-      "formHint": "Select a provider to connect your account.",
-      "formHint__noAccounts": "There are no available external account providers.",
+      "formHint": "בחר ספק כדי לחבר את החשבון שלך.",
+      "formHint__noAccounts": "אין ספקי חשבונות חיצוניים זמינים.",
       "removeResource": {
-        "messageLine1": "{{identifier}} will be removed from this account.",
-        "messageLine2": "You will no longer be able to use this connected account and any dependent features will no longer work.",
-        "successMessage": "{{connectedAccount}} has been removed from your account.",
-        "title": "Remove connected account"
+        "messageLine1": "{{identifier}} יוסר מהחשבון הזה.",
+        "messageLine2": "לא תוכל עוד להשתמש בחשבון המחובר הזה וכל התכונות התלויות לא יעבדו יותר.",
+        "successMessage": "{{connectedAccount}} הוסר מהחשבון שלך.",
+        "title": "הסר חשבון מחובר"
       },
       "socialButtonsBlockButton": "{{provider|titleize}}",
-      "successMessage": "The provider has been added to your account",
-      "title": "Add connected account"
+      "successMessage": "הספק נוסף לחשבון שלך",
+      "title": "הוסף חשבון מחובר"
     },
     "deletePage": {
-      "actionDescription": "Type \"Delete account\" below to continue.",
-      "confirm": "Delete account",
-      "messageLine1": "Are you sure you want to delete your account?",
-      "messageLine2": "This action is permanent and irreversible.",
-      "title": "Delete account"
+      "actionDescription": "הקלד \"מחק חשבון\" למטה כדי להמשיך.",
+      "confirm": "מחק חשבון",
+      "messageLine1": "האם אתה בטוח שברצונך למחוק את החשבון שלך?",
+      "messageLine2": "פעולה זו היא קבועה ובלתי הפיכה.",
+      "title": "מחק חשבון"
     },
     "emailAddressPage": {
       "emailCode": {
-        "formHint": "An email containing a verification code will be sent to this email address.",
-        "formSubtitle": "Enter the verification code sent to {{identifier}}",
-        "formTitle": "Verification code",
-        "resendButton": "Didn't receive a code? Resend",
-        "successMessage": "The email {{identifier}} has been added to your account."
+        "formHint": "אימייל המכיל קוד אימות יישלח לכתובת האימייל הזו.",
+        "formSubtitle": "הכנס את קוד האימות שנשלח ל-{{identifier}}",
+        "formTitle": "קוד אימות",
+        "resendButton": "לא קיבלת קוד? שלח שוב",
+        "successMessage": "האימייל {{identifier}} נוסף לחשבון שלך."
       },
       "emailLink": {
-        "formHint": "An email containing a verification link will be sent to this email address.",
-        "formSubtitle": "Click on the verification link in the email sent to {{identifier}}",
-        "formTitle": "Verification link",
-        "resendButton": "Didn't receive a link? Resend",
-        "successMessage": "The email {{identifier}} has been added to your account."
+        "formHint": "אימייל המכיל קישור אימות יישלח לכתובת האימייל הזו.",
+        "formSubtitle": "לחץ על קישור האימות באימייל שנשלח ל-{{identifier}}",
+        "formTitle": "קישור אימות",
+        "resendButton": "לא קיבלת קישור? שלח שוב",
+        "successMessage": "האימייל {{identifier}} נוסף לחשבון שלך."
       },
       "removeResource": {
-        "messageLine1": "{{identifier}} will be removed from this account.",
-        "messageLine2": "You will no longer be able to sign in using this email address.",
-        "successMessage": "{{emailAddress}} has been removed from your account.",
-        "title": "Remove email address"
+        "messageLine1": "{{identifier}} יוסר מהחשבון הזה.",
+        "messageLine2": "לא תוכל עוד להתחבר באמצעות כתובת האימייל הזו.",
+        "successMessage": "{{emailAddress}} הוסר מהחשבון שלך.",
+        "title": "הסר כתובת אימייל"
       },
-      "title": "Add email address",
-      "verifyTitle": "Verify email address"
+      "title": "הוסף כתובת אימייל",
+      "verifyTitle": "אמת כתובת אימייל"
     },
-    "formButtonPrimary__add": "Add",
-    "formButtonPrimary__continue": "Continue",
-    "formButtonPrimary__finish": "Finish",
-    "formButtonPrimary__remove": "Remove",
-    "formButtonPrimary__save": "Save",
-    "formButtonReset": "Cancel",
+    "formButtonPrimary__add": "הוסף",
+    "formButtonPrimary__continue": "המשך",
+    "formButtonPrimary__finish": "סיים",
+    "formButtonPrimary__remove": "הסר",
+    "formButtonPrimary__save": "שמור",
+    "formButtonReset": "בטל",
     "mfaPage": {
-      "formHint": "Select a method to add.",
-      "title": "Add two-step verification"
+      "formHint": "בחר שיטה להוספה.",
+      "title": "הוסף אימות דו-שלבי"
     },
     "mfaPhoneCodePage": {
-      "backButton": "Use existing number",
-      "primaryButton__addPhoneNumber": "Add phone number",
+      "backButton": "השתמש במספר קיים",
+      "primaryButton__addPhoneNumber": "הוסף מספר טלפון",
       "removeResource": {
-        "messageLine1": "{{identifier}} will be no longer receiving verification codes when signing in.",
-        "messageLine2": "Your account may not be as secure. Are you sure you want to continue?",
-        "successMessage": "SMS code two-step verification has been removed for {{mfaPhoneCode}}",
-        "title": "Remove two-step verification"
+        "messageLine1": "{{identifier}} לא יקבל עוד קודי אימות בעת התחברות.",
+        "messageLine2": "החשבון שלך עלול להיות פחות מאובטח. האם אתה בטוח שברצונך להמשיך?",
+        "successMessage": "אימות דו-שלבי קוד SMS הוסר עבור {{mfaPhoneCode}}",
+        "title": "הסר אימות דו-שלבי"
       },
-      "subtitle__availablePhoneNumbers": "Select an existing phone number to register for SMS code two-step verification or add a new one.",
-      "subtitle__unavailablePhoneNumbers": "There are no available phone numbers to register for SMS code two-step verification, please add a new one.",
-      "successMessage1": "When signing in, you will need to enter a verification code sent to this phone number as an additional step.",
-      "successMessage2": "Save these backup codes and store them somewhere safe. If you lose access to your authentication device, you can use backup codes to sign in.",
-      "successTitle": "SMS code verification enabled",
-      "title": "Add SMS code verification"
+      "subtitle__availablePhoneNumbers": "בחר מספר טלפון קיים לרישום לאימות דו-שלבי קוד SMS או הוסף חדש.",
+      "subtitle__unavailablePhoneNumbers": "אין מספרי טלפון זמינים לרישום לאימות דו-שלבי קוד SMS, אנא הוסף חדש.",
+      "successMessage1": "כשאתה מתחבר, תצטרך להכניס קוד אימות שנשלח למספר הטלפון הזה כשלב נוסף.",
+      "successMessage2": "שמור את קודי הגיבוי האלה ואחסן אותם במקום בטוח. אם תאבד גישה למכשיר האימות שלך, תוכל להשתמש בקודי גיבוי כדי להתחבר.",
+      "successTitle": "אימות קוד SMS מופעל",
+      "title": "הוסף אימות קוד SMS"
     },
     "mfaTOTPPage": {
       "authenticatorApp": {
-        "buttonAbleToScan__nonPrimary": "Scan QR code instead",
-        "buttonUnableToScan__nonPrimary": "Can’t scan QR code?",
-        "infoText__ableToScan": "Set up a new sign-in method in your authenticator app and scan the following QR code to link it to your account.",
-        "infoText__unableToScan": "Set up a new sign-in method in your authenticator and enter the Key provided below.",
-        "inputLabel__unableToScan1": "Make sure Time-based or One-time passwords is enabled, then finish linking your account.",
-        "inputLabel__unableToScan2": "Alternatively, if your authenticator supports TOTP URIs, you can also copy the full URI."
+        "buttonAbleToScan__nonPrimary": "סרוק קוד QR במקום",
+        "buttonUnableToScan__nonPrimary": "לא יכול לסרוק קוד QR?",
+        "infoText__ableToScan": "הגדר שיטת התחברות חדשה באפליקציית האימות שלך וסרוק את קוד ה-QR הבא כדי לקשר אותו לחשבון שלך.",
+        "infoText__unableToScan": "הגדר שיטת התחברות חדשה באפליקציית האימות שלך והכנס את המפתח שסופק למטה.",
+        "inputLabel__unableToScan1": "וודא שסיסמאות מבוססות זמן או חד-פעמיות מופעלות, ואז סיים לקשר את החשבון שלך.",
+        "inputLabel__unableToScan2": "לחלופין, אם אפליקציית האימות שלך תומכת ב-TOTP URIs, אתה יכול גם להעתיק את ה-URI המלא."
       },
       "removeResource": {
-        "messageLine1": "Verification codes from this authenticator will no longer be required when signing in.",
-        "messageLine2": "Your account may not be as secure. Are you sure you want to continue?",
-        "successMessage": "Two-step verification via authenticator application has been removed.",
-        "title": "Remove two-step verification"
+        "messageLine1": "קודי אימות מהאפליקציית האימות הזו לא יידרשו עוד בעת התחברות.",
+        "messageLine2": "החשבון שלך עלול להיות פחות מאובטח. האם אתה בטוח שברצונך להמשיך?",
+        "successMessage": "אימות דו-שלבי דרך אפליקציית אימות הוסר.",
+        "title": "הסר אימות דו-שלבי"
       },
-      "successMessage": "Two-step verification is now enabled. When signing in, you will need to enter a verification code from this authenticator as an additional step.",
-      "title": "Add authenticator application",
-      "verifySubtitle": "Enter verification code generated by your authenticator",
-      "verifyTitle": "Verification code"
+      "successMessage": "אימות דו-שלבי מופעל כעת. כשאתה מתחבר, תצטרך להכניס קוד אימות מהאפליקציית האימות הזו כשלב נוסף.",
+      "title": "הוסף אפליקציית אימות",
+      "verifySubtitle": "הכנס קוד אימות שנוצר על ידי אפליקציית האימות שלך",
+      "verifyTitle": "קוד אימות"
     },
-    "mobileButton__menu": "Menu",
+    "mobileButton__menu": "תפריט",
     "navbar": {
-      "account": "Profile",
-      "description": "Manage your account info.",
-      "security": "Security",
-      "title": "Account"
+      "account": "פרופיל",
+      "description": "נהל את פרטי החשבון שלך.",
+      "security": "אבטחה",
+      "title": "חשבון"
     },
     "passkeyScreen": {
       "removeResource": {
-        "messageLine1": "{{name}} will be removed from this account.",
-        "title": "Remove passkey"
+        "messageLine1": "{{name}} יוסר מהחשבון הזה.",
+        "title": "הסר מפתח גישה"
       },
-      "subtitle__rename": "You can change the passkey name to make it easier to find.",
-      "title__rename": "Rename Passkey"
+      "subtitle__rename": "אתה יכול לשנות את שם מפתח הגישה כדי להקל על החיפוש.",
+      "title__rename": "שנה שם מפתח גישה"
     },
     "passwordPage": {
-      "checkboxInfoText__signOutOfOtherSessions": "It is recommended to sign out of all other devices which may have used your old password.",
-      "readonly": "Your password can currently not be edited because you can sign in only via the enterprise connection.",
-      "successMessage__set": "Your password has been set.",
-      "successMessage__signOutOfOtherSessions": "All other devices have been signed out.",
-      "successMessage__update": "Your password has been updated.",
-      "title__set": "Set password",
-      "title__update": "Update password"
+      "checkboxInfoText__signOutOfOtherSessions": "מומלץ להתנתק מכל המכשירים האחרים שעלולים להשתמש בסיסמה הישנה שלך.",
+      "readonly": "הסיסמה שלך לא יכולה להיות ערוכה כרגע כי אתה יכול להתחבר רק דרך החיבור הארגוני.",
+      "successMessage__set": "הסיסמה שלך הוגדרה.",
+      "successMessage__signOutOfOtherSessions": "כל המכשירים האחרים התנתקו.",
+      "successMessage__update": "הסיסמה שלך עודכנה.",
+      "title__set": "הגדר סיסמה",
+      "title__update": "עדכן סיסמה"
     },
     "phoneNumberPage": {
-      "infoText": "A text message containing a verification code will be sent to this phone number. Message and data rates may apply.",
+      "infoText": "הודעת טקסט המכילה קוד אימות תישלח למספר הטלפון הזה. עלויות הודעות ונתונים עשויות לחול.",
       "removeResource": {
-        "messageLine1": "{{identifier}} will be removed from this account.",
-        "messageLine2": "You will no longer be able to sign in using this phone number.",
-        "successMessage": "{{phoneNumber}} has been removed from your account.",
-        "title": "Remove phone number"
+        "messageLine1": "{{identifier}} יוסר מהחשבון הזה.",
+        "messageLine2": "לא תוכל עוד להתחבר באמצעות מספר הטלפון הזה.",
+        "successMessage": "{{phoneNumber}} הוסר מהחשבון שלך.",
+        "title": "הסר מספר טלפון"
       },
-      "successMessage": "{{identifier}} has been added to your account.",
-      "title": "Add phone number",
-      "verifySubtitle": "Enter the verification code sent to {{identifier}}",
-      "verifyTitle": "Verify phone number"
+      "successMessage": "{{identifier}} נוסף לחשבון שלך.",
+      "title": "הוסף מספר טלפון",
+      "verifySubtitle": "הכנס את קוד האימות שנשלח ל-{{identifier}}",
+      "verifyTitle": "אמת מספר טלפון"
     },
     "profilePage": {
-      "fileDropAreaHint": "Recommended size 1:1, up to 10MB.",
-      "imageFormDestructiveActionSubtitle": "Remove",
-      "imageFormSubtitle": "Upload",
-      "imageFormTitle": "Profile image",
-      "readonly": "Your profile information has been provided by the enterprise connection and cannot be edited.",
-      "successMessage": "Your profile has been updated.",
-      "title": "Update profile"
+      "fileDropAreaHint": "גודל מומלץ 1:1, עד 10MB.",
+      "imageFormDestructiveActionSubtitle": "הסר",
+      "imageFormSubtitle": "העלה",
+      "imageFormTitle": "תמונת פרופיל",
+      "readonly": "פרטי הפרופיל שלך סופקו על ידי החיבור הארגוני ולא יכולים להיות ערוכים.",
+      "successMessage": "הפרופיל שלך עודכן.",
+      "title": "עדכן פרופיל"
     },
     "start": {
       "activeDevicesSection": {
-        "destructiveAction": "Sign out of device",
-        "title": "Active devices"
+        "destructiveAction": "התנתק מהמכשיר",
+        "title": "מכשירים פעילים"
       },
       "connectedAccountsSection": {
-        "actionLabel__connectionFailed": "Try again",
-        "actionLabel__reauthorize": "Authorize now",
-        "destructiveActionTitle": "Remove",
-        "primaryButton": "Connect account",
-        "subtitle__reauthorize": "The required scopes have been updated, and you may be experiencing limited functionality. Please re-authorize this application to avoid any issues",
-        "title": "Connected accounts"
+        "actionLabel__connectionFailed": "נסה שוב",
+        "actionLabel__reauthorize": "אשר עכשיו",
+        "destructiveActionTitle": "הסר",
+        "primaryButton": "חבר חשבון",
+        "subtitle__reauthorize": "ההרשאות הנדרשות עודכנו, ואתה עלול לחוות פונקציונליות מוגבלת. אנא אשר מחדש את האפליקציה הזו כדי למנוע בעיות",
+        "title": "חשבונות מחוברים"
       },
       "dangerSection": {
-        "deleteAccountButton": "Delete account",
-        "title": "Delete account"
+        "deleteAccountButton": "מחק חשבון",
+        "title": "מחק חשבון"
       },
       "emailAddressesSection": {
-        "destructiveAction": "Remove email",
-        "detailsAction__nonPrimary": "Set as primary",
-        "detailsAction__primary": "Complete verification",
-        "detailsAction__unverified": "Verify",
-        "primaryButton": "Add email address",
-        "title": "Email addresses"
+        "destructiveAction": "הסר אימייל",
+        "detailsAction__nonPrimary": "הגדר כראשי",
+        "detailsAction__primary": "השלם אימות",
+        "detailsAction__unverified": "אמת",
+        "primaryButton": "הוסף כתובת אימייל",
+        "title": "כתובות אימייל"
       },
       "enterpriseAccountsSection": {
-        "title": "Enterprise accounts"
+        "title": "חשבונות ארגוניים"
       },
-      "headerTitle__account": "Profile details",
-      "headerTitle__security": "Security",
+      "headerTitle__account": "פרטי פרופיל",
+      "headerTitle__security": "אבטחה",
       "mfaSection": {
         "backupCodes": {
-          "actionLabel__regenerate": "Regenerate",
-          "headerTitle": "Backup codes",
-          "subtitle__regenerate": "Get a fresh set of secure backup codes. Prior backup codes will be deleted and cannot be used.",
-          "title__regenerate": "Regenerate backup codes"
+          "actionLabel__regenerate": "צור מחדש",
+          "headerTitle": "קודי גיבוי",
+          "subtitle__regenerate": "קבל סט חדש של קודי גיבוי מאובטחים. קודי גיבוי קודמים יימחקו ולא יוכלו לשמש.",
+          "title__regenerate": "צור מחדש קודי גיבוי"
         },
         "phoneCode": {
-          "actionLabel__setDefault": "Set as default",
-          "destructiveActionLabel": "Remove"
+          "actionLabel__setDefault": "הגדר כברירת מחדל",
+          "destructiveActionLabel": "הסר"
         },
-        "primaryButton": "Add two-step verification",
-        "title": "Two-step verification",
+        "primaryButton": "הוסף אימות דו-שלבי",
+        "title": "אימות דו-שלבי",
         "totp": {
-          "destructiveActionTitle": "Remove",
-          "headerTitle": "Authenticator application"
+          "destructiveActionTitle": "הסר",
+          "headerTitle": "אפליקציית אימות"
         }
       },
       "passkeysSection": {
-        "menuAction__destructive": "Remove",
-        "menuAction__rename": "Rename",
-        "title": "Passkeys"
+        "menuAction__destructive": "הסר",
+        "menuAction__rename": "שנה שם",
+        "title": "מפתחות גישה"
       },
       "passwordSection": {
-        "primaryButton__setPassword": "Set password",
-        "primaryButton__updatePassword": "Update password",
-        "title": "Password"
+        "primaryButton__setPassword": "הגדר סיסמה",
+        "primaryButton__updatePassword": "עדכן סיסמה",
+        "title": "סיסמה"
       },
       "phoneNumbersSection": {
-        "destructiveAction": "Remove phone number",
-        "detailsAction__nonPrimary": "Set as primary",
-        "detailsAction__primary": "Complete verification",
-        "detailsAction__unverified": "Verify phone number",
-        "primaryButton": "Add phone number",
-        "title": "Phone numbers"
+        "destructiveAction": "הסר מספר טלפון",
+        "detailsAction__nonPrimary": "הגדר כראשי",
+        "detailsAction__primary": "השלם אימות",
+        "detailsAction__unverified": "אמת מספר טלפון",
+        "primaryButton": "הוסף מספר טלפון",
+        "title": "מספרי טלפון"
       },
       "profileSection": {
-        "primaryButton": "Update profile",
-        "title": "Profile"
+        "primaryButton": "עדכן פרופיל",
+        "title": "פרופיל"
       },
       "usernameSection": {
-        "primaryButton__setUsername": "Set username",
-        "primaryButton__updateUsername": "Update username",
-        "title": "Username"
+        "primaryButton__setUsername": "הגדר שם משתמש",
+        "primaryButton__updateUsername": "עדכן שם משתמש",
+        "title": "שם משתמש"
       },
       "web3WalletsSection": {
-        "destructiveAction": "Remove wallet",
-        "primaryButton": "Web3 wallets",
-        "title": "Web3 wallets"
+        "destructiveAction": "הסר ארנק",
+        "primaryButton": "ארנקי Web3",
+        "title": "ארנקי Web3"
       }
     },
     "usernamePage": {
-      "successMessage": "Your username has been updated.",
-      "title__set": "Set username",
-      "title__update": "Update username"
+      "successMessage": "שם המשתמש שלך עודכן.",
+      "title__set": "הגדר שם משתמש",
+      "title__update": "עדכן שם משתמש"
     },
     "web3WalletPage": {
       "removeResource": {
-        "messageLine1": "{{identifier}} will be removed from this account.",
-        "messageLine2": "You will no longer be able to sign in using this web3 wallet.",
-        "successMessage": "{{web3Wallet}} has been removed from your account.",
-        "title": "Remove web3 wallet"
+        "messageLine1": "{{identifier}} יוסר מהחשבון הזה.",
+        "messageLine2": "לא תוכל עוד להתחבר באמצעות ארנק ה-Web3 הזה.",
+        "successMessage": "{{web3Wallet}} הוסר מהחשבון שלך.",
+        "title": "הסר ארנק Web3"
       },
-      "subtitle__availableWallets": "Select a web3 wallet to connect to your account.",
-      "subtitle__unavailableWallets": "There are no available web3 wallets.",
-      "successMessage": "The wallet has been added to your account.",
-      "title": "Add web3 wallet"
+      "subtitle__availableWallets": "בחר ארנק Web3 כדי לחבר לחשבון שלך.",
+      "subtitle__unavailableWallets": "אין ארנקי Web3 זמינים.",
+      "successMessage": "הארנק נוסף לחשבון שלך.",
+      "title": "הוסף ארנק Web3"
     }
   }
 }

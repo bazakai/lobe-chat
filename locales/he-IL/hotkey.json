@@ -1,68 +1,68 @@
 {
   "addUserMessage": {
-    "desc": "Add the current input as a user message without triggering generation",
-    "title": "Add a User Message"
+    "desc": "הוסף את הקלט הנוכחי כהודעת משתמש מבלי להפעיל יצירה",
+    "title": "הוסף הודעת משתמש"
   },
   "clearCurrentMessages": {
-    "desc": "Clear the messages and uploaded files from the current conversation",
-    "title": "Clear Conversation Messages"
+    "desc": "נקה את ההודעות והקבצים שהועלו מהשיחה הנוכחית",
+    "title": "נקה הודעות שיחה"
   },
   "desktop": {
     "openSettings": {
-      "desc": "Open the application settings page",
-      "title": "Application Settings"
+      "desc": "פתח את דף הגדרות האפליקציה",
+      "title": "הגדרות אפליקציה"
     },
     "showApp": {
-      "desc": "Toggle the main window visibility with a global shortcut",
-      "title": "Show/Hide Main Window"
+      "desc": "החלף את נראות החלון הראשי עם קיצור מקלדת גלובלי",
+      "title": "הצג/הסתר חלון ראשי"
     }
   },
   "editMessage": {
-    "desc": "Enter edit mode by holding Alt and double-clicking the message",
-    "title": "Edit Message"
+    "desc": "היכנס למצב עריכה על ידי החזקת Alt ולחיצה כפולה על ההודעה",
+    "title": "ערוך הודעה"
   },
   "navigateToChat": {
-    "desc": "Switch to the chat tab and start a casual conversation",
-    "title": "Switch to Default Chat"
+    "desc": "עבור לטאב הצ'אט והתחל שיחה רגילה",
+    "title": "עבור לצ'אט ברירת מחדל"
   },
   "openChatSettings": {
-    "desc": "View and modify the settings for the current conversation",
-    "title": "Open Chat Settings"
+    "desc": "הצג ושנה את ההגדרות עבור השיחה הנוכחית",
+    "title": "פתח הגדרות צ'אט"
   },
   "openHotkeyHelper": {
-    "desc": "View instructions for all keyboard shortcuts",
-    "title": "Open Hotkey Help"
+    "desc": "הצג הוראות לכל קיצורי המקלדת",
+    "title": "פתח עזרת קיצורי מקלדת"
   },
   "regenerateMessage": {
-    "desc": "Regenerate the last message",
-    "title": "Regenerate Message"
+    "desc": "צור מחדש את ההודעה האחרונה",
+    "title": "צור מחדש הודעה"
   },
   "saveTopic": {
-    "desc": "Save the current topic and open a new one",
-    "title": "Start a New Topic"
+    "desc": "שמור את הנושא הנוכחי ופתח חדש",
+    "title": "התחל נושא חדש"
   },
   "search": {
-    "desc": "Activate the main search box on the current page",
-    "title": "Search"
+    "desc": "הפעל את תיבת החיפוש הראשית בדף הנוכחי",
+    "title": "חיפוש"
   },
   "showApp": {
-    "desc": "Quickly open the main application window",
-    "title": "Show Main Window"
+    "desc": "פתח במהירות את חלון האפליקציה הראשי",
+    "title": "הצג חלון ראשי"
   },
   "switchAgent": {
-    "desc": "Switch between pinned assistants in the sidebar by holding Ctrl and pressing numbers 0-9",
-    "title": "Quick Switch Assistant"
+    "desc": "החלף בין עוזרים נעוצים בסרגל הצד על ידי החזקת Ctrl ולחיצה על מספרים 0-9",
+    "title": "החלף עוזר מהיר"
   },
   "toggleLeftPanel": {
-    "desc": "Show or hide the left assistant panel",
-    "title": "Show/Hide Assistant Panel"
+    "desc": "הצג או הסתר את פאנל העוזר השמאלי",
+    "title": "הצג/הסתר פאנל עוזר"
   },
   "toggleRightPanel": {
-    "desc": "Show or hide the right topics panel",
-    "title": "Show/Hide Topic Panel"
+    "desc": "הצג או הסתר את פאנל הנושאים הימני",
+    "title": "הצג/הסתר פאנל נושאים"
   },
   "toggleZenMode": {
-    "desc": "In focus mode, only display the current conversation and hide other UI elements",
-    "title": "Toggle Focus Mode"
+    "desc": "במצב מיקוד, הצג רק את השיחה הנוכחית והסתר אלמנטי ממשק אחרים",
+    "title": "החלף מצב מיקוד"
   }
 }
