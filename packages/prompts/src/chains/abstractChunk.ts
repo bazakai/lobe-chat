@@ -5,7 +5,7 @@ export const chainAbstractChunkText = (text: string): Partial<ChatStreamPayload>
     messages: [
       {
         content:
-          '你是一名擅长从 chunk 中提取摘要的助理，你需要将用户的会话总结为 1~2 句话的摘要，输出成 chunk 所使用的语种',
+          "You are an assistant skilled at extracting summaries from chunks. You need to summarize the user's conversation into a 1-2 sentence summary, outputting in the language used by the chunk",
         role: 'system',
       },
       {
