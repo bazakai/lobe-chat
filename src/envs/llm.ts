@@ -8,7 +8,24 @@ import { z } from 'zod';
 import { getMemoizedSecret } from '../utils/server/secrets';
 
 const _getLLMConfig = async () => {
-  const GOOGLE_API_KEY = await getMemoizedSecret({ secretName: 'lobe-chat-google-api-key' });
+  let GOOGLE_API_KEY = '';
+
+  // Only attempt to fetch from Secret Manager in production runtime (not build time)
+  if (
+    process.env.NODE_ENV === 'production' &&
+    process.env.PROJECT_ID &&
+    typeof window === 'undefined'
+  ) {
+    try {
+      GOOGLE_API_KEY = await getMemoizedSecret({ secretName: 'lobe-chat-google-api-key' });
+    } catch (error) {
+      console.warn('Failed to fetch Google API key from secrets, falling back to env var:', error);
+      GOOGLE_API_KEY = process.env.GOOGLE_API_KEY || '';
+    }
+  } else {
+    // Use environment variable during build time, development, or client-side
+    GOOGLE_API_KEY = process.env.GOOGLE_API_KEY || '';
+  }
 
   return createEnv({
     server: {

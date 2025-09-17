@@ -1,6 +1,7 @@
+'use server';
+
 import { SecretManagerServiceClient } from '@google-cloud/secret-manager';
 import { memoize } from 'lodash';
-import 'server-only';
 
 const { PROJECT_ID } = process.env;
 

@@ -42,8 +42,7 @@ fi
 
 export TUNNEL_TOKEN
 
-
-echo "🔐 Fetching next server actions key Secret Manager..."
+echo "🔐 Fetching next server actions key from Secret Manager..."
 SERVER_ACTIONS_KEY_B64=$(gcloud secrets versions access latest --secret="next-server-actions-key" --project="$PROJECT_ID")
 
 if [ -z "$SERVER_ACTIONS_KEY_B64" ]; then
@@ -52,6 +51,5 @@ if [ -z "$SERVER_ACTIONS_KEY_B64" ]; then
 fi
 
 export SERVER_ACTIONS_KEY_B64
-
 
 envsubst < kubernetes/production.yaml | kubectl apply -f -
