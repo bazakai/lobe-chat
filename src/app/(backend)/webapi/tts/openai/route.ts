@@ -29,7 +29,7 @@ export const POST = async (req: Request) => {
   const payload = (await req.json()) as OpenAITTSPayload;
 
   // need to be refactored with jwt auth mode
-  const openaiOrErrResponse = createBizOpenAI(req);
+  const openaiOrErrResponse = await createBizOpenAI(req);
 
   // if resOrOpenAI is a Response, it means there is an error,just return it
   if (openaiOrErrResponse instanceof Response) return openaiOrErrResponse;

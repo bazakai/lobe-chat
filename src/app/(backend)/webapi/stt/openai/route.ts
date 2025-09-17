@@ -34,7 +34,7 @@ export const POST = async (req: Request) => {
     speech: speechBlob,
   } as OpenAISTTPayload;
 
-  const openaiOrErrResponse = createBizOpenAI(req);
+  const openaiOrErrResponse = await createBizOpenAI(req);
 
   // if resOrOpenAI is a Response, it means there is an error,just return it
   if (openaiOrErrResponse instanceof Response) return openaiOrErrResponse;

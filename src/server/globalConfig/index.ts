@@ -61,7 +61,7 @@ export const getServerGlobalConfig = async () => {
     /**
      * @deprecated
      */
-    languageModel: genServerLLMConfig({
+    languageModel: await genServerLLMConfig({
       azure: {
         enabledKey: 'ENABLED_AZURE_OPENAI',
         withDeploymentName: true,

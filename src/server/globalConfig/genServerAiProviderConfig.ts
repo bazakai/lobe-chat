@@ -17,7 +17,7 @@ interface ProviderSpecificConfig {
 export const genServerAiProvidersConfig = async (
   specificConfig: Record<any, ProviderSpecificConfig>,
 ) => {
-  const llmConfig = getLLMConfig() as Record<string, any>;
+  const llmConfig = (await getLLMConfig()) as Record<string, any>;
 
   // 并发处理所有 providers
   const providerConfigs = await Promise.all(

@@ -9,11 +9,12 @@ interface KeyStore {
 export class ApiKeyManager {
   private _cache: Map<string, KeyStore> = new Map();
 
-  private _mode: string;
+  private _mode: string = 'random';
 
-  constructor() {
-    const { API_KEY_SELECT_MODE: mode = 'random' } = getLLMConfig();
+  constructor() {}
 
+  async initialize() {
+    const { API_KEY_SELECT_MODE: mode = 'random' } = await getLLMConfig();
     this._mode = mode;
   }
 

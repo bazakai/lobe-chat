@@ -196,6 +196,7 @@ const nextConfig: NextConfig = {
       hmrRefreshes: true,
     },
   },
+  productionBrowserSourceMaps: false,
   reactStrictMode: true,
 
   redirects: async () => [
