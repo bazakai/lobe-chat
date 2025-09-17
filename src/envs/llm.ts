@@ -1,9 +1,11 @@
+'use server';
+
 /* eslint-disable sort-keys-fix/sort-keys-fix , typescript-sort-keys/interface */
 import { createEnv } from '@t3-oss/env-nextjs';
 import { memoize } from 'lodash';
 import { z } from 'zod';
 
-import { getMemoizedSecret } from '../utils/secrets';
+import { getMemoizedSecret } from '../utils/server/secrets';
 
 const _getLLMConfig = async () => {
   const GOOGLE_API_KEY = await getMemoizedSecret({ secretName: 'lobe-chat-google-api-key' });

@@ -19,7 +19,7 @@ export const useCustomActions = () => {
   const translate = {
     children: localeOptions.map((i) => ({
       key: i.value,
-      label: t(`lang.${i.value}`, { ns: 'common' }),
+      label: t(`lang.${i.value}`, '', { ns: 'common' }),
     })),
     icon: LanguagesIcon,
     key: 'translate',
