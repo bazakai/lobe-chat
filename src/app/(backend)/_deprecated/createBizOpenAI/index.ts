@@ -12,7 +12,7 @@ import { createOpenai } from './createOpenai';
  * createOpenAI Instance with Auth and azure openai support
  * if auth not pass ,just return error response
  */
-export const createBizOpenAI = (req: Request): Response | OpenAI => {
+export const createBizOpenAI = async (req: Request): Promise<Response | OpenAI> => {
   const { apiKey, accessCode, endpoint, oauthAuthorized } = getOpenAIAuthFromRequest(req);
 
   const result = checkAuth({ accessCode, apiKey, oauthAuthorized });
@@ -24,7 +24,7 @@ export const createBizOpenAI = (req: Request): Response | OpenAI => {
   let openai: OpenAI;
 
   try {
-    openai = createOpenai(apiKey, endpoint);
+    openai = await createOpenai(apiKey, endpoint);
   } catch (error) {
     if ((error as Error).cause === ChatErrorType.NoOpenAIAPIKey) {
       return createErrorResponse(ChatErrorType.NoOpenAIAPIKey);

@@ -4,8 +4,8 @@ import OpenAI from 'openai';
 import { getLLMConfig } from '@/envs/llm';
 
 // create OpenAI instance
-export const createOpenai = (userApiKey: string | null, endpoint?: string | null) => {
-  const { OPENAI_API_KEY } = getLLMConfig();
+export const createOpenai = async (userApiKey: string | null, endpoint?: string | null) => {
+  const { OPENAI_API_KEY } = await getLLMConfig();
   const OPENAI_PROXY_URL = process.env.OPENAI_PROXY_URL;
 
   const baseURL = endpoint ? endpoint : OPENAI_PROXY_URL ? OPENAI_PROXY_URL : undefined;
