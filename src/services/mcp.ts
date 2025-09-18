@@ -28,6 +28,16 @@ function calculateObjectSizeBytes(obj: any): number {
 class MCPService {
   async invokeMcpToolCall(
     payload: ChatToolPayload,
+    options: { signal?: AbortSignal; topicId?: string },
+  ) {
+    // Use the routing service to determine the appropriate handler
+    const { mcpRoutingService } = await import('./mcp-routing');
+    return mcpRoutingService.invokeMcpToolCall(payload, options);
+  }
+
+  // Original implementation for user-installed plugins (called by routing service)
+  async invokeMcpToolCallOriginal(
+    payload: ChatToolPayload,
     { signal, topicId }: { signal?: AbortSignal; topicId?: string },
   ) {
     const { pluginSelectors } = await import('@/store/tool/selectors');
@@ -45,7 +55,8 @@ class MCPService {
 
     const data = {
       args,
-      params: { name: identifier, type: plugin.customParams?.mcp?.type || 'http' } as any,
+      env: plugin.settings || plugin.customParams?.mcp?.env,
+      params: { ...plugin.customParams?.mcp, name: identifier } as any,
       toolName: apiName,
     };
 

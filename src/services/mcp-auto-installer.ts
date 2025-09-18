@@ -10,7 +10,7 @@ export interface AutoInstallResult {
 
 export const autoInstallMcpPlugins = async (): Promise<boolean> => {
   try {
-    const result = await toolsClient.mcp.autoInstallAllPlugins.mutate();
+    const result = await toolsClient.mcpAutoInstaller.autoInstallAllPlugins.mutate();
 
     if (result.success || result.installed.length > 0) {
       if (result.plugins && result.plugins.length > 0) {
@@ -18,7 +18,16 @@ export const autoInstallMcpPlugins = async (): Promise<boolean> => {
 
         for (const pluginData of result.plugins) {
           try {
-            await toolStore.installCustomPlugin(pluginData);
+            // Mark plugin as auto-installed
+            const enhancedPluginData = {
+              ...pluginData,
+              customParams: {
+                ...pluginData.customParams,
+                _autoInstalled: true, // Flag to identify auto-installed plugins
+              },
+            };
+
+            await toolStore.installCustomPlugin(enhancedPluginData);
           } catch (error) {
             console.error(`Failed to register plugin ${pluginData.identifier}:`, error);
           }
