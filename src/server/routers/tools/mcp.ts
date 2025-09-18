@@ -1,11 +1,11 @@
 import { TRPCError } from '@trpc/server';
 import { z } from 'zod';
 
-import { DESKTOP_USER_ID } from '@/const/desktop';
 import { isDesktop, isServerMode } from '@/const/version';
 import { passwordProcedure } from '@/libs/trpc/edge';
-import { authedProcedure, router } from '@/libs/trpc/lambda';
+import { authedProcedure, publicProcedure, router } from '@/libs/trpc/lambda';
 import { mcpService } from '@/server/services/mcp';
+import { serverMcpAutoInstaller } from '@/server/services/mcp-auto-installer';
 
 const StreamableHTTPAuthSchema = z
   .object({
@@ -44,17 +44,8 @@ const checkStdioEnvironment = (params: z.infer<typeof mcpClientParamsSchema>) =>
   }
 };
 
-// Create a procedure that works in both server and edge modes with userId
-const mcpProcedure = isServerMode
-  ? authedProcedure
-  : passwordProcedure.use(({ next, ctx }) => {
-      // For edge mode, only provide userId for desktop, not for web users
-      // Web users need proper authentication through lambda endpoints
-      const userId = isDesktop ? DESKTOP_USER_ID : undefined;
-      return next({
-        ctx: { ...ctx, userId },
-      });
-    });
+const mcpProcedure = isServerMode ? authedProcedure : passwordProcedure;
+const autoInstallerProcedure = isServerMode ? authedProcedure : publicProcedure;
 
 export const mcpRouter = router({
   getStreamableMcpServerManifest: mcpProcedure
@@ -129,9 +120,26 @@ export const mcpRouter = router({
       // Stdio check can be done here or rely on the service/client layer
       checkStdioEnvironment(input.params);
 
-      // Pass the validated MCPClientParams to the service
+      // Pass the validated params, toolName, and args to the service
       const data = await mcpService.callTool(input.params, input.toolName, input.args);
 
       return JSON.stringify(data);
+    }),
+
+  // Auto-installer endpoints (minimal - delegate to service)
+  autoInstallAllPlugins: autoInstallerProcedure.mutation(async ({ ctx }) => {
+    return await serverMcpAutoInstaller.handleAutoInstallRequest(ctx);
+  }),
+
+  callAutoInstalledTool: autoInstallerProcedure
+    .input(
+      z.object({
+        args: z.any(),
+        params: z.object({ name: z.string(), type: z.literal('http') }),
+        toolName: z.string(),
+      }),
+    )
+    .mutation(async ({ input, ctx }) => {
+      return await serverMcpAutoInstaller.handleToolCallRequest(input, ctx);
     }),
 });
