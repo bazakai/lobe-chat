@@ -102,6 +102,9 @@ ENV NODE_ENV="production" \
 # refs: https://github.com/lobehub/lobe-chat/issues/5876
 ENV MIDDLEWARE_REWRITE_THROUGH_LOCAL="1"
 
+# set hostname to localhost
+ENV HOSTNAME="0.0.0.0" \
+    PORT="3210"
 
 USER nextjs
 
