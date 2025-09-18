@@ -59,8 +59,8 @@ const StoreInitialization = memo(() => {
 
     const autoInstall = async () => {
       try {
-        const { autoInstallMcpPlugins } = await import('@/services/mcp-auto-installer');
-        await autoInstallMcpPlugins();
+        const { mcpAutoInstallerWrapper } = await import('@/services/mcp-auto-installer-wrapper');
+        await mcpAutoInstallerWrapper.autoInstallAllPlugins();
       } catch (error) {
         console.warn('Failed to auto-install MCP plugins:', error);
       }

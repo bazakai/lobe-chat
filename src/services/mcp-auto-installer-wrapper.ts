@@ -1,10 +1,9 @@
 import { toolsClient } from '@/libs/trpc/client';
 import { useToolStore } from '@/store/tool';
-import { ChatToolPayload } from '@/types/message';
 
 /**
  * Auto-installer wrapper service
- * Handles both auto-installation and intelligent routing for auto-installed plugins
+ * Handles auto-installation and plugin management for auto-installed MCP plugins
  */
 
 export class McpAutoInstallerWrapper {
@@ -83,32 +82,6 @@ export class McpAutoInstallerWrapper {
     };
 
     return toolsClient.mcpAutoInstaller.callTool.mutate(data, { signal });
-  }
-
-  /**
-   * Intelligent routing for MCP tool calls
-   * Routes to auto-installer or original MCP service based on plugin type
-   */
-  async routeMcpToolCall(
-    payload: ChatToolPayload,
-    options: { signal?: AbortSignal; topicId?: string },
-    originalHandler: (
-      payload: ChatToolPayload,
-      options: { signal?: AbortSignal; topicId?: string },
-    ) => Promise<any>,
-  ) {
-    const { identifier, arguments: args, apiName } = payload;
-
-    // Check if this is an auto-installed plugin
-    const isAutoInstalled = await this.isAutoInstalledPlugin(identifier);
-
-    if (isAutoInstalled) {
-      // Route to auto-installer service
-      return this.callAutoInstalledPlugin(identifier, apiName, args, options.signal);
-    } else {
-      // Use original MCP service
-      return originalHandler(payload, options);
-    }
   }
 }
 
