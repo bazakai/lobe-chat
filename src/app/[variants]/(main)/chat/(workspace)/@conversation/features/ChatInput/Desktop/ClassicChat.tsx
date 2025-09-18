@@ -18,15 +18,15 @@ import { useSend } from '../useSend';
 import MessageFromUrl from './MessageFromUrl';
 
 const leftActions: ActionKeys[] = [
-  'model',
-  'search',
-  'typo',
-  'fileUpload',
-  'knowledgeBase',
+  // 'model',
+  // 'search',
+  // 'typo',
+  // 'fileUpload',
+  // 'knowledgeBase',
   'tools',
-  '---',
-  ['params', 'history', 'stt', 'clear'],
-  'mainToken',
+  // '---',
+  // ['params', 'history', 'stt', 'clear'],
+  // 'mainToken',
 ];
 
 const rightActions: ActionKeys[] = [
