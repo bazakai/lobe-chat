@@ -1,45 +1,65 @@
 import { McpConfig } from '@/types/mcp';
+import { getMemoizedParsedSecret } from '@/utils/server/secrets';
 
 /**
  * Server-side MCP plugin configurations containing sensitive data
  * These configurations are NEVER sent to the client
  */
-export const SERVER_MCP_CONFIGS: McpConfig[] = [
-  // Bazak.ai MCP Server - Israeli e-commerce search
-  {
-    headers: {
-      'Accept': 'application/json, text/event-stream',
-      'Content-Type': 'application/json',
-      'User-Agent': 'LobeChat/1.0 MCP-Client',
-    },
-    identifier: 'zap-mcp',
-    metadata: {
-      avatar: '🛒',
-      description: 'Search Israeli e-commerce products using Bazak.ai MCP server',
-    },
-    type: 'http',
-    url: 'https://mcp.bazak.ai/1f6da9f6-ab07-4b99-8395-a27f49aec057/mcp?bazak-api-key=ccb1d257-866d-4920-9c29-e970bb81f83c',
-  },
+let _serverMcpConfigs: McpConfig[] | null = null;
 
-  // Add more HTTP MCP server configurations here
-  // Example:
-  // {
-  //   identifier: 'my-http-mcp',
-  //   metadata: {
-  //     avatar: '🌐',
-  //     description: 'My custom HTTP MCP server',
-  //   },
-  //   type: 'http',
-  //   url: 'https://my-mcp-server.com/mcp',
-  //   headers: {
-  //     'Authorization': 'Bearer your-token-here',
-  //   },
-  // },
-];
+/**
+ * Get MCP configurations with secrets loaded from Google Secret Manager
+ */
+async function getServerMcpConfigs(): Promise<McpConfig[]> {
+  if (_serverMcpConfigs) {
+    return _serverMcpConfigs;
+  }
+
+  try {
+    // Get secrets from Google Secret Manager
+    const { zap } = await getMemoizedParsedSecret<
+      Record<string, { bazakApiKey: string; id: string }>
+    >({ secretName: 'mcp-configs' });
+
+    _serverMcpConfigs = [
+      // Bazak.ai MCP Server - Israeli e-commerce search
+      {
+        headers: {
+          'Accept': 'application/json, text/event-stream',
+          'Content-Type': 'application/json',
+          'User-Agent': 'LobeChat/1.0 MCP-Client',
+        },
+        identifier: 'zap-mcp',
+        metadata: {
+          avatar: '🛒',
+          description: 'Search Israeli e-commerce products using Bazak.ai MCP server',
+        },
+        type: 'http',
+        url: `https://mcp.bazak.ai/${zap.id}/mcp?bazak-api-key=${zap.bazakApiKey}`,
+      },
+
+      // Add more HTTP MCP server configurations here
+    ];
+
+    return _serverMcpConfigs;
+  } catch (error) {
+    console.error('Failed to load MCP configurations from secrets:', error);
+    // Return empty array if secrets can't be loaded
+    return [];
+  }
+}
 
 /**
  * Get full configuration by identifier (server-side only)
  */
-export const getMcpConfigById = (identifier: string): McpConfig | undefined => {
-  return SERVER_MCP_CONFIGS.find((config) => config.identifier === identifier);
-};
+export async function getMcpConfigById(identifier: string): Promise<McpConfig | undefined> {
+  const configs = await getServerMcpConfigs();
+  return configs.find((config) => config.identifier === identifier);
+}
+
+/**
+ * Get all server MCP configurations
+ */
+export async function getServerMcpConfigsArray(): Promise<McpConfig[]> {
+  return getServerMcpConfigs();
+}

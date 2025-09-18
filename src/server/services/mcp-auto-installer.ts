@@ -2,7 +2,7 @@ import { TRPCError } from '@trpc/server';
 
 import { PluginModel } from '@/database/models/plugin';
 import { getServerDB } from '@/database/server';
-import { SERVER_MCP_CONFIGS, getMcpConfigById } from '@/server/configs/mcp-plugins';
+import { getMcpConfigById, getServerMcpConfigsArray } from '@/server/configs/mcp-plugins';
 import { mcpService } from '@/server/services/mcp';
 
 export class ServerMcpAutoInstaller {
@@ -50,7 +50,8 @@ export class ServerMcpAutoInstaller {
     };
 
     try {
-      for (const config of SERVER_MCP_CONFIGS) {
+      const configs = await getServerMcpConfigsArray();
+      for (const config of configs) {
         try {
           const pluginData = await this.createPluginDataFromConfig(config);
           result.plugins.push(pluginData);
@@ -73,7 +74,7 @@ export class ServerMcpAutoInstaller {
   }
 
   async installSinglePlugin(identifier: string, userId: string): Promise<boolean> {
-    const config = getMcpConfigById(identifier);
+    const config = await getMcpConfigById(identifier);
     if (!config) {
       throw new Error(`MCP plugin configuration not found for identifier: ${identifier}`);
     }
@@ -109,7 +110,7 @@ export class ServerMcpAutoInstaller {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async handleToolCallRequest(input: any, _ctx: any) {
     const pluginIdentifier = input.params.name;
-    const serverConfig = getMcpConfigById(pluginIdentifier);
+    const serverConfig = await getMcpConfigById(pluginIdentifier);
 
     if (!serverConfig) {
       throw new TRPCError({
