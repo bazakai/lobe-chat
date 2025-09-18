@@ -3,9 +3,8 @@ import { z } from 'zod';
 
 import { isDesktop, isServerMode } from '@/const/version';
 import { passwordProcedure } from '@/libs/trpc/edge';
-import { authedProcedure, publicProcedure, router } from '@/libs/trpc/lambda';
+import { authedProcedure, router } from '@/libs/trpc/lambda';
 import { mcpService } from '@/server/services/mcp';
-import { serverMcpAutoInstaller } from '@/server/services/mcp-auto-installer';
 
 const StreamableHTTPAuthSchema = z
   .object({
@@ -45,7 +44,6 @@ const checkStdioEnvironment = (params: z.infer<typeof mcpClientParamsSchema>) =>
 };
 
 const mcpProcedure = isServerMode ? authedProcedure : passwordProcedure;
-const autoInstallerProcedure = isServerMode ? authedProcedure : publicProcedure;
 
 export const mcpRouter = router({
   getStreamableMcpServerManifest: mcpProcedure
@@ -124,22 +122,5 @@ export const mcpRouter = router({
       const data = await mcpService.callTool(input.params, input.toolName, input.args);
 
       return JSON.stringify(data);
-    }),
-
-  // Auto-installer endpoints (minimal - delegate to service)
-  autoInstallAllPlugins: autoInstallerProcedure.mutation(async ({ ctx }) => {
-    return await serverMcpAutoInstaller.handleAutoInstallRequest(ctx);
-  }),
-
-  callAutoInstalledTool: autoInstallerProcedure
-    .input(
-      z.object({
-        args: z.any(),
-        params: z.object({ name: z.string(), type: z.literal('http') }),
-        toolName: z.string(),
-      }),
-    )
-    .mutation(async ({ input, ctx }) => {
-      return await serverMcpAutoInstaller.handleToolCallRequest(input, ctx);
     }),
 });

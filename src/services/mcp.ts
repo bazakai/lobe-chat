@@ -163,7 +163,7 @@ class MCPService {
       toolName,
     };
 
-    return toolsClient.mcp.callAutoInstalledTool.mutate(data, { signal });
+    return toolsClient.mcpAutoInstaller.callTool.mutate(data, { signal });
   }
 
   async getStreamableMcpServerManifest(

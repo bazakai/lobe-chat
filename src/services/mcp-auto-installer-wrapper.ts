@@ -12,7 +12,7 @@ export class McpAutoInstallerWrapper {
    */
   async autoInstallAllPlugins(): Promise<boolean> {
     try {
-      const result = await toolsClient.mcp.autoInstallAllPlugins.mutate();
+      const result = await toolsClient.mcpAutoInstaller.autoInstallAllPlugins.mutate();
 
       if (result.success || result.installed.length > 0) {
         if (result.plugins && result.plugins.length > 0) {
@@ -81,7 +81,7 @@ export class McpAutoInstallerWrapper {
       toolName,
     };
 
-    return toolsClient.mcp.callAutoInstalledTool.mutate(data, { signal });
+    return toolsClient.mcpAutoInstaller.callTool.mutate(data, { signal });
   }
 }
 
