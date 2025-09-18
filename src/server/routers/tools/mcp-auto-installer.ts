@@ -8,20 +8,11 @@ import { getMcpConfigById } from '@/server/configs/mcp-plugins';
 import { mcpService } from '@/server/services/mcp';
 import { serverMcpAutoInstaller } from '@/server/services/mcp-auto-installer';
 
-// Simplified schema for auto-installed plugins (identifier-only)
+// Simplified schema for auto-installed plugins (HTTP only)
 const autoInstalledParamsSchema = z.object({
   name: z.string().min(1),
-  type: z.enum(['http', 'stdio']),
+  type: z.literal('http'),
 });
-
-const checkStdioEnvironment = (params: { type: string }) => {
-  if (params.type === 'stdio' && !isDesktop) {
-    throw new TRPCError({
-      code: 'BAD_REQUEST',
-      message: 'Stdio MCP type is not supported in web environment.',
-    });
-  }
-};
 
 // Auto-installer procedure that works without authentication in both dev and production
 const autoInstallerProcedure = isServerMode
@@ -68,26 +59,13 @@ export const mcpAutoInstallerRouter = router({
         });
       }
 
-      // Build full MCP params from server configuration
-      const effectiveParams: any = {
+      // Build full MCP params from server configuration (HTTP only)
+      const effectiveParams = {
+        headers: serverConfig.headers,
         name: serverConfig.identifier,
-        type: serverConfig.type,
-        ...(serverConfig.type === 'http' && serverConfig.url
-          ? {
-              headers: serverConfig.headers,
-              url: serverConfig.url,
-            }
-          : {}),
-        ...(serverConfig.type === 'stdio'
-          ? {
-              args: serverConfig.args || [],
-              command: serverConfig.command,
-            }
-          : {}),
+        type: 'http' as const,
+        url: serverConfig.url!,
       };
-
-      // Stdio environment check
-      checkStdioEnvironment(effectiveParams);
 
       try {
         const data = await mcpService.callTool(effectiveParams, input.toolName, input.args);

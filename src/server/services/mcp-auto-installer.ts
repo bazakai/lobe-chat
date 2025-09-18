@@ -22,31 +22,14 @@ export class ServerMcpAutoInstaller {
     try {
       for (const config of SERVER_MCP_CONFIGS) {
         try {
-          let manifest;
-
-          if (config.type === 'http' && config.url) {
-            manifest = await mcpService.getStreamableMcpServerManifest(
-              config.identifier,
-              config.url,
-              config.metadata,
-              undefined,
-              config.headers,
-            );
-          } else if (config.type === 'stdio' && config.command) {
-            manifest = await mcpService.getStdioMcpServerManifest(
-              {
-                args: config.args || [],
-                command: config.command,
-                env: config.env || {},
-                name: config.identifier,
-              },
-              config.metadata,
-            );
-          } else {
-            throw new Error(
-              `Invalid MCP config for "${config.identifier}": missing required fields`,
-            );
-          }
+          // Only HTTP MCP servers are supported
+          const manifest = await mcpService.getStreamableMcpServerManifest(
+            config.identifier,
+            config.url!,
+            config.metadata,
+            undefined,
+            config.headers,
+          );
 
           const pluginData = {
             customParams: {
@@ -88,29 +71,14 @@ export class ServerMcpAutoInstaller {
       throw new Error(`MCP plugin configuration not found for identifier: ${identifier}`);
     }
 
-    let manifest;
-
-    if (config.type === 'http' && config.url) {
-      manifest = await mcpService.getStreamableMcpServerManifest(
-        config.identifier,
-        config.url,
-        config.metadata,
-        undefined,
-        config.headers,
-      );
-    } else if (config.type === 'stdio' && config.command) {
-      manifest = await mcpService.getStdioMcpServerManifest(
-        {
-          args: config.args || [],
-          command: config.command,
-          env: config.env || {},
-          name: config.identifier,
-        },
-        config.metadata,
-      );
-    } else {
-      throw new Error(`Invalid MCP config for "${identifier}": missing required fields`);
-    }
+    // Only HTTP MCP servers are supported
+    const manifest = await mcpService.getStreamableMcpServerManifest(
+      config.identifier,
+      config.url!,
+      config.metadata,
+      undefined,
+      config.headers,
+    );
 
     const pluginData = {
       customParams: {
