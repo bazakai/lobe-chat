@@ -1,10 +1,10 @@
-import { McpConfig } from './types';
+import { McpConfig } from '@/types/mcp';
 
 /**
- * Configuration for MCP plugins to auto-install
- * Add your MCP server configurations here
+ * Server-side MCP plugin configurations containing sensitive data
+ * These configurations are NEVER sent to the client
  */
-export const MCP_CONFIG: McpConfig[] = [
+export const SERVER_MCP_CONFIGS: McpConfig[] = [
   // Bazak.ai MCP Server - Israeli e-commerce search
   {
     headers: {
@@ -18,7 +18,7 @@ export const MCP_CONFIG: McpConfig[] = [
       description: 'Search Israeli e-commerce products using Bazak.ai MCP server',
     },
     type: 'http',
-    url: 'https://mcp.bazak.ai/3afb3754-8d6e-4414-b0e3-5ff0f29065e9/mcp?bazak-api-key=40a4278f-3417-40fb-a383-0ca1cce9f4e1',
+    url: 'https://mcp.bazak.ai/e39c9785-1ccd-4b4a-aef9-96f999f9caeb/mcp?bazak-api-key=40a4278f-3417-40fb-a383-0ca1cce9f4e1',
   },
 
   // Add more MCP server configurations here
@@ -51,3 +51,10 @@ export const MCP_CONFIG: McpConfig[] = [
   //   },
   // },
 ];
+
+/**
+ * Get full configuration by identifier (server-side only)
+ */
+export const getMcpConfigById = (identifier: string): McpConfig | undefined => {
+  return SERVER_MCP_CONFIGS.find((config) => config.identifier === identifier);
+};

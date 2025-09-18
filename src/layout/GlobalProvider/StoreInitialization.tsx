@@ -7,7 +7,6 @@ import { createStoreUpdater } from 'zustand-utils';
 
 import { enableNextAuth } from '@/const/auth';
 import { useIsMobile } from '@/hooks/useIsMobile';
-import { ALL_MCP_PLUGINS_CONFIG } from '@/plugins';
 import { useAgentStore } from '@/store/agent';
 import { useAiInfraStore } from '@/store/aiInfra';
 import { useGlobalStore } from '@/store/global';
@@ -42,20 +41,6 @@ const StoreInitialization = memo(() => {
   const useFetchServerConfig = useServerConfigStore((s) => s.useInitServerConfig);
   useFetchServerConfig();
 
-  // Auto-install MCP plugins early in initialization
-  useEffect(() => {
-    const autoInstall = async () => {
-      try {
-        const { autoInstallMcpPlugins } = await import('@/services/mcp-auto-installer');
-        await autoInstallMcpPlugins(ALL_MCP_PLUGINS_CONFIG);
-      } catch (error) {
-        console.warn('Failed to auto-install MCP plugins:', error);
-      }
-    };
-
-    autoInstall();
-  }, []); // Run once on mount
-
   // Update NextAuth status
   const useUserStoreUpdater = createStoreUpdater(useUserStore);
   const oAuthSSOProviders = useServerConfigStore(serverConfigSelectors.oAuthSSOProviders);
@@ -68,6 +53,21 @@ const StoreInitialization = memo(() => {
    */
   const isDBInited = useGlobalStore(systemStatusSelectors.isDBInited);
   const isLoginOnInit = isDBInited && (enableNextAuth ? isSignedIn : isLogin);
+
+  useEffect(() => {
+    if (!isLoginOnInit) return;
+
+    const autoInstall = async () => {
+      try {
+        const { autoInstallMcpPlugins } = await import('@/services/mcp-auto-installer');
+        await autoInstallMcpPlugins();
+      } catch (error) {
+        console.warn('Failed to auto-install MCP plugins:', error);
+      }
+    };
+
+    autoInstall();
+  }, [isLoginOnInit]);
 
   // init inbox agent and default agent config
   useInitAgentStore(isLoginOnInit, serverConfig.defaultAgent?.config);

@@ -45,8 +45,7 @@ class MCPService {
 
     const data = {
       args,
-      env: plugin.settings || plugin.customParams?.mcp?.env,
-      params: { ...plugin.customParams?.mcp, name: identifier } as any,
+      params: { name: identifier, type: plugin.customParams?.mcp?.type || 'http' } as any,
       toolName: apiName,
     };
 
