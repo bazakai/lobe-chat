@@ -1,0 +1,30 @@
+{
+  "Artifacts": "ארטיפקטים",
+  "FilePreview": {
+    "tabs": {
+      "chunk": "חלק",
+      "file": "קובץ"
+    }
+  },
+  "Plugins": "תוספים",
+  "artifacts": {
+    "display": {
+      "code": "קוד",
+      "preview": "תצוגה מקדימה"
+    },
+    "svg": {
+      "copyAsImage": "העתק כתמונה",
+      "copyFail": "העתקה נכשלה, סיבה: {{error}}",
+      "copySuccess": "תמונה הועתקה בהצלחה",
+      "download": {
+        "png": "הורד כ-PNG",
+        "svg": "הורד כ-SVG"
+      }
+    }
+  },
+  "emptyArtifactList": "רשימת הארטיפקטים הנוכחית ריקה. אנא השתמש בתוספים בפעלה לפי הצורך לפני הצפייה.",
+  "emptyKnowledgeList": "רשימת הידע הנוכחית ריקה. אנא הפעל את בסיס הידע לפי הצורך במהלך השיחה לפני הצפייה.",
+  "files": "קבצים",
+  "messageDetail": "פרטי הודעה",
+  "title": "תצוגת פורטל"
+}

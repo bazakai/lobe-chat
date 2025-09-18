@@ -1,0 +1,82 @@
+{
+  "dalle": {
+    "autoGenerate": "יצירה אוטומטית",
+    "downloading": "קישורי התמונות שנוצרו על ידי DALL·E3 תקפים רק למשך שעה אחת, שומר תמונות מקומית...",
+    "generate": "צור",
+    "generating": "יוצר...",
+    "images": "תמונות:",
+    "prompt": "פקודה"
+  },
+  "localFiles": {
+    "file": "קובץ",
+    "folder": "תיקייה",
+    "open": "פתח",
+    "openFile": "פתח קובץ",
+    "openFolder": "פתח תיקייה",
+    "read": {
+      "more": "הצג עוד"
+    },
+    "readFile": "קרא קובץ",
+    "readFileError": "נכשל בקריאת הקובץ, אנא בדוק אם נתיב הקובץ נכון",
+    "readFiles": "קרא קבצים",
+    "readFilesError": "נכשל בקריאת הקבצים, אנא בדוק אם נתיבי הקבצים נכונים"
+  },
+  "search": {
+    "createNewSearch": "צור רשומת חיפוש חדשה",
+    "emptyResult": "לא נמצאו תוצאות, אנא שנה את מילות המפתח ונסה שוב",
+    "genAiMessage": "צור הודעת עוזר",
+    "includedTooltip": "תוצאות החיפוש הנוכחיות ייכללו בהקשר השיחה",
+    "keywords": "מילות מפתח:",
+    "scoreTooltip": "ציון רלוונטיות; ציון גבוה יותר מציין התאמה טובה יותר למילות המפתח של השאילתה",
+    "searchBar": {
+      "button": "חפש",
+      "placeholder": "מילות מפתח",
+      "tooltip": "זה ירענן את תוצאות החיפוש ויצור הודעת סיכום חדשה"
+    },
+    "searchCategory": {
+      "placeholder": "קטגוריית חיפוש",
+      "title": "קטגוריית חיפוש:",
+      "value": {
+        "files": "קבצים",
+        "general": "כללי",
+        "images": "תמונות",
+        "it": "טכנולוגיית מידע",
+        "map": "מפות",
+        "music": "מוזיקה",
+        "news": "חדשות",
+        "science": "מדע",
+        "social_media": "רשתות חברתיות",
+        "videos": "וידאו"
+      }
+    },
+    "searchEngine": {
+      "placeholder": "מנוע חיפוש",
+      "title": "מנוע חיפוש:"
+    },
+    "searchResult": "מספר חיפושים:",
+    "searchTimeRange": {
+      "title": "טווח זמן:",
+      "value": {
+        "anytime": "בכל זמן",
+        "day": "תוך יום",
+        "month": "תוך חודש",
+        "week": "תוך שבוע",
+        "year": "תוך שנה"
+      }
+    },
+    "summary": "סיכום",
+    "summaryTooltip": "סכם את התוכן הנוכחי",
+    "viewMoreResults": "הצג {{results}} תוצאות נוספות"
+  },
+  "updateArgs": {
+    "duplicateKeyError": "מפתח השדה חייב להיות ייחודי",
+    "form": {
+      "add": "הוסף פריט",
+      "key": "מפתח שדה",
+      "value": "ערך שדה"
+    },
+    "formValidationFailed": "אימות הטופס נכשל, אנא בדוק את פורמט הפרמטרים",
+    "keyRequired": "מפתח השדה לא יכול להיות ריק",
+    "stringifyError": "לא ניתן לסריאליזציה פרמטרים, אנא בדוק את פורמט הפרמטרים"
+  }
+}

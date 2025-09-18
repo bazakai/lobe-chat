@@ -1,0 +1,47 @@
+{
+  "changelog": {
+    "description": "הישאר מעודכן על התכונות החדשות והשיפורים של {{appName}}",
+    "title": "יומן שינויים"
+  },
+  "chat": {
+    "description": "{{appName}} מביא לך את חוויית הממשק הטובה ביותר עבור ChatGPT, Claude, Gemini ו-OLLaMA.",
+    "title": "{{appName}}: כלי הפרודוקטיביות AI האישי שלך למוח חכם יותר."
+  },
+  "discover": {
+    "assistants": {
+      "description": "יצירת תוכן, כתיבת תוכן, שאלות ותשובות, יצירת תמונות, יצירת וידאו, יצירת קול, סוכנים חכמים, זרימות עבודה אוטומטיות, התאם אישית את העוזר החכם AI / GPTs / OLLaMA שלך",
+      "title": "עוזרי AI"
+    },
+    "description": "יצירת תוכן, כתיבת תוכן, שאלות ותשובות, יצירת תמונות, יצירת וידאו, יצירת קול, סוכנים חכמים, זרימות עבודה אוטומטיות, אפליקציות AI מותאמות אישית, התאם אישית את סביבת העבודה של אפליקציית AI שלך",
+    "mcp": {
+      "description": "חפש, השווה והתחבר לאלפי שרתי MCP, המאפשר למערכות AI לגשת בקלות למערכות קבצים, מסדי נתונים, APIs ומשאבים חיוניים אחרים, מרחיב באופן מקיף את יכולות ה-AI שלך.",
+      "title": "שרתי MCP"
+    },
+    "models": {
+      "description": "חקור מודלי AI נפוצים OpenAI / GPT / Claude 3 / Gemini / Ollama / Azure / DeepSeek",
+      "title": "מודלי AI"
+    },
+    "plugins": {
+      "description": "חקור יצירת תרשימים, כלים אקדמיים, יצירת תמונות, יצירת וידאו, יצירת קול וזרימות עבודה אוטומטיות כדי לשלב יכולות תוספים עשירות בעוזר שלך.",
+      "title": "תוספי AI"
+    },
+    "providers": {
+      "description": "חקור ספקי מודלים מובילים OpenAI / Qwen / Ollama / Anthropic / DeepSeek / Google Gemini / OpenRouter",
+      "title": "ספקי מודלי AI"
+    },
+    "search": "חיפוש",
+    "title": "גלה"
+  },
+  "image": {
+    "description": "{{appName}} מביא לך את החוויה הטובה ביותר עם GPT Image, Flux, Midjourney ו-Stable Diffusion",
+    "title": "ציור AI"
+  },
+  "plugins": {
+    "description": "חיפוש, יצירת תרשימים, כלים אקדמיים, יצירת תמונות, יצירת וידאו, יצירת קול, זרימות עבודה אוטומטיות—התאם אישית יכולות תוספי Tools Calling עבור ChatGPT / Claude.",
+    "title": "שוק תוספים"
+  },
+  "welcome": {
+    "description": "{{appName}} מביא לך את חוויית הממשק הטובה ביותר עבור ChatGPT, Claude, Gemini ו-OLLaMA.",
+    "title": "ברוכים הבאים ל-{{appName}}: כלי הפרודוקטיביות AI האישי שלך למוח חכם יותר."
+  }
+}

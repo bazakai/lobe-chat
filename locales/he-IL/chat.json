@@ -1,0 +1,295 @@
+{
+  "ModelSwitch": {
+    "title": "מודל"
+  },
+  "agentDefaultMessage": "שלום, אני **{{name}}**. אתה יכול להתחיל איתי שיחה מיד, או שאתה יכול ללכת ל[הגדרות עוזר]({{url}}) כדי להשלים את המידע שלי.",
+  "agentDefaultMessageWithSystemRole": "שלום, אני **{{name}}**, {{systemRole}}. בואו נתחיל לשוחח!",
+  "agentDefaultMessageWithoutEdit": "שלום, אני **{{name}}**, בואו נתחיל לשוחח!",
+  "agents": "עוזרים",
+  "artifact": {
+    "generating": "יוצר",
+    "inThread": "לא ניתן לצפות בנושא משנה, אנא עבור לאזור השיחה הראשי כדי לפתוח",
+    "thinking": "חושב",
+    "thought": "מחשבה",
+    "unknownTitle": "עבודה ללא כותרת"
+  },
+  "backToBottom": "חזור לתחתית",
+  "chatList": {
+    "longMessageDetail": "הצג פרטים"
+  },
+  "clearCurrentMessages": "נקה הודעות הפעלה נוכחיות",
+  "confirmClearCurrentMessages": "אתה עומד לנקות את הודעות הפעלה הנוכחיות. לאחר הניקוי, לא ניתן לשחזר אותן. אנא אשר את הפעולה שלך.",
+  "confirmRemoveSessionItemAlert": "אתה עומד למחוק את העוזר הזה. לאחר המחיקה, לא ניתן לשחזר אותו. אנא אשר את הפעולה שלך.",
+  "confirmRemoveSessionSuccess": "העוזר הוסר בהצלחה",
+  "defaultAgent": "עוזר ברירת מחדל",
+  "defaultList": "רשימת ברירת מחדל",
+  "defaultSession": "עוזר ברירת מחדל",
+  "duplicateSession": {
+    "loading": "מעתיק...",
+    "success": "ההעתקה הצליחה",
+    "title": "עותק של {{title}}"
+  },
+  "duplicateTitle": "עותק של {{title}}",
+  "emptyAgent": "אין עוזר זמין",
+  "extendParams": {
+    "disableContextCaching": {
+      "desc": "עלות יצירת שיחה יחידה יכולה להיות מופחתת עד 90%, ומהירות התגובה מוגברת פי 4 (<1>למד עוד</1>). הפעלה זו תבטל אוטומטית את הגבלת מספר ההודעות ההיסטוריות.",
+      "title": "הפעל אחסון הקשר במטמון"
+    },
+    "enableReasoning": {
+      "desc": "מבוסס על הגבלת מנגנון Claude Thinking (<1>למד עוד</1>), הפעלה זו תבטל אוטומטית את הגבלת מספר ההודעות ההיסטוריות.",
+      "title": "הפעל חשיבה עמוקה"
+    },
+    "reasoningBudgetToken": {
+      "title": "טוקן צריכת חשיבה"
+    },
+    "reasoningEffort": {
+      "title": "עוצמת נימוק"
+    },
+    "textVerbosity": {
+      "title": "רמת פירוט טקסט פלט"
+    },
+    "thinking": {
+      "title": "מתג חשיבה עמוקה"
+    },
+    "title": "תכונות הרחבת מודל",
+    "urlContext": {
+      "desc": "כאשר מופעל, קישורי אינטרנט יתפרשו אוטומטית כדי לאחזר את תוכן ההקשר של דף האינטרנט בפועל",
+      "title": "חלץ תוכן קישור דף אינטרנט"
+    }
+  },
+  "history": {
+    "title": "העוזר יזכור רק את {{count}} ההודעות האחרונות."
+  },
+  "historyRange": "טווח היסטוריה",
+  "historySummary": "סיכום הודעות היסטוריות",
+  "inbox": {
+    "desc": "הפעל את מקבץ המוח והדליק חשיבה יצירתית. העוזר הווירטואלי שלך כאן כדי לתקשר איתך על הכל.",
+    "title": "פשוט לשוחח"
+  },
+  "input": {
+    "addAi": "הוסף הודעת AI",
+    "addUser": "הוסף הודעת משתמש",
+    "disclaimer": "AI עלול גם לטעות, אנא אמת מידע חשוב",
+    "errorMsg": "שליחת ההודעה נכשלה, אנא בדוק את הרשת שלך ונסה שוב: {{errorMsg}}",
+    "more": "עוד",
+    "send": "שלח",
+    "sendWithCmdEnter": "לחץ <key/> כדי לשלוח",
+    "sendWithEnter": "לחץ <key/> כדי לשלוח",
+    "stop": "עצור",
+    "warp": "שורה חדשה",
+    "warpWithKey": "לחץ <key/> כדי להוסיף מעבר שורה"
+  },
+  "intentUnderstanding": {
+    "title": "מבין ומנתח את הכוונה שלך..."
+  },
+  "knowledgeBase": {
+    "all": "כל התוכן",
+    "allFiles": "כל הקבצים",
+    "allKnowledgeBases": "כל בסיסי הידע",
+    "disabled": "מצב הפריסה הנוכחי אינו תומך בשיחות בסיס ידע. כדי להשתמש בתכונה זו, אנא עבור לפריסת מסד נתונים בצד השרת או השתמש בשירות {{cloud}}.",
+    "library": {
+      "action": {
+        "add": "הוסף",
+        "detail": "פרטים",
+        "remove": "הסר"
+      },
+      "title": "קבצים/בסיס ידע"
+    },
+    "relativeFilesOrKnowledgeBases": "קבצים/בסיסי ידע קשורים",
+    "title": "בסיס ידע",
+    "uploadGuide": "קבצים שהועלו ניתן לצפות ב'בסיס ידע'.",
+    "viewMore": "הצג עוד"
+  },
+  "messageAction": {
+    "delAndRegenerate": "מחק וצור מחדש",
+    "deleteDisabledByThreads": "יש נושאי משנה, מחיקה לא מותרת",
+    "regenerate": "צור מחדש"
+  },
+  "messages": {
+    "modelCard": {
+      "credit": "נקודות זכות",
+      "creditPricing": "תמחור",
+      "creditTooltip": "לצורכי ספירה, אנו ממירים $1 ל-1M נקודות זכות; למשל, $3/M טוקנים ניתן להמיר ל-3 נקודות זכות/טוקן.",
+      "pricing": {
+        "inputCachedTokens": "קלט במטמון {{amount}}/נקודות זכות · ${{amount}}/M",
+        "inputCharts": "${{amount}}/M תווים",
+        "inputMinutes": "${{amount}}/דקה",
+        "inputTokens": "קלט {{amount}}/נקודות זכות · ${{amount}}/M",
+        "outputTokens": "פלט {{amount}}/נקודות זכות · ${{amount}}/M",
+        "writeCacheInputTokens": "כתיבת קלט מטמון {{amount}}/נקודות · ${{amount}}/M"
+      }
+    },
+    "tokenDetails": {
+      "average": "מחיר יחידה ממוצע",
+      "input": "קלט",
+      "inputAudio": "קלט אודיו",
+      "inputCached": "קלט במטמון",
+      "inputCitation": "ציטוט קלט",
+      "inputText": "קלט טקסט",
+      "inputTitle": "פרטי קלט",
+      "inputUncached": "קלט לא במטמון",
+      "inputWriteCached": "כתיבת קלט מטמון",
+      "output": "פלט",
+      "outputAudio": "פלט אודיו",
+      "outputImage": "פלט תמונה",
+      "outputText": "פלט טקסט",
+      "outputTitle": "פרטי פלט",
+      "reasoning": "חשיבה עמוקה",
+      "speed": {
+        "tps": {
+          "title": "TPS",
+          "tooltip": "טוקנים לשנייה (TPS). זה מציין את המהירות הממוצעת של תוכן שנוצר על ידי AI (טוקנים/שנייה), מחושב מרגע קבלת הטוקן הראשון."
+        },
+        "ttft": {
+          "title": "TTFT",
+          "tooltip": "זמן לטוקן הראשון (TTFT). זה מתייחס למרווח הזמן משליחת הודעה ועד שהלקוח מקבל את הטוקן הראשון."
+        }
+      },
+      "title": "פרטי יצירה",
+      "total": "צריכה כוללת"
+    }
+  },
+  "newAgent": "עוזר חדש",
+  "pin": "הצמד",
+  "pinOff": "בטל הצמדה",
+  "rag": {
+    "referenceChunks": "מקור התייחסות",
+    "userQuery": {
+      "actions": {
+        "delete": "מחק כתיבה מחדש של שאילתה",
+        "regenerate": "צור מחדש שאילתה"
+      }
+    }
+  },
+  "regenerate": "צור מחדש",
+  "roleAndArchive": "תפקיד וארכיון",
+  "search": {
+    "grounding": {
+      "searchQueries": "מילות מפתח חיפוש",
+      "title": "נמצאו {{count}} תוצאות"
+    },
+    "mode": {
+      "auto": {
+        "desc": "קבע באופן חכם האם נדרש חיפוש על בסיס תוכן השיחה",
+        "title": "חיפוש מקוון חכם"
+      },
+      "off": {
+        "desc": "השתמש רק בידע הבסיסי של המודל ללא ביצוע חיפוש ברשת",
+        "title": "השבת חיפוש מקוון"
+      },
+      "on": {
+        "desc": "בצע חיפושים ברשת ברציפות כדי לקבל מידע עדכני",
+        "title": "תמיד מקוון"
+      },
+      "useModelBuiltin": "השתמש במנוע החיפוש המובנה של המודל"
+    },
+    "searchModel": {
+      "desc": "המודל הנוכחי אינו תומך בקריאות לפונקציות, לכן יש צורך לשייך אותו למודל שתומך בקריאות לפונקציות לחיפוש מקוון.",
+      "title": "מודל עוזר חיפוש"
+    },
+    "title": "חיפוש מקוון"
+  },
+  "searchAgentPlaceholder": "חפש עוזרים...",
+  "sendPlaceholder": "הקלד את ההודעה שלך כאן...",
+  "sessionGroup": {
+    "config": "ניהול קבוצה",
+    "confirmRemoveGroupAlert": "הקבוצה הזו עומדת להימחק. לאחר המחיקה, העוזרים בקבוצה הזו יועברו לרשימת ברירת המחדל. אנא אשר את הפעולה שלך.",
+    "createAgentSuccess": "העוזר נוצר בהצלחה",
+    "createGroup": "הוסף קבוצה חדשה",
+    "createSuccess": "נוצר בהצלחה",
+    "creatingAgent": "יוצר עוזר...",
+    "inputPlaceholder": "אנא הכנס שם קבוצה...",
+    "moveGroup": "העבר לקבוצה",
+    "newGroup": "קבוצה חדשה",
+    "rename": "שנה שם קבוצה",
+    "renameSuccess": "השם שונה בהצלחה",
+    "sortSuccess": "סידור מחדש הצליח",
+    "sorting": "מעדכן סידור קבוצות...",
+    "tooLong": "אורך שם הקבוצה צריך להיות בין 1-20"
+  },
+  "shareModal": {
+    "copy": "העתק",
+    "download": "הורד צילום מסך",
+    "downloadFile": "הורד קובץ",
+    "exportTitle": "כותרת ברירת מחדל",
+    "imageType": "פורמט תמונה",
+    "includeTool": "כלול הודעות תוסף",
+    "includeUser": "כלול הודעות משתמש",
+    "screenshot": "צילום מסך",
+    "settings": "הגדרות ייצוא",
+    "text": "טקסט",
+    "withBackground": "כלול תמונת רקע",
+    "withFooter": "כלול כותרת תחתונה",
+    "withPluginInfo": "כלול מידע תוסף",
+    "withRole": "כלול תפקיד הודעה",
+    "withSystemRole": "כלול הגדרת תפקיד עוזר"
+  },
+  "stt": {
+    "action": "קלט קולי",
+    "loading": "מזהה...",
+    "prettifying": "משפר..."
+  },
+  "thread": {
+    "divider": "נושא משנה",
+    "threadMessageCount": "{{messageCount}} הודעות",
+    "title": "נושא משנה"
+  },
+  "toggleWideScreen": {
+    "off": "כבה מצב מסך רחב",
+    "on": "הפעל מצב מסך רחב"
+  },
+  "tokenDetails": {
+    "chats": "הודעות צ'אט",
+    "historySummary": "סיכום היסטוריה",
+    "rest": "נותר",
+    "systemRole": "הגדרות תפקיד",
+    "title": "פרטי הקשר",
+    "tools": "הגדרות תוסף",
+    "total": "סה\"כ זמין",
+    "used": "סה\"כ בשימוש"
+  },
+  "tokenTag": {
+    "overload": "חרג מהגבול",
+    "remained": "נותר",
+    "used": "בשימוש"
+  },
+  "topic": {
+    "checkOpenNewTopic": "הפעל נושא חדש?",
+    "checkSaveCurrentMessages": "האם אתה רוצה לשמור את השיחה הנוכחית כנושא?",
+    "openNewTopic": "פתח נושא חדש",
+    "saveCurrentMessages": "שמור הפעלה נוכחית כנושא"
+  },
+  "translate": {
+    "action": "תרגם",
+    "clear": "נקה תרגום"
+  },
+  "tts": {
+    "action": "טקסט לדיבור",
+    "clear": "נקה דיבור"
+  },
+  "updateAgent": "עדכן מידע עוזר",
+  "upload": {
+    "action": {
+      "fileUpload": "העלה קובץ",
+      "folderUpload": "העלה תיקייה",
+      "imageDisabled": "המודל הנוכחי אינו תומך בזיהוי חזותי. אנא החלף מודלים כדי להשתמש בתכונה זו.",
+      "imageUpload": "העלה תמונה",
+      "tooltip": "העלה"
+    },
+    "clientMode": {
+      "actionFiletip": "העלה קובץ",
+      "actionTooltip": "העלה",
+      "disabled": "המודל הנוכחי אינו תומך בזיהוי חזותי וניתוח קבצים. אנא החלף מודלים כדי להשתמש בתכונה זו.",
+      "visionNotSupported": "המודל הנוכחי אינו תומך בזיהוי חזותי. אנא החלף למודל אחר כדי להשתמש בתכונה זו."
+    },
+    "preview": {
+      "prepareTasks": "מכין חלקים...",
+      "status": {
+        "pending": "מכין להעלאה...",
+        "processing": "מעבד קובץ..."
+      }
+    }
+  },
+  "zenMode": "מצב זן"
+}

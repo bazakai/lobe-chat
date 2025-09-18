@@ -1,0 +1,62 @@
+{
+  "actions": {
+    "expand": {
+      "off": "כווץ",
+      "on": "הרחב"
+    },
+    "typobar": {
+      "off": "הסתר סרגל עיצוב",
+      "on": "הצג סרגל עיצוב"
+    }
+  },
+  "cancel": "ביטול",
+  "confirm": "אישור",
+  "file": {
+    "error": "שגיאה: {{message}}",
+    "uploading": "מעלה קובץ..."
+  },
+  "image": {
+    "broken": "התמונה פגומה"
+  },
+  "link": {
+    "edit": "ערוך קישור",
+    "open": "פתח קישור",
+    "placeholder": "הכנס כתובת קישור",
+    "unlink": "הסר קישור"
+  },
+  "math": {
+    "placeholder": "אנא הכנס נוסחת TeX"
+  },
+  "slash": {
+    "h1": "כותרת 1",
+    "h2": "כותרת 2",
+    "h3": "כותרת 3",
+    "hr": "מפריד",
+    "table": "טבלה",
+    "tex": "נוסחת TeX"
+  },
+  "table": {
+    "delete": "מחק טבלה",
+    "deleteColumn": "מחק עמודה",
+    "deleteRow": "מחק שורה",
+    "insertColumnLeft": "הוסף {{count}} עמודה(ות) משמאל",
+    "insertColumnRight": "הוסף {{count}} עמודה(ות) מימין",
+    "insertRowAbove": "הוסף {{count}} שורה(ות) למעלה",
+    "insertRowBelow": "הוסף {{count}} שורה(ות) למטה"
+  },
+  "typobar": {
+    "blockquote": "ציטוט",
+    "bold": "מודגש",
+    "bulletList": "רשימה עם תבליטים",
+    "code": "קוד בשורה",
+    "codeblock": "בלוק קוד",
+    "italic": "נטוי",
+    "link": "קישור",
+    "numberList": "רשימה ממוספרת",
+    "strikethrough": "קו חוצה",
+    "table": "טבלה",
+    "taskList": "רשימת משימות",
+    "tex": "נוסחת TeX",
+    "underline": "קו תחתון"
+  }
+}

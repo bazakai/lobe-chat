@@ -1,0 +1,91 @@
+{
+  "addDataset": {
+    "confirm": "צור",
+    "description": {
+      "placeholder": "תיאור מערך נתונים (אופציונלי)"
+    },
+    "name": {
+      "placeholder": "שם מערך נתונים",
+      "required": "אנא הכנס את שם מערך הנתונים"
+    },
+    "title": "הוסף מערך נתונים"
+  },
+  "dataset": {
+    "addNewButton": "צור מערך נתונים",
+    "emptyGuide": "אין כרגע מערכי נתונים. אנא צור מערך נתונים.",
+    "list": {
+      "table": {
+        "actions": {
+          "importData": "ייבא נתונים"
+        },
+        "columns": {
+          "actions": "פעולות",
+          "ideal": {
+            "title": "תשובה צפויה"
+          },
+          "question": {
+            "title": "שאלה"
+          },
+          "referenceFiles": {
+            "title": "קבצי התייחסות"
+          }
+        },
+        "notSelected": "אנא בחר מערך נתונים משמאל",
+        "title": "פרטי מערך נתונים"
+      },
+      "title": "מערך נתונים"
+    }
+  },
+  "evaluation": {
+    "addEvaluation": {
+      "confirm": "צור",
+      "datasetId": {
+        "placeholder": "אנא בחר את מערך הנתונים להערכה שלך",
+        "required": "אנא בחר מערך נתונים להערכה"
+      },
+      "description": {
+        "placeholder": "תיאור משימת הערכה (אופציונלי)"
+      },
+      "name": {
+        "placeholder": "שם משימת הערכה",
+        "required": "אנא הכנס את שם משימת ההערכה"
+      },
+      "title": "הוסף משימת הערכה"
+    },
+    "addNewButton": "צור הערכה",
+    "emptyGuide": "אין כרגע משימות הערכה. התחל ליצור הערכה.",
+    "table": {
+      "columns": {
+        "actions": {
+          "checkStatus": "בדוק סטטוס",
+          "confirmDelete": "האם אתה בטוח שברצונך למחוק את ההערכה הזו?",
+          "confirmRun": "האם אתה בטוח שברצונך להתחיל להריץ? משימת ההערכה תבוצע באופן אסינכרוני ברקע, וסגירת הדף לא תשפיע על ביצוע המשימה האסינכרונית.",
+          "downloadRecords": "הורד הערכה",
+          "retry": "נסה שוב",
+          "run": "הרץ",
+          "title": "פעולות"
+        },
+        "datasetId": {
+          "title": "מערך נתונים"
+        },
+        "name": {
+          "title": "שם משימת הערכה"
+        },
+        "records": {
+          "title": "מספר רשומות הערכה"
+        },
+        "referenceFiles": {
+          "title": "קבצי התייחסות"
+        },
+        "status": {
+          "error": "שגיאת ביצוע",
+          "pending": "ממתין",
+          "processing": "בתהליך",
+          "success": "ביצוע מוצלח",
+          "title": "סטטוס"
+        }
+      },
+      "title": "רשימת משימות הערכה"
+    }
+  }
+}

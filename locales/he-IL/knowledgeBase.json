@@ -1,0 +1,32 @@
+{
+  "addToKnowledgeBase": {
+    "addSuccess": "קובץ נוסף בהצלחה, <1>הצג עכשיו</1>",
+    "confirm": "הוסף",
+    "id": {
+      "placeholder": "אנא בחר בסיס ידע להוספה",
+      "required": "אנא בחר בסיס ידע",
+      "title": "בסיס ידע יעד"
+    },
+    "title": "הוסף לבסיס ידע",
+    "totalFiles": "{{count}} קבצים נבחרו"
+  },
+  "createNew": {
+    "confirm": "צור חדש",
+    "description": {
+      "placeholder": "תיאור בסיס ידע (אופציונלי)"
+    },
+    "formTitle": "מידע בסיסי",
+    "name": {
+      "placeholder": "שם בסיס ידע",
+      "required": "אנא הכנס את שם בסיס הידע"
+    },
+    "title": "צור בסיס ידע"
+  },
+  "tab": {
+    "evals": "הערכות",
+    "files": "מסמכים",
+    "settings": "הגדרות",
+    "testing": "בדיקת זיכרון"
+  },
+  "title": "בסיס ידע"
+}

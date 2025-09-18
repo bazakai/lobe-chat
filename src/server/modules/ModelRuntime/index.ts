@@ -15,8 +15,9 @@ export * from './trace';
  * @param payload - The JWT payload.
  * @returns The options object.
  */
-const getParamsFromPayload = (provider: string, payload: ClientSecretPayload) => {
-  const llmConfig = getLLMConfig() as Record<string, any>;
+const getParamsFromPayload = async (provider: string, payload: ClientSecretPayload) => {
+  const llmConfig = (await getLLMConfig()) as Record<string, any>;
+  await apiKeyManager.initialize();
 
   switch (provider) {
     default: {
@@ -114,13 +115,13 @@ const getParamsFromPayload = (provider: string, payload: ClientSecretPayload) =>
  * @param params
  * @returns A promise that resolves when the agent runtime is initialized.
  */
-export const initModelRuntimeWithUserPayload = (
+export const initModelRuntimeWithUserPayload = async (
   provider: string,
   payload: ClientSecretPayload,
   params: any = {},
 ) => {
   return ModelRuntime.initializeWithProvider(provider, {
-    ...getParamsFromPayload(provider, payload),
+    ...(await getParamsFromPayload(provider, payload)),
     ...params,
   });
 };

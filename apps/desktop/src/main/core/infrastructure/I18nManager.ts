@@ -31,7 +31,7 @@ export class I18nManager {
     // Priority: parameter language > stored locale > system language
     const storedLocale = this.app.storeManager.get('locale', 'auto') as string;
     const defaultLanguage =
-      lang || (storedLocale !== 'auto' ? storedLocale : app.getLocale()) || 'en-US';
+      lang || (storedLocale !== 'auto' ? storedLocale : app.getLocale()) || 'he-IL';
 
     logger.info(
       `Initializing i18n, app locale: ${defaultLanguage}, stored locale: ${storedLocale}`,

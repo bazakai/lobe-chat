@@ -1,0 +1,18 @@
+{
+  "actions": {
+    "followOnX": "עקוב אחרינו ב-X",
+    "subscribeToUpdates": "הירשם לעדכונים",
+    "versions": "פרטי גרסה"
+  },
+  "addedWhileAway": "הכנסנו תכונות חדשות בזמן שלא היית כאן.",
+  "allChangelog": "הצג את כל יומני השינויים",
+  "description": "הישאר מעודכן על התכונות החדשות והשיפורים של {{appName}}",
+  "pagination": {
+    "next": "עמוד הבא",
+    "older": "הצג שינויים היסטוריים"
+  },
+  "readDetails": "קרא פרטים",
+  "title": "יומן שינויים",
+  "versionDetails": "פרטי גרסה",
+  "welcomeBack": "ברוך שובך!"
+}

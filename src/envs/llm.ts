@@ -1,8 +1,32 @@
+'use server';
+
 /* eslint-disable sort-keys-fix/sort-keys-fix , typescript-sort-keys/interface */
 import { createEnv } from '@t3-oss/env-nextjs';
+import { memoize } from 'lodash';
 import { z } from 'zod';
 
-export const getLLMConfig = () => {
+import { getMemoizedSecret } from '../utils/server/secrets';
+
+const _getLLMConfig = async () => {
+  let GOOGLE_API_KEY = '';
+
+  // Only attempt to fetch from Secret Manager in production runtime (not build time)
+  if (
+    process.env.NODE_ENV === 'production' &&
+    process.env.PROJECT_ID &&
+    typeof window === 'undefined'
+  ) {
+    try {
+      GOOGLE_API_KEY = await getMemoizedSecret({ secretName: 'lobe-chat-google-api-key' });
+    } catch (error) {
+      console.warn('Failed to fetch Google API key from secrets, falling back to env var:', error);
+      GOOGLE_API_KEY = process.env.GOOGLE_API_KEY || '';
+    }
+  } else {
+    // Use environment variable during build time, development, or client-side
+    GOOGLE_API_KEY = process.env.GOOGLE_API_KEY || '';
+  }
+
   return createEnv({
     server: {
       API_KEY_SELECT_MODE: z.string().optional(),
@@ -218,8 +242,8 @@ export const getLLMConfig = () => {
       ENABLED_DEEPSEEK: !!process.env.DEEPSEEK_API_KEY,
       DEEPSEEK_API_KEY: process.env.DEEPSEEK_API_KEY,
 
-      ENABLED_GOOGLE: !!process.env.GOOGLE_API_KEY,
-      GOOGLE_API_KEY: process.env.GOOGLE_API_KEY,
+      ENABLED_GOOGLE: !!GOOGLE_API_KEY,
+      GOOGLE_API_KEY,
 
       ENABLED_VOLCENGINE: !!process.env.VOLCENGINE_API_KEY,
       VOLCENGINE_API_KEY: process.env.VOLCENGINE_API_KEY,
@@ -394,4 +418,4 @@ export const getLLMConfig = () => {
   });
 };
 
-export const llmEnv = getLLMConfig();
+export const getLLMConfig = memoize(_getLLMConfig);

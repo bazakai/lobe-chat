@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { memo } from 'react';
+import { memo, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { createStoreUpdater } from 'zustand-utils';
 
@@ -54,6 +54,21 @@ const StoreInitialization = memo(() => {
   const isDBInited = useGlobalStore(systemStatusSelectors.isDBInited);
   const isLoginOnInit = isDBInited && (enableNextAuth ? isSignedIn : isLogin);
 
+  useEffect(() => {
+    if (!isLoginOnInit) return;
+
+    const autoInstall = async () => {
+      try {
+        const { mcpAutoInstallerWrapper } = await import('@/services/mcp-auto-installer-wrapper');
+        await mcpAutoInstallerWrapper.autoInstallAllPlugins();
+      } catch (error) {
+        console.warn('Failed to auto-install MCP plugins:', error);
+      }
+    };
+
+    autoInstall();
+  }, [isLoginOnInit]);
+
   // init inbox agent and default agent config
   useInitAgentStore(isLoginOnInit, serverConfig.defaultAgent?.config);
 
@@ -62,7 +77,7 @@ const StoreInitialization = memo(() => {
 
   // init user state
   useInitUserState(isLoginOnInit, serverConfig, {
-    onSuccess: (state) => {
+    onSuccess: async (state) => {
       if (state.isOnboard === false) {
         router.push('/onboard');
       }

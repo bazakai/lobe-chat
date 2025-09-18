@@ -1,0 +1,10 @@
+{
+  "actions": {
+    "confirmRemoveThread": "אתה עומד למחוק את הנושא המשני הזה. ברגע שנמחק, לא ניתן לשחזר אותו. אנא המשך בזהירות."
+  },
+  "newPortalThread": {
+    "includeContext": "קונטקסט",
+    "title": "התחל נושא משני חדש"
+  },
+  "notSupportMultiModals": "נושאים משניים לא תומכים כרגע בהעלאת קבצים/תמונות. אם יש לך בקשות כלשהן, אל תהסס להשאיר הודעה: <1>💬 אזור דיון</1>"
+}

@@ -1,0 +1,186 @@
+{
+  "ArgsInput": {
+    "addArgument": "הוסף טיעון",
+    "argumentPlaceholder": "טיעון {{index}}",
+    "enterFirstArgument": "הכנס את הטיעון הראשון..."
+  },
+  "DragUpload": {
+    "dragDesc": "גרור ושחרר קבצים כאן כדי להעלות מספר תמונות.",
+    "dragFileDesc": "גרור ושחרר תמונות וקבצים כאן כדי להעלות מספר תמונות וקבצים.",
+    "dragFileTitle": "העלה קבצים",
+    "dragTitle": "העלה תמונות"
+  },
+  "FileManager": {
+    "actions": {
+      "addToKnowledgeBase": "הוסף לבסיס ידע",
+      "addToOtherKnowledgeBase": "הוסף לבסיס ידע אחר",
+      "batchChunking": "חלוקה קבוצתית",
+      "chunking": "חלוקה",
+      "chunkingTooltip": "חלק את הקובץ למספר חלקי טקסט והטמע אותם לחיפוש סמנטי ושיחת קובץ.",
+      "chunkingUnsupported": "קובץ זה אינו תומך בחלוקה.",
+      "confirmDelete": "אתה עומד למחוק את הקובץ הזה. לאחר המחיקה, לא ניתן לשחזר אותו. אנא אשר את הפעולה שלך.",
+      "confirmDeleteMultiFiles": "אתה עומד למחוק את {{count}} הקבצים שנבחרו. לאחר המחיקה, לא ניתן לשחזר אותם. אנא אשר את הפעולה שלך.",
+      "confirmRemoveFromKnowledgeBase": "אתה עומד להסיר את {{count}} הקבצים שנבחרו מבסיס הידע. הם עדיין יהיו נראים בכל הקבצים. אנא אשר את הפעולה שלך.",
+      "copyUrl": "העתק קישור",
+      "copyUrlSuccess": "כתובת הקובץ הועתקה בהצלחה.",
+      "createChunkingTask": "מכין...",
+      "deleteSuccess": "הקובץ נמחק בהצלחה.",
+      "downloading": "מוריד קובץ...",
+      "removeFromKnowledgeBase": "הסר מבסיס ידע",
+      "removeFromKnowledgeBaseSuccess": "הקובץ הוסר בהצלחה."
+    },
+    "bottom": "הגעת לסוף.",
+    "config": {
+      "showFilesInKnowledgeBase": "הצג תוכן בבסיס ידע"
+    },
+    "emptyStatus": {
+      "actions": {
+        "file": "העלה קובץ",
+        "folder": "העלה תיקייה",
+        "knowledgeBase": "צור בסיס ידע חדש"
+      },
+      "or": "או",
+      "title": "גרור קבצים או תיקיות לכאן"
+    },
+    "title": {
+      "createdAt": "נוצר ב",
+      "size": "גודל",
+      "title": "קובץ"
+    },
+    "total": {
+      "fileCount": "סך הכל {{count}} פריטים",
+      "selectedCount": "נבחרו {{count}} פריטים"
+    }
+  },
+  "FileParsingStatus": {
+    "chunks": {
+      "embeddingStatus": {
+        "empty": "חלקי הטקסט לא הוטמעו במלואם, מה שיגרום לתכונת החיפוש הסמנטי להיות לא זמינה. כדי לשפר את איכות החיפוש, אנא הטמע את חלקי הטקסט.",
+        "error": "הטמעה נכשלה",
+        "errorResult": "ווקטוריזציה נכשלה, אנא בדוק ונסה שוב. פרטי שגיאה:",
+        "processing": "חלקי טקסט מוטמעים, אנא המתן בסבלנות.",
+        "success": "כל חלקי הטקסט הנוכחיים הוטמעו"
+      },
+      "embeddings": "הטמעה",
+      "status": {
+        "error": "חלוקה נכשלה",
+        "errorResult": "חלוקה נכשלה, אנא בדוק ונסה שוב. פרטי שגיאה:",
+        "processing": "חלוקה",
+        "processingTip": "השרת מחלק חלקי טקסט; סגירת הדף לא תשפיע על התקדמות החלוקה."
+      }
+    }
+  },
+  "GoBack": {
+    "back": "חזור"
+  },
+  "HtmlPreview": {
+    "actions": {
+      "download": "הורד",
+      "preview": "תצוגה מקדימה"
+    },
+    "iframeTitle": "תצוגה מקדימה של HTML",
+    "mode": {
+      "code": "קוד",
+      "preview": "תצוגה מקדימה"
+    },
+    "title": "תצוגה מקדימה של HTML"
+  },
+  "ImageUpload": {
+    "actions": {
+      "changeImage": "לחץ כדי לשנות תמונה",
+      "dropMultipleFiles": "העלאת מספר קבצים בבת אחת אינה נתמכת; רק הקובץ הראשון ישמש"
+    },
+    "placeholder": {
+      "primary": "הוסף תמונה",
+      "secondary": "לחץ או גרור כדי להעלות"
+    }
+  },
+  "KeyValueEditor": {
+    "addButton": "הוסף שורה",
+    "deleteTooltip": "מחק",
+    "duplicateKeyError": "המפתח חייב להיות ייחודי",
+    "keyPlaceholder": "מפתח",
+    "valuePlaceholder": "ערך"
+  },
+  "MaxTokenSlider": {
+    "unlimited": "ללא הגבלה"
+  },
+  "ModelSelect": {
+    "featureTag": {
+      "custom": "מודל מותאם אישית, כברירת מחדל, תומך הן בקריאות פונקציות והן בזיהוי חזותי. אנא ודא את זמינות היכולות הנ\"ל בהתבסס על מצבים בפועל.",
+      "file": "המודל הזה תומך בהעלאת קבצים לקריאה וזיהוי.",
+      "functionCall": "המודל הזה תומך בקריאות פונקציות.",
+      "imageOutput": "המודל הזה תומך ביצירת תמונות.",
+      "reasoning": "המודל הזה תומך בחשיבה עמוקה.",
+      "search": "המודל הזה תומך בחיפוש מקוון.",
+      "tokens": "המודל הזה תומך עד {{tokens}} טוקנים במפגש יחיד.",
+      "vision": "המודל הזה תומך בזיהוי חזותי."
+    },
+    "removed": "המודל לא נמצא ברשימה. הוא יוסר אוטומטית אם יבוטל בחירה."
+  },
+  "ModelSwitchPanel": {
+    "emptyModel": "אין מודל מופעל. אנא עבור להגדרות כדי להפעיל.",
+    "emptyProvider": "אין ספקים מופעלים. אנא עבור להגדרות כדי להפעיל אחד.",
+    "goToSettings": "עבור להגדרות",
+    "provider": "ספק",
+    "title": "מודל"
+  },
+  "MultiImagesUpload": {
+    "actions": {
+      "uploadMore": "לחץ או גרור כדי להעלות עוד"
+    },
+    "modal": {
+      "complete": "סיום",
+      "newFileIndicator": "חדש",
+      "selectImageToPreview": "אנא בחר תמונה לתצוגה מקדימה",
+      "title": "נהל תמונות ({{count}})",
+      "upload": "העלה תמונות"
+    },
+    "placeholder": {
+      "primary": "לחץ או גרור כדי להעלות תמונות",
+      "secondary": "תומך בבחירת מספר תמונות"
+    },
+    "progress": {
+      "uploadingWithCount": "{{completed}}/{{total}} הועלו"
+    },
+    "validation": {
+      "fileSizeExceeded": "גודל הקובץ חורג מהמקסימום המותר",
+      "fileSizeExceededDetail": "{{fileName}} ({{actualSize}}) חורג מהגודל המקסימלי המותר של {{maxSize}}",
+      "fileSizeExceededMultiple": "{{count}} קבצים חורגים מהגודל המקסימלי המותר של {{maxSize}}: {{fileList}}",
+      "imageCountExceeded": "חרג ממספר התמונות המקסימלי"
+    }
+  },
+  "OllamaSetupGuide": {
+    "action": {
+      "close": "סגור הנחיה",
+      "start": "מותקן ופועל, התחל את השיחה"
+    },
+    "cors": {
+      "description": "בגלל הגבלות אבטחה של הדפדפן, אתה צריך להגדיר הגדרות cross-origin עבור Ollama כדי שיעבוד כראוי.",
+      "linux": {
+        "env": "הוסף `Environment` תחת סעיף [Service], והגדר את משתנה הסביבה OLLAMA_ORIGINS:",
+        "reboot": "טען מחדש את systemd והפעל מחדש את Ollama",
+        "systemd": "ערוך את שירות ollama באמצעות systemd:"
+      },
+      "macos": "אנא פתח את אפליקציית 'Terminal', הדבק את הפקודה הבאה ולחץ Enter כדי להריץ אותה.",
+      "reboot": "אנא הפעל מחדש את שירות Ollama לאחר שהביצוע הושלם.",
+      "title": "הגדר את Ollama לגישה Cross-Origin",
+      "windows": "ב-Windows, לחץ על 'Control Panel' ועבור לעריכת משתני סביבה של המערכת. צור משתנה סביבה חדש בשם 'OLLAMA_ORIGINS' עבור חשבון המשתמש שלך, עם הערך מוגדר ל-*, ולחץ על 'OK/Apply' כדי לשמור."
+    },
+    "install": {
+      "description": "אנא ודא שהפעלת את Ollama. אם לא הורדת את Ollama, אנא בקר באתר הרשמי כדי <1>להוריד</1> אותו.",
+      "docker": "אם אתה מעדיף להשתמש ב-Docker, Ollama גם מספקת תמונת Docker רשמית, שתוכל למשוך באמצעות הפקודה הבאה:",
+      "linux": {
+        "command": "התקן באמצעות הפקודה הבאה:",
+        "manual": "לחלופין, אתה יכול להתייחס ל<1>מדריך התקנה ידנית של Linux</1> להתקנה ידנית."
+      },
+      "title": "התקן והפעל את אפליקציית Ollama מקומית",
+      "windowsTab": "Windows (תצוגה מקדימה)"
+    }
+  },
+  "Thinking": {
+    "thinking": "חשיבה עמוקה...",
+    "thought": "חשב עמוק (ב-{{duration}} שניות)",
+    "thoughtWithDuration": "חשב עמוק"
+  }
+}

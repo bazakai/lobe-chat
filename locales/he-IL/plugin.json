@@ -1,0 +1,470 @@
+{
+  "confirm": "אשר",
+  "debug": {
+    "arguments": "ארגומנטי קריאה",
+    "function_call": "קריאה לפונקציה",
+    "off": "כבה דיבוג",
+    "on": "הצג מידע קריאת תוסף",
+    "payload": "מטען תוסף",
+    "pluginState": "מצב תוסף",
+    "response": "תגובה",
+    "title": "פרטי תוסף",
+    "tool_call": "בקשת קריאה לכלי"
+  },
+  "detailModal": {
+    "customPlugin": {
+      "description": "אנא עבור לעמוד העריכה כדי לראות פרטים",
+      "editBtn": "ערוך עכשיו",
+      "title": "זהו תוסף מותאם"
+    },
+    "emptyState": {
+      "description": "אנא התקן את התוסף הזה קודם כדי לראות את היכולות ואפשרויות התצורה שלו",
+      "title": "הצג פרטי תוסף לאחר התקנה"
+    },
+    "info": {
+      "description": "תיאור API",
+      "name": "שם API"
+    },
+    "tabs": {
+      "info": "יכולות תוסף",
+      "manifest": "קובץ התקנה",
+      "settings": "הגדרות"
+    },
+    "title": "פרטי תוסף"
+  },
+  "dev": {
+    "confirmDeleteDevPlugin": "התוסף המקומי הזה יימחק ולא ניתן לשחזר אותו. האם אתה רוצה למחוק את התוסף הזה?",
+    "customParams": {
+      "useProxy": {
+        "label": "התקן דרך פרוקסי (אם אתה נתקל בשגיאות גישה cross-origin, נסה להפעיל אפשרות זו ולהתקין מחדש)"
+      }
+    },
+    "deleteSuccess": "התוסף נמחק בהצלחה",
+    "manifest": {
+      "identifier": {
+        "desc": "מזהה ייחודי של התוסף",
+        "label": "מזהה"
+      },
+      "mode": {
+        "mcp": "תוסף MCP",
+        "mcpExp": "ניסיוני",
+        "url": "קישור מקוון"
+      },
+      "name": {
+        "desc": "כותרת התוסף",
+        "label": "כותרת",
+        "placeholder": "מנוע חיפוש"
+      }
+    },
+    "mcp": {
+      "advanced": {
+        "title": "הגדרות מתקדמות"
+      },
+      "args": {
+        "desc": "רשימת פרמטרים המועברים לפקודת הביצוע, בדרך כלל שם שרת MCP או נתיב סקריפט הפעלה",
+        "label": "ארגומנטי פקודה",
+        "placeholder": "למשל, mcp-hello-world",
+        "required": "אנא הכנס פרמטרי הפעלה"
+      },
+      "auth": {
+        "bear": "מפתח API",
+        "desc": "בחר את שיטת האימות עבור שרת MCP",
+        "label": "סוג אימות",
+        "none": "אין צורך באימות",
+        "placeholder": "אנא בחר סוג אימות",
+        "token": {
+          "desc": "הכנס את מפתח ה-API או ה-Bearer Token שלך",
+          "label": "מפתח API",
+          "placeholder": "sk-xxxxx",
+          "required": "אנא הכנס אסימון אימות"
+        }
+      },
+      "avatar": {
+        "label": "אייקון תוסף"
+      },
+      "command": {
+        "desc": "קובץ הפעלה או סקריפט המשמש להפעלת שרת MCP STDIO",
+        "label": "פקודה",
+        "placeholder": "למשל, npx / uv / docker וכו'",
+        "required": "אנא הכנס פקודת הפעלה"
+      },
+      "desc": {
+        "desc": "הוסף תיאור עבור התוסף",
+        "label": "תיאור תוסף",
+        "placeholder": "הוסף הוראות שימוש ותרחישים עבור התוסף הזה"
+      },
+      "endpoint": {
+        "desc": "הכנס את הכתובת של שרת HTTP Streamable MCP שלך",
+        "label": "כתובת MCP Endpoint"
+      },
+      "env": {
+        "add": "הוסף שורה",
+        "desc": "הכנס משתני סביבה הנדרשים על ידי שרת MCP שלך",
+        "duplicateKeyError": "מפתחות שדות חייבים להיות ייחודיים",
+        "formValidationFailed": "אימות טופס נכשל, אנא בדוק את פורמט הפרמטרים",
+        "keyRequired": "מפתח השדה לא יכול להיות ריק",
+        "label": "משתני סביבה של שרת MCP",
+        "stringifyError": "לא ניתן לסריאליזציה פרמטרים, אנא בדוק את פורמט הפרמטרים"
+      },
+      "headers": {
+        "add": "הוסף שורה",
+        "desc": "הכנס כותרות בקשה",
+        "label": "כותרות HTTP"
+      },
+      "identifier": {
+        "desc": "ציין שם עבור תוסף MCP שלך, חייב להשתמש בתווים אנגליים",
+        "invalid": "מזהה יכול להכיל רק אותיות, מספרים, מקפים וקווים תחתונים",
+        "label": "שם תוסף MCP",
+        "placeholder": "למשל, my-mcp-plugin",
+        "required": "אנא הכנס מזהה שירות MCP"
+      },
+      "previewManifest": "תצוגה מקדימה של קובץ התקנת התוסף",
+      "quickImport": "ייבוא מהיר של תצורת JSON",
+      "quickImportError": {
+        "empty": "תוכן הקלט לא יכול להיות ריק",
+        "invalidJson": "פורמט JSON לא תקין",
+        "invalidStructure": "מבנה JSON לא תקין"
+      },
+      "stdioNotSupported": "הסביבה הנוכחית לא תומכת בתוספי MCP מסוג stdio",
+      "testConnection": "בדוק חיבור",
+      "testConnectionTip": "תוסף MCP יכול לשמש כרגיל רק לאחר בדיקת חיבור מוצלחת",
+      "type": {
+        "desc": "בחר שיטת תקשורת תוסף MCP, גרסת האינטרנט תומכת רק ב-Streamable HTTP",
+        "httpFeature1": "תואם לגרסאות אינטרנט ושולחן עבודה",
+        "httpFeature2": "התחבר לשרת MCP מרוחק ללא התקנה או תצורה נוספת",
+        "httpShortDesc": "פרוטוקול תקשורת מבוסס Streamable HTTP",
+        "label": "סוג תוסף MCP",
+        "stdioFeature1": "זמן השהיה נמוך יותר בתקשורת, מתאים לביצוע מקומי",
+        "stdioFeature2": "דורש התקנה מקומית והפעלה של שרת MCP",
+        "stdioNotAvailable": "מצב STDIO זמין רק בגרסת שולחן העבודה",
+        "stdioShortDesc": "פרוטוקול תקשורת מבוסס קלט/פלט סטנדרטי",
+        "title": "סוג תוסף MCP"
+      },
+      "url": {
+        "desc": "הכנס את כתובת ה-Streamable HTTP של שרת MCP שלך, מצב SSE לא נתמך",
+        "invalid": "אנא הכנס כתובת URL תקינה",
+        "label": "כתובת URL של Streamable HTTP Endpoint",
+        "required": "אנא הכנס כתובת URL של שירות MCP"
+      }
+    },
+    "meta": {
+      "author": {
+        "desc": "מחבר התוסף",
+        "label": "מחבר"
+      },
+      "avatar": {
+        "desc": "אייקון התוסף, יכול להשתמש באמוג'י או URL",
+        "label": "אייקון"
+      },
+      "description": {
+        "desc": "תיאור התוסף",
+        "label": "תיאור",
+        "placeholder": "חפש במנועי חיפוש לקבלת מידע"
+      },
+      "formFieldRequired": "שדה זה נדרש",
+      "homepage": {
+        "desc": "דף הבית של התוסף",
+        "label": "דף הבית"
+      },
+      "identifier": {
+        "desc": "מזהה ייחודי של התוסף, מזוהה אוטומטית מקובץ ההתקנה",
+        "errorDuplicate": "המזהה כפול לתוסף קיים, אנא שנה את המזהה",
+        "label": "מזהה",
+        "pattenErrorMessage": "רק אותיות אנגליות, מספרים, - ו-_ מותרים"
+      },
+      "lobe": "תוסף {{appName}}",
+      "manifest": {
+        "desc": "{{appName}} יתקין את התוסף דרך הקישור הזה",
+        "label": "URL של קובץ התקנת התוסף",
+        "preview": "תצוגה מקדימה של קובץ ההתקנה",
+        "refresh": "רענן"
+      },
+      "openai": "תוסף OpenAI",
+      "title": {
+        "desc": "כותרת התוסף",
+        "label": "כותרת",
+        "placeholder": "מנוע חיפוש"
+      }
+    },
+    "metaConfig": "תצורת מידע מטא של התוסף",
+    "modalDesc": "לאחר הוספת תוסף מותאם, ניתן להשתמש בו לאימות פיתוח תוספים או ישירות בשיחות. לפיתוח תוספים, אנא עיין ב-<1>תיעוד הפיתוח↗</>.",
+    "openai": {
+      "importUrl": "ייבוא מ-URL",
+      "schema": "סכמה"
+    },
+    "preview": {
+      "api": {
+        "noParams": "לכלי הזה אין פרמטרים",
+        "noResults": "לא נמצאו APIs התואמים לקריטריוני החיפוש",
+        "params": "פרמטרים:",
+        "searchPlaceholder": "חפש כלים..."
+      },
+      "card": "תצוגה מקדימה של תצוגת התוסף",
+      "desc": "תצוגה מקדימה של תיאור התוסף",
+      "empty": {
+        "desc": "לאחר התצורה, תוכל לראות כאן תצוגה מקדימה של יכולות הכלים הנתמכות",
+        "title": "התחל תצוגה מקדימה לאחר תצורת התוסף"
+      },
+      "title": "תצוגה מקדימה של שם התוסף"
+    },
+    "save": "התקן תוסף",
+    "saveSuccess": "הגדרות התוסף נשמרו בהצלחה",
+    "tabs": {
+      "manifest": "קובץ התקנה של תכונות",
+      "meta": "מידע מטא של התוסף"
+    },
+    "title": {
+      "create": "הוסף תוסף מותאם",
+      "edit": "ערוך תוסף מותאם"
+    },
+    "type": {
+      "lobe": "תוסף {{appName}}",
+      "openai": "תוסף OpenAI"
+    },
+    "update": "עדכן",
+    "updateSuccess": "הגדרות התוסף עודכנו בהצלחה"
+  },
+  "error": {
+    "fetchError": "נכשל בבקשת קישור קובץ ההתקנה, אנא וודא שהקישור תקין ומאפשר גישה cross-origin",
+    "installError": "התקנת התוסף {{name}} נכשלה",
+    "manifestInvalid": "קובץ ההתקנה לא עומד במפרט, תוצאת האימות: \n\n {{error}}",
+    "noManifest": "קובץ ההתקנה לא קיים",
+    "openAPIInvalid": "ניתוח OpenAPI נכשל, שגיאה: \n\n {{error}}",
+    "reinstallError": "רענון התוסף {{name}} נכשל",
+    "testConnectionFailed": "נכשל בקבלת קובץ ההתקנה: {{error}}",
+    "urlError": "הקישור לא החזיר תוכן JSON, אנא וודא שזהו קישור תקין"
+  },
+  "inspector": {
+    "args": "הצג רשימת ארגומנטים",
+    "pluginRender": "הצג ממשק התוסף"
+  },
+  "list": {
+    "item": {
+      "deprecated.title": "נמחק",
+      "local.config": "תצורה",
+      "local.title": "מותאם"
+    }
+  },
+  "loading": {
+    "content": "קורא לתוסף...",
+    "plugin": "התוסף פועל..."
+  },
+  "localSystem": {
+    "apiName": {
+      "listLocalFiles": "הצג רשימת קבצים",
+      "moveLocalFiles": "העבר קבצים",
+      "readLocalFile": "קרא תוכן קובץ",
+      "renameLocalFile": "שנה שם",
+      "searchLocalFiles": "חפש קבצים",
+      "writeLocalFile": "כתוב קובץ"
+    },
+    "title": "קבצים מקומיים"
+  },
+  "mcpInstall": {
+    "CHECKING_INSTALLATION": "בודק סביבת התקנה...",
+    "COMPLETED": "ההתקנה הושלמה",
+    "CONFIGURATION_REQUIRED": "אנא השלם את התצורה הרלוונטית לפני המשך ההתקנה",
+    "ERROR": "שגיאת התקנה",
+    "FETCHING_MANIFEST": "מביא קובץ התקנה של התוסף...",
+    "GETTING_SERVER_MANIFEST": "מאתחל שרת MCP...",
+    "INSTALLING_PLUGIN": "מתקין תוסף...",
+    "configurationDescription": "תוסף MCP זה דורש פרמטרי תצורה כדי לפעול כראוי, אנא מלא את המידע הנדרש",
+    "configurationRequired": "הגדר פרמטרי תוסף",
+    "continueInstall": "המשך התקנה",
+    "dependenciesDescription": "התוסף הזה דורש את התלויות המערכת הבאות כדי לפעול כראוי. אנא התקן את התלויות החסרות כפי שמונחה, ואז לחץ על בדיקה מחדש כדי להמשיך את ההתקנה.",
+    "dependenciesRequired": "אנא התקן את התלויות המערכת של התוסף",
+    "dependencyStatus": {
+      "installed": "מותקן",
+      "notInstalled": "לא מותקן",
+      "requiredVersion": "גרסה נדרשת: {{version}}"
+    },
+    "errorDetails": {
+      "args": "ארגומנטים",
+      "command": "פקודה",
+      "connectionParams": "פרמטרי חיבור",
+      "env": "משתני סביבה",
+      "errorOutput": "יומן שגיאות",
+      "exitCode": "קוד יציאה",
+      "hideDetails": "הסתר פרטים",
+      "originalError": "שגיאה מקורית",
+      "showDetails": "הצג פרטים"
+    },
+    "errorTypes": {
+      "AUTHORIZATION_ERROR": "שגיאת הרשאה",
+      "CONNECTION_FAILED": "החיבור נכשל",
+      "INITIALIZATION_TIMEOUT": "פסק זמן אתחול",
+      "PROCESS_SPAWN_ERROR": "הפעלת תהליך נכשלה",
+      "UNKNOWN_ERROR": "שגיאה לא ידועה",
+      "VALIDATION_ERROR": "אימות פרמטרים נכשל"
+    },
+    "installError": "התקנת תוסף MCP נכשלה, סיבה: {{detail}}",
+    "installMethods": {
+      "manual": "התקנה ידנית:",
+      "recommended": "שיטת התקנה מומלצת:"
+    },
+    "recheckDependencies": "בדוק מחדש",
+    "skipDependencies": "דלג על בדיקה"
+  },
+  "pluginList": "רשימת תוספים",
+  "protocolInstall": {
+    "actions": {
+      "install": "התקן",
+      "installAnyway": "התקן בכל מקרה",
+      "installed": "מותקן"
+    },
+    "config": {
+      "args": "ארגומנטים",
+      "command": "פקודה",
+      "env": "משתני סביבה",
+      "headers": "כותרות בקשה",
+      "title": "מידע תצורה",
+      "type": {
+        "http": "סוג: HTTP",
+        "label": "סוג",
+        "stdio": "סוג: Stdio"
+      },
+      "url": "כתובת שירות"
+    },
+    "custom": {
+      "badge": "תוסף מותאם",
+      "security": {
+        "description": "התוסף הזה לא אומת רשמית, התקנה עלולה להוות סיכוני אבטחה! אנא וודא שאתה סומך על מקור התוסף.",
+        "title": "⚠️ אזהרת סיכון אבטחה"
+      },
+      "title": "התקן תוסף מותאם"
+    },
+    "marketplace": {
+      "title": "התקן תוסף צד שלישי",
+      "trustedBy": "מסופק על ידי {{name}}",
+      "unverified": {
+        "title": "תוסף צד שלישי לא מאומת",
+        "warning": "התוסף הזה מגיע משוק צד שלישי לא מאומת. אנא אשר שאתה סומך על המקור לפני ההתקנה."
+      },
+      "verified": "מאומת"
+    },
+    "messages": {
+      "connectionTestFailed": "בדיקת החיבור נכשלה",
+      "installError": "התקנת התוסף נכשלה, אנא נסה שוב",
+      "installSuccess": "התוסף {{name}} הותקן בהצלחה!",
+      "manifestError": "נכשל בקבלת פרטי התוסף, אנא בדוק את חיבור הרשת ונסה שוב",
+      "manifestNotFound": "נכשל באחזור קובץ ההתקנה של התוסף"
+    },
+    "meta": {
+      "author": "מחבר",
+      "homepage": "דף הבית",
+      "identifier": "מזהה",
+      "source": "מקור",
+      "version": "גרסה"
+    },
+    "official": {
+      "badge": "תוסף רשמי של LobeHub",
+      "description": "התוסף הזה מפותח ומתוחזק על ידי הצוות הרשמי של LobeHub, עבר ביקורת אבטחה קפדנית, בטוח לשימוש.",
+      "loadingMessage": "מביא פרטי התוסף...",
+      "loadingTitle": "טוען",
+      "title": "התקן תוסף רשמי"
+    },
+    "title": "התקן תוסף MCP",
+    "warning": "⚠️ אנא אשר שאתה סומך על מקור התוסף הזה. תוספים זדוניים עלולים לפגוע באבטחת המערכת שלך."
+  },
+  "search": {
+    "apiName": {
+      "crawlMultiPages": "קרא תוכן מספר דפים",
+      "crawlSinglePage": "קרא תוכן דף",
+      "search": "חפש דפים"
+    },
+    "config": {
+      "addKey": "הוסף מפתח",
+      "close": "מחק",
+      "confirm": "התצורה הושלמה ונסה שוב"
+    },
+    "crawPages": {
+      "crawling": "זיהוי קישורים בתהליך",
+      "detail": {
+        "preview": "תצוגה מקדימה",
+        "raw": "טקסט גולמי",
+        "tooLong": "תוכן הטקסט ארוך מדי, רק {{characters}} התווים הראשונים נשמרים בהקשר השיחה, השאר מוחרגים"
+      },
+      "meta": {
+        "crawler": "מצב זחילה",
+        "words": "ספירת תווים"
+      }
+    },
+    "searchxng": {
+      "baseURL": "כתובת URL",
+      "description": "הכנס את ה-URL של SearchXNG כדי להתחיל חיפוש מקוון",
+      "keyPlaceholder": "אנא הכנס מפתח",
+      "title": "הגדר מנוע חיפוש SearchXNG",
+      "unconfiguredDesc": "אנא פנה למנהל כדי להשלים את תצורת מנוע החיפוש SearchXNG כדי להתחיל חיפוש מקוון",
+      "unconfiguredTitle": "מנוע החיפוש SearchXNG לא מוגדר"
+    },
+    "title": "חיפוש מקוון"
+  },
+  "setting": "הגדרות תוסף",
+  "settings": {
+    "capabilities": {
+      "prompts": "הנחיות",
+      "resources": "משאבים",
+      "title": "יכולות תוסף",
+      "tools": "כלים"
+    },
+    "configuration": {
+      "title": "תצורת תוסף"
+    },
+    "connection": {
+      "args": "ארגומנטי הפעלה",
+      "command": "פקודת הפעלה",
+      "title": "מידע חיבור",
+      "type": "סוג חיבור",
+      "url": "כתובת שירות"
+    },
+    "edit": "ערוך",
+    "envConfigDescription": "התצורות האלה יועברו כמשתני סביבה לתהליך שרת MCP בהפעלה",
+    "httpTypeNotice": "לתוספי MCP מסוג HTTP אין כרגע משתני סביבה להגדרה",
+    "indexUrl": {
+      "title": "אינדקס שוק",
+      "tooltip": "עריכה מקוונת עדיין לא נתמכת, אנא הגדר דרך משתני סביבה במהלך הפריסה"
+    },
+    "messages": {
+      "connectionUpdateFailed": "נכשל בעדכון מידע החיבור",
+      "connectionUpdateSuccess": "מידע החיבור עודכן בהצלחה",
+      "envUpdateFailed": "נכשל בשמירת משתני סביבה",
+      "envUpdateSuccess": "משתני סביבה נשמרו בהצלחה"
+    },
+    "modalDesc": "לאחר הגדרת כתובת שוק התוספים, תוכל להשתמש בשוק תוספים מותאם",
+    "rules": {
+      "argsRequired": "אנא הכנס ארגומנטי הפעלה",
+      "commandRequired": "אנא הכנס פקודת הפעלה",
+      "urlRequired": "אנא הכנס כתובת שירות"
+    },
+    "saveSettings": "שמור הגדרות",
+    "title": "הגדר שוק תוספים"
+  },
+  "showInPortal": "אנא הצג פרטים בסביבת העבודה",
+  "store": {
+    "actions": {
+      "cancel": "בטל התקנה",
+      "confirmUninstall": "התוסף הזה יוסר והתצורה שלו תימחק. אנא אשר את הפעולה שלך.",
+      "detail": "פרטים",
+      "install": "התקן",
+      "manifest": "ערוך קובץ התקנה",
+      "settings": "הגדרות",
+      "uninstall": "הסר"
+    },
+    "communityPlugin": "קהילה צד שלישי",
+    "customPlugin": "מותאם",
+    "empty": "אין תוספים מותקנים",
+    "emptySelectHint": "בחר תוסף כדי לראות תצוגה מקדימה של מידע מפורט",
+    "installAllPlugins": "התקן הכל",
+    "networkError": "נכשל בטעינת שוק התוספים, אנא בדוק את חיבור הרשת ונסה שוב",
+    "placeholder": "חפש שם תוסף, תיאור או מילות מפתח...",
+    "releasedAt": "שוחרר ב-{{createdAt}}",
+    "tabs": {
+      "installed": "מותקן",
+      "mcp": "תוספי MCP",
+      "old": "תוספי LobeChat"
+    },
+    "title": "שוק תוספים"
+  },
+  "unknownError": "שגיאה לא ידועה",
+  "unknownPlugin": "תוסף לא ידוע"
+}

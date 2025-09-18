@@ -30,12 +30,19 @@ class MCPService {
     payload: ChatToolPayload,
     { signal, topicId }: { signal?: AbortSignal; topicId?: string },
   ) {
+    const { identifier, arguments: args, apiName } = payload;
+
+    // Check if this is an auto-installed plugin (minimal routing logic)
+    const isAutoInstalled = await this.isAutoInstalledPlugin(identifier);
+    if (isAutoInstalled) {
+      return this.callAutoInstalledPlugin(identifier, apiName, args, signal);
+    }
+
+    // Original implementation for all other plugins
     const { pluginSelectors } = await import('@/store/tool/selectors');
     const { getToolStoreState } = await import('@/store/tool/store');
 
     const s = getToolStoreState();
-    const { identifier, arguments: args, apiName } = payload;
-
     const installPlugin = pluginSelectors.getInstalledPluginById(identifier)(s);
     const customPlugin = pluginSelectors.getCustomPluginById(identifier)(s);
 
@@ -123,6 +130,40 @@ class MCPService {
         console.warn('Failed to report MCP tool call:', reportError);
       });
     }
+  }
+
+  // Helper method to check if plugin is auto-installed (minimal addition)
+  private async isAutoInstalledPlugin(identifier: string): Promise<boolean> {
+    try {
+      const { pluginSelectors } = await import('@/store/tool/selectors');
+      const { getToolStoreState } = await import('@/store/tool/store');
+
+      const s = getToolStoreState();
+      const customPlugin = pluginSelectors.getCustomPluginById(identifier)(s);
+
+      return (customPlugin?.customParams as any)?._autoInstalled === true;
+    } catch {
+      return false;
+    }
+  }
+
+  // Helper method to call auto-installed plugins (minimal addition)
+  private async callAutoInstalledPlugin(
+    identifier: string,
+    toolName: string,
+    args: any,
+    signal?: AbortSignal,
+  ) {
+    const data = {
+      args,
+      params: {
+        name: identifier,
+        type: 'http' as const,
+      },
+      toolName,
+    };
+
+    return toolsClient.mcpAutoInstaller.callTool.mutate(data, { signal });
   }
 
   async getStreamableMcpServerManifest(

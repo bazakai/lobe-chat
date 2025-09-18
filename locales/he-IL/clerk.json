@@ -1,0 +1,769 @@
+{
+  "backButton": "חזור",
+  "badge__default": "ברירת מחדל",
+  "badge__otherImpersonatorDevice": "מכשיר מתחזה אחר",
+  "badge__primary": "ראשי",
+  "badge__requiresAction": "דורש פעולה",
+  "badge__thisDevice": "המכשיר הזה",
+  "badge__unverified": "לא מאומת",
+  "badge__userDevice": "מכשיר משתמש",
+  "badge__you": "אתה",
+  "createOrganization": {
+    "formButtonSubmit": "צור ארגון",
+    "invitePage": {
+      "formButtonReset": "דלג"
+    },
+    "title": "צור ארגון"
+  },
+  "dates": {
+    "lastDay": "אתמול ב-{{ date | timeString('en-US') }}",
+    "next6Days": "{{ date | weekday('en-US','long') }} ב-{{ date | timeString('en-US') }}",
+    "nextDay": "מחר ב-{{ date | timeString('en-US') }}",
+    "numeric": "{{ date | numeric('en-US') }}",
+    "previous6Days": "{{ date | weekday('en-US','long') }} האחרון ב-{{ date | timeString('en-US') }}",
+    "sameDay": "היום ב-{{ date | timeString('en-US') }}"
+  },
+  "dividerText": "או",
+  "footerActionLink__useAnotherMethod": "השתמש בשיטה אחרת",
+  "footerPageLink__help": "עזרה",
+  "footerPageLink__privacy": "פרטיות",
+  "footerPageLink__terms": "תנאים",
+  "formButtonPrimary": "המשך",
+  "formButtonPrimary__verify": "אמת",
+  "formFieldAction__forgotPassword": "שכחת סיסמה?",
+  "formFieldError__matchingPasswords": "הסיסמאות תואמות.",
+  "formFieldError__notMatchingPasswords": "הסיסמאות לא תואמות.",
+  "formFieldError__verificationLinkExpired": "קישור האימות פג. אנא בקש קישור חדש.",
+  "formFieldHintText__optional": "אופציונלי",
+  "formFieldHintText__slug": "מזהה הוא מזהה קריא לאדם שחייב להיות ייחודי. הוא משמש לעתים קרובות בכתובות URL.",
+  "formFieldInputPlaceholder__backupCode": "",
+  "formFieldInputPlaceholder__confirmDeletionUserAccount": "מחק חשבון",
+  "formFieldInputPlaceholder__emailAddress": "",
+  "formFieldInputPlaceholder__emailAddress_username": "",
+  "formFieldInputPlaceholder__emailAddresses": "example@email.com, example2@email.com",
+  "formFieldInputPlaceholder__firstName": "",
+  "formFieldInputPlaceholder__lastName": "",
+  "formFieldInputPlaceholder__organizationDomain": "",
+  "formFieldInputPlaceholder__organizationDomainEmailAddress": "",
+  "formFieldInputPlaceholder__organizationName": "",
+  "formFieldInputPlaceholder__organizationSlug": "my-org",
+  "formFieldInputPlaceholder__password": "",
+  "formFieldInputPlaceholder__phoneNumber": "",
+  "formFieldInputPlaceholder__username": "",
+  "formFieldLabel__automaticInvitations": "אפשר הזמנות אוטומטיות עבור הדומיין הזה",
+  "formFieldLabel__backupCode": "קוד גיבוי",
+  "formFieldLabel__confirmDeletion": "אישור",
+  "formFieldLabel__confirmPassword": "אשר סיסמה",
+  "formFieldLabel__currentPassword": "סיסמה נוכחית",
+  "formFieldLabel__emailAddress": "כתובת אימייל",
+  "formFieldLabel__emailAddress_username": "כתובת אימייל או שם משתמש",
+  "formFieldLabel__emailAddresses": "כתובות אימייל",
+  "formFieldLabel__firstName": "שם פרטי",
+  "formFieldLabel__lastName": "שם משפחה",
+  "formFieldLabel__newPassword": "סיסמה חדשה",
+  "formFieldLabel__organizationDomain": "דומיין",
+  "formFieldLabel__organizationDomainDeletePending": "מחק הזמנות והצעות ממתינות",
+  "formFieldLabel__organizationDomainEmailAddress": "כתובת אימייל לאימות",
+  "formFieldLabel__organizationDomainEmailAddressDescription": "הכנס כתובת אימייל תחת הדומיין הזה כדי לקבל קוד ולאמת את הדומיין הזה.",
+  "formFieldLabel__organizationName": "שם",
+  "formFieldLabel__organizationSlug": "מזהה",
+  "formFieldLabel__passkeyName": "שם מפתח גישה",
+  "formFieldLabel__password": "סיסמה",
+  "formFieldLabel__phoneNumber": "מספר טלפון",
+  "formFieldLabel__role": "תפקיד",
+  "formFieldLabel__signOutOfOtherSessions": "התנתק מכל המכשירים האחרים",
+  "formFieldLabel__username": "שם משתמש",
+  "impersonationFab": {
+    "action__signOut": "התנתק",
+    "title": "מחובר כ-{{identifier}}"
+  },
+  "locale": "he-IL",
+  "maintenanceMode": "אנחנו כרגע בתהליך תחזוקה, אבל אל תדאג, זה לא אמור לקחת יותר מכמה דקות.",
+  "membershipRole__admin": "מנהל",
+  "membershipRole__basicMember": "חבר",
+  "membershipRole__guestMember": "אורח",
+  "organizationList": {
+    "action__createOrganization": "צור ארגון",
+    "action__invitationAccept": "הצטרף",
+    "action__suggestionsAccept": "בקש להצטרף",
+    "createOrganization": "צור ארגון",
+    "invitationAcceptedLabel": "הצטרף",
+    "subtitle": "כדי להמשיך ל-{{applicationName}}",
+    "suggestionsAcceptedLabel": "ממתין לאישור",
+    "title": "בחר חשבון",
+    "titleWithoutPersonal": "בחר ארגון"
+  },
+  "organizationProfile": {
+    "badge__automaticInvitation": "הזמנות אוטומטיות",
+    "badge__automaticSuggestion": "הצעות אוטומטיות",
+    "badge__manualInvitation": "אין הרשמה אוטומטית",
+    "badge__unverified": "לא מאומת",
+    "createDomainPage": {
+      "subtitle": "הוסף את הדומיין לאימות. משתמשים עם כתובות אימייל בדומיין הזה יכולים להצטרף לארגון אוטומטית או לבקש להצטרף.",
+      "title": "הוסף דומיין"
+    },
+    "invitePage": {
+      "detailsTitle__inviteFailed": "לא ניתן לשלוח את ההזמנות. יש כבר הזמנות ממתינות עבור כתובות האימייל הבאות: {{email_addresses}}.",
+      "formButtonPrimary__continue": "שלח הזמנות",
+      "selectDropdown__role": "בחר תפקיד",
+      "subtitle": "הכנס או הדבק כתובת אימייל אחת או יותר, מופרדות ברווחים או פסיקים.",
+      "successMessage": "הזמנות נשלחו בהצלחה",
+      "title": "הזמן חברים חדשים"
+    },
+    "membersPage": {
+      "action__invite": "הזמן",
+      "activeMembersTab": {
+        "menuAction__remove": "הסר חבר",
+        "tableHeader__actions": "",
+        "tableHeader__joined": "הצטרף",
+        "tableHeader__role": "תפקיד",
+        "tableHeader__user": "משתמש"
+      },
+      "detailsTitle__emptyRow": "אין חברים להצגה",
+      "invitationsTab": {
+        "autoInvitations": {
+          "headerSubtitle": "הזמן משתמשים על ידי חיבור דומיין אימייל לארגון שלך. כל מי שנרשם עם דומיין אימייל תואם יוכל להצטרף לארגון בכל עת.",
+          "headerTitle": "הזמנות אוטומטיות",
+          "primaryButton": "נהל דומיינים מאומתים"
+        },
+        "table__emptyRow": "אין הזמנות להצגה"
+      },
+      "invitedMembersTab": {
+        "menuAction__revoke": "בטל הזמנה",
+        "tableHeader__invited": "הוזמן"
+      },
+      "requestsTab": {
+        "autoSuggestions": {
+          "headerSubtitle": "משתמשים שנרשמים עם דומיין אימייל תואם, יוכלו לראות הצעה לבקש להצטרף לארגון שלך.",
+          "headerTitle": "הצעות אוטומטיות",
+          "primaryButton": "נהל דומיינים מאומתים"
+        },
+        "menuAction__approve": "אשר",
+        "menuAction__reject": "דחה",
+        "tableHeader__requested": "ביקש גישה",
+        "table__emptyRow": "אין בקשות להצגה"
+      },
+      "start": {
+        "headerTitle__invitations": "הזמנות",
+        "headerTitle__members": "חברים",
+        "headerTitle__requests": "בקשות"
+      }
+    },
+    "navbar": {
+      "description": "נהל את הארגון שלך.",
+      "general": "כללי",
+      "members": "חברים",
+      "title": "ארגון"
+    },
+    "profilePage": {
+      "dangerSection": {
+        "deleteOrganization": {
+          "actionDescription": "הקלד \"{{organizationName}}\" למטה כדי להמשיך.",
+          "messageLine1": "האם אתה בטוח שברצונך למחוק את הארגון הזה?",
+          "messageLine2": "פעולה זו היא קבועה ובלתי הפיכה.",
+          "successMessage": "מחקת את הארגון.",
+          "title": "מחק ארגון"
+        },
+        "leaveOrganization": {
+          "actionDescription": "הקלד \"{{organizationName}}\" למטה כדי להמשיך.",
+          "messageLine1": "האם אתה בטוח שברצונך לעזוב את הארגון הזה? תאבד גישה לארגון הזה ולאפליקציות שלו.",
+          "messageLine2": "פעולה זו היא קבועה ובלתי הפיכה.",
+          "successMessage": "עזבת את הארגון.",
+          "title": "עזוב ארגון"
+        },
+        "title": "סכנה"
+      },
+      "domainSection": {
+        "menuAction__manage": "נהל",
+        "menuAction__remove": "מחק",
+        "menuAction__verify": "אמת",
+        "primaryButton": "הוסף דומיין",
+        "subtitle": "אפשר למשתמשים להצטרף לארגון אוטומטית או לבקש להצטרף על בסיס דומיין אימייל מאומת.",
+        "title": "דומיינים מאומתים"
+      },
+      "successMessage": "הארגון עודכן.",
+      "title": "עדכן פרופיל"
+    },
+    "removeDomainPage": {
+      "messageLine1": "דומיין האימייל {{domain}} יוסר.",
+      "messageLine2": "משתמשים לא יוכלו להצטרף לארגון אוטומטית לאחר מכן.",
+      "successMessage": "{{domain}} הוסר.",
+      "title": "הסר דומיין"
+    },
+    "start": {
+      "headerTitle__general": "כללי",
+      "headerTitle__members": "חברים",
+      "profileSection": {
+        "primaryButton": "עדכן פרופיל",
+        "title": "פרופיל ארגון",
+        "uploadAction__title": "לוגו"
+      }
+    },
+    "verifiedDomainPage": {
+      "dangerTab": {
+        "calloutInfoLabel": "הסרת הדומיין הזה תשפיע על משתמשים שהוזמנו.",
+        "removeDomainActionLabel__remove": "הסר דומיין",
+        "removeDomainSubtitle": "הסר את הדומיין הזה מהדומיינים המאומתים שלך",
+        "removeDomainTitle": "הסר דומיין"
+      },
+      "enrollmentTab": {
+        "automaticInvitationOption__description": "משתמשים מוזמנים אוטומטית להצטרף לארגון כשהם נרשמים ויכולים להצטרף בכל עת.",
+        "automaticInvitationOption__label": "הזמנות אוטומטיות",
+        "automaticSuggestionOption__description": "משתמשים מקבלים הצעה לבקש להצטרף, אבל חייבים לקבל אישור ממנהל לפני שהם יכולים להצטרף לארגון.",
+        "automaticSuggestionOption__label": "הצעות אוטומטיות",
+        "calloutInfoLabel": "שינוי מצב ההרשמה ישפיע רק על משתמשים חדשים.",
+        "calloutInvitationCountLabel": "הזמנות ממתינות שנשלחו למשתמשים: {{count}}",
+        "calloutSuggestionCountLabel": "הצעות ממתינות שנשלחו למשתמשים: {{count}}",
+        "manualInvitationOption__description": "משתמשים יכולים להיות מוזמנים רק ידנית לארגון.",
+        "manualInvitationOption__label": "אין הרשמה אוטומטית",
+        "subtitle": "בחר איך משתמשים מהדומיין הזה יכולים להצטרף לארגון."
+      },
+      "start": {
+        "headerTitle__danger": "סכנה",
+        "headerTitle__enrollment": "אפשרויות הרשמה"
+      },
+      "subtitle": "הדומיין {{domain}} מאומת כעת. המשך על ידי בחירת מצב הרשמה.",
+      "title": "עדכן {{domain}}"
+    },
+    "verifyDomainPage": {
+      "formSubtitle": "הכנס את קוד האימות שנשלח לכתובת האימייל שלך",
+      "formTitle": "קוד אימות",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "הדומיין {{domainName}} צריך להיות מאומת דרך אימייל.",
+      "subtitleVerificationCodeScreen": "קוד אימות נשלח ל-{{emailAddress}}. הכנס את הקוד כדי להמשיך.",
+      "title": "אמת דומיין"
+    }
+  },
+  "organizationSwitcher": {
+    "action__createOrganization": "צור ארגון",
+    "action__invitationAccept": "הצטרף",
+    "action__manageOrganization": "נהל",
+    "action__suggestionsAccept": "בקש להצטרף",
+    "notSelected": "אין ארגון נבחר",
+    "personalWorkspace": "חשבון אישי",
+    "suggestionsAcceptedLabel": "ממתין לאישור"
+  },
+  "paginationButton__next": "הבא",
+  "paginationButton__previous": "הקודם",
+  "paginationRowText__displaying": "מציג",
+  "paginationRowText__of": "מתוך",
+  "signIn": {
+    "accountSwitcher": {
+      "action__addAccount": "הוסף חשבון",
+      "action__signOutAll": "התנתק מכל החשבונות",
+      "subtitle": "בחר את החשבון שבו אתה רוצה להמשיך.",
+      "title": "בחר חשבון"
+    },
+    "alternativeMethods": {
+      "actionLink": "קבל עזרה",
+      "actionText": "אין לך אף אחד מאלה?",
+      "blockButton__backupCode": "השתמש בקוד גיבוי",
+      "blockButton__emailCode": "קוד אימייל ל-{{identifier}}",
+      "blockButton__emailLink": "קישור אימייל ל-{{identifier}}",
+      "blockButton__passkey": "התחבר עם מפתח הגישה שלך",
+      "blockButton__password": "התחבר עם הסיסמה שלך",
+      "blockButton__phoneCode": "שלח קוד SMS ל-{{identifier}}",
+      "blockButton__totp": "השתמש באפליקציית האימות שלך",
+      "getHelp": {
+        "blockButton__emailSupport": "תמיכה באימייל",
+        "content": "אם אתה נתקל בקשיים בהתחברות לחשבון שלך, שלח לנו אימייל ואנחנו נעבוד איתך כדי לשחזר את הגישה בהקדם האפשרי.",
+        "title": "קבל עזרה"
+      },
+      "subtitle": "נתקל בבעיות? אתה יכול להשתמש בכל אחת מהשיטות האלה כדי להתחבר.",
+      "title": "השתמש בשיטה אחרת"
+    },
+    "backupCodeMfa": {
+      "subtitle": "קוד הגיבוי שלך הוא זה שקיבלת כשהגדרת אימות דו-שלבי.",
+      "title": "הכנס קוד גיבוי"
+    },
+    "emailCode": {
+      "formTitle": "קוד אימות",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "כדי להמשיך ל-{{applicationName}}",
+      "title": "בדוק את האימייל שלך"
+    },
+    "emailLink": {
+      "expired": {
+        "subtitle": "חזור לטאב המקורי כדי להמשיך.",
+        "title": "קישור האימות הזה פג"
+      },
+      "failed": {
+        "subtitle": "חזור לטאב המקורי כדי להמשיך.",
+        "title": "קישור האימות הזה לא תקין"
+      },
+      "formSubtitle": "השתמש בקישור האימות שנשלח לאימייל שלך",
+      "formTitle": "קישור אימות",
+      "loading": {
+        "subtitle": "תועבר בקרוב",
+        "title": "מתחבר..."
+      },
+      "resendButton": "לא קיבלת קישור? שלח שוב",
+      "subtitle": "כדי להמשיך ל-{{applicationName}}",
+      "title": "בדוק את האימייל שלך",
+      "unusedTab": {
+        "title": "אתה יכול לסגור את הטאב הזה"
+      },
+      "verified": {
+        "subtitle": "תועבר בקרוב",
+        "title": "התחברת בהצלחה"
+      },
+      "verifiedSwitchTab": {
+        "subtitle": "חזור לטאב המקורי כדי להמשיך",
+        "subtitleNewTab": "חזור לטאב שנפתח זה עתה כדי להמשיך",
+        "titleNewTab": "התחברת בטאב אחר"
+      }
+    },
+    "forgotPassword": {
+      "formTitle": "קוד איפוס סיסמה",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "כדי לאפס את הסיסמה שלך",
+      "subtitle_email": "ראשית, הכנס את הקוד שנשלח לכתובת האימייל שלך",
+      "subtitle_phone": "ראשית, הכנס את הקוד שנשלח לטלפון שלך",
+      "title": "אפס סיסמה"
+    },
+    "forgotPasswordAlternativeMethods": {
+      "blockButton__resetPassword": "אפס את הסיסמה שלך",
+      "label__alternativeMethods": "או, התחבר בשיטה אחרת",
+      "title": "שכחת סיסמה?"
+    },
+    "noAvailableMethods": {
+      "message": "לא ניתן להמשיך עם ההתחברות. אין גורם אימות זמין.",
+      "subtitle": "אירעה שגיאה",
+      "title": "לא ניתן להתחבר"
+    },
+    "passkey": {
+      "subtitle": "שימוש במפתח הגישה שלך מאשר שזה אתה. המכשיר שלך עשוי לבקש את טביעת האצבע, הפנים או נעילת המסך שלך.",
+      "title": "השתמש במפתח הגישה שלך"
+    },
+    "password": {
+      "actionLink": "השתמש בשיטה אחרת",
+      "subtitle": "הכנס את הסיסמה הקשורה לחשבון שלך",
+      "title": "הכנס את הסיסמה שלך"
+    },
+    "passwordPwned": {
+      "title": "סיסמה נחשפה"
+    },
+    "phoneCode": {
+      "formTitle": "קוד אימות",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "כדי להמשיך ל-{{applicationName}}",
+      "title": "בדוק את הטלפון שלך"
+    },
+    "phoneCodeMfa": {
+      "formTitle": "קוד אימות",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "כדי להמשיך, אנא הכנס את קוד האימות שנשלח לטלפון שלך",
+      "title": "בדוק את הטלפון שלך"
+    },
+    "resetPassword": {
+      "formButtonPrimary": "אפס סיסמה",
+      "requiredMessage": "מסיבות אבטחה, נדרש לאפס את הסיסמה שלך.",
+      "successMessage": "הסיסמה שלך שונתה בהצלחה. מתחבר אותך, אנא המתן רגע.",
+      "title": "הגדר סיסמה חדשה"
+    },
+    "resetPasswordMfa": {
+      "detailsLabel": "אנחנו צריכים לאמת את הזהות שלך לפני איפוס הסיסמה."
+    },
+    "start": {
+      "actionLink": "הירשם",
+      "actionLink__use_email": "השתמש באימייל",
+      "actionLink__use_email_username": "השתמש באימייל או שם משתמש",
+      "actionLink__use_passkey": "השתמש במפתח גישה במקום",
+      "actionLink__use_phone": "השתמש בטלפון",
+      "actionLink__use_username": "השתמש בשם משתמש",
+      "actionText": "אין לך חשבון?",
+      "subtitle": "ברוך שובך! אנא התחבר כדי להמשיך",
+      "title": "התחבר ל-{{applicationName}}"
+    },
+    "totpMfa": {
+      "formTitle": "קוד אימות",
+      "subtitle": "כדי להמשיך, אנא הכנס את קוד האימות שנוצר על ידי אפליקציית האימות שלך",
+      "title": "אימות דו-שלבי"
+    }
+  },
+  "signInEnterPasswordTitle": "הכנס את הסיסמה שלך",
+  "signUp": {
+    "continue": {
+      "actionLink": "התחבר",
+      "actionText": "כבר יש לך חשבון?",
+      "subtitle": "אנא מלא את הפרטים הנותרים כדי להמשיך.",
+      "title": "מלא שדות חסרים"
+    },
+    "emailCode": {
+      "formSubtitle": "הכנס את קוד האימות שנשלח לכתובת האימייל שלך",
+      "formTitle": "קוד אימות",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "הכנס את קוד האימות שנשלח לאימייל שלך",
+      "title": "אמת את האימייל שלך"
+    },
+    "emailLink": {
+      "formSubtitle": "השתמש בקישור האימות שנשלח לכתובת האימייל שלך",
+      "formTitle": "קישור אימות",
+      "loading": {
+        "title": "נרשם..."
+      },
+      "resendButton": "לא קיבלת קישור? שלח שוב",
+      "subtitle": "כדי להמשיך ל-{{applicationName}}",
+      "title": "אמת את האימייל שלך",
+      "verified": {
+        "title": "נרשמת בהצלחה"
+      },
+      "verifiedSwitchTab": {
+        "subtitle": "חזור לטאב שנפתח זה עתה כדי להמשיך",
+        "subtitleNewTab": "חזור לטאב הקודם כדי להמשיך",
+        "title": "אימתת אימייל בהצלחה"
+      }
+    },
+    "phoneCode": {
+      "formSubtitle": "הכנס את קוד האימות שנשלח למספר הטלפון שלך",
+      "formTitle": "קוד אימות",
+      "resendButton": "לא קיבלת קוד? שלח שוב",
+      "subtitle": "הכנס את קוד האימות שנשלח לטלפון שלך",
+      "title": "אמת את הטלפון שלך"
+    },
+    "start": {
+      "actionLink": "התחבר",
+      "actionText": "כבר יש לך חשבון?",
+      "subtitle": "ברוכים הבאים! אנא מלא את הפרטים כדי להתחיל.",
+      "title": "צור את החשבון שלך"
+    }
+  },
+  "socialButtonsBlockButton": "המשך עם {{provider|titleize}}",
+  "unstable__errors": {
+    "captcha_invalid": "ההרשמה נכשלה עקב כשל באימותי אבטחה. אנא רענן את הדף ונסה שוב או פנה לתמיכה לקבלת עזרה נוספת.",
+    "captcha_unavailable": "ההרשמה נכשלה עקב כשל באימות בוט. אנא רענן את הדף ונסה שוב או פנה לתמיכה לקבלת עזרה נוספת.",
+    "form_code_incorrect": "",
+    "form_identifier_exists": "",
+    "form_identifier_exists__email_address": "כתובת האימייל הזו תפוסה. אנא נסה אחרת.",
+    "form_identifier_exists__phone_number": "מספר הטלפון הזה תפוס. אנא נסה אחרת.",
+    "form_identifier_exists__username": "שם המשתמש הזה תפוס. אנא נסה אחרת.",
+    "form_identifier_not_found": "",
+    "form_param_format_invalid": "",
+    "form_param_format_invalid__email_address": "כתובת האימייל חייבת להיות כתובת אימייל תקינה.",
+    "form_param_format_invalid__phone_number": "מספר הטלפון חייב להיות בפורמט בינלאומי תקין",
+    "form_param_max_length_exceeded__first_name": "השם הפרטי לא אמור לעלות על 256 תווים.",
+    "form_param_max_length_exceeded__last_name": "שם המשפחה לא אמור לעלות על 256 תווים.",
+    "form_param_max_length_exceeded__name": "השם לא אמור לעלות על 256 תווים.",
+    "form_param_nil": "",
+    "form_password_incorrect": "",
+    "form_password_length_too_short": "",
+    "form_password_not_strong_enough": "הסיסמה שלך לא חזקה מספיק.",
+    "form_password_pwned": "הסיסמה הזו נמצאה כחלק מפריצה ולא ניתן להשתמש בה, אנא נסה סיסמה אחרת במקום.",
+    "form_password_pwned__sign_in": "הסיסמה הזו נמצאה כחלק מפריצה ולא ניתן להשתמש בה, אנא אפס את הסיסמה שלך.",
+    "form_password_size_in_bytes_exceeded": "הסיסמה שלך חרגה ממספר הבייטים המקסימלי המותר, אנא קצר אותה או הסר כמה תווים מיוחדים.",
+    "form_password_validation_failed": "סיסמה שגויה",
+    "form_username_invalid_character": "",
+    "form_username_invalid_length": "",
+    "identification_deletion_failed": "לא ניתן למחוק את הזיהוי האחרון שלך.",
+    "not_allowed_access": "",
+    "passkey_already_exists": "מפתח גישה כבר רשום במכשיר הזה.",
+    "passkey_not_supported": "מפתחות גישה אינם נתמכים במכשיר הזה.",
+    "passkey_pa_not_supported": "ההרשמה דורשת מאמת פלטפורמה אבל המכשיר לא תומך בזה.",
+    "passkey_registration_cancelled": "רישום מפתח הגישה בוטל או פג הזמן.",
+    "passkey_retrieval_cancelled": "אימות מפתח הגישה בוטל או פג הזמן.",
+    "passwordComplexity": {
+      "maximumLength": "פחות מ-{{length}} תווים",
+      "minimumLength": "{{length}} תווים או יותר",
+      "requireLowercase": "אות קטנה",
+      "requireNumbers": "מספר",
+      "requireSpecialCharacter": "תו מיוחד",
+      "requireUppercase": "אות גדולה",
+      "sentencePrefix": "הסיסמה שלך חייבת להכיל"
+    },
+    "phone_number_exists": "מספר הטלפון הזה תפוס. אנא נסה אחרת.",
+    "zxcvbn": {
+      "couldBeStronger": "הסיסמה שלך עובדת, אבל יכולה להיות חזקה יותר. נסה להוסיף עוד תווים.",
+      "goodPassword": "הסיסמה שלך עומדת בכל הדרישות הנדרשות.",
+      "notEnough": "הסיסמה שלך לא חזקה מספיק.",
+      "suggestions": {
+        "allUppercase": "הפוך חלק מהאותיות לגדולות, אבל לא את כולן.",
+        "anotherWord": "הוסף עוד מילים שפחות נפוצות.",
+        "associatedYears": "הימנע משנים הקשורות אליך.",
+        "capitalization": "הפוך יותר מהאות הראשונה לגדולה.",
+        "dates": "הימנע מתאריכים ושנים הקשורים אליך.",
+        "l33t": "הימנע מהחלפות אותיות צפויות כמו '@' במקום 'a'.",
+        "longerKeyboardPattern": "השתמש בדפוסי מקלדת ארוכים יותר ושנה כיוון הקלדה מספר פעמים.",
+        "noNeed": "אתה יכול ליצור סיסמאות חזקות ללא שימוש בסמלים, מספרים או אותיות גדולות.",
+        "pwned": "אם אתה משתמש בסיסמה הזו במקום אחר, אתה צריך לשנות אותה.",
+        "recentYears": "הימנע משנים אחרונות.",
+        "repeated": "הימנע ממילים ותווים חוזרים.",
+        "reverseWords": "הימנע מאיות הפוך של מילים נפוצות.",
+        "sequences": "הימנע מרצפי תווים נפוצים.",
+        "useWords": "השתמש במילים מרובות, אבל הימנע מביטויים נפוצים."
+      },
+      "warnings": {
+        "common": "זו סיסמה נפוצה.",
+        "commonNames": "שמות פרטיים ומשפחה נפוצים קלים לניחוש.",
+        "dates": "תאריכים קלים לניחוש.",
+        "extendedRepeat": "דפוסי תווים חוזרים כמו \"abcabcabc\" קלים לניחוש.",
+        "keyPattern": "דפוסי מקלדת קצרים קלים לניחוש.",
+        "namesByThemselves": "שמות פרטיים או משפחה בודדים קלים לניחוש.",
+        "pwned": "הסיסמה שלך נחשפה בפריצת נתונים באינטרנט.",
+        "recentYears": "שנים אחרונות קלות לניחוש.",
+        "sequences": "רצפי תווים נפוצים כמו \"abc\" קלים לניחוש.",
+        "similarToCommon": "זה דומה לסיסמה נפוצה.",
+        "simpleRepeat": "תווים חוזרים כמו \"aaa\" קלים לניחוש.",
+        "straightRow": "שורות ישרות של מקשים במקלדת שלך קלות לניחוש.",
+        "topHundred": "זו סיסמה בשימוש תכוף.",
+        "topTen": "זו סיסמה בשימוש כבד.",
+        "userInputs": "לא אמור להיות מידע אישי או קשור לדף.",
+        "wordByItself": "מילים בודדות קלות לניחוש."
+      }
+    }
+  },
+  "userButton": {
+    "action__addAccount": "הוסף חשבון",
+    "action__manageAccount": "נהל חשבון",
+    "action__signOut": "התנתק",
+    "action__signOutAll": "התנתק מכל החשבונות"
+  },
+  "userProfile": {
+    "backupCodePage": {
+      "actionLabel__copied": "הועתק!",
+      "actionLabel__copy": "העתק הכל",
+      "actionLabel__download": "הורד .txt",
+      "actionLabel__print": "הדפס",
+      "infoText1": "קודי גיבוי יופעלו עבור החשבון הזה.",
+      "infoText2": "שמור את קודי הגיבוי בסוד ואחסן אותם בצורה מאובטחת. אתה יכול ליצור מחדש קודי גיבוי אם אתה חושד שהם נחשפו.",
+      "subtitle__codelist": "אחסן אותם בצורה מאובטחת ושמור אותם בסוד.",
+      "successMessage": "קודי גיבוי מופעלים כעת. אתה יכול להשתמש באחד מאלה כדי להתחבר לחשבון שלך, אם אתה מאבד גישה למכשיר האימות שלך. כל קוד יכול לשמש פעם אחת בלבד.",
+      "successSubtitle": "אתה יכול להשתמש באחד מאלה כדי להתחבר לחשבון שלך, אם אתה מאבד גישה למכשיר האימות שלך.",
+      "title": "הוסף אימות קוד גיבוי",
+      "title__codelist": "קודי גיבוי"
+    },
+    "connectedAccountPage": {
+      "formHint": "בחר ספק כדי לחבר את החשבון שלך.",
+      "formHint__noAccounts": "אין ספקי חשבונות חיצוניים זמינים.",
+      "removeResource": {
+        "messageLine1": "{{identifier}} יוסר מהחשבון הזה.",
+        "messageLine2": "לא תוכל עוד להשתמש בחשבון המחובר הזה וכל התכונות התלויות לא יעבדו יותר.",
+        "successMessage": "{{connectedAccount}} הוסר מהחשבון שלך.",
+        "title": "הסר חשבון מחובר"
+      },
+      "socialButtonsBlockButton": "{{provider|titleize}}",
+      "successMessage": "הספק נוסף לחשבון שלך",
+      "title": "הוסף חשבון מחובר"
+    },
+    "deletePage": {
+      "actionDescription": "הקלד \"מחק חשבון\" למטה כדי להמשיך.",
+      "confirm": "מחק חשבון",
+      "messageLine1": "האם אתה בטוח שברצונך למחוק את החשבון שלך?",
+      "messageLine2": "פעולה זו היא קבועה ובלתי הפיכה.",
+      "title": "מחק חשבון"
+    },
+    "emailAddressPage": {
+      "emailCode": {
+        "formHint": "אימייל המכיל קוד אימות יישלח לכתובת האימייל הזו.",
+        "formSubtitle": "הכנס את קוד האימות שנשלח ל-{{identifier}}",
+        "formTitle": "קוד אימות",
+        "resendButton": "לא קיבלת קוד? שלח שוב",
+        "successMessage": "האימייל {{identifier}} נוסף לחשבון שלך."
+      },
+      "emailLink": {
+        "formHint": "אימייל המכיל קישור אימות יישלח לכתובת האימייל הזו.",
+        "formSubtitle": "לחץ על קישור האימות באימייל שנשלח ל-{{identifier}}",
+        "formTitle": "קישור אימות",
+        "resendButton": "לא קיבלת קישור? שלח שוב",
+        "successMessage": "האימייל {{identifier}} נוסף לחשבון שלך."
+      },
+      "removeResource": {
+        "messageLine1": "{{identifier}} יוסר מהחשבון הזה.",
+        "messageLine2": "לא תוכל עוד להתחבר באמצעות כתובת האימייל הזו.",
+        "successMessage": "{{emailAddress}} הוסר מהחשבון שלך.",
+        "title": "הסר כתובת אימייל"
+      },
+      "title": "הוסף כתובת אימייל",
+      "verifyTitle": "אמת כתובת אימייל"
+    },
+    "formButtonPrimary__add": "הוסף",
+    "formButtonPrimary__continue": "המשך",
+    "formButtonPrimary__finish": "סיים",
+    "formButtonPrimary__remove": "הסר",
+    "formButtonPrimary__save": "שמור",
+    "formButtonReset": "בטל",
+    "mfaPage": {
+      "formHint": "בחר שיטה להוספה.",
+      "title": "הוסף אימות דו-שלבי"
+    },
+    "mfaPhoneCodePage": {
+      "backButton": "השתמש במספר קיים",
+      "primaryButton__addPhoneNumber": "הוסף מספר טלפון",
+      "removeResource": {
+        "messageLine1": "{{identifier}} לא יקבל עוד קודי אימות בעת התחברות.",
+        "messageLine2": "החשבון שלך עלול להיות פחות מאובטח. האם אתה בטוח שברצונך להמשיך?",
+        "successMessage": "אימות דו-שלבי קוד SMS הוסר עבור {{mfaPhoneCode}}",
+        "title": "הסר אימות דו-שלבי"
+      },
+      "subtitle__availablePhoneNumbers": "בחר מספר טלפון קיים לרישום לאימות דו-שלבי קוד SMS או הוסף חדש.",
+      "subtitle__unavailablePhoneNumbers": "אין מספרי טלפון זמינים לרישום לאימות דו-שלבי קוד SMS, אנא הוסף חדש.",
+      "successMessage1": "כשאתה מתחבר, תצטרך להכניס קוד אימות שנשלח למספר הטלפון הזה כשלב נוסף.",
+      "successMessage2": "שמור את קודי הגיבוי האלה ואחסן אותם במקום בטוח. אם תאבד גישה למכשיר האימות שלך, תוכל להשתמש בקודי גיבוי כדי להתחבר.",
+      "successTitle": "אימות קוד SMS מופעל",
+      "title": "הוסף אימות קוד SMS"
+    },
+    "mfaTOTPPage": {
+      "authenticatorApp": {
+        "buttonAbleToScan__nonPrimary": "סרוק קוד QR במקום",
+        "buttonUnableToScan__nonPrimary": "לא יכול לסרוק קוד QR?",
+        "infoText__ableToScan": "הגדר שיטת התחברות חדשה באפליקציית האימות שלך וסרוק את קוד ה-QR הבא כדי לקשר אותו לחשבון שלך.",
+        "infoText__unableToScan": "הגדר שיטת התחברות חדשה באפליקציית האימות שלך והכנס את המפתח שסופק למטה.",
+        "inputLabel__unableToScan1": "וודא שסיסמאות מבוססות זמן או חד-פעמיות מופעלות, ואז סיים לקשר את החשבון שלך.",
+        "inputLabel__unableToScan2": "לחלופין, אם אפליקציית האימות שלך תומכת ב-TOTP URIs, אתה יכול גם להעתיק את ה-URI המלא."
+      },
+      "removeResource": {
+        "messageLine1": "קודי אימות מהאפליקציית האימות הזו לא יידרשו עוד בעת התחברות.",
+        "messageLine2": "החשבון שלך עלול להיות פחות מאובטח. האם אתה בטוח שברצונך להמשיך?",
+        "successMessage": "אימות דו-שלבי דרך אפליקציית אימות הוסר.",
+        "title": "הסר אימות דו-שלבי"
+      },
+      "successMessage": "אימות דו-שלבי מופעל כעת. כשאתה מתחבר, תצטרך להכניס קוד אימות מהאפליקציית האימות הזו כשלב נוסף.",
+      "title": "הוסף אפליקציית אימות",
+      "verifySubtitle": "הכנס קוד אימות שנוצר על ידי אפליקציית האימות שלך",
+      "verifyTitle": "קוד אימות"
+    },
+    "mobileButton__menu": "תפריט",
+    "navbar": {
+      "account": "פרופיל",
+      "description": "נהל את פרטי החשבון שלך.",
+      "security": "אבטחה",
+      "title": "חשבון"
+    },
+    "passkeyScreen": {
+      "removeResource": {
+        "messageLine1": "{{name}} יוסר מהחשבון הזה.",
+        "title": "הסר מפתח גישה"
+      },
+      "subtitle__rename": "אתה יכול לשנות את שם מפתח הגישה כדי להקל על החיפוש.",
+      "title__rename": "שנה שם מפתח גישה"
+    },
+    "passwordPage": {
+      "checkboxInfoText__signOutOfOtherSessions": "מומלץ להתנתק מכל המכשירים האחרים שעלולים להשתמש בסיסמה הישנה שלך.",
+      "readonly": "הסיסמה שלך לא יכולה להיות ערוכה כרגע כי אתה יכול להתחבר רק דרך החיבור הארגוני.",
+      "successMessage__set": "הסיסמה שלך הוגדרה.",
+      "successMessage__signOutOfOtherSessions": "כל המכשירים האחרים התנתקו.",
+      "successMessage__update": "הסיסמה שלך עודכנה.",
+      "title__set": "הגדר סיסמה",
+      "title__update": "עדכן סיסמה"
+    },
+    "phoneNumberPage": {
+      "infoText": "הודעת טקסט המכילה קוד אימות תישלח למספר הטלפון הזה. עלויות הודעות ונתונים עשויות לחול.",
+      "removeResource": {
+        "messageLine1": "{{identifier}} יוסר מהחשבון הזה.",
+        "messageLine2": "לא תוכל עוד להתחבר באמצעות מספר הטלפון הזה.",
+        "successMessage": "{{phoneNumber}} הוסר מהחשבון שלך.",
+        "title": "הסר מספר טלפון"
+      },
+      "successMessage": "{{identifier}} נוסף לחשבון שלך.",
+      "title": "הוסף מספר טלפון",
+      "verifySubtitle": "הכנס את קוד האימות שנשלח ל-{{identifier}}",
+      "verifyTitle": "אמת מספר טלפון"
+    },
+    "profilePage": {
+      "fileDropAreaHint": "גודל מומלץ 1:1, עד 10MB.",
+      "imageFormDestructiveActionSubtitle": "הסר",
+      "imageFormSubtitle": "העלה",
+      "imageFormTitle": "תמונת פרופיל",
+      "readonly": "פרטי הפרופיל שלך סופקו על ידי החיבור הארגוני ולא יכולים להיות ערוכים.",
+      "successMessage": "הפרופיל שלך עודכן.",
+      "title": "עדכן פרופיל"
+    },
+    "start": {
+      "activeDevicesSection": {
+        "destructiveAction": "התנתק מהמכשיר",
+        "title": "מכשירים פעילים"
+      },
+      "connectedAccountsSection": {
+        "actionLabel__connectionFailed": "נסה שוב",
+        "actionLabel__reauthorize": "אשר עכשיו",
+        "destructiveActionTitle": "הסר",
+        "primaryButton": "חבר חשבון",
+        "subtitle__reauthorize": "ההרשאות הנדרשות עודכנו, ואתה עלול לחוות פונקציונליות מוגבלת. אנא אשר מחדש את האפליקציה הזו כדי למנוע בעיות",
+        "title": "חשבונות מחוברים"
+      },
+      "dangerSection": {
+        "deleteAccountButton": "מחק חשבון",
+        "title": "מחק חשבון"
+      },
+      "emailAddressesSection": {
+        "destructiveAction": "הסר אימייל",
+        "detailsAction__nonPrimary": "הגדר כראשי",
+        "detailsAction__primary": "השלם אימות",
+        "detailsAction__unverified": "אמת",
+        "primaryButton": "הוסף כתובת אימייל",
+        "title": "כתובות אימייל"
+      },
+      "enterpriseAccountsSection": {
+        "title": "חשבונות ארגוניים"
+      },
+      "headerTitle__account": "פרטי פרופיל",
+      "headerTitle__security": "אבטחה",
+      "mfaSection": {
+        "backupCodes": {
+          "actionLabel__regenerate": "צור מחדש",
+          "headerTitle": "קודי גיבוי",
+          "subtitle__regenerate": "קבל סט חדש של קודי גיבוי מאובטחים. קודי גיבוי קודמים יימחקו ולא יוכלו לשמש.",
+          "title__regenerate": "צור מחדש קודי גיבוי"
+        },
+        "phoneCode": {
+          "actionLabel__setDefault": "הגדר כברירת מחדל",
+          "destructiveActionLabel": "הסר"
+        },
+        "primaryButton": "הוסף אימות דו-שלבי",
+        "title": "אימות דו-שלבי",
+        "totp": {
+          "destructiveActionTitle": "הסר",
+          "headerTitle": "אפליקציית אימות"
+        }
+      },
+      "passkeysSection": {
+        "menuAction__destructive": "הסר",
+        "menuAction__rename": "שנה שם",
+        "title": "מפתחות גישה"
+      },
+      "passwordSection": {
+        "primaryButton__setPassword": "הגדר סיסמה",
+        "primaryButton__updatePassword": "עדכן סיסמה",
+        "title": "סיסמה"
+      },
+      "phoneNumbersSection": {
+        "destructiveAction": "הסר מספר טלפון",
+        "detailsAction__nonPrimary": "הגדר כראשי",
+        "detailsAction__primary": "השלם אימות",
+        "detailsAction__unverified": "אמת מספר טלפון",
+        "primaryButton": "הוסף מספר טלפון",
+        "title": "מספרי טלפון"
+      },
+      "profileSection": {
+        "primaryButton": "עדכן פרופיל",
+        "title": "פרופיל"
+      },
+      "usernameSection": {
+        "primaryButton__setUsername": "הגדר שם משתמש",
+        "primaryButton__updateUsername": "עדכן שם משתמש",
+        "title": "שם משתמש"
+      },
+      "web3WalletsSection": {
+        "destructiveAction": "הסר ארנק",
+        "primaryButton": "ארנקי Web3",
+        "title": "ארנקי Web3"
+      }
+    },
+    "usernamePage": {
+      "successMessage": "שם המשתמש שלך עודכן.",
+      "title__set": "הגדר שם משתמש",
+      "title__update": "עדכן שם משתמש"
+    },
+    "web3WalletPage": {
+      "removeResource": {
+        "messageLine1": "{{identifier}} יוסר מהחשבון הזה.",
+        "messageLine2": "לא תוכל עוד להתחבר באמצעות ארנק ה-Web3 הזה.",
+        "successMessage": "{{web3Wallet}} הוסר מהחשבון שלך.",
+        "title": "הסר ארנק Web3"
+      },
+      "subtitle__availableWallets": "בחר ארנק Web3 כדי לחבר לחשבון שלך.",
+      "subtitle__unavailableWallets": "אין ארנקי Web3 זמינים.",
+      "successMessage": "הארנק נוסף לחשבון שלך.",
+      "title": "הוסף ארנק Web3"
+    }
+  }
+}

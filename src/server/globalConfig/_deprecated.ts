@@ -5,8 +5,8 @@ import { getLLMConfig } from '@/envs/llm';
 import { ModelProviderCard } from '@/types/llm';
 import { extractEnabledModels, transformToChatModelCards } from '@/utils/_deprecated/parseModels';
 
-export const genServerLLMConfig = (specificConfig: Record<any, any>) => {
-  const llmConfig = getLLMConfig() as Record<string, any>;
+export const genServerLLMConfig = async (specificConfig: Record<any, any>) => {
+  const llmConfig = (await getLLMConfig()) as Record<string, any>;
 
   return Object.values(ModelProvider).reduce(
     (config, provider) => {
